@@ -1,0 +1,181 @@
+{
+  "file_name": "sample_transcript.txt",
+  "transcript_length": 1398,
+  "constructs_identified": 5,
+  "domains_constructs": {
+    "practitioner_domains": [
+      {
+        "domain_name": "Cardiovascular Health",
+        "domain_description": "Assessment and improvement of cardiovascular function and capacity",
+        "specialization_notes": "Primary specialization area with focus on aerobic capacity, heart rate variability, and blood pressure control"
+      },
+      {
+        "domain_name": "Performance",
+        "domain_description": "Performance optimization for athletic populations",
+        "specialization_notes": "Specifically focused on endurance athletes"
+      }
+    ],
+    "constructs_mentioned": [
+      {
+        "construct_name": "Aerobic Capacity",
+        "construct_description": "Peak oxygen uptake measured in ml/kg/min",
+        "domain_association": "Cardiovascular Health",
+        "assessment_context": "Graded exercise test using treadmill with VO2 max measurement"
+      },
+      {
+        "construct_name": "Heart Rate Variability",
+        "construct_description": "Variability in heart rate patterns at rest",
+        "domain_association": "Cardiovascular Health",
+        "assessment_context": "Resting measurement using Polar H10 chest strap"
+      },
+      {
+        "construct_name": "Blood Pressure Control",
+        "construct_description": "Management and regulation of blood pressure",
+        "domain_association": "Cardiovascular Health",
+        "assessment_context": "Mentioned as focus area but specific assessment method not detailed"
+      },
+      {
+        "construct_name": "Lactate Threshold",
+        "construct_description": "Exercise intensity at which lactate begins to accumulate",
+        "domain_association": "Cardiovascular Health",
+        "assessment_context": "Key metric assessed during VO2 max testing"
+      },
+      {
+        "construct_name": "Maximum Heart Rate",
+        "construct_description": "Peak heart rate achieved during maximal exercise",
+        "domain_association": "Cardiovascular Health",
+        "assessment_context": "Key metric assessed during VO2 max testing"
+      }
+    ],
+    "sport_specificity": [
+      {
+        "sport": "Endurance Sports",
+        "assessment_modifications": "VO2 max above 60 ml/kg/min considered excellent for athletes",
+        "intervention_modifications": "Periodized endurance training programs (12-16 weeks) with base training, threshold work, and high-intensity intervals; 3-4 training sessions per week with heart rate zone-based progression"
+      }
+    ]
+  },
+  "assessments": {
+    "assessments": [
+      {
+        "assessment_name": "Graded Exercise Test with VO2 Max Measurement",
+        "assessment_description": "Treadmill-based graded exercise test that measures peak oxygen uptake to assess aerobic capacity, lactate threshold, and maximum heart rate",
+        "constructs_measured": [
+          "Aerobic Capacity",
+          "Lactate Threshold",
+          "Maximum Heart Rate"
+        ],
+        "modality": "Physical test",
+        "technology_vendor": {
+          "name": "Not specified",
+          "type": "hardware",
+          "specific_equipment": "Treadmill with VO2 measurement system"
+        },
+        "protocols": {
+          "preparation_steps": [
+            "5-minute warm-up",
+            "Incremental increases every 2 minutes until exhaustion"
+          ],
+          "coaching_cues": [
+            "Follow proper breathing pattern"
+          ],
+          "common_mistakes": [
+            "Not following the breathing pattern",
+            "Stopping too early"
+          ]
+        },
+        "metrics": [
+          {
+            "metric_name": "VO2 max",
+            "unit": "ml/kg/min",
+            "reference_ranges": "Above 60 ml/kg/min considered excellent for athletes",
+            "validity_confidence": "Not specified",
+            "reliability_confidence": "Not specified"
+          },
+          {
+            "metric_name": "Lactate threshold",
+            "unit": "Not specified",
+            "reference_ranges": "Not specified",
+            "validity_confidence": "Not specified",
+            "reliability_confidence": "Not specified"
+          },
+          {
+            "metric_name": "Maximum heart rate",
+            "unit": "Not specified",
+            "reference_ranges": "Not specified",
+            "validity_confidence": "Not specified",
+            "reliability_confidence": "Not specified"
+          }
+        ],
+        "state_influences": [],
+        "assets_generated": []
+      },
+      {
+        "assessment_name": "Resting Heart Rate Variability Measurement",
+        "assessment_description": "Assessment of heart rate variability at rest using chest strap monitoring",
+        "constructs_measured": [
+          "Heart Rate Variability"
+        ],
+        "modality": "Wearable monitoring",
+        "technology_vendor": {
+          "name": "Polar",
+          "type": "hardware",
+          "specific_equipment": "Polar H10 chest strap"
+        },
+        "protocols": {
+          "preparation_steps": [],
+          "coaching_cues": [],
+          "common_mistakes": []
+        },
+        "metrics": [
+          {
+            "metric_name": "Heart Rate Variability",
+            "unit": "Not specified",
+            "reference_ranges": "Not specified",
+            "validity_confidence": "Not specified",
+            "reliability_confidence": "Not specified"
+          }
+        ],
+        "state_influences": [],
+        "assets_generated": []
+      }
+    ]
+  },
+  "interventions": {
+    "interventions": [
+      {
+        "intervention_name": "Periodized Endurance Training Program",
+        "intervention_description": "A structured 12-16 week cardiovascular training program combining base training, threshold work, and high-intensity intervals with heart rate zone-based progression",
+        "purpose": "Improve cardiovascular health and performance optimization for endurance athletes",
+        "constructs_targeted": [
+          "Aerobic Capacity",
+          "Lactate Threshold",
+          "Maximum Heart Rate",
+          "Heart Rate Variability"
+        ],
+        "intervention_types": [
+          "Physical"
+        ],
+        "protocols": {
+          "duration": "12-16 weeks",
+          "frequency": "3-4 training sessions per week",
+          "intensity": "Heart rate zone-based with mix of base training, threshold work, and high-intensity intervals",
+          "volume": "Not specified",
+          "progression_criteria": [
+            "Heart rate zones",
+            "Training load monitoring",
+            "Recovery metrics"
+          ],
+          "reassessment_intervals": "Not specified"
+        },
+        "constraints_accommodations": [],
+        "resource_requirements": {
+          "time": "3-4 sessions per week over 12-16 weeks",
+          "equipment": "Garmin devices for monitoring training load and recovery",
+          "staff_expertise": "Cardiovascular health and performance optimization specialist",
+          "cost_level": "Moderate"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+
+Interviewer: What are your main areas of expertise?
+
+Practitioner: I specialize primarily in cardiovascular health and performance optimization for endurance athletes. My main focus is on assessing and improving aerobic capacity, heart rate variability, and blood pressure control.
+
+Interviewer: How do you typically assess cardiovascular health?
+
+Practitioner: I use several key assessments. First, I do a graded exercise test using a treadmill with VO2 max measurement - that gives us peak oxygen uptake in ml/kg/min. I also use resting heart rate variability measurement with a Polar H10 chest strap.
+
+For the VO2 max test, the protocol involves a 5-minute warm-up, then incremental increases every 2 minutes until exhaustion. Common mistakes include not following the breathing pattern or stopping too early.
+
+The key metrics I look at are VO2 max, lactate threshold, and maximum heart rate. For athletes, I consider VO2 max above 60 ml/kg/min as excellent.
+
+Interviewer: What interventions do you recommend?
+
+Practitioner: For improving cardiovascular health, I primarily use periodized endurance training programs. These typically run 12-16 weeks with a mix of base training, threshold work, and high-intensity intervals. 
+
+The program structure includes 3-4 training sessions per week, with progression based on heart rate zones. I use Garmin devices to monitor training load and recovery.

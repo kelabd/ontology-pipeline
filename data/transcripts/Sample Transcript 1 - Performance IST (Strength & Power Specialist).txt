@@ -1,0 +1,185 @@
+SEMI-STRUCTURED INTERVIEW TRANSCRIPT
+IST Member: Dr. Sarah Mitchell, Performance IST (Strength & Power Specialist)
+Date: July 14, 2025
+Duration: 2 hours
+Interviewer: Research Team Member
+
+INTERVIEWER: Thank you for joining us today, Dr. Mitchell. Let's start with some framing questions. Are there any high-level goal areas that you specialize in?
+
+DR. MITCHELL: Absolutely. My primary expertise is in performance optimization, specifically focusing on strength and power development for athletes across various sports. I work predominantly with elite and sub-elite athletes who are looking to maximize their force production capabilities, explosive power, and overall athletic performance. Within this domain, I also have significant experience in injury prevention through movement quality assessment and corrective exercise prescription.
+
+INTERVIEWER: How does sport type affect your assessment or intervention choice?
+
+DR. MITCHELL: Sport specificity is crucial in my practice. For explosive sports like sprinting, jumping events, or Olympic weightlifting, I focus heavily on rate of force development and peak power outputs. With these athletes, I use assessments like countermovement jumps and isometric mid-thigh pulls. For contact sports like rugby or American football, I emphasize both absolute strength and reactive strength, so I incorporate depth jumps and heavy resistance testing.
+
+For endurance sports, even though it's not my primary focus, I still assess strength endurance and power maintenance under fatigue. The intervention strategies completely change too - a sprinter might need maximal strength work at 90-95% 1RM, while a cyclist might need more strength endurance protocols at 70-80% 1RM.
+
+INTERVIEWER: When an athlete comes to you with a concern related to physical performance, how do you typically assess them?
+
+DR. MITCHELL: My assessment protocol is quite systematic. I always start with a movement screen - usually the Functional Movement Screen or our modified version - to identify any movement dysfunctions or asymmetries that could limit performance or increase injury risk. This gives me the foundation for everything else.
+
+Then I move into force production assessments. The cornerstone of my testing is the countermovement jump using VALD ForceDecks. This gives me incredible insight into an athlete's neuromuscular function, force-velocity characteristics, and power production capabilities.
+
+INTERVIEWER: For physical performance, what are the underlying capabilities or characteristics you measure or want to understand?
+
+DR. MITCHELL: I'm primarily looking at several key constructs. First is muscular strength - both absolute and relative strength. This tells me about the athlete's maximal force production capacity. Second is muscular power, which I break down into peak power and rate of force development. These are critical for explosive movements.
+
+I also assess reactive strength - the ability to utilize the stretch-shortening cycle effectively. This is huge for sports involving jumping, cutting, or rapid direction changes. Movement quality is another major construct - looking at movement efficiency, symmetry, and the absence of compensatory patterns.
+
+Finally, I evaluate what I call "strength endurance" - the ability to maintain force output over repeated contractions or extended periods. This varies by sport but it's important for almost every athlete.
+
+INTERVIEWER: For each of those constructs, what specific assessments or tests do you use in your practice? What is it and why is it useful?
+
+DR. MITCHELL: Let me break this down by construct:
+
+For muscular strength, I use a combination of 1RM testing for major lifts - squat, deadlift, bench press - and isometric mid-thigh pull testing using our VALD ForceFrame. The 1RM gives me practical strength that translates to training, while the isometric testing provides precise force data without fatigue interference.
+
+For muscular power, the countermovement jump on VALD ForceDecks is my gold standard. I also use loaded jump squats at various loads - typically 0%, 20%, 40%, and 60% of body weight. This gives me their entire force-velocity profile.
+
+For reactive strength, I primarily use depth jumps from different heights - usually 30cm, 45cm, and 60cm - measuring contact time and jump height. The reactive strength index is calculated as jump height divided by contact time.
+
+For movement quality, as I mentioned, I use the Functional Movement Screen, but I also do overhead squat assessments and single-leg landing assessments recorded on video for detailed analysis.
+
+INTERVIEWER: If you had access to anything, what assessments would you choose?
+
+DR. MITCHELL: Oh, that's a great question. If budget wasn't a concern, I'd love to have isokinetic dynamometry for every major joint - that would give me incredibly precise strength curves and identify specific weaknesses. I'd also want a full motion capture system integrated with force plates for 3D biomechanical analysis during sport-specific movements.
+
+Having access to ultrasound for real-time muscle architecture assessment would be amazing for understanding how training adaptations are occurring at the tissue level. And honestly, a hypoxic chamber for assessing performance under different oxygen conditions would open up entirely new assessment possibilities.
+
+INTERVIEWER: Let's talk about the assessment modality. Is the countermovement jump a physical test, wearable monitoring, consultation, or something else?
+
+DR. MITCHELL: The countermovement jump is definitely a physical test. It's a maximal effort assessment that requires the athlete to perform a specific movement pattern while we collect objective data. It's not monitoring over time like a wearable would be - it's a snapshot of their current neuromuscular function.
+
+INTERVIEWER: What specific equipment or software do you use for the countermovement jump?
+
+DR. MITCHELL: We use VALD ForceDecks, which are dual force plates that capture ground reaction forces at 1000Hz. The hardware is incredibly precise - these are research-grade force plates. The software that comes with it automatically calculates dozens of metrics and provides real-time feedback.
+
+We view the results through both the immediate on-screen display during testing and comprehensive PDF reports that get generated afterward. The reports include force-time curves, all the calculated metrics, and comparative data if we have previous tests.
+
+INTERVIEWER: Describe the key steps and coaching cues you use to ensure consistent results for the countermovement jump.
+
+DR. MITCHELL: Consistency is absolutely critical for this test. First, the preparation steps: the athlete needs to be properly warmed up - I usually have them do 5-10 minutes of light cardio and dynamic stretching, followed by 3-4 practice jumps at submaximal effort.
+
+For the actual test protocol, I have the athlete stand on the force plates with feet shoulder-width apart, hands on hips to eliminate arm swing variability. My key coaching cues are: "Stand tall and still for 3 seconds," then "Quick down, quick up," emphasizing the rapid transition from the downward to upward phase.
+
+The most common mistakes I see are pausing at the bottom of the movement, which eliminates the stretch-shortening cycle benefit, and inconsistent squat depth between trials. I also watch for forward lean or shifting weight between feet.
+
+We always do at least 3 trials with 60-90 seconds rest between attempts, and I take the best performance. If there's more than 5% variation between the top two attempts, we do additional trials.
+
+INTERVIEWER: From the countermovement jump assessment, what are the key metrics you look at?
+
+DR. MITCHELL: There are several metrics I focus on. Jump height is the most obvious one - measured in centimeters. Peak power is crucial, measured in watts, and I look at both absolute values and relative to body weight.
+
+Rate of force development in the first 100 and 200 milliseconds tells me about their explosive capabilities. Peak force, again both absolute and relative, shows maximal strength expression. I also look at the eccentric and concentric phases separately.
+
+For normative data, I use sport-specific and sex-specific norms. For male team sport athletes, I'd expect jump heights above 45cm, while female athletes might be in the 35-40cm range. Peak power relative to body weight should be above 50 W/kg for most trained athletes.
+
+I'm very confident in these metrics - the research shows excellent reliability for countermovement jumps when performed correctly, with test-retest reliability coefficients above 0.90 for most measures.
+
+INTERVIEWER: How does an athlete's current state influence whether you administer the assessment or how you interpret results?
+
+DR. MITCHELL: Athlete state is huge for performance testing. If an athlete reports high muscle soreness - anything above 5/10 on a subjective scale - I'll typically postpone maximal testing. Similarly, if they've had poor sleep the night before or report high stress levels, their neuromuscular function can be significantly compromised.
+
+I always check their training status too. If they've done high-intensity training in the last 48 hours, particularly plyometrics or heavy resistance training, their performance will be artificially depressed.
+
+When I do test under suboptimal conditions, I interpret the results more conservatively and make notes about the circumstances. Sometimes these "compromised" tests actually give me valuable information about how fatigue affects their movement patterns.
+
+INTERVIEWER: Based on assessment results, how do you develop and deliver interventions?
+
+DR. MITCHELL: The assessment results directly drive my intervention selection. If I see low rate of force development but good peak force, I know they need more explosive training - plyometrics, Olympic lifting variations, speed-strength work.
+
+If movement quality is poor, that becomes the priority regardless of their power numbers. I can't build power on top of dysfunctional movement patterns.
+
+The force-velocity profile from loaded jumps tells me exactly where they are on the strength-speed continuum and what type of training will give them the biggest gains.
+
+INTERVIEWER: What are your go-to interventions for improving muscular power?
+
+DR. MITCHELL: For muscular power development, I have several categories of interventions. First is plyometric training - depth jumps, reactive jumps, medicine ball throws. These target the stretch-shortening cycle and improve rate of force development.
+
+Second is Olympic lifting and derivatives - hang cleans, power snatches, push jerks. These train whole-body power expression and teach athletes to generate and transfer force rapidly.
+
+Third is speed-strength training using accommodating resistance - bands and chains on traditional lifts, or contrast training methods where we pair heavy strength work with explosive movements.
+
+The specific intervention depends on their force-velocity profile. Athletes who are strength-deficient need more maximal strength work, while those who are speed-deficient need more ballistic training.
+
+INTERVIEWER: Can you describe how you structure these interventions?
+
+DR. MITCHELL: I typically work in 4-6 week training blocks with specific adaptations targeted in each phase. A complete power development program might run 12-16 weeks with 2-3 distinct phases.
+
+The frequency depends on the athlete's training age and sport demands, but usually 2-3 power-focused sessions per week. Each session is structured with explosive movements early when the nervous system is fresh, then strength work, then accessory movements.
+
+For periodization, I use a conjugate approach for advanced athletes or linear periodization for beginners. We always include tapering phases before competitions where volume drops significantly but intensity remains high.
+
+INTERVIEWER: What intervention types are typically involved in your power development programs?
+
+DR. MITCHELL: It's primarily physical training - that's about 80% of what I do. But I also incorporate significant education components about power development principles, proper recovery between high-intensity sessions, and movement quality awareness.
+
+Recovery interventions are crucial too - active recovery protocols, sleep hygiene education, and stress management strategies because power development is so neuromuscularly demanding.
+
+I sometimes coordinate with nutritionists for creatine supplementation protocols, which can enhance power output, and with medical staff if we need to address any movement restrictions that limit power expression.
+
+INTERVIEWER: Which specific constructs is plyometric training designed to influence?
+
+DR. MITCHELL: Plyometric training primarily targets reactive strength - that's the main construct. It enhances the stretch-shortening cycle efficiency, which directly improves an athlete's ability to rapidly switch from eccentric to concentric muscle actions.
+
+It also significantly impacts rate of force development, particularly in the early phases of force production. The mechanism is primarily neuromuscular - improved motor unit recruitment, better intermuscular coordination, and enhanced preactivation strategies.
+
+I expect to see improvements in reactive strength index, reduced ground contact times, and increased jump heights. The specificity is quite high - if we're doing horizontal plyometrics, we see the biggest gains in horizontal power expression.
+
+INTERVIEWER: Do you have standardized protocols for plyometric interventions?
+
+DR. MITCHELL: Absolutely. I have progressions from beginner to advanced levels. For beginners, we start with basic two-foot jumping progressions - squat jumps, tuck jumps, broad jumps. Volume is low, maybe 40-60 foot contacts per session.
+
+Advanced athletes might do depth jumps, single-leg reactive hops, and complex reactive sequences with volumes up to 120-150 contacts per session, but that's built up over months.
+
+Progression criteria are based on movement quality first, then performance metrics. An athlete needs to demonstrate perfect landing mechanics before we increase intensity or complexity.
+
+For follow-up, I reassess reactive strength every 3-4 weeks and adjust the program based on adaptations and movement quality improvements.
+
+The resource level is moderate - we need adequate space, some boxes or platforms, and careful supervision, but it doesn't require expensive equipment like some other interventions.
+
+INTERVIEWER: What factors often moderate the effectiveness of these interventions?
+
+DR. MITCHELL: Training adherence is the biggest factor by far. Power development requires consistent high-intensity efforts, and if athletes are missing sessions or not giving maximal effort, adaptations plateau quickly.
+
+Sleep quality is huge for neuromuscular adaptations. Poor sleep dramatically impairs power development and increases injury risk during explosive training.
+
+Training age matters a lot too - beginners see rapid improvements, but advanced athletes need much more sophisticated programming and longer adaptation phases.
+
+Stress levels, both physical and psychological, can completely derail power development programs. High cortisol environments are antagonistic to the adaptations we're trying to create.
+
+INTERVIEWER: How do these interventions directly contribute to achieving the athlete's goals?
+
+DR. MITCHELL: The connection is usually very direct. If an athlete wants to jump higher for volleyball, we're directly training vertical jump performance through plyometrics and strength training.
+
+For sprint performance, we're targeting the specific force-velocity characteristics that determine acceleration and maximum velocity capabilities.
+
+The metrics I use to evaluate progress are the same ones from our initial assessments - jump height, power output, sprint times if relevant. We typically see measurable improvements within 4-6 weeks if the program is well-designed.
+
+The timeframe varies by goal - basic power improvements might take 6-8 weeks, but sport-specific power transfer can take 12-16 weeks of consistent training.
+
+INTERVIEWER: How do you dynamically adjust interventions based on client feedback and assessment results?
+
+DR. MITCHELL: I'm constantly monitoring and adjusting. If an athlete reports persistent fatigue or decreased motivation, I immediately reduce volume or intensity. Power development requires quality over quantity.
+
+I use simple monitoring tools like jump height first thing in the morning - if it drops more than 5% for two consecutive days, we implement a recovery protocol.
+
+Assessment retests every 3-4 weeks inform major program adjustments. If we're not seeing expected adaptations, I'll modify the training emphasis or look for limiting factors we might have missed.
+
+The athlete has significant input in these adjustments - they understand their body better than anyone, and I've learned to trust their feedback, especially regarding readiness and fatigue levels.
+
+INTERVIEWER: Finally, are there any constructs you believe power directly improves or is dependent on?
+
+DR. MITCHELL: Power has interesting relationships with several other constructs. Obviously, power is heavily dependent on strength - you can't have high power output without adequate force production capacity. But it's not a linear relationship; there's definitely a point of diminishing returns.
+
+Power also has a strong association with movement quality. Poor movement patterns limit power expression and increase injury risk during power training.
+
+There's also a dependency on what I'd call "neuromuscular readiness" - factors like sleep quality, stress levels, and nervous system recovery state all directly impact power output capabilities.
+
+Interestingly, improved power often leads to better agility and change of direction performance, even though we're not directly training those qualities. The enhanced rate of force development transfers well to reactive movements.
+
+INTERVIEWER: Thank you so much for your time today, Dr. Mitchell. This has been incredibly valuable for understanding your approach to performance assessment and intervention.
+
+DR. MITCHELL: My pleasure! I'm always happy to share what we're doing in the performance space. The integration of objective assessment with individualized programming is really the future of athletic development.
+
+[END OF TRANSCRIPT]
