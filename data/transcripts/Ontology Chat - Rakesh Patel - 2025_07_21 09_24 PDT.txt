@@ -1,0 +1,480 @@
+﻿Jul 21, 2025
+Ontology Chat - Transcript
+00:00:00
+ 
+Dr. Naomi Myhill: key constructs, assessments and interventions that you work with. Um so we're going to record the session for two reasons. Um first reason the transcript will be fed into a pipeline that Kam has magically developed which is fantastic and that should hopefully we'll test it extract and structure the kind of key ontology entities that you'll discuss throughout this this interview. And then additionally kind of killing two birds with one stone. We're hoping to capture maybe some kind of golden nuggets of your knowledge, Resh. So things that you say that could be sliced up and used as 30 second sound bites for kind of education, marketing, social media content and things like that with your approval. So because the transcript feeds kind of directly into this processing pipeline in this interview, it's important that we try and stick fairly closely to the interview structure in terms of the kind of domains, constructs, interventions and try and avoid going too far off tangents, although it will be very tempting to do so.
+ 
+ 
+00:01:05
+ 
+Dr. Naomi Myhill: So um I'll just check we got this. Is it video recording as well, Karum, or is it just a transcript we've got on here?
+Karam Elabd: This the transcript. We can start the video recording here.
+Dr. Naomi Myhill: Yeah, that would be ideal. Ah, fantastic. Okay. Um, did you have a chance to review just the key definitions, Rash? If not, I can quickly talk you through them before we start.
+Johann Windt: Oh, you're
+Dr. Naomi Myhill: I
+Johann Windt: muted,
+Dr. Naomi Myhill: think you're
+Karam Elabd: of
+Johann Windt: right?
+Dr. Naomi Myhill: on
+Karam Elabd: your
+Dr. Naomi Myhill: mute.
+Karam Elabd: mess.
+rakesh patel: I was pulling up your Excel while trying to load it because I needed a cheat sheet. Uh, so the answer is yes, I reviewed it and yes, let's go over it again just to kind of set because I'm I don't have it memorized.
+Dr. Naomi Myhill: Yeah, no that's fine. So the main entities that we'll discuss and talk about today the domain.
+ 
+ 
+00:02:04
+ 
+Dr. Naomi Myhill: So the domain is the distinct specific area of focus within one of the dimensions or many of the dimensions for example health and it's characterized by a set of related constructs. So a construct is a specific identifiable attribute within one of those domains
+rakesh patel: Okay.
+Dr. Naomi Myhill: and they are key concepts to understand track or influence. So for example in what I presented before a domain might be female health and a construct within that might be breast health. Um assessment is something we're going to talk about today as well. So assessment is the systematic process or procedure used to evaluate the status of a construct. So it might be a mamogram to evaluate breast health as a construct for example. Um and then we have metric which is that specific measurable and observable data point which is produced by an assessment and that directly contributes to the quality of the construct. And then finally one of the other important ones is intervention. So that is the specific action program strategy that is designed to influence improve or manage that construct or its associated metrics.
+ 
+ 
+00:03:18
+ 
+Dr. Naomi Myhill: All in
+rakesh patel: Okay.
+Dr. Naomi Myhill: all aiming to achieve the goal. So those are the five or six key entities that we'll go over today in the interview. Any questions?
+rakesh patel: Nope.
+Dr. Naomi Myhill: Brilliant. Okay,
+Johann Windt: I think
+Dr. Naomi Myhill: let's
+Johann Windt: the one one call out. I think maybe just a bit of buffer time at the end for us to debrief a little bit about it would be really nice if we're able to. I say that for two reasons. One, this is one of our first one of these structured interviews. So, we're going to learn every time we iterate and Reesh giving a bit of margin and maybe even a second session as a thought partner would benefit us a ton. Second, all three of us have more experience on um the performance side with Dave as well. A lot on the performance side. When when you get into some of the constructs on the health related side, even something as simple as are we calling these different areas like are we calling it breast health?
+ 
+ 
+00:04:13
+ 
+Johann Windt: Are we calling it like cancer risk? and how we define those things like the metrics feed into is breast density an indicator of breast health or is it of cancer risk and what are the constructs we evaluate under health we especially are going to lean on yourself on Candace on Molly on the other health care providers to help refine that so just because we have something like okay today we're going to talk about breast health even that in itself is a point of discussion that we'd love to unpack Actually, no. We'd rather talk about this in the four horsemen or we'd rather talk about in lifestyle medicine pillars or I would think about this as disease types, whatever. Some of the margin to refine would be really really helpful. It might come out in the structured interview, might be good margin at the end, but um yeah,
+rakesh patel: Okay.
+Johann Windt: excited both for interview and and the debrief.
+rakesh patel: Okay.
+Dr. Naomi Myhill: Johan, if you want to give a a shout out when we get to the point where we want that 10-minute buffer, then that would be great.
+ 
+ 
+00:05:14
+ 
+Dr. Naomi Myhill: Just um because
+rakesh patel: Let's
+Dr. Naomi Myhill: I'll probably be in
+rakesh patel: Yeah, let's go to I can go till um it's 9:45 so I can go about hour and Hey,
+Johann Windt: Okay.
+Dr. Naomi Myhill: Cool.
+Johann Windt: Okay. So, let's let's go one hour for the interview, Naomi. And for the more
+Dr. Naomi Myhill: Yeah.
+Johann Windt: structured component of this, Cara, maybe you I go off camera like Dave, so the two of them can kind of have a conversation. We'll go on listen mode um easier for like multiple reasons. And then in 1 hour, I'll quickly put up a hand and flag and say, "Hey, we've made it 1 hour." And and we can do a bit of a debrief in chat if that works for us.
+Dr. Naomi Myhill: Sounds good.
+rakesh patel: And I'm going to focus intentionally on one aspect of things, right? I mean, there's a lot of things I can speak about and we'll do chip away at them, but
+Johann Windt: Yeah.
+rakesh patel: I'm going to focus on the one, Johan, that actually leans into Cascade Direct and Simon Med because I think that'll be
+ 
+ 
+00:06:09
+ 
+Johann Windt: Yes.
+rakesh patel: probably the most useful,
+Johann Windt: I was I was going to say the same. I realize I I talked about the buffer, but as long as and I think Resh, you and I are very aligned. We want to dial in
+rakesh patel: right?
+Johann Windt: the components of Cascade Direct.
+rakesh patel: Cool.
+Johann Windt: So the construct of whether it be breast health or cancer risk or those components in cardiovascular risk when it gets to cure metrics and what are the metrics we're looking at the interventions being ultrasound the
+Dr. Naomi Myhill: Cool.
+Johann Windt: stuff you know you could recite a thousand times over doing that in a structured way now I think is the most helpful for us given cascade direct CBP etc 100% aligned
+Dr. Naomi Myhill: Okay. So, keep that in mind with some of these questions that might be more more generalized, but right, let's let's get going. Let's start. So, the first question um what are your primary areas of expertise or focus? So, what are those key domains and how would you describe them?
+ 
+ 
+00:07:00
+ 
+rakesh patel: Yeah, I'm a um oncologist uh by training and I spend a lot of my time um so half my time is in actual cancer treatment or cancer management. Um my focus is largely around all solid tumors and uh have a subsp specialty interest in uh breast cancer. I spend another half of my time uh clinically in what I would loosely call early detection. And these are um these are this is a clinic that looks at opportunity to to catch cancer early
+Dr. Naomi Myhill: Okay,
+rakesh patel: across
+Dr. Naomi Myhill: great.
+rakesh patel: the across the board. But again focus all solid tumors meaning all solid cancer types. Um and there are several preventable cancers or catch early where we have early detection. Um and so anytime there's blood work, there's imaging, there is physical assessments or surveys for catching disease early, that's another area of core focus for me. I look at genetics as well. Uh so that would be the third domain where I have some expertise around genetics.
+Dr. Naomi Myhill: Okay. So just to clarify that is uh early detection, genetics, um cancer management, solid tumors.
+ 
+ 
+00:08:22
+ 
+Dr. Naomi Myhill: Yeah,
+rakesh patel: Yep.
+Dr. Naomi Myhill: that's great. So we'll skip the next question because that's specific to sport and that's more on the performance side. But we'll move on to so when a a health seeker presents a concern and they come to you how do you typically assess them? So what's the initial assessment that you would do and why would you do that assessment?
+rakesh patel: Yeah. Yeah. So when a when a patient comes into new patient consultation, the first thing we do is we ask a lot of we do a comprehensive medical history. So I can break Do you want me to break down the elements of that?
+Dr. Naomi Myhill: Yes, that would be great.
+rakesh patel: So typically we do um a a general assessment. So we say uh what is your do you have any symptoms? Um do you have uh what is your history of present illness? That's what it's called. And so then what someone talks about their chief complaint, they talk about um discovery of, you know, how they how they landed into a diagnostic uh process.
+ 
+ 
+00:09:26
+ 
+rakesh patel: Um we oftent times do a personal medical history. And so personal medical history is comprised of uh diagnosises diagnoses that they may have like diabetes or heart disease or other chronic illnesses. Uh number two would be medications that they're on. Um we would also look at any allergies that they have to medications and we would look at their um past surgeries. We also do then separately we look at their family history and so specifically we're looking for uh inherited diseases. So we look at their of course their risk of cancer cancer in up to third degree relatives. So it doesn't stop at first degree um just your parents and siblings you actually need to go to second degree and then third degree and then we generate a pedigree we look at the incidence of cancer by age and cancer type in all of their family members a very important thing in terms of cancer risk then we look at social history we look in individuals for example we look at social history we look at what are they a smoker what are environmental expos exposures uh like have they had prior radiation uh we look at their employment we look at whether their their social support are they married do they have children etc I also look at gynecologic history so I look at how many we can go detail there but we look at typically how many births they've had whether they've had hormonal exposure either medically or otherwise uh whether they have they had any
+ 
+ 
+00:11:01
+ 
+rakesh patel: u miscarriages abortions um have they had any previous breast biopsies etc. And then uh we do a physical exam. And so a physical exam is in clinic we do a comprehensive uh exam of their body uh utilizing various tools. The third thing that we do would be a uh review of systems which is done by a questionnaire. Typically, it's a 14-point review of systems headto toe u which identifies any symptoms that individuals may have and this is intentionally done in all individuals because it they don't indivi people who come in don't know if it's related to their diagnosis or not and that's part of our job is to determine that hey I have belly pain I have breast cancer is there a correlation for example we're looking for kind of hidden risk or hidden likelihood of uh issues that may be related we look at then objective things like we look at their um imaging, we look at their blood work, we look at uh their pathology results if they've had any biopsies or surgery. Um we look at outside records or consultations from other specialists.
+ 
+ 
+00:12:16
+ 
+rakesh patel: I'll stop there. Those are all the things that go into a consultation.
+Dr. Naomi Myhill: That's great. Perfect. And we'll go into those in a bit more detail, I think, with our questions around the assessments.
+rakesh patel: All right.
+Dr. Naomi Myhill: Um,
+rakesh patel: Perfect.
+Dr. Naomi Myhill: so thinking about one particular domain in mind, so one of the three that you mentioned. So
+rakesh patel: Mhm.
+Dr. Naomi Myhill: we're going to focus on just talking about one now. Uh
+rakesh patel: Okay.
+Dr. Naomi Myhill: so what capabilities and characteristics do you aim to measure and understand as part of that domain? So we're trying to here in this question we're trying to capture what the constructs are as
+rakesh patel: Mhm.
+Dr. Naomi Myhill: part of that domain um and how you would describe them.
+rakesh patel: Yeah. So let's focus on the uh domain of what I would call um so this is where we need to kind of think through because I'm trying to understand the intent. Uh so I'm just going to speak a bit and you kind of you guys can help me define like where this fits.
+ 
+ 
+00:13:08
+ 
+rakesh patel: So generally in the market we think of women's health. Women's health can be broken into um maternal health, which is trying to conceive or pregnancy. Um we can it could be menopause. You're going through hormonal change. I'm going to punt that those two to Candace Westgate, Dr. Westgate. And then there is essentially breast cancer. And so for me, oh, it's not just breast cancer, it's cancer risk. So I think what I'd like to focus on today is the last one. So breast cancer risk because I I chair a high-risisk breast cancer program. And so what I would say is that the dimension is we call it precision health or health. I'm looking at your spreadsheet domain is um we don't call it female health but it's really women's health. Um and it's very specifically we may want to have a domain of um oncology. So that'd be something for you to determine because I don't know that it makes sense to identify cancer only after you declare female versus saying all of oncology breast cancer, right?
+ 
+ 
+00:14:23
+ 
+rakesh patel: Because there is breast cancer risk in males too. So that's the reason I'm chatting for you to think about. But I would say um the area I can focus on is breast cancer and very specifically there is a uh component of early detection called uh cancer risk assessment and so that's where I'm happy to chat through but that's what I would focus on.
+Dr. Naomi Myhill: Yeah, that's great. So, the construct is breast cancer risk. Um, so what assessments would you use to determine that construct? um with both unlimited resource and then secondary with moderate resource. Is there
+rakesh patel: Okay.
+Dr. Naomi Myhill: a difference?
+rakesh patel: Yeah. Okay. So, to identify someone's breast cancer risk, uh first and foremost, you need to do a um what's called a genetic cancer risk assessment survey. And that's a tool that is fairly simple. It's a questionnaire that is filled out by the patient and it identifies as mentioned it looks at their personal history and that's going to look at numerous factors uh around um you know them and do you want me to go into detail now or do you want me to wait on
+ 
+ 
+00:15:39
+ 
+Dr. Naomi Myhill: So if you could just name the first one and then we'll go and then I'll follow up with the question and we'll
+rakesh patel: Okay,
+Dr. Naomi Myhill: go into detail of
+rakesh patel: sure.
+Dr. Naomi Myhill: that one. So we could start with the survey. So
+rakesh patel: Okay.
+Dr. Naomi Myhill: the
+rakesh patel: So,
+Dr. Naomi Myhill: genetic
+rakesh patel: there will be a cancer risk assessment survey. There will be a genetics um there will be a genetics risk assessment. There will be imaging. There will be blood work. And there'll be physical exam.
+Dr. Naomi Myhill: Okay. So, thinking about the genetic cancer risk assessment survey, what type of assessment is it? So, imagine you'd answer that with survey. You can give a description of the tools that you use to deliver that intervention and then the key steps and cues you use to ensure that it is consistent when they are taking that survey.
+rakesh patel: Okay. And so I want to make sure you break those down into two separate surveys.
+ 
+ 
+00:16:35
+ 
+rakesh patel: Sometimes they're combined. There are two surveys. There is a cancer risk assessment survey. just tells you your lifetime and 10-year risk of developing cancer. Then there is a genetic survey. Okay, so those are a lot of times they're done at the same time, but those are slightly different. And the reason I mention that is the Tyraus uh survey is the probably the most commonly used lifetime breast cancer risk assessment and it does not include genetics. And so a lot of times the tools that we're looking at like femics and vulpara lump them both together and the output gives you both but I want to segregate those for the purpose of ontology. So I would say that there's the first thing we'll talk about is lifetime breast cancer risk. Okay. And the thing that I typically the challenge of lifetime breast cancer risk survey I'm going to uh for clinicians is that it's a fairly complicated survey um to administer at the point of care. Meaning when individuals show up to the doctor's office there's just a lot of questions and so it is a there's not a lot of time uh baked in. So what's happened is we tend to send the survey ahead of time either with a you know a link or or such.
+ 
+ 
+00:18:00
+ 
+rakesh patel: The second problem with this survey is that there's a lot of questions that the patients find difficult to answer because they don't understand the question or b they don't know the answer. So I'll give you an example. In the tyrus they ask you um your personal history uh and in your personal history they may ask you something like your breast density. And very specifically it asks for like there's a difference in the output whether the density was A, B, C or D. Usually the woman may just know, yeah, I've been told I had breast density or I have no one's ever said it. That doesn't mean it doesn't exist, right? and they don't know the difference between category and C and D, but the lifetime risk of breast cancer is dramatically different. Another example is the survey asks you, have you ever had a biopsy? Most women will remember, but if it was 10 years ago, they may forget this. And then the follow-up question, if you've had a biopsy, it says, "What was the result?"
+ 
+ 
+00:19:01
+ 
+rakesh patel: And it puts in really detailed pathologic uh things like atypical ductal hyperlasia and other things which patients don't understand because they don't know what the result was. They just know it wasn't cancer. And all of these things are difficult to understand. So what happens is patients will either a skip the question or b they will um they'll answer it inaccurately. And then the uh so that's one component on the personal history. The second part is equally difficult for patients to understand and it has dramatic influence um on breast cancer risk and also on genetic risk and that's their family history. Both tyrousic survey and the genetic survey you have to answer three p you have to answer your family history and oftent times we don't share our diagnosis or risk with our loved ones with your DNA relatives and as we get older we're further and further apart from our certainly our third degree uh DNA relative they may not even be alive or we don't know them and so com completing a family history questionnaire is becoming increasingly difficult.
+ 
+ 
+00:20:12
+ 
+rakesh patel: Um, and it's not that you just need to know that my mother's sister, my maternal aunt, uh, had breast cancer. The survey asks you what age did they have breast cancer and then it asks you what was the type of breast cancer. So, there's a lot of detail in this survey that makes it very difficult for the patient to answer or for the clinician to, you know, even answer when they ask them when they come to clinic.
+Dr. Naomi Myhill: So you mentioned a couple of um technologies or providers there. Can you just elaborate on those a little bit
+rakesh patel: Yeah,
+Dr. Naomi Myhill: um just so we can capture the name, the type of um hardware,
+rakesh patel: sure.
+Dr. Naomi Myhill: software, the platform that it is and what it provides. So when they complete the survey, how do you see the results of that? Is it on a PDF? Um is it sent to you in a different way?
+rakesh patel: Sure. Um there's plenty of software uh that has now been developed that will do like a personalized breast cancer risk assessment.
+ 
+ 
+00:21:15
+ 
+rakesh patel: Um most of the successful ones will send a link uh or a have a QR code where the patients can pop it up on their phone which is what individuals want on their mobile and then they just answer all these series of questions and the system will kind of do like a a conditional logic guided questionnaire um prior to showing up to the uh appointment for uh where you see the clinician. which is typically in this workflow of breast imaging center where you're going in to get your annual screening mamogram for example. So 5 days before uh the system will pop out from the scheduling system uh and a questionnaire to them on their phone and they're supposed to fill it out talking to the centers about 50% of the patients actually fill it out before they show up on the on the day of if they don't fill it out. So that one so let me rattle off a few of the technologies that do this very nicely. So one of them is called FAM Genenics. Famgenics does um both cancer risk assessment and genetics risk assessment uh all in one survey tool.
+ 
+ 
+00:22:25
+ 
+rakesh patel: This way the output of this goes into a dashboard that the clinician or the clinical team can then view the results of when the patient actually shows up to clinic. An important feature is the uh need to verify the answers or kind of fill in any unanswered sections uh and then to modify and recalculate when the patient actually shows up to clinic. The uh another one is uh uh with a company called Vulpara. It's actually called CRA Health. Cancer risk assessment health is the name of that engine. We have access to both of those. There are a handful of other competitors in the market. One is called Cancer IQ, a really good system that does basically the same thing, cancer risk assessment at scale. Ambry has a uh one called care C A R E platform. And my last startup which was acquired also did in this space called MedDeon um which is no longer available uh at the moment in under that name but we built a personalized risk assessment module ourselves. Um, that was the last startup.
+ 
+ 
+00:23:33
+ 
+rakesh patel: So, numerous ways to do this, but the workflow is someone fills out a questionnaire. It picks up the Tyreek Cusk calculator. It also picks up another lifetime breast cancer risk calculator called Gail, G A I L, which uh also uh is an important calculator. Those are probably the two most common ones. And then the genetics risk assessment via NCCN is also uh done at the same time.
+Dr. Naomi Myhill: Okay, great. You mentioned a a couple of calculations there. The next question was going to be what metrics do you collect from this type of assessment? So,
+rakesh patel: Y
+Dr. Naomi Myhill: is it those those calculations are the key things you get from those surveys?
+rakesh patel: yes. So the three things that
+Dr. Naomi Myhill: Yeah.
+rakesh patel: you get from those surveys are one an individual's breast lifetime risk of breast cancer. Okay. What is the likelihood they develop breast cancer from day zero to any time in their lifetime? Which is a flawed issue because it's obviously your lifetime is different for a 75year-old versus a 35-year-old, but we use the same measure.
+ 
+ 
+00:24:40
+ 
+rakesh patel: Um, from that you get a score and the threshold uh of that score is either greater than 20% lifetime risk, which is about the twice the average population. That's how that number came about. And if you're greater than 20% lifetime risk on Tyraus, you are categorized as high risk breast for breast cancer. If you are less than 15% risk based on the output of that calculator, you are considered average risk of breast cancer. And if you're 15 to 20%, you're considered intermediate risk of breast cancer in your lifetime. The Tyraus score also gives you a 10-year risk uh which most of us don't it's not really as actionable. The reason is uh well we'll talk about what do you do from the output here when you ask but the second um scale gale largely gives a five and 10year risk of breast cancer and what it informs is if women have an elevated risk of breast cancer the call to action is risk reducing medications to basically um that and that's the indicator on Tyraus that output is a uh indicator of doing supplemental imaging, doing more imaging because your risk is higher and that's what insurance uses as a qualifier to pay for the MRI for example or ultrasound that if you have a higher risk, they feel like that warrants them covering the cost of advanced
+ 
+ 
+00:26:16
+ 
+rakesh patel: imaging on that side. And on the genetics, there's no score. It's essentially either you qualify based on a guideline. It's more like a rules engine. Either you meet criteria or you do not meet criteria by NCCN, National Comprehensive Cancer Network. And so that's where uh that's another important one. If you qualify quote unquote because let's say my sister had breast cancer and I have breast cancer, then um insurance will leverage that and uh to pay cover the cost of genetic testing. So a lot that's that's how we utilize these things in breast cancer risk assessment based on u scores or rules to put people at high average or intermediate risk.
+Dr. Naomi Myhill: All right, thanks. You mentioned a little bit there around the confidence and the the validity and reliability of those surveys around the same kind of lifetime. Um, for each of those
+rakesh patel: Sure.
+Dr. Naomi Myhill: metrics or calculations, can you just give your opinion on how confident you are in the validity and reliability of those?
+rakesh patel: I think I think Tyra Cusk which is the most commonly utilized um risk assessment tool is completely flawed because a uh looking at a lifetime risk for an individual who's age 70 is they have a completely different time horizon of what matters versus an individual who's 40. So, a it's probably not the right metric, but b it's not the right metric to inform the clinician or the patient on what to do right now.
+ 
+ 
+00:27:56
+ 
+rakesh patel: And so, why look in lifetime to qualify for whether I should be looking harder today? And unfortunately, that's the metric we have. And so using uh a 20% threshold to pay for an MRI, meaning a higher resolution test to uncover a cancer that may be lurking, that mammogram may miss, doesn't feel right. It really should be in an ideal world, we'd have a risk model that would tell me what's the likelihood of developing cancer in the next one or two years. Because if if we had that then I would as a clinician order imaging at a different cadence meaning once a year or once every six months instead of every two years like they do in the UK for example and so unfortunately the time horizon of the risk assessment output doesn't match the decision that the clinician and the patient needs to make today. And so that's the fundamental flaw in that. The genetics one has a flaw in the sense that it's too complicated. Um clinicians are scratching their head not knowing who to test.
+ 
+ 
+00:29:02
+ 
+rakesh patel: Patients don't even understand that this uh risk assessment is is readily available for $250. And so you have this void of patients not knowing the opportunity to uncover hidden risk of their own DNA and clinicians not doing a good enough job of bringing it up. And that's that's really the challenge there today.
+Dr. Naomi Myhill: All right, thanks for that explanation. Um, just moving on to the next question, it might not be relevant for these surveys. Um, so feel free to say that, but how does the the health seekers current state influence the interpretation of those surveys? So that might be um are they well at the moment? Have they got any other conditions? So does that influence anything you see in those surveys?
+rakesh patel: Yeah, I think it's a good question. I think the um right now the primary influence of the surveys a being implemented and completed is the it's hyperdependent on the clinic or the clinician even offering the survey. So right now the place of the the probably the best place of rendering these surveys and or the genetic assessment is when a woman is already proactively going in for breast imaging.
+ 
+ 
+00:30:27
+ 
+rakesh patel: Um there's about 70 million eligible women in the US for breast imaging over age 40 and about 40 million show up. That means there's 2530 million women that are have coverage for a mammogram that are not coming. And so we're already missing women that are proactively showing up to see if they have cancer or not at the time of breast imaging. And outside of that breast imaging workflow, um we are not doing these surveys and primary care for example. So, if you are a 40-y old woman and going into see your primary doctor for an annual checkup, they're not doing these surveys um and they're not either trained in it, they don't have the technology or they don't have the time, meaning the physicians, it's not part of their routine workflow to do breast cancer risk assessment. So, breast cancer risk assessment falls in this kind of what I call this uh again the the vortex void, the vacuum. It's kind of an orphan uh risk assessment with no parent and no owner. And so what I've dedicated a lot of my career to, certainly the last 15 years, is to create these high-risk programs at the breast imaging center because the woman's already proactively doing early detection check-in uh and mamogram.
+ 
+ 
+00:31:47
+ 
+rakesh patel: it seemed like the ideal place to kind of go deeper than just see if they have a cancer today, but to define whether they have risk tomorrow and then stratify their subsequent imaging and other workup accordingly. Um, so I think that's the biggest flaw right now. There isn't any uh individual specialty or a place where individ health seekers already go where they can even get risk assessment outside of the breast imaging center today. And less than half of the breast imaging centers in the country actually do it. So even if you're one of those co one of those 40 women 40 million women that have a mamogram doesn't mean that you're going to get proper risk assessment. There's a massive opportunity.
+Dr. Naomi Myhill: Okay, great. Thanks. So, back to the other assessments that you mentioned now. So, you mentioned imaging um
+rakesh patel: Yeah.
+Dr. Naomi Myhill: and blood work for example. So, based off of the kind of results of this survey, would you then go on to one of those assessments next or would you go straight to an intervention?
+ 
+ 
+00:32:52
+ 
+rakesh patel: No, we we this is one piece of the of the this is one chapter of multiple chapters of of a 360 consultation. So, uh this comes handinhand with imaging. So, I' I'd probably go to that next. The entry point of that is screening mammogram. And so one one component is screening mammogram, breast ultrasound and bilateral breast MRI. Those are the most common imaging modalities on the screening side.
+Dr. Naomi Myhill: Okay, great. So, let's go into into the screening and imaging then. So, um if we can talk through we'll start with the mamogram that would be great. So um the type of assessment is is
+rakesh patel: Sure.
+Dr. Naomi Myhill: imaging. Can you give a brief or concise description of the mamogram assessment um and the technology and tools that are used to do that assessment? Um, for example, Simon Med is a vendor.
+rakesh patel: Mhm. Uh, sure. So, I think a a a segregation that we're going to want, especially with our global ambition, is a all screening mammograms are not created equal.
+ 
+ 
+00:34:06
+ 
+rakesh patel: and a mammogram alone is often incomplete um picture. Okay. So let's start with the first one there worldwide vast majority of centers still use 2D mamograms. So that is the most available where you have a limited um points of view of an individual breast where we use um X-ray technology to see through the breast to identify whether there's an abnormal pattern or a distortion or a lesion or a suspicion of cancer. the an improvement in that technology on screening mimography that I believe that women should be looking for is called 3D mammograms. And so 3D mammograms are another way of saying it is tomosynthesis where now you use advanced software to capture the images but you create multiple hundreds of images around uh the uh in the breast and can three-dimensionally manipulate the images to be able to see with higher resolution, higher definition and essentially see things that 2D mamograms couldn't typically see. And then software has been developed with computer assisted detection called CAD where you now can look at patterns and identify biomarkers and lesions um with improved accuracy um and less likelihood to miss uh and that leverages artificial intelligence.
+ 
+ 
+00:35:44
+ 
+rakesh patel: So we use AI to kind of do pattern recognition. Now, an important part of a mammogram to know is you need prior mammograms, right? So, a lot of what you're looking for is change. And so, if you look at a single set of images, it's like looking at one chapter in a multi-chapter book and it could be chapter three. And if you don't have chapter two, you don't know if something is worrisome or growing, for example. And maybe it's a benign thing that's already been biopsied or has been stable. And so, um, one of the first things that we often times educate, uh, women around getting, um, their mammogram is a, get the highest quality mammogram possible. B, go to a certified center that does has the highest quality equipment and does 3D mammograms for your screening and then assure and check in whether they're doing advanced u computer assisted detection called CAD or AI uh to you know make sure that you have a second set of eyes on the mamogram and then uh three make sure that the center has your any previous imaging uh brought in because you don't want an opinion on a single image set if you've had priors.
+ 
+ 
+00:37:07
+ 
+rakesh patel: I'll stop there. I can go on, but I won't.
+Dr. Naomi Myhill: That's great. That's great, Rash. Um, so with the the mamogram and the different types and then using the the CAD and the AI assisted,
+rakesh patel: Mhm.
+Dr. Naomi Myhill: um, can you go into a bit more detail about those kind of key steps and
+rakesh patel: Right.
+Dr. Naomi Myhill: are there any prep steps, common mistakes or protocol documentation that is needed for each of those steps?
+rakesh patel: Yeah, sure. So uh a woman goes into the breast imaging center. She's filled out all these surveys. Um then actually has the image acquired on these machines. These machine uh common vendors for these machines are uh Hologic uh Seammens, GE and Fuji. Those are probably the the most common uh name brands of the actual physical equipment, the X-ray units. Um the woman puts her bl breast into the mammogram machine. An image is acquired by a mimography tech. That image then goes in lives within a pax system which is the basically the imaging warehouse and viewer for the radiologist who then will uh take a look at the images and do a human interpretation.
+ 
+ 
+00:38:26
+ 
+rakesh patel: They'll apply a software algorithm that will allow them to manipulate those images. the CAD marks literally put circles on the mammogram and say, "Hey, look at this." And then it gives a rating of how worried it is. Um, it can pull in more recent software will automatically pull in prior images if the women had imaging there before and be able to kind of modulate the concern based on prior images, which is a massive improvement. Before that person used to do that manually, hang films from last year and hang films for this year and just kind of go back and forth. Um they then do another important point for us to know it's not just AI detection and looking for a biom or pattern recognition. It's also uh ascribing a density reading. And so there is software that will automate density categorization into category A, category B, category C and category D. And those are um you know nondense for A and B. and then um heterogeneously dense for C and extremely dense for D. Breast density is very important um because breast density does two different has two different implications.
+ 
+ 
+00:39:40
+ 
+rakesh patel: Breast density A means I mean I'm sorry one component of breast increased breast density means that the tissue is tightly packed and it's harder to see through. And so oftent times for dense uh dense breasts we will recommend supplemental imaging at a minimum with an ultrasound to be able to see things that a mamogram may miss. And it's a again we believe that doing a mamogram alone in women with um high breast density is in an incomplete exam. And so having them both in conjunction is the best way to clear the breast or identify a cancer. the the radiologist will though take a look at that automated reading and then have the final approval on what the density is and they'll uh dictate a um a medical report into the same system and then that medical report meaning cancer no cancer here's what we found here's what the AI showed and here's what the density showed goes as a medical report to the referring physician like the primary care doctor and then a a a letter is generated to the patient that gets mailed to them.
+ 
+ 
+00:40:51
+ 
+rakesh patel: Um the Tyraus score is also incorporated in that note. Um so you have to have that survey done beforehand, right? Because if they're greater than 20%. Independent of the image, we may say, "Hey, your mammogram looks good. There is breast density. We recommend an ultrasound for example." And then it may say your breast uh your tyrus is elevated and therefore we recommend an MRI in six months. Just doing an average mamogram and once a year is not adequate and we need to do something more. And so that this is where I'm getting into now a little bit of intervention or recommendation from this diagnostic image that happens right then. Then that physician will make all those uh quick recommendations in their output when the woman is there.
+Dr. Naomi Myhill: Thank you. So just to clarify if there there's identified as over 20% risk on the calculation um just remind me the name again the
+rakesh patel: Ty music.
+Dr. Naomi Myhill: Tyraus. Yeah. If there's over 20% on the Tyraus um you would then potentially recommend the ultrasound or the MRI if there's breast density on the mamogram.
+ 
+ 
+00:42:06
+ 
+Dr. Naomi Myhill: Is that the correct workflow?
+rakesh patel: The best the best way to do this is to segregate the factor and the intervention. So let's cover them in order. So the first thing you do is you apply AI detection to the mamogram to see is there a suspicious lesion and it's binary yes or no. Okay. If there is you got to look a little harder as a physician. The second algorithm that gets applied to the image is density. Density gets quant output as A, B which is non-dense, C or D which is increased density. If you have category C, if the category density is A or B, there's no further action needed. If the category is um C or D elevated then the recommendation is a whole breast ultrasound. Okay. Separately then the third uh factor is called TC. That's the family history survey that the independent of the image. This is other stuff that they filled out the survey that they filled out about their personal and family and lifestyle factors and so on.
+ 
+ 
+00:43:21
+ 
+rakesh patel: And that is going to have an output of greater than 20, 15 to 20 or less than 15. If it's greater than 20 independent of the density recommendation, okay? If it's greater than 20, um the recommendation is to have a bilateral MRI in six months because an annual mammogram, which is the standard recommendation for average risk or no finding once a year mamogram isn't is deemed to be inadequate because you're at higher risk. And so the trigger for recommending an MRI six months from now as an interval image is TC greater than 20%. If you're TC 15 to 20% then the recommendation is you're kind of a little bit higher than the average and so the recommendation that many centers use is including ours is to do a whole breast ultrasound. Okay? And you would do that now and with every image, every mamogram. And so the confusion oftent times for people is if you try to lump all these and create a you know a smoothie out of all these algorithms, then both density and intermediate risk TC have the action of whole breast ultrasound.
+ 
+ 
+00:44:36
+ 
+rakesh patel: But the be best way to do is keep these as different inputs and then different outputs. They may land you to the same action, but they're the trigger for them are very different. Okay? And then genetics. If you qualify, you should have genetic testing. If you don't qualify, you can skip genetic testing. So those are the kind of the four inputs for breast cancer risk assessment in my opinion. That's done at in breast imaging center. If your average risk, sorry, just to complete the story, AI detection if it's positive, the offramp is do a diagnostic mammogram, meaning you you're now into a hey, there's a problem. Let's go a different journey. You're out of screening. You're into now diagnostic may need a biopsy. on density. If you're category A or B density, meaning low density, then you go in standard recommendation, which is once a year 3D mammogram. Okay? If you're CD, you're going to still get once a year 3D mammogram, but you're going to get a whole breast ultrasound every time recommended as well.
+ 
+ 
+00:45:40
+ 
+rakesh patel: Okay? If you if you're tyrousic under 15, we've already talked about greater than 20 and 15 to 20 being MRI or ultrasound. MRI six months ultrasound now and every year. If you're less than 15, this default recommendation is still once a year 3D mamogram. So that's the output.
+Dr. Naomi Myhill: Okay, great. Yeah. Um, so yeah, you mentioned a few metrics there that you collect from the assessment. Are there any other metrics that you haven't mentioned that you would collect from the mamogram, the ultrasound or the MRI? Um, and then you also mentioned those reference ranges there. I just want to clarify if there are any other rent ranges you use and then
+rakesh patel: Yeah.
+Dr. Naomi Myhill: also your confidence in each of those assessments in terms of like validity and reliability as well.
+rakesh patel: Yeah. I'm I'm very um I'm a big proponent I'm a I'm a large proponent of a risk assessment in everybody uh in every person. I am I believe that Tyraus has its flaws as mentioned.
+ 
+ 
+00:46:46
+ 
+rakesh patel: It's the right it's a wrong interval for the decision need to be made today but it's the best we have and so everyone needs to I believe that you get a lot of information from it so we we need to incorporate it. Um I do think that the other parameter we should think about is quality of mamogram. Quality of mamogram is something we as an organization haven't talked too much about. But there is a software company called Densitas which actually will look at the image and you can send it to a third party to see if the image was acquired with quality or not. And so when you put your breast in the paddles and you do an image, uh it's very subjective because there's a technician that does it right. And every especially when the larger the breast the more deformable the breast which is a better ontology word than floppy. Yeah. But that's what women say. Uh but as you as your breast doesn't fit in the paddle it's like how do you get all the breast tissue right?
+ 
+ 
+00:47:48
+ 
+rakesh patel: Breast is a deformable structure. So even if you went in and put your same breast in 10 times the image is going to look different right especially as the breast size grows and volume increases. So what happens in that is there's no real good way of knowing a was all the breast to true captured and b what was it is it a quality image to be able to say that there's no cancer lurking. So there are these algorithms that have spun up that I think it would be a great service for us to think about for women just to say like was it a good quality mamogram even though they have all the technology did they capture all the tissue and so that is another parameter you inspired me to talk about that we haven't implemented yet. It's called a mamogram quality or positioning.
+Dr. Naomi Myhill: That's great, Rash. Yeah, definitely something I think we need to add. Mogram
+rakesh patel: Yeah.
+Dr. Naomi Myhill: quality. Um, fantastic. So, I think we've gone through all the questions for the imaging assessments.
+ 
+ 
+00:48:48
+ 
+Dr. Naomi Myhill: You
+rakesh patel: Yes.
+Dr. Naomi Myhill: did mention blood work as well, but I just want to check in terms of uh time. I know we've got about 15 minutes until our I'll stop for our debrief. Um, do you need to do the bloods before you recommend interventions or do you recommend interventions based off of the surveys and the imaging? Is bloods an intervention in itself? Probably
+rakesh patel: Yeah,
+Dr. Naomi Myhill: the question.
+rakesh patel: good question. So, I think blood work in general in this workflow for breast cancer risk assessment doesn't belong. Um,
+Dr. Naomi Myhill: Yeah.
+rakesh patel: blood work really I would use for two primary purposes in this workflow. One is for genetics. So genetics can genetic your hereditary genetics which is informed by survey not by imaging. Um as a component of this if you qualify for genetics it can be done via blood work or DNA uh saliva and that's a DNA test that's sent to a third party lab. Those labs are Myriad Genetics, Ambry Genetics, AMB R Y um or yeah, those are I think those are probably the two big ones.
+ 
+ 
+00:49:59
+ 
+rakesh patel: There is a third blood test that's available for all solid tumors or cancers, uh which is generally, I think, a pretty lousy screening test, but it's called Gallery. It gets a lot of airtime and it's an expensive test and it's not in particular sensitive or specific test uh especially for premenopausal women and for non-shedding cancer like breast cancer. Um but these are these you've seen probably and heard about like these uh blood tests for cancer diagnosis and so wouldn't that be cool where you didn't have to do imaging or rely on getting a symptom? It would. But in in breast cancer, it has not seen um critical value because the level of data in ability to um have the statistical requirements that we would to dismount a mamogram haven't haven't uh reached u you know clinical utility yet. So we there are these tests exist that we should know about as an or like again it's made by Grail uh and it's called Gallery um and this is a panc cancer all solid tumor blood test on the diagnostic screening side um that is out there in the market.
+ 
+ 
+00:51:19
+ 
+rakesh patel: It's too expensive, not sensitive, not specific enough for breast cancer in my opinion. Other than that, blood test is really only reliant if you can't spit in a tube for some reason. Uh do saliva. It's really for gathering DNA as an alternative to saliva.
+Dr. Naomi Myhill: Great. Thanks for that. Just before we move on to interventions, are there any more assessments that you haven't gone into detail about?
+rakesh patel: Not that I can think of.
+Dr. Naomi Myhill: Okay, great. Let's move on to interventions then. So um based off of what you discussed around the um lifetime risk risk assessment surveys and the imaging there are different levels. So you said category A B C D etc. So for each of those could you explain how you design interventions from those assessment results? So how do those results inform the intervention choice? Um, what are your go-to interventions for um, improving or further helping out that patient based off of their assessment result?
+rakesh patel: Yeah, very good.
+ 
+ 
+00:52:33
+ 
+rakesh patel: So, I think some of this I've jumped ahead and answered already when it comes to this kind of limited um construct domain that we've been speaking about. um because essentially when you ask a survey you get a score and you make further imaging recommendations and so I think those are captured in terms of the thresholds of Tyrieus um greater than 20 15 to 20 and less than 15 to inform an MRI at 6 months a whole breast ultrasound or just a default mammogram and the same thing for genetics whether you get genetic testing or you don't do genetic testing. And for AI density, either you do a whole breast ultrasound or you don't do a whole breast ultrasound. And then for AI detection, if you see something, you need a diagnostic workup. I think the piece that we didn't chat about that I'll add here is the other model uh which is a survey called Gail. G- AI L. And what Gail uh that I touched on will give you is a 10-year risk of breast cancer. And if you if you have a risk of breast cancer which is greater than 1.66% per year um then the recommendation is called chemrevention.
+ 
+ 
+00:53:58
+ 
+rakesh patel: And so what chemrevention it's actually not chemotherapy um but it's actually chemical intervention with an anti-estrogen pill called tmoxifen. So, studies have shown that if you take an anti-estrogen pill, since estrogen is a primary driver of breast cancer, um doesn't cause it, but it can fuel it. If you have cancers that have those receptors on the cell surface, then using the medication tmoxifen, it can be a pill that will reduce your likelihood of developing breast cancer. So that whole it's it's a kind of a preventive strategy and it lowers your incidence of breast cancer in women that are deemed high- risk by gale by 50%. So it's a pretty dramatic risk reduction um that's been proven in randomized studies. So what I would say is that the gale um calculator the intervention if it's if the women is considered high risk is consideration of 5 years of chemrevention with temoxifen and based on the result of the genetics you should probably a good time to cover that too although I would nominate you to talk to um our head of genetics at Cascade named Kelly Bontempo.
+ 
+ 
+00:55:19
+ 
+rakesh patel: She's a Northwestern faculty. I don't know if Yan's actually met her yet, but uh I just spoke to her over the weekend. She's fantastic and uh she does cancer risk assessment, but she also does uh all the complex pedigrees and what's involved. She'd be the power user Johan of Famgenics for us. Um and she would be she covers panc cancer like all cancer. She also does rare diseases and non-cancer things. So a good person who's a genetic expert um I'm an oncologist and so I act on the results of genetics but she would do a lot of the pedigree and family history work with the client would be done by someone who's a genetic counselor. So that's a key component of the genetics team. If you do genetics and you have an inherited mutation when the result comes back, um those are also actionable and that will inspire different uh diagnostic workup. For example, if you have BRCA2 as a common probably one of the most penetrant mutations that most people have heard of, it increases your risk not only of breast cancer from 12 and a half% all the way up to 60 to 80% lifetime risk.
+ 
+ 
+00:56:32
+ 
+rakesh patel: Dramatic. However, only 5% of breast cancers are BRCA positive, right? So, it's not a huge number, but if you are one of those, it changes everything of what I did the algorithm that I've just uh prescribed to you. The second thing it does, it also increases the same genetic abnormality in these cells increases your risk for ovarian cancer. So now your ontology is going to go uh it's going to work. It's going to get very high RPM very quickly because you're going to have incredible graphical database. And I'll send you a link of this system that shows by mutation all the cancers. You click on the cancer, it show you all the mutations relevant to pancreatic cancer. You click on bracket 2, it shows you all the cancers related to the mutation. It's like a super fun diagram, but the reason I mentioned to you BRCA2, for example, thought of as a breast cancer mutation now has been shown to drive risk of ovarian cancer, pancreatic cancer in males and female DNA relatives, and prostate cancer and male relatives of the woman who came in. So there's a massive ripple effect opportunity for understanding risk in your DNA relatives through the lens of a female, not just limited to other females.
+ 
+ 
+00:57:43
+ 
+rakesh patel: And that is something that the world needs to know about. Um secondarily, we also need to know about that out of every hundred individuals that get diagnosed with breast cancer, one is a male. Uh we all have atipose tissue and so there and estrogen. So I think that even though Tyraus, this is a limitation of the model. Even though the Tyraus model um excludes specifically males, it does not apply to males and it does not apply if you've already had breast cancer. Um that doesn't mean males are not not at risk. So we should do genetic testing and family history assessments in males as well. So you asked earlier like what are the flaws of these models? That's why I bring it up again now.
+Dr. Naomi Myhill: Yeah, that's great. So, so almost an intervention as a response or as a result of some of these assessments might be an intervention of contacting a family member to get them to go through screening themselves.
+rakesh patel: The best way to understand your risk is through the development of one way is through the development of cancer in the loved one or DNA relative.
+ 
+ 
+00:58:54
+ 
+rakesh patel: So we may not be able to prevent cancer, breast cancer in mom who was just diagnosed, but we may be able to prevent it in her DNA relatives, including her daughters, right, and sisters and and aunts and uncles. So yes, I think um that's why years ago I was one of the guys on the podium talking about that we should universally test for breast cancer genetics. I still strongly believe that that all cancer patients uh should be d offered this treatment or this opportunity. It's down to $250 now. It used to be a cost concern, but people are willing to pay out of pocket to understand their hereditary risk. Um, it's actually one of the reasons I started Cascade is to identify hidden risks around breast cancer. Um, because these are simple opportunities for people to, you know, change your behavior and get diagnostics because early detection matters and saves lives.
+Dr. Naomi Myhill: Brilliant. Yeah. Okay. Um, so just based off of kind of what you've said there and then around the assessments, are there any other specific interventions that you would then recommend if there was a a high risk say of of cancer for example?
+ 
+ 
+01:00:09
+ 
+Dr. Naomi Myhill: Um, and then what type of those interventions would they be? So would it be um medical interventions? I know you've already mentioned one. Um would it be education for example? Do
+rakesh patel: Right.
+Dr. Naomi Myhill: you have any examples that you can provide of that?
+rakesh patel: Yeah. if if an if a woman for example is um has I'm gonna I'm going to put a pin in a positive genetic patient because it is a whole lot of it depends on which mutation that they have and um we should do a subsequent session just on that and I would suggest you do that with Cali Kelly the other experts are Candace and myself on genetics um but we'll give someone else some air time on that one. If you are a high-risk woman based on imaging and family history, I strongly believe that um we need to get the word out that a mam a simple mamogram is not enough. And so catching cancer in early stage not only improves survival rates, it decreases amount of burden of treatment and cost of care.
+ 
+ 
+01:01:17
+ 
+rakesh patel: If you catch a woman at stage one, it's way more likely that they don't need chemotherapy. As a radical example, if you catch women at stage 012, it's very likely that they can preserve their breast and not have to remove their breast and have a whole mastctomy. Oftent times you can do a targeted surgery called a lumpctomy or partial mastctomy and they keep their natural body and it's an outpatient fast recovery. And so early detection equals less treatment equals less toxicity, improved quality of life equals less cost to the patient in the healthcare system. And so those that's a vignette and an algorithm to hang our hat on. So if you're identified as high risk whether it be you have increased density or you have by family history questionnaire or for um you know meaning a high um tyrus score I would encourage all women to to get precision screening and precision screening is defined as um um an imaging um cadence that's hyper tailored to you. The other principle I want to point out is that um risk is not static.
+ 
+ 
+01:02:29
+ 
+rakesh patel: It changes continuously and there are things that you could do to modify your risk in particular to lower your risk. And so uh it's not that once you have you're called high risk that you're kind of stuck forever there. Um there are some parameters that are difficult to change. Meaning if you have f if you're chalk full of family members with breast cancer that wasn't your fault but your body changes your breast density changes as your hormonal status changes. So as you become postmenopausal from premenopausal the architecture and the anatomy of the breast physiology makes it easier to see through where you get less dense over time oftent times. And number two, your body mass index. Your body composition as you know in your world. Uh it's not body composition is everything, but it's not pounds on the scale. It's actually, you know, lean muscle mass and what's a percentage body fat and where is that fat? Is the fat in your breast? Is it in the visceral atapost tissue, which we worry more about?
+ 
+ 
+01:03:28
+ 
+rakesh patel: Is your are your organs having to work harder uh against the fat in your belly? This also applies to uh calculation of risk and we use a really I think inadequate score in this space in Tyraus we use body mass index right uh which is uh we all know not the best uh factor but it's easy to calculate based on height and weight and so if your BMI changes we're I tell my wife all the time I'm the perfect weight I'm just not tall enough unfortunately these people are not going to change their height so they to shred LBs to improve their um or kgs for you uh in order to improve their BMI. So if their BMI goes down, their risk goes down. And so a lot of what we're building at Cascade are le first of all understand your hidden risk. Number two, be proactive about modifying what you can measure. And so risk is continuous. It's dynamic. And we I want to create agency in individuals and empower them. uh with opportunities to improve their risk for all diseases and breast cancer is one of them.
+ 
+ 
+01:04:38
+ 
+rakesh patel: And so being very aggressive around nutrition, aggressive around increasing muscle or or exercise, um sleeping better, which informs all of these things. So lifestyle pillars um as a way of improving your breast cancer risk is kind of our core strategy in addition to just getting the right precision screening at the right time to catch things early. So, as you build out your lifestyle ontology, you're going to want to plug that into your breast cancer domain.
+Dr. Naomi Myhill: Yeah, 100%. So, essentially one of the interventions to reduce risk um would be to focus on those lifestyle medicine pillars.
+rakesh patel: Correct.
+Dr. Naomi Myhill: So, a
+rakesh patel: Correct.
+Dr. Naomi Myhill: nutrition program, a physical exercise program for example. Um, would things such as stress management be on
+rakesh patel: Yes.
+Dr. Naomi Myhill: there as well as a pillar? Yeah.
+rakesh patel: Stress,
+Dr. Naomi Myhill: Okay.
+rakesh patel: inflammation, right? Um, so the lifestyle pillars, the big six being uh exercise, nutrition, sleep, stress, social connection, avoiding risky behavior. Avoiding risky behavior, you know, sounds like a general category, but I'll give you one that's hot topic in breast cancer risk, and that's alcohol.
+ 
+ 
+01:05:53
+ 
+rakesh patel: And so alcohol and tobacco are pretty known risk factors um that have really zero therapeutic advantage although they make our friends more fun. Um they don't really have a health benefit at all. Um but and there's a lot of debate around does alcohol increase your breast cancer risk. The short answer is probably not. But having uh liquid sugar in your body is probably not great for your body composition or your metabolic uh driver of cancer and uncontrolled growth and probably not great for your BMI. And so there are these kind of correlations that exist that I think with this exercise and as we start chatting in a multi-disiplinary fashion, we're going to start unlocking like oh my goodness, did you know uh moment um I'm hoping for us to get to
+Dr. Naomi Myhill: Yeah, definitely. I've seen the time. It's ticked over and we're we're getting into we could go in so many different directions with this now with the lifestyle pillars. Um, so just just quickly to finish this off and you mentioned the the substance use as one of those pillars, so we'll just focus
+ 
+ 
+01:07:01
+ 
+rakesh patel: Correct.
+Dr. Naomi Myhill: on that. Um,
+rakesh patel: Alcohol.
+Dr. Naomi Myhill: real quick, alcohol. Yeah, alcohol use. So, um, it might indirectly kind of reduce the risk through kind of BMI, um,
+rakesh patel: Great.
+Dr. Naomi Myhill: is what I'm hearing. So, would an intervention for that be an educational program, intervention to, um, educate the individual that alcohols
+rakesh patel: Yes.
+Dr. Naomi Myhill: consumption would be would be a problem and to reduce that. So that might be an example of an intervention that
+rakesh patel: Yes.
+Dr. Naomi Myhill: could be
+rakesh patel: I
+Dr. Naomi Myhill: linked
+rakesh patel: think I
+Dr. Naomi Myhill: to this.
+rakesh patel: think all lifestyle medicine pillars will be uh an important part of intervention. Uh all of them will have some benefit. I think the the question that patients find themselves asking physicians and themselves is what can I do to not get breast cancer? What can I do to reduce my risk? How can I live my life differently? What are the behaviors that I should prioritize?
+ 
+ 
+01:07:55
+ 
+rakesh patel: What are the behaviors I should alter or stop doing? And clearly avoiding risky behavior being a a primary one. But the big one that everyone asks which is right sweet spot for us is um you know nutrition and exercise. People don't know what to eat. They don't know when to eat it, how much to eat. They go most people then default to either two things or may or may not be right for them and certainly not sustainable long term. And one is intermittent fasting and they stop eating, right? And then number two is uh they reduce carbs. And so both good strategies, right? to to, you know, focus on ketosis, but is that the right thing for all people? I don't we don't bel believe in one sizefits-all, right? We're hyperfocus on one size fits one. And so, I do think that as you make your way through all the experts, nutrition is going to be a really meaty one, right? You may want to do that one with wine.
+ 
+ 
+01:08:55
+ 
+rakesh patel: Pun pun intended uh for this topic. But I do think you it's going to be a really fascinating uh multi-dimensional point of view from our team. It's one I'm going to stay completely out of uh and just be a listener. But there's going to be, I hope, uh differing points of view and conflict on what to recommend for a cancer patient or a high-risisk cancer patient or a cancer recovery patient uh between the, you know, primary care physicians and the performance folks. Um, but it's reconciling conflict or reconciling differing points of view from people we trust and have expertise. That's that's essentially why we exist. Um, we're not trying to create a system where we have access to multiple experts that don't argue and debate commit or call jump balls. We're trying to build a a a system that helps individuals always stay in control and reconcile differing opinions and understand their ramifications. on the decisions that they elect to make and the ramifications of the decisions that they elect to neglect um and understand who you know which route they're going to go and then be available when they change their mind right and so I think those are really important things that you are starting to chip away at is so that we can kind of put them back on track in case the one me the adventure they choose goes
+ 
+ 
+01:10:22
+ 
+rakesh patel: off track or off the rails and you know their markers unexpectedly get worse. Well, then we have to have plan B and C ready to go for them. And so I think that's going to be uh these concepts that we're talking about is going to be really um highlighted by the work that you're doing because the the correlations that we don't think about like what should I eat if I have a high risk of breast cancer? Um these are the problems, real world problems we're trying to solve. And the patients aren't talking to their doctors or experts about it. They're just kind of on their own and a lot of times they don't know what to do.
+Dr. Naomi Myhill: Yeah, I think we'll we'll finish the interview there, but like exactly what you just said there. I think kind of the last probably 20 minutes of this I was thinking this information is going to be really useful when I go into interviews with other kind of subject matter experts and it might be you know the initial interview is is their expertise their domain and then maybe a part two is case studies specifically okay for for breast
+ 
+ 
+01:11:21
+ 
+rakesh patel: Hey.
+Dr. Naomi Myhill: cancer risk what based on your domain your intervention what would you recommend and that those sorts of pathways and linking them all together I think yeah I will be Super interesting. So yeah, thank you so much, Reesh. I feel like
+rakesh patel: Of
+Dr. Naomi Myhill: we've
+rakesh patel: course.
+Dr. Naomi Myhill: not really kind of cracked the iceberg on this, but we'll come back for a part two and three for
