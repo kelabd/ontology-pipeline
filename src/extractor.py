@@ -709,6 +709,640 @@ class RobustOntologyExtractor(BaseOntologyExtractor):
                 results["summary"]["failed"] += 1
         
         return results
+    
+# Enhanced Ontology-Guided Extractor
+# Add this as a new class in your src/extractor.py
+
+class OntologyGuidedExtractor(BaseOntologyExtractor):
+    """Ontology-guided extraction that combines comprehensive coverage with specific term hunting"""
+    
+    def __init__(self, api_key=None):
+        super().__init__(api_key)
+        self.extraction_type = "Ontology-Guided (8-pass)"
+        self.ontology_definitions = self.load_ontology_definitions()
+        print("✅ Ontology-Guided Extractor initialized successfully")
+        print("🔄 Using 8-pass ontology-guided extraction strategy")
+    
+    def load_ontology_definitions(self):
+        """Load explicit ontology definitions for prompts"""
+        return {
+            "construct_definition": "A specific, identifiable attribute within one or many Domains. These are key concepts to understand, track, or influence.",
+            "construct_examples": ["Breast Health", "Blood Pressure Control", "Fall Risk", "Body Composition", "Sleep Quality", "Functional Mobility", "Muscular Power", "Heart Rate Variability"],
+            
+            "assessment_definition": "The systematic process or procedure used to evaluate the status of a Construct or progress towards a Goal, producing data that will become Metrics.",
+            "assessment_examples": ["Countermovement Jump", "Mammogram", "Lipid panel", "VO2 Max Test", "DEXA Scan", "Sleep Study"],
+            
+            "technology_definition": "The specific tools, devices, software, or commercial providers used to perform an Assessment or deliver an Intervention.",
+            "technology_examples": ["VALD ForceDecks", "Neurocatch", "Oura Ring", "COSMED", "Polar H10", "LabCorp"],
+            
+            "metric_definition": "A specific, measurable, and observable data point produced by an Assessment that directly contributes to understanding a Construct.",
+            "metric_examples": ["Body Fat Percentage (%)", "Systolic Blood Pressure (mmHg)", "Jump Height (cm)", "HRV (ms)", "VO2 Max (ml/kg/min)"],
+            
+            "intervention_definition": "A specific action, programme, or strategy designed to influence, improve, or manage a particular Construct, aiming to achieve a Goal.",
+            "intervention_examples": ["12-week Progressive Resistance Training", "Personalized Nutrition Plan", "Sleep Restriction Therapy", "HRV Biofeedback Training"]
+        }
+    
+    def extract_domains_constructs_guided(self, transcript: str) -> Dict:
+        """Pass 1: Ontology-guided domain and construct extraction"""
+        
+        construct_def = self.ontology_definitions["construct_definition"]
+        construct_examples = ", ".join(self.ontology_definitions["construct_examples"])
+        
+        prompt = f"""
+        You are analyzing a semi-structured interview with a health/performance specialist. Extract domains and constructs using these specific definitions:
+
+        CONSTRUCT DEFINITION: {construct_def}
+        
+        CONSTRUCT EXAMPLES: {construct_examples}
+
+        Look specifically for:
+        1. DOMAINS: Areas of expertise (Physical Health, Performance, Female Health, Recovery, etc.)
+        2. CONSTRUCTS: Specific attributes they measure, track, or influence (like the examples above)
+        3. Any capabilities, characteristics, or health/performance factors they discuss
+
+        TRANSCRIPT:
+        {transcript}
+
+        Extract using these exact definitions:
+        {{
+            "practitioner_domains": [
+                {{
+                    "domain_name": "string",
+                    "domain_description": "string",
+                    "specialization_notes": "string"
+                }}
+            ],
+            "constructs_mentioned": [
+                {{
+                    "construct_name": "string (use specific terminology when possible)",
+                    "construct_description": "string",
+                    "domain_association": "string",
+                    "why_important": "string (why practitioner focuses on this)",
+                    "how_assessed": "string (how they evaluate this construct)"
+                }}
+            ],
+            "health_performance_factors": [
+                {{
+                    "factor_name": "string",
+                    "factor_type": "string (physiological/psychological/behavioral/environmental)",
+                    "description": "string",
+                    "measurement_approach": "string"
+                }}
+            ]
+        }}
+
+        Be specific - look for exact terminology used by the practitioner. If they mention "sleep quality," "muscular power," "insulin sensitivity," etc., capture those exact terms.
+        """
+        
+        response = self.make_api_call(prompt, max_tokens=4000)
+        return self.safe_json_parse(response)
+    
+    def extract_assessments_guided(self, transcript: str, constructs: List[str]) -> Dict:
+        """Pass 2: Ontology-guided assessment extraction"""
+        
+        assessment_def = self.ontology_definitions["assessment_definition"]
+        assessment_examples = ", ".join(self.ontology_definitions["assessment_examples"])
+        constructs_context = ", ".join(constructs[:10])  # Limit for prompt size
+        
+        prompt = f"""
+        Extract ALL assessments using this specific definition:
+
+        ASSESSMENT DEFINITION: {assessment_def}
+        
+        ASSESSMENT EXAMPLES: {assessment_examples}
+        
+        CONSTRUCTS IDENTIFIED: {constructs_context}
+
+        Look for ANY method used to evaluate, test, measure, or gather information about the constructs above.
+
+        TRANSCRIPT:
+        {transcript}
+
+        Extract all assessments:
+        {{
+            "assessments": [
+                {{
+                    "assessment_name": "string (exact name used)",
+                    "assessment_description": "string",
+                    "constructs_measured": ["list - which constructs does this assess"],
+                    "modality": "string (Physical test/Wearable monitoring/Consultation/Labs/Imaging/Survey/etc)",
+                    "administration_details": {{
+                        "where_performed": "string (lab/clinic/field/home)",
+                        "duration": "string",
+                        "preparation_required": "string",
+                        "frequency": "string"
+                    }},
+                    "protocol_details": {{
+                        "key_steps": ["list of main protocol steps"],
+                        "coaching_cues": ["specific instructions given"],
+                        "common_mistakes": ["errors that affect results"],
+                        "quality_controls": ["how to ensure good data"]
+                    }}
+                }}
+            ]
+        }}
+
+        Include formal tests, informal observations, questionnaires, monitoring approaches - anything used to gather assessment data.
+        """
+        
+        response = self.make_api_call(prompt, max_tokens=4000)
+        return self.safe_json_parse(response)
+    
+    def extract_technologies_metrics_guided(self, transcript: str, assessments: List[str]) -> Dict:
+        """Pass 3: Dedicated technology and metrics extraction"""
+        
+        tech_def = self.ontology_definitions["technology_definition"]
+        tech_examples = ", ".join(self.ontology_definitions["technology_examples"])
+        metric_def = self.ontology_definitions["metric_definition"]
+        metric_examples = ", ".join(self.ontology_definitions["metric_examples"])
+        
+        assessments_context = ", ".join(assessments[:10])
+        
+        prompt = f"""
+        Extract ALL technologies and metrics mentioned in this interview.
+
+        TECHNOLOGY DEFINITION: {tech_def}
+        TECHNOLOGY EXAMPLES: {tech_examples}
+        
+        METRIC DEFINITION: {metric_def}
+        METRIC EXAMPLES: {metric_examples}
+        
+        ASSESSMENTS IDENTIFIED: {assessments_context}
+
+        Hunt specifically for:
+        1. Equipment brands, models, software names
+        2. Specific measurable outputs with units
+        3. Any vendor or manufacturer names
+        4. Specific measurement values or ranges
+
+        TRANSCRIPT:
+        {transcript}
+
+        Extract technologies and metrics:
+        {{
+            "technologies": [
+                {{
+                    "technology_name": "string (exact name/brand mentioned)",
+                    "vendor_manufacturer": "string (company name)",
+                    "technology_type": "string (hardware/software/device/service)",
+                    "specific_model": "string (if mentioned)",
+                    "used_for_assessments": ["which assessments use this"],
+                    "what_it_measures": ["capabilities it assesses"],
+                    "data_output_format": "string (PDF report/raw data/dashboard/etc)",
+                    "mentioned_advantages": ["benefits mentioned"],
+                    "mentioned_limitations": ["constraints mentioned"]
+                }}
+            ],
+            "metrics": [
+                {{
+                    "metric_name": "string (exact name used)",
+                    "measurement_unit": "string (cm, kg, mmHg, %, etc)",
+                    "assessment_source": "string (which assessment produces this)",
+                    "normal_ranges": "string (any reference values mentioned)",
+                    "interpretation_notes": "string (how values are interpreted)",
+                    "factors_affecting_values": ["what influences this measurement"],
+                    "reliability_notes": "string (confidence/validity mentioned)"
+                }}
+            ],
+            "measurement_contexts": [
+                {{
+                    "context_description": "string",
+                    "specific_values_mentioned": ["any specific numbers, ranges, or thresholds"],
+                    "reference_populations": ["athlete/health seeker/age groups/etc"],
+                    "timing_considerations": ["when measurements are taken"]
+                }}
+            ]
+        }}
+
+        Look for specific brand names, model numbers, measurement units, reference ranges, and any quantitative values mentioned.
+        """
+        
+        response = self.make_api_call(prompt, max_tokens=4000)
+        return self.safe_json_parse(response)
+    
+    def extract_interventions_guided(self, transcript: str, constructs: List[str]) -> Dict:
+        """Pass 4: Ontology-guided intervention extraction"""
+        
+        intervention_def = self.ontology_definitions["intervention_definition"]
+        intervention_examples = ", ".join(self.ontology_definitions["intervention_examples"])
+        constructs_context = ", ".join(constructs[:10])
+        
+        prompt = f"""
+        Extract ALL interventions using this specific definition:
+
+        INTERVENTION DEFINITION: {intervention_def}
+        
+        INTERVENTION EXAMPLES: {intervention_examples}
+        
+        CONSTRUCTS TO TARGET: {constructs_context}
+
+        Look for ANY strategy, program, treatment, or approach used to improve the constructs above.
+
+        TRANSCRIPT:
+        {transcript}
+
+        Extract all interventions:
+        {{
+            "interventions": [
+                {{
+                    "intervention_name": "string (exact name used)",
+                    "intervention_description": "string",
+                    "purpose": "string (what it aims to achieve)",
+                    "constructs_targeted": ["which constructs does this improve"],
+                    "intervention_types": ["Physical/Nutrition/Sleep/Stress Management/Medical/Education/Recovery"],
+                    "dosage_details": {{
+                        "frequency": "string (how often)",
+                        "duration": "string (how long)",
+                        "intensity": "string (how hard/strong)",
+                        "volume": "string (how much)",
+                        "progression": "string (how it advances)"
+                    }},
+                    "implementation_specifics": {{
+                        "delivery_method": "string (how it's delivered)",
+                        "monitoring_approach": "string (how progress is tracked)",
+                        "adjustment_criteria": "string (when/how it's modified)"
+                    }},
+                    "resource_requirements": {{
+                        "equipment_needed": ["list"],
+                        "time_commitment": "string",
+                        "expertise_required": "string",
+                        "cost_level": "string (High/Moderate/Low if mentioned)"
+                    }}
+                }}
+            ]
+        }}
+
+        Include exercise programs, nutrition plans, lifestyle modifications, medical treatments, education protocols - anything designed to improve health/performance outcomes.
+        """
+        
+        response = self.make_api_call(prompt, max_tokens=4000)
+        return self.safe_json_parse(response)
+    
+    def extract_goals_constraints_guided(self, transcript: str, constructs: List[str]) -> Dict:
+        """Pass 5: Goals, constraints, and contextual factors"""
+        
+        prompt = f"""
+        Extract goals, constraints, and contextual factors that affect practice decisions.
+
+        CONSTRUCTS CONTEXT: {", ".join(constructs[:10])}
+
+        TRANSCRIPT:
+        {transcript}
+
+        Extract contextual information:
+        {{
+            "client_goals": [
+                {{
+                    "goal_description": "string (specific goal mentioned)",
+                    "goal_type": "string (performance/health/aesthetic/functional)",
+                    "target_constructs": ["which constructs this goal relates to"],
+                    "success_metrics": ["how success is measured"],
+                    "timeline": "string (timeframe mentioned)",
+                    "priority_level": "string (if indicated)"
+                }}
+            ],
+            "constraints_preferences": [
+                {{
+                    "constraint_type": "string (equipment/time/access/medical/preference)",
+                    "description": "string",
+                    "impact_on_assessment": "string (how it affects testing)",
+                    "impact_on_intervention": "string (how it affects treatment)",
+                    "workaround_strategies": ["how to accommodate this constraint"]
+                }}
+            ],
+            "moderating_factors": [
+                {{
+                    "factor_name": "string",
+                    "description": "string",
+                    "what_it_affects": "string (assessment results/intervention effectiveness)",
+                    "management_approach": "string (how to account for this factor)"
+                }}
+            ],
+            "individual_differences": [
+                {{
+                    "difference_factor": "string (age/sex/training status/health condition)",
+                    "assessment_implications": "string",
+                    "intervention_implications": "string"
+                }}
+            ]
+        }}
+        """
+        
+        response = self.make_api_call(prompt, max_tokens=4000)
+        return self.safe_json_parse(response)
+    
+    def extract_relationships_guided(self, transcript: str, all_entities: Dict) -> Dict:
+        """Pass 6: Comprehensive relationship extraction"""
+        
+        # Build context from extracted entities
+        constructs = []
+        assessments = []
+        interventions = []
+        
+        if all_entities.get('constructs'):
+            constructs = [c.get('construct_name', '') for c in all_entities['constructs'].get('constructs_mentioned', [])]
+        if all_entities.get('assessments'):
+            assessments = [a.get('assessment_name', '') for a in all_entities['assessments'].get('assessments', [])]
+        if all_entities.get('interventions'):
+            interventions = [i.get('intervention_name', '') for i in all_entities['interventions'].get('interventions', [])]
+        
+        context = f"""
+        CONSTRUCTS: {", ".join(constructs[:10])}
+        ASSESSMENTS: {", ".join(assessments[:10])}
+        INTERVENTIONS: {", ".join(interventions[:10])}
+        """
+        
+        prompt = f"""
+        Analyze this interview for relationships between the entities identified:
+        
+        {context}
+
+        TRANSCRIPT:
+        {transcript}
+
+        Extract all relationships mentioned:
+        {{
+            "construct_relationships": [
+                {{
+                    "source_construct": "string",
+                    "target_construct": "string",
+                    "relationship_type": "string (causal/association/dependency)",
+                    "relationship_description": "string",
+                    "evidence_mentioned": "string (what supports this relationship)",
+                    "directionality": "string (bidirectional/unidirectional)"
+                }}
+            ],
+            "assessment_construct_links": [
+                {{
+                    "assessment_name": "string",
+                    "constructs_measured": ["list of constructs this assessment evaluates"],
+                    "measurement_relationship": "string (direct/indirect/predictive)",
+                    "interpretation_factors": ["what affects how results are interpreted"]
+                }}
+            ],
+            "intervention_construct_links": [
+                {{
+                    "intervention_name": "string",
+                    "constructs_targeted": ["list of constructs this intervention affects"],
+                    "mechanism_of_action": "string (how the intervention works)",
+                    "expected_outcomes": ["what changes are expected"],
+                    "timeline_expectations": "string (how quickly effects are seen)"
+                }}
+            ],
+            "assessment_intervention_connections": [
+                {{
+                    "assessment_name": "string",
+                    "intervention_name": "string",
+                    "connection_type": "string (informs/monitors/triggers/evaluates)",
+                    "connection_description": "string"
+                }}
+            ]
+        }}
+        """
+        
+        response = self.make_api_call(prompt, max_tokens=4000)
+        return self.safe_json_parse(response)
+    
+    def extract_protocols_details(self, transcript: str, assessments: List[str], interventions: List[str]) -> Dict:
+        """Pass 7: Detailed protocols and implementation specifics"""
+        
+        prompt = f"""
+        Extract detailed protocols and implementation specifics for the assessments and interventions identified.
+
+        ASSESSMENTS: {", ".join(assessments[:10])}
+        INTERVENTIONS: {", ".join(interventions[:10])}
+
+        TRANSCRIPT:
+        {transcript}
+
+        Extract detailed protocols:
+        {{
+            "assessment_protocols": [
+                {{
+                    "assessment_name": "string",
+                    "detailed_steps": ["ordered list of protocol steps"],
+                    "preparation_requirements": ["what needs to be done before"],
+                    "equipment_setup": "string",
+                    "data_collection_process": "string",
+                    "quality_assurance": ["how to ensure reliable results"],
+                    "troubleshooting": ["common issues and solutions"]
+                }}
+            ],
+            "intervention_protocols": [
+                {{
+                    "intervention_name": "string",
+                    "implementation_steps": ["how to deliver this intervention"],
+                    "dosage_specifications": {{
+                        "specific_parameters": "string",
+                        "progression_rules": "string",
+                        "modification_criteria": "string"
+                    }},
+                    "monitoring_protocols": ["how to track progress"],
+                    "safety_considerations": ["precautions and contraindications"]
+                }}
+            ],
+            "practical_considerations": [
+                {{
+                    "consideration_type": "string",
+                    "description": "string",
+                    "practical_solutions": ["how to address this consideration"]
+                }}
+            ]
+        }}
+        """
+        
+        response = self.make_api_call(prompt, max_tokens=4000)
+        return self.safe_json_parse(response)
+    
+    def validate_ontology_coverage(self, transcript: str, all_extractions: Dict) -> Dict:
+        """Pass 8: Validation against ontology framework and gap identification"""
+        
+        prompt = f"""
+        Review this transcript and all extracted information to validate against ontology framework and identify any gaps.
+
+        TRANSCRIPT EXCERPT (first 1500 chars):
+        {transcript[:1500]}...
+
+        Perform ontology validation:
+        {{
+            "ontology_coverage_check": {{
+                "constructs_identified": {len(all_extractions.get('constructs', {}).get('constructs_mentioned', []))},
+                "assessments_identified": {len(all_extractions.get('assessments', {}).get('assessments', []))},
+                "interventions_identified": {len(all_extractions.get('interventions', {}).get('interventions', []))},
+                "technologies_identified": {len(all_extractions.get('technologies', {}).get('technologies', []))},
+                "metrics_identified": {len(all_extractions.get('technologies', {}).get('metrics', []))}
+            }},
+            "potential_missed_entities": [
+                {{
+                    "entity_type": "string (construct/assessment/intervention/technology/metric)",
+                    "potential_entity": "string",
+                    "evidence_in_transcript": "string",
+                    "confidence": "string (high/medium/low)"
+                }}
+            ],
+            "quality_assessment": {{
+                "extraction_completeness": "string (high/medium/low)",
+                "terminology_consistency": "string (high/medium/low)",
+                "relationship_coverage": "string (high/medium/low)",
+                "overall_confidence": "string (high/medium/low)"
+            }},
+            "recommendations": [
+                {{
+                    "recommendation_type": "string",
+                    "description": "string",
+                    "priority": "string (high/medium/low)"
+                }}
+            ]
+        }}
+        """
+        
+        response = self.make_api_call(prompt, max_tokens=3000)
+        return self.safe_json_parse(response)
+    
+    def process_single_transcript(self, file_path: Path) -> Dict:
+        """Process transcript with 8-pass ontology-guided extraction"""
+        print(f"📄 Processing: {file_path.name}")
+        
+        with open(file_path, 'r', encoding='utf-8') as f:
+            transcript = f.read()
+        
+        # Pass 1: Guided domain and construct extraction
+        print("  🎯 Pass 1: Guided domains and constructs extraction...")
+        domains_constructs = self.extract_domains_constructs_guided(transcript)
+        
+        # Extract construct names for subsequent passes
+        constructs_list = []
+        if domains_constructs and "constructs_mentioned" in domains_constructs:
+            constructs_list = [c.get("construct_name", "") for c in domains_constructs["constructs_mentioned"]]
+        
+        # Pass 2: Guided assessment extraction
+        print("  🧪 Pass 2: Guided assessments extraction...")
+        assessments = self.extract_assessments_guided(transcript, constructs_list)
+        
+        # Extract assessment names
+        assessment_names = []
+        if assessments and "assessments" in assessments:
+            assessment_names = [a.get("assessment_name", "") for a in assessments["assessments"]]
+        
+        # Pass 3: Dedicated technology and metrics extraction
+        print("  ⚙️  Pass 3: Technologies and metrics extraction...")
+        technologies_metrics = self.extract_technologies_metrics_guided(transcript, assessment_names)
+        
+        # Pass 4: Guided intervention extraction
+        print("  💊 Pass 4: Guided interventions extraction...")
+        interventions = self.extract_interventions_guided(transcript, constructs_list)
+        
+        # Extract intervention names
+        intervention_names = []
+        if interventions and "interventions" in interventions:
+            intervention_names = [i.get("intervention_name", "") for i in interventions["interventions"]]
+        
+        # Pass 5: Goals and constraints
+        print("  🎯 Pass 5: Goals and constraints extraction...")
+        goals_constraints = self.extract_goals_constraints_guided(transcript, constructs_list)
+        
+        # Pass 6: Relationships
+        print("  🔗 Pass 6: Relationships extraction...")
+        all_entities = {
+            'constructs': domains_constructs,
+            'assessments': assessments,
+            'interventions': interventions,
+            'technologies': technologies_metrics
+        }
+        relationships = self.extract_relationships_guided(transcript, all_entities)
+        
+        # Pass 7: Detailed protocols
+        print("  📋 Pass 7: Detailed protocols extraction...")
+        protocols = self.extract_protocols_details(transcript, assessment_names, intervention_names)
+        
+        # Pass 8: Validation
+        print("  ✅ Pass 8: Ontology validation...")
+        all_extractions = {
+            'constructs': domains_constructs,
+            'assessments': assessments,
+            'interventions': interventions,
+            'technologies': technologies_metrics,
+            'goals_constraints': goals_constraints,
+            'relationships': relationships,
+            'protocols': protocols
+        }
+        validation = self.validate_ontology_coverage(transcript, all_extractions)
+        
+        # Calculate summary stats
+        total_constructs = len(constructs_list)
+        total_assessments = len(assessment_names)
+        total_interventions = len(intervention_names)
+        total_technologies = len(technologies_metrics.get('technologies', []))
+        total_metrics = len(technologies_metrics.get('metrics', []))
+        
+        result = {
+            "file_name": file_path.name,
+            "transcript_length": len(transcript),
+            "constructs_identified": total_constructs,
+            
+            # Legacy format for compatibility
+            "domains_constructs": domains_constructs,
+            "assessments": assessments,
+            "interventions": interventions,
+            "relationships": relationships,
+            
+            # Enhanced ontology-guided data
+            "ontology_guided_data": {
+                "technologies_metrics": technologies_metrics,
+                "goals_constraints": goals_constraints,
+                "detailed_protocols": protocols,
+                "validation": validation
+            }
+        }
+        
+        print(f"  ✅ Found: {total_constructs} constructs, {total_assessments} assessments, {total_interventions} interventions")
+        print(f"     Technologies: {total_technologies}, Metrics: {total_metrics}")
+        return result
+    
+    def process_transcript_folder(self, folder_path: str) -> Dict:
+        """Process all transcripts using ontology-guided extraction"""
+        folder = Path(folder_path)
+        if not folder.exists():
+            raise ValueError(f"Folder does not exist: {folder_path}")
+        
+        transcript_files = list(folder.glob("*.txt"))
+        if not transcript_files:
+            print(f"❌ No .txt files found in {folder_path}")
+            return {"error": "No transcript files found"}
+        
+        print(f"📁 Found {len(transcript_files)} transcript files")
+        
+        results = {
+            "processed_files": [],
+            "summary": {
+                "total_files": len(transcript_files),
+                "successful": 0,
+                "failed": 0,
+                "extraction_type": self.extraction_type,
+                "total_api_calls": 0
+            }
+        }
+        
+        for i, file_path in enumerate(transcript_files, 1):
+            try:
+                print(f"\n[{i}/{len(transcript_files)}]", end=" ")
+                file_result = self.process_single_transcript(file_path)
+                results["processed_files"].append(file_result)
+                results["summary"]["successful"] += 1
+                results["summary"]["total_api_calls"] += 8  # 8 passes
+                
+                # Small delay for API rate limiting
+                time.sleep(1)
+                
+            except Exception as e:
+                print(f"❌ Error processing {file_path.name}: {e}")
+                results["processed_files"].append({
+                    "file_name": file_path.name,
+                    "error": str(e)
+                })
+                results["summary"]["failed"] += 1
+        
+        return results
 
 # Factory function for easy extractor selection
 def create_extractor(extractor_type: str = "standard", api_key: Optional[str] = None):
@@ -716,15 +1350,17 @@ def create_extractor(extractor_type: str = "standard", api_key: Optional[str] = 
     Factory function to create the appropriate extractor
     
     Args:
-        extractor_type: "standard" for 4-pass or "robust" for 7-pass
+        extractor_type: "standard" for 4-pass, "robust" for 7-pass, or "guided" for 8-pass ontology-guided
         api_key: Optional API key
     
     Returns:
         Configured extractor instance
     """
-    if extractor_type.lower() in ["robust", "7-pass", "enhanced"]:
+    if extractor_type.lower() in ["guided", "ontology-guided", "8-pass", "ontology"]:
+        return OntologyGuidedExtractor(api_key=api_key)
+    elif extractor_type.lower() in ["robust", "7-pass", "enhanced"]:
         return RobustOntologyExtractor(api_key=api_key)
     elif extractor_type.lower() in ["standard", "4-pass", "original"]:
         return OntologyExtractor(api_key=api_key)
     else:
-        raise ValueError(f"Unknown extractor type: {extractor_type}. Use 'standard' or 'robust'")
+        raise ValueError(f"Unknown extractor type: {extractor_type}. Use 'standard', 'robust', or 'guided'")
