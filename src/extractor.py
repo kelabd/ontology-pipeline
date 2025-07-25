@@ -1,6 +1,7 @@
 # src/extractor.py
 """
 Unified extraction system with multiple extractor options
+Integrates with improved centralized prompts system
 """
 
 import anthropic
@@ -21,7 +22,7 @@ try:
 except ImportError:
     print("Note: python-dotenv not available. Make sure to set ANTHROPIC_API_KEY manually.")
 
-from src.prompts import ExtractionPrompts
+from src.prompts import OntologyPrompts, ExtractionPrompts  # Import both for compatibility
 from config.ontology_schema import ONTOLOGY_SCHEMA
 
 class BaseOntologyExtractor:
@@ -40,7 +41,7 @@ class BaseOntologyExtractor:
         # Initialize Anthropic client
         self.client = anthropic.Anthropic(api_key=self.api_key)
         self.ontology_schema = ONTOLOGY_SCHEMA
-        self.prompts = ExtractionPrompts()
+        self.prompts = OntologyPrompts()  # Use new improved prompts
         
     def make_api_call(self, prompt: str, max_tokens: int = 4000) -> str:
         """Make API call to Claude with error handling"""
@@ -93,46 +94,46 @@ class BaseOntologyExtractor:
         return output_path
 
 class OntologyExtractor(BaseOntologyExtractor):
-    """Original 4-pass extraction system"""
+    """Enhanced standard 4-pass extraction system with improved prompts"""
     
     def __init__(self, api_key=None):
         super().__init__(api_key)
-        self.extraction_type = "Standard (4-pass)"
-        print("✅ Standard Extractor initialized successfully")
-        print("🔄 Using 4-pass extraction strategy")
+        self.extraction_type = "Enhanced Standard (4-pass)"
+        print("✅ Enhanced Standard Extractor initialized successfully")
+        print("🔄 Using 4-pass extraction with improved prompts")
     
     def extract_domains_constructs(self, transcript: str) -> Dict:
-        """Extract domains and constructs mentioned in the interview"""
-        prompt = self.prompts.domains_constructs_prompt(transcript)
+        """Extract domains and constructs using enhanced prompts"""
+        prompt = self.prompts.domains_constructs_standard(transcript)
         response_text = self.make_api_call(prompt)
         return self.safe_json_parse(response_text)
     
     def extract_assessments(self, transcript: str, constructs: List[str]) -> Dict:
-        """Extract detailed assessment information"""
-        prompt = self.prompts.assessments_prompt(transcript, constructs)
+        """Extract detailed assessment information using enhanced prompts"""
+        prompt = self.prompts.assessments_standard(transcript, constructs)
         response_text = self.make_api_call(prompt)
         return self.safe_json_parse(response_text)
     
     def extract_interventions(self, transcript: str, constructs: List[str]) -> Dict:
-        """Extract intervention information and protocols"""
-        prompt = self.prompts.interventions_prompt(transcript, constructs)
+        """Extract intervention information using enhanced prompts"""
+        prompt = self.prompts.interventions_standard(transcript, constructs)
         response_text = self.make_api_call(prompt)
         return self.safe_json_parse(response_text)
     
     def extract_relationships(self, transcript: str, all_entities: Dict) -> Dict:
         """Extract construct relationships and dependencies"""
-        prompt = self.prompts.relationships_prompt(transcript, all_entities)
+        prompt = self.prompts.relationships_standard(transcript, all_entities)
         response_text = self.make_api_call(prompt)
         return self.safe_json_parse(response_text)
     
     def process_single_transcript(self, file_path: Path) -> Dict:
-        """Process a single transcript file using standard approach"""
+        """Process a single transcript file using enhanced standard approach"""
         print(f"📄 Processing: {file_path.name}")
         
         with open(file_path, 'r', encoding='utf-8') as f:
             transcript = f.read()
         
-        # 4-pass extraction
+        # 4-pass extraction with enhanced prompts
         print("  📋 Extracting domains and constructs...")
         domains_constructs = self.extract_domains_constructs(transcript)
         
@@ -169,7 +170,7 @@ class OntologyExtractor(BaseOntologyExtractor):
         return result
     
     def process_transcript_folder(self, folder_path: str) -> Dict:
-        """Process all transcripts in a folder using standard approach"""
+        """Process all transcripts in a folder using enhanced standard approach"""
         folder = Path(folder_path)
         if not folder.exists():
             raise ValueError(f"Folder does not exist: {folder_path}")
@@ -222,180 +223,38 @@ class RobustOntologyExtractor(BaseOntologyExtractor):
     
     def extract_knowledge_domains(self, transcript: str) -> Dict:
         """Pass 1: Open-ended knowledge domain mapping"""
-        prompt = f"""
-        Analyze this interview transcript to create a comprehensive knowledge map. Be expansive and inclusive - capture ALL areas of expertise, knowledge domains, and specializations mentioned.
-
-        TRANSCRIPT:
-        {transcript}
-
-        Extract and return JSON:
-        {{
-            "primary_expertise": [
-                {{
-                    "area": "string",
-                    "description": "string",
-                    "scope": "string",
-                    "depth_indicators": ["specific examples showing depth"]
-                }}
-            ],
-            "knowledge_domains": [
-                {{
-                    "domain": "string", 
-                    "description": "string",
-                    "sub_areas": ["list of sub-specializations"]
-                }}
-            ],
-            "target_populations": [
-                {{
-                    "population": "string",
-                    "characteristics": "string",
-                    "specific_needs": "string"
-                }}
-            ]
-        }}
-        """
-        
+        prompt = self.prompts.knowledge_mapping_guided(transcript)
         response = self.make_api_call(prompt, max_tokens=4000)
         return self.safe_json_parse(response)
     
     def extract_comprehensive_entities(self, transcript: str, knowledge_map: Dict) -> Dict:
-        """Pass 2: Comprehensive entity extraction without predefined constraints"""
-        
+        """Pass 2: Comprehensive entity extraction"""
         expertise_context = ""
         if knowledge_map and "primary_expertise" in knowledge_map:
             expertise_areas = [area.get("area", "") for area in knowledge_map["primary_expertise"]]
             expertise_context = f"Primary expertise: {', '.join(expertise_areas)}"
         
-        prompt = f"""
-        Extract ALL measurable, trackable, or influenceable concepts from this interview. Cast a wide net - include anything the practitioner considers important to assess, track, monitor, or influence.
-
-        CONTEXT: {expertise_context}
-
-        TRANSCRIPT:
-        {transcript}
-
-        Extract comprehensive entities:
-        {{
-            "measurable_concepts": [
-                {{
-                    "concept_name": "string",
-                    "description": "string",
-                    "category": "string",
-                    "why_important": "string",
-                    "measurement_approach": "string"
-                }}
-            ],
-            "capabilities_and_attributes": [
-                {{
-                    "capability": "string",
-                    "description": "string",
-                    "components": ["sub-components"],
-                    "assessment_indicators": ["how to recognize this capability"]
-                }}
-            ],
-            "health_performance_states": [
-                {{
-                    "state": "string",
-                    "description": "string", 
-                    "indicators": ["how to recognize this state"],
-                    "influencing_factors": ["what affects this state"]
-                }}
-            ]
-        }}
-        """
-        
+        prompt = self.prompts.constructs_guided(transcript, expertise_context)
         response = self.make_api_call(prompt, max_tokens=4000)
         return self.safe_json_parse(response)
     
     def extract_detailed_assessments(self, transcript: str, entities: Dict) -> Dict:
         """Pass 3: Detailed assessment extraction"""
-        prompt = f"""
-        Extract ALL assessment and evaluation methods mentioned in this interview.
-
-        TRANSCRIPT:
-        {transcript}
-
-        Extract comprehensive assessments:
-        {{
-            "formal_assessments": [
-                {{
-                    "assessment_name": "string",
-                    "description": "string",
-                    "what_it_measures": ["list of concepts/capabilities assessed"],
-                    "assessment_type": "string",
-                    "administration_context": "string",
-                    "frequency_timing": "string"
-                }}
-            ],
-            "protocols_and_procedures": [
-                {{
-                    "assessment_name": "string", 
-                    "detailed_protocol": "string",
-                    "preparation_requirements": ["list"],
-                    "step_by_step_process": ["ordered list"],
-                    "quality_control_measures": ["how to ensure good data"]
-                }}
-            ],
-            "technologies_and_equipment": [
-                {{
-                    "technology_name": "string",
-                    "vendor_manufacturer": "string",
-                    "equipment_type": "string",
-                    "what_it_measures": ["capabilities"],
-                    "advantages": ["benefits"],
-                    "limitations": ["constraints"]
-                }}
-            ]
-        }}
-        """
+        constructs_list = []
+        if entities and "constructs_mentioned" in entities:
+            constructs_list = [c.get("construct_name", "") for c in entities["constructs_mentioned"]]
         
+        prompt = self.prompts.assessments_guided(transcript, constructs_list)
         response = self.make_api_call(prompt, max_tokens=4000)
         return self.safe_json_parse(response)
     
     def extract_detailed_interventions(self, transcript: str, entities: Dict) -> Dict:
         """Pass 4: Detailed intervention extraction"""
-        prompt = f"""
-        Extract ALL intervention strategies, treatments, programs, and approaches mentioned.
-
-        TRANSCRIPT:
-        {transcript}
-
-        Extract comprehensive interventions:
-        {{
-            "intervention_strategies": [
-                {{
-                    "intervention_name": "string",
-                    "description": "string",
-                    "intervention_category": "string",
-                    "target_outcomes": ["what this intervention aims to improve"],
-                    "mechanism_of_action": "string",
-                    "typical_candidates": "string"
-                }}
-            ],
-            "detailed_protocols": [
-                {{
-                    "intervention_name": "string",
-                    "dosage_parameters": {{
-                        "frequency": "string",
-                        "duration": "string",
-                        "intensity": "string",
-                        "progression_rules": "string"
-                    }},
-                    "implementation_details": "string",
-                    "monitoring_requirements": ["what to track"]
-                }}
-            ],
-            "resource_requirements": [
-                {{
-                    "intervention_name": "string",
-                    "equipment_needed": ["list"],
-                    "time_investment": "string",
-                    "expertise_level_required": "string"
-                }}
-            ]
-        }}
-        """
+        constructs_list = []
+        if entities and "constructs_mentioned" in entities:
+            constructs_list = [c.get("construct_name", "") for c in entities["constructs_mentioned"]]
         
+        prompt = self.prompts.interventions_guided(transcript, constructs_list)
         response = self.make_api_call(prompt, max_tokens=4000)
         return self.safe_json_parse(response)
     
@@ -610,33 +469,29 @@ class RobustOntologyExtractor(BaseOntologyExtractor):
                 })
         
         # Convert entities to constructs
-        if entities:
-            for category, items in entities.items():
-                if isinstance(items, list):
-                    for item in items:
-                        name_key = next((k for k in ['concept_name', 'capability', 'state'] if k in item), None)
-                        if name_key and item[name_key]:
-                            legacy["constructs_mentioned"].append({
-                                "construct_name": item[name_key],
-                                "construct_description": item.get("description", ""),
-                                "domain_association": category,
-                                "assessment_context": item.get("measurement_approach", "")
-                            })
+        if entities and "constructs_mentioned" in entities:
+            for construct in entities["constructs_mentioned"]:
+                legacy["constructs_mentioned"].append({
+                    "construct_name": construct.get("construct_name", ""),
+                    "construct_description": construct.get("construct_description", ""),
+                    "domain_association": construct.get("domain_association", ""),
+                    "assessment_context": construct.get("how_assessed", "")
+                })
         
         return legacy
     
     def convert_to_legacy_assessments(self, assessments: Dict) -> Dict:
         """Convert assessments to legacy format"""
-        if not assessments or "formal_assessments" not in assessments:
+        if not assessments or "assessments" not in assessments:
             return {"assessments": []}
         
         legacy_assessments = []
-        for assessment in assessments["formal_assessments"]:
+        for assessment in assessments["assessments"]:
             legacy_assessments.append({
                 "assessment_name": assessment.get("assessment_name", ""),
-                "assessment_description": assessment.get("description", ""),
-                "constructs_measured": assessment.get("what_it_measures", []),
-                "modality": assessment.get("assessment_type", ""),
+                "assessment_description": assessment.get("assessment_description", ""),
+                "constructs_measured": assessment.get("constructs_measured", []),
+                "modality": assessment.get("modality", ""),
                 "technology_vendor": {},
                 "protocols": {},
                 "metrics": [],
@@ -648,17 +503,17 @@ class RobustOntologyExtractor(BaseOntologyExtractor):
     
     def convert_to_legacy_interventions(self, interventions: Dict) -> Dict:
         """Convert interventions to legacy format"""
-        if not interventions or "intervention_strategies" not in interventions:
+        if not interventions or "interventions" not in interventions:
             return {"interventions": []}
         
         legacy_interventions = []
-        for intervention in interventions["intervention_strategies"]:
+        for intervention in interventions["interventions"]:
             legacy_interventions.append({
                 "intervention_name": intervention.get("intervention_name", ""),
-                "intervention_description": intervention.get("description", ""),
-                "purpose": ", ".join(intervention.get("target_outcomes", [])),
-                "constructs_targeted": intervention.get("target_outcomes", []),
-                "intervention_types": [intervention.get("intervention_category", "")],
+                "intervention_description": intervention.get("intervention_description", ""),
+                "purpose": intervention.get("purpose", ""),
+                "constructs_targeted": intervention.get("constructs_targeted", []),
+                "intervention_types": intervention.get("intervention_types", []),
                 "protocols": {},
                 "resource_requirements": {}
             })
@@ -709,9 +564,6 @@ class RobustOntologyExtractor(BaseOntologyExtractor):
                 results["summary"]["failed"] += 1
         
         return results
-    
-# Enhanced Ontology-Guided Extractor
-# Add this as a new class in your src/extractor.py
 
 class OntologyGuidedExtractor(BaseOntologyExtractor):
     """Ontology-guided extraction that combines comprehensive coverage with specific term hunting"""
@@ -719,268 +571,35 @@ class OntologyGuidedExtractor(BaseOntologyExtractor):
     def __init__(self, api_key=None):
         super().__init__(api_key)
         self.extraction_type = "Ontology-Guided (8-pass)"
-        self.ontology_definitions = self.load_ontology_definitions()
         print("✅ Ontology-Guided Extractor initialized successfully")
         print("🔄 Using 8-pass ontology-guided extraction strategy")
     
-    def load_ontology_definitions(self):
-        """Load explicit ontology definitions for prompts"""
-        return {
-            "construct_definition": "A specific, identifiable attribute within one or many Domains. These are key concepts to understand, track, or influence.",
-            "construct_examples": ["Breast Health", "Blood Pressure Control", "Fall Risk", "Body Composition", "Sleep Quality", "Functional Mobility", "Muscular Power", "Heart Rate Variability"],
-            
-            "assessment_definition": "The systematic process or procedure used to evaluate the status of a Construct or progress towards a Goal, producing data that will become Metrics.",
-            "assessment_examples": ["Countermovement Jump", "Mammogram", "Lipid panel", "VO2 Max Test", "DEXA Scan", "Sleep Study"],
-            
-            "technology_definition": "The specific tools, devices, software, or commercial providers used to perform an Assessment or deliver an Intervention.",
-            "technology_examples": ["VALD ForceDecks", "Neurocatch", "Oura Ring", "COSMED", "Polar H10", "LabCorp"],
-            
-            "metric_definition": "A specific, measurable, and observable data point produced by an Assessment that directly contributes to understanding a Construct.",
-            "metric_examples": ["Body Fat Percentage (%)", "Systolic Blood Pressure (mmHg)", "Jump Height (cm)", "HRV (ms)", "VO2 Max (ml/kg/min)"],
-            
-            "intervention_definition": "A specific action, programme, or strategy designed to influence, improve, or manage a particular Construct, aiming to achieve a Goal.",
-            "intervention_examples": ["12-week Progressive Resistance Training", "Personalized Nutrition Plan", "Sleep Restriction Therapy", "HRV Biofeedback Training"]
-        }
-    
     def extract_domains_constructs_guided(self, transcript: str) -> Dict:
         """Pass 1: Ontology-guided domain and construct extraction"""
-        
-        construct_def = self.ontology_definitions["construct_definition"]
-        construct_examples = ", ".join(self.ontology_definitions["construct_examples"])
-        
-        prompt = f"""
-        You are analyzing a semi-structured interview with a health/performance specialist. Extract domains and constructs using these specific definitions:
-
-        CONSTRUCT DEFINITION: {construct_def}
-        
-        CONSTRUCT EXAMPLES: {construct_examples}
-
-        Look specifically for:
-        1. DOMAINS: Areas of expertise (Physical Health, Performance, Female Health, Recovery, etc.)
-        2. CONSTRUCTS: Specific attributes they measure, track, or influence (like the examples above)
-        3. Any capabilities, characteristics, or health/performance factors they discuss
-
-        TRANSCRIPT:
-        {transcript}
-
-        Extract using these exact definitions:
-        {{
-            "practitioner_domains": [
-                {{
-                    "domain_name": "string",
-                    "domain_description": "string",
-                    "specialization_notes": "string"
-                }}
-            ],
-            "constructs_mentioned": [
-                {{
-                    "construct_name": "string (use specific terminology when possible)",
-                    "construct_description": "string",
-                    "domain_association": "string",
-                    "why_important": "string (why practitioner focuses on this)",
-                    "how_assessed": "string (how they evaluate this construct)"
-                }}
-            ],
-            "health_performance_factors": [
-                {{
-                    "factor_name": "string",
-                    "factor_type": "string (physiological/psychological/behavioral/environmental)",
-                    "description": "string",
-                    "measurement_approach": "string"
-                }}
-            ]
-        }}
-
-        Be specific - look for exact terminology used by the practitioner. If they mention "sleep quality," "muscular power," "insulin sensitivity," etc., capture those exact terms.
-        """
-        
-        response = self.make_api_call(prompt, max_tokens=4000)
-        return self.safe_json_parse(response)
+        prompt = self.prompts.domains_constructs_standard(transcript)
+        response_text = self.make_api_call(prompt, max_tokens=4000)
+        return self.safe_json_parse(response_text)
     
     def extract_assessments_guided(self, transcript: str, constructs: List[str]) -> Dict:
         """Pass 2: Ontology-guided assessment extraction"""
-        
-        assessment_def = self.ontology_definitions["assessment_definition"]
-        assessment_examples = ", ".join(self.ontology_definitions["assessment_examples"])
-        constructs_context = ", ".join(constructs[:10])  # Limit for prompt size
-        
-        prompt = f"""
-        Extract ALL assessments using this specific definition:
-
-        ASSESSMENT DEFINITION: {assessment_def}
-        
-        ASSESSMENT EXAMPLES: {assessment_examples}
-        
-        CONSTRUCTS IDENTIFIED: {constructs_context}
-
-        Look for ANY method used to evaluate, test, measure, or gather information about the constructs above.
-
-        TRANSCRIPT:
-        {transcript}
-
-        Extract all assessments:
-        {{
-            "assessments": [
-                {{
-                    "assessment_name": "string (exact name used)",
-                    "assessment_description": "string",
-                    "constructs_measured": ["list - which constructs does this assess"],
-                    "modality": "string (Physical test/Wearable monitoring/Consultation/Labs/Imaging/Survey/etc)",
-                    "administration_details": {{
-                        "where_performed": "string (lab/clinic/field/home)",
-                        "duration": "string",
-                        "preparation_required": "string",
-                        "frequency": "string"
-                    }},
-                    "protocol_details": {{
-                        "key_steps": ["list of main protocol steps"],
-                        "coaching_cues": ["specific instructions given"],
-                        "common_mistakes": ["errors that affect results"],
-                        "quality_controls": ["how to ensure good data"]
-                    }}
-                }}
-            ]
-        }}
-
-        Include formal tests, informal observations, questionnaires, monitoring approaches - anything used to gather assessment data.
-        """
-        
+        prompt = self.prompts.assessments_guided(transcript, constructs)
         response = self.make_api_call(prompt, max_tokens=4000)
         return self.safe_json_parse(response)
     
     def extract_technologies_metrics_guided(self, transcript: str, assessments: List[str]) -> Dict:
         """Pass 3: Dedicated technology and metrics extraction"""
-        
-        tech_def = self.ontology_definitions["technology_definition"]
-        tech_examples = ", ".join(self.ontology_definitions["technology_examples"])
-        metric_def = self.ontology_definitions["metric_definition"]
-        metric_examples = ", ".join(self.ontology_definitions["metric_examples"])
-        
-        assessments_context = ", ".join(assessments[:10])
-        
-        prompt = f"""
-        Extract ALL technologies and metrics mentioned in this interview.
-
-        TECHNOLOGY DEFINITION: {tech_def}
-        TECHNOLOGY EXAMPLES: {tech_examples}
-        
-        METRIC DEFINITION: {metric_def}
-        METRIC EXAMPLES: {metric_examples}
-        
-        ASSESSMENTS IDENTIFIED: {assessments_context}
-
-        Hunt specifically for:
-        1. Equipment brands, models, software names
-        2. Specific measurable outputs with units
-        3. Any vendor or manufacturer names
-        4. Specific measurement values or ranges
-
-        TRANSCRIPT:
-        {transcript}
-
-        Extract technologies and metrics:
-        {{
-            "technologies": [
-                {{
-                    "technology_name": "string (exact name/brand mentioned)",
-                    "vendor_manufacturer": "string (company name)",
-                    "technology_type": "string (hardware/software/device/service)",
-                    "specific_model": "string (if mentioned)",
-                    "used_for_assessments": ["which assessments use this"],
-                    "what_it_measures": ["capabilities it assesses"],
-                    "data_output_format": "string (PDF report/raw data/dashboard/etc)",
-                    "mentioned_advantages": ["benefits mentioned"],
-                    "mentioned_limitations": ["constraints mentioned"]
-                }}
-            ],
-            "metrics": [
-                {{
-                    "metric_name": "string (exact name used)",
-                    "measurement_unit": "string (cm, kg, mmHg, %, etc)",
-                    "assessment_source": "string (which assessment produces this)",
-                    "normal_ranges": "string (any reference values mentioned)",
-                    "interpretation_notes": "string (how values are interpreted)",
-                    "factors_affecting_values": ["what influences this measurement"],
-                    "reliability_notes": "string (confidence/validity mentioned)"
-                }}
-            ],
-            "measurement_contexts": [
-                {{
-                    "context_description": "string",
-                    "specific_values_mentioned": ["any specific numbers, ranges, or thresholds"],
-                    "reference_populations": ["athlete/health seeker/age groups/etc"],
-                    "timing_considerations": ["when measurements are taken"]
-                }}
-            ]
-        }}
-
-        Look for specific brand names, model numbers, measurement units, reference ranges, and any quantitative values mentioned.
-        """
-        
+        prompt = self.prompts.technologies_metrics_guided(transcript, assessments)
         response = self.make_api_call(prompt, max_tokens=4000)
         return self.safe_json_parse(response)
     
     def extract_interventions_guided(self, transcript: str, constructs: List[str]) -> Dict:
         """Pass 4: Ontology-guided intervention extraction"""
-        
-        intervention_def = self.ontology_definitions["intervention_definition"]
-        intervention_examples = ", ".join(self.ontology_definitions["intervention_examples"])
-        constructs_context = ", ".join(constructs[:10])
-        
-        prompt = f"""
-        Extract ALL interventions using this specific definition:
-
-        INTERVENTION DEFINITION: {intervention_def}
-        
-        INTERVENTION EXAMPLES: {intervention_examples}
-        
-        CONSTRUCTS TO TARGET: {constructs_context}
-
-        Look for ANY strategy, program, treatment, or approach used to improve the constructs above.
-
-        TRANSCRIPT:
-        {transcript}
-
-        Extract all interventions:
-        {{
-            "interventions": [
-                {{
-                    "intervention_name": "string (exact name used)",
-                    "intervention_description": "string",
-                    "purpose": "string (what it aims to achieve)",
-                    "constructs_targeted": ["which constructs does this improve"],
-                    "intervention_types": ["Physical/Nutrition/Sleep/Stress Management/Medical/Education/Recovery"],
-                    "dosage_details": {{
-                        "frequency": "string (how often)",
-                        "duration": "string (how long)",
-                        "intensity": "string (how hard/strong)",
-                        "volume": "string (how much)",
-                        "progression": "string (how it advances)"
-                    }},
-                    "implementation_specifics": {{
-                        "delivery_method": "string (how it's delivered)",
-                        "monitoring_approach": "string (how progress is tracked)",
-                        "adjustment_criteria": "string (when/how it's modified)"
-                    }},
-                    "resource_requirements": {{
-                        "equipment_needed": ["list"],
-                        "time_commitment": "string",
-                        "expertise_required": "string",
-                        "cost_level": "string (High/Moderate/Low if mentioned)"
-                    }}
-                }}
-            ]
-        }}
-
-        Include exercise programs, nutrition plans, lifestyle modifications, medical treatments, education protocols - anything designed to improve health/performance outcomes.
-        """
-        
+        prompt = self.prompts.interventions_guided(transcript, constructs)
         response = self.make_api_call(prompt, max_tokens=4000)
         return self.safe_json_parse(response)
     
     def extract_goals_constraints_guided(self, transcript: str, constructs: List[str]) -> Dict:
         """Pass 5: Goals, constraints, and contextual factors"""
-        
         prompt = f"""
         Extract goals, constraints, and contextual factors that affect practice decisions.
 
@@ -1033,7 +652,6 @@ class OntologyGuidedExtractor(BaseOntologyExtractor):
     
     def extract_relationships_guided(self, transcript: str, all_entities: Dict) -> Dict:
         """Pass 6: Comprehensive relationship extraction"""
-        
         # Build context from extracted entities
         constructs = []
         assessments = []
@@ -1156,46 +774,7 @@ class OntologyGuidedExtractor(BaseOntologyExtractor):
     
     def validate_ontology_coverage(self, transcript: str, all_extractions: Dict) -> Dict:
         """Pass 8: Validation against ontology framework and gap identification"""
-        
-        prompt = f"""
-        Review this transcript and all extracted information to validate against ontology framework and identify any gaps.
-
-        TRANSCRIPT EXCERPT (first 1500 chars):
-        {transcript[:1500]}...
-
-        Perform ontology validation:
-        {{
-            "ontology_coverage_check": {{
-                "constructs_identified": {len(all_extractions.get('constructs', {}).get('constructs_mentioned', []))},
-                "assessments_identified": {len(all_extractions.get('assessments', {}).get('assessments', []))},
-                "interventions_identified": {len(all_extractions.get('interventions', {}).get('interventions', []))},
-                "technologies_identified": {len(all_extractions.get('technologies', {}).get('technologies', []))},
-                "metrics_identified": {len(all_extractions.get('technologies', {}).get('metrics', []))}
-            }},
-            "potential_missed_entities": [
-                {{
-                    "entity_type": "string (construct/assessment/intervention/technology/metric)",
-                    "potential_entity": "string",
-                    "evidence_in_transcript": "string",
-                    "confidence": "string (high/medium/low)"
-                }}
-            ],
-            "quality_assessment": {{
-                "extraction_completeness": "string (high/medium/low)",
-                "terminology_consistency": "string (high/medium/low)",
-                "relationship_coverage": "string (high/medium/low)",
-                "overall_confidence": "string (high/medium/low)"
-            }},
-            "recommendations": [
-                {{
-                    "recommendation_type": "string",
-                    "description": "string",
-                    "priority": "string (high/medium/low)"
-                }}
-            ]
-        }}
-        """
-        
+        prompt = self.prompts.validation_guided(transcript, all_extractions)
         response = self.make_api_call(prompt, max_tokens=3000)
         return self.safe_json_parse(response)
     
