@@ -3,666 +3,702 @@
     {
       "file_name": "Ontology Chat - Rakesh Patel - 2025_07_21 09_24 PDT.txt",
       "transcript_length": 66785,
-      "constructs_identified": 6,
+      "constructs_identified": 8,
       "domains_constructs": {
         "practitioner_domains": [
           {
             "domain_name": "Cancer Management",
-            "domain_description": "Clinical cancer treatment and management of all solid tumors with subspecialty interest in breast cancer",
-            "specialization_notes": "Half of clinical time spent in actual cancer treatment, focus on solid tumors"
+            "domain_description": "Cancer treatment and management, focusing on all solid tumors with subspecialty interest in breast cancer",
+            "specialization_notes": "Half of clinical time spent in actual cancer treatment, oncologist by training"
           },
           {
             "domain_name": "Early Detection",
-            "domain_description": "Clinic focused on opportunities to catch cancer early across all solid tumor types using blood work, imaging, physical assessments and surveys",
-            "specialization_notes": "Focus on preventable cancers and early detection methods"
+            "domain_description": "Clinic focused on opportunities to catch cancer early across all solid tumor types through blood work, imaging, physical assessments and surveys",
+            "specialization_notes": "Half of clinical time spent in early detection, includes preventable cancers and early catchable diseases"
           },
           {
-            "domain_name": "Cancer Genetics",
-            "domain_description": "Genetics assessment and counseling related to hereditary cancer risk",
-            "specialization_notes": "Includes genetic testing and family history assessment for cancer predisposition"
+            "domain_name": "Genetics",
+            "domain_description": "Genetic assessment and counseling related to cancer risk",
+            "specialization_notes": "Third domain of expertise, chairs a high-risk breast cancer program"
           }
         ],
         "constructs_mentioned": [
           {
             "construct_name": "Breast Cancer Risk",
-            "construct_description": "Assessment of lifetime and short-term risk of developing breast cancer through multiple evaluation methods",
-            "domain_association": "Early Detection / Women's Health / Oncology",
-            "assessment_context": "Uses genetic cancer risk assessment survey, imaging, blood work, and physical exam"
+            "construct_description": "Assessment of an individual's likelihood of developing breast cancer, including lifetime risk and interval risk calculations",
+            "domain_association": "Early Detection/Oncology",
+            "assessment_context": "Uses genetic cancer risk assessment surveys, Tyrus calculator, Gail calculator, imaging, and family history"
           },
           {
             "construct_name": "Breast Density",
             "construct_description": "Categorization of breast tissue density (A, B, C, D categories) affecting cancer detection and risk",
             "domain_association": "Early Detection",
-            "assessment_context": "Assessed through mammogram imaging with automated software classification"
+            "assessment_context": "Automated software categorization from mammograms, influences supplemental imaging recommendations"
           },
           {
-            "construct_name": "Lifetime Breast Cancer Risk",
-            "construct_description": "Probability of developing breast cancer from present time through entire lifetime, measured as percentage",
+            "construct_name": "Family History",
+            "construct_description": "Inherited disease patterns including cancer in up to third degree relatives, used to generate pedigrees and assess genetic risk",
+            "domain_association": "Genetics/Early Detection",
+            "assessment_context": "Comprehensive medical history taking, genetic risk assessment surveys"
+          },
+          {
+            "construct_name": "Personal Medical History",
+            "construct_description": "Individual's diagnoses, medications, allergies, past surgeries, and previous medical events",
+            "domain_association": "Cancer Management/Early Detection",
+            "assessment_context": "Comprehensive medical history during new patient consultations"
+          },
+          {
+            "construct_name": "Gynecologic History",
+            "construct_description": "Number of births, hormonal exposures, miscarriages, abortions, previous breast biopsies",
             "domain_association": "Early Detection",
-            "assessment_context": "Calculated using Tyrer-Cuzick and Gail models from survey responses"
+            "assessment_context": "Part of comprehensive assessment for breast cancer risk"
           },
           {
-            "construct_name": "Genetic Cancer Risk",
-            "construct_description": "Hereditary predisposition to cancer based on DNA mutations and family history patterns",
-            "domain_association": "Cancer Genetics",
-            "assessment_context": "Assessed through family history surveys and genetic testing via blood or saliva"
+            "construct_name": "Social History",
+            "construct_description": "Smoking status, environmental exposures, employment, social support, marital status",
+            "domain_association": "Cancer Management/Early Detection",
+            "assessment_context": "Risk factor assessment for cancer development"
+          },
+          {
+            "construct_name": "Body Mass Index",
+            "construct_description": "Height and weight calculation used in risk assessment, though noted as inadequate measure",
+            "domain_association": "Early Detection",
+            "assessment_context": "Used in Tyrus risk calculation, modifiable risk factor"
           },
           {
             "construct_name": "Mammogram Quality",
-            "construct_description": "Assessment of whether mammogram imaging adequately captured all breast tissue with sufficient quality for accurate interpretation",
+            "construct_description": "Assessment of whether mammogram image captured all breast tissue with adequate positioning and quality",
             "domain_association": "Early Detection",
-            "assessment_context": "Evaluated using positioning and quality assessment software like Densitas"
-          },
-          {
-            "construct_name": "Body Mass Index (BMI)",
-            "construct_description": "Height and weight-based calculation used as risk factor input for breast cancer risk models",
-            "domain_association": "Early Detection",
-            "assessment_context": "Used in Tyrer-Cuzick risk calculations, modifiable through lifestyle interventions"
+            "assessment_context": "Third-party software analysis of image acquisition quality"
           }
         ],
         "sport_specificity": []
       },
       "assessments": {
-        "assessments": [
-          {
-            "assessment_name": "Genetic Cancer Risk Assessment Survey",
-            "assessment_description": "A questionnaire that identifies personal and family history factors to assess cancer risk, including both lifetime breast cancer risk and genetic risk assessment",
-            "constructs_measured": [
-              "Genetic Cancer Risk",
-              "Lifetime Breast Cancer Risk"
-            ],
-            "modality": "Survey/Questionnaire",
-            "technology_vendor": {
-              "name": "Multiple vendors including Famgenetics, Vulpara CRA Health, Cancer IQ, Ambry CARE platform",
-              "type": "software",
-              "specific_equipment": "Mobile phone/web-based platform with conditional logic guided questionnaire"
-            },
-            "protocols": {
-              "preparation_steps": [
-                "Send survey link 5 days before appointment",
-                "Ensure patient has family history information available",
-                "Verify previous medical records are accessible"
-              ],
-              "coaching_cues": [
-                "Complete survey on mobile device",
-                "Gather information about family cancer history up to third-degree relatives",
-                "Include cancer type and age at diagnosis for family members"
-              ],
-              "common_mistakes": [
-                "Patients skip questions they don't understand",
-                "Inaccurate answers due to lack of knowledge about breast density categories",
-                "Incomplete family history information",
-                "Forgetting previous biopsy results"
-              ]
-            },
-            "metrics": [
-              {
-                "metric_name": "Lifetime Breast Cancer Risk (Tyrer-Cuzick)",
-                "unit": "percentage",
-                "reference_ranges": ">20% = high risk, 15-20% = intermediate risk, <15% = average risk",
-                "validity_confidence": "Low - flawed due to lifetime timeframe not matching clinical decision needs",
-                "reliability_confidence": "Moderate - depends on accuracy of patient-provided information"
-              },
-              {
-                "metric_name": "10-Year Breast Cancer Risk (Gail)",
-                "unit": "percentage",
-                "reference_ranges": ">1.66% per year qualifies for chemoprevention",
-                "validity_confidence": "Moderate for chemoprevention decisions",
-                "reliability_confidence": "Moderate - limited actionability"
-              },
-              {
-                "metric_name": "NCCN Genetic Testing Qualification",
-                "unit": "binary (qualifies/does not qualify)",
-                "reference_ranges": "Meets NCCN criteria or does not meet criteria",
-                "validity_confidence": "High for determining genetic testing eligibility",
-                "reliability_confidence": "High when family history is accurate"
-              }
-            ],
-            "state_influences": [
-              {
-                "state_name": "Access to healthcare workflow",
-                "impact_on_assessment": "Only about 50% of patients complete survey before appointment",
-                "impact_on_interpretation": "Assessment often incomplete or done at point of care with time constraints"
-              },
-              {
-                "state_name": "Family communication patterns",
-                "impact_on_assessment": "Difficulty obtaining accurate family history due to lack of communication about diagnoses",
-                "impact_on_interpretation": "May underestimate genetic and familial risk factors"
-              }
-            ],
-            "assets_generated": [
-              {
-                "asset_name": "Risk Assessment Dashboard",
-                "asset_type": "Digital dashboard",
-                "description": "Clinician-facing dashboard showing calculated risk scores and recommendations for imaging and genetic testing"
-              }
-            ]
-          },
-          {
-            "assessment_name": "Screening Mammography",
-            "assessment_description": "X-ray imaging of the breast using 2D or 3D technology with AI-assisted detection to identify suspicious lesions and determine breast density",
-            "constructs_measured": [
-              "Breast Cancer Risk",
-              "Breast Density",
-              "Mammogram Quality"
-            ],
-            "modality": "Medical Imaging",
-            "technology_vendor": {
-              "name": "Hologic, Siemens, GE, Fuji",
-              "type": "hardware",
-              "specific_equipment": "3D mammography machines with tomosynthesis, CAD software, AI detection algorithms"
-            },
-            "protocols": {
-              "preparation_steps": [
-                "Obtain prior mammograms for comparison",
-                "Ensure 3D mammography capability",
-                "Verify AI/CAD software is available"
-              ],
-              "coaching_cues": [
-                "Use 3D mammography over 2D when available",
-                "Ensure proper breast positioning in paddles",
-                "Capture all breast tissue especially in larger breasts"
-              ],
-              "common_mistakes": [
-                "Incomplete tissue capture due to breast positioning",
-                "Not obtaining prior images for comparison",
-                "Using 2D when 3D is available",
-                "Poor image quality due to patient positioning"
-              ]
-            },
-            "metrics": [
-              {
-                "metric_name": "AI Detection Score",
-                "unit": "binary (positive/negative with confidence rating)",
-                "reference_ranges": "Positive detection requires diagnostic follow-up",
-                "validity_confidence": "High when combined with radiologist interpretation",
-                "reliability_confidence": "High with proper image quality"
-              },
-              {
-                "metric_name": "Breast Density Category",
-                "unit": "categorical (A, B, C, D)",
-                "reference_ranges": "A,B = non-dense (no additional imaging), C,D = dense (requires supplemental ultrasound)",
-                "validity_confidence": "High with automated software and radiologist confirmation",
-                "reliability_confidence": "High with standardized protocols"
-              },
-              {
-                "metric_name": "Mammogram Quality Score",
-                "unit": "quality rating",
-                "reference_ranges": "Adequate/Inadequate tissue capture and positioning",
-                "validity_confidence": "Moderate - emerging technology",
-                "reliability_confidence": "Moderate - depends on positioning consistency"
-              }
-            ],
-            "state_influences": [
-              {
-                "state_name": "Breast size and composition",
-                "impact_on_assessment": "Larger, more deformable breasts are harder to position consistently",
-                "impact_on_interpretation": "May affect image quality and completeness of tissue capture"
-              },
-              {
-                "state_name": "Hormonal status",
-                "impact_on_assessment": "Breast density changes with menopause",
-                "impact_on_interpretation": "Post-menopausal women typically have less dense breasts, easier to interpret"
-              }
-            ],
-            "assets_generated": [
-              {
-                "asset_name": "Radiology Report",
-                "asset_type": "Medical report",
-                "description": "Detailed report including AI findings, density category, Tyrer-Cuzick score integration, and recommendations for additional imaging"
-              },
-              {
-                "asset_name": "Patient Letter",
-                "asset_type": "PDF report",
-                "description": "Mailed summary of results and recommendations for patient"
-              }
-            ]
-          },
-          {
-            "assessment_name": "Whole Breast Ultrasound",
-            "assessment_description": "Supplemental imaging used in conjunction with mammography, particularly for women with dense breast tissue or intermediate risk",
-            "constructs_measured": [
-              "Breast Cancer Risk"
-            ],
-            "modality": "Medical Imaging",
-            "technology_vendor": {
-              "name": "Various ultrasound manufacturers",
-              "type": "hardware",
-              "specific_equipment": "Breast ultrasound machines"
-            },
-            "protocols": {
-              "preparation_steps": [
-                "Ensure mammography completed first",
-                "Review density and risk assessment results"
-              ],
-              "coaching_cues": [
-                "Perform comprehensive breast examination",
-                "Focus on areas not well visualized on mammography"
-              ],
-              "common_mistakes": [
-                "Using as standalone screening without mammography",
-                "Incomplete examination of dense tissue areas"
-              ]
-            },
-            "metrics": [
-              {
-                "metric_name": "Ultrasound Findings",
-                "unit": "categorical (normal/abnormal)",
-                "reference_ranges": "Normal = no further action, Abnormal = diagnostic workup required",
-                "validity_confidence": "High for supplemental screening in dense breasts",
-                "reliability_confidence": "High when performed by experienced technologists"
-              }
-            ],
-            "state_influences": [
-              {
-                "state_name": "Breast Density",
-                "impact_on_assessment": "Most beneficial in Category C and D density",
-                "impact_on_interpretation": "Detects cancers not visible on mammography in dense tissue"
-              }
-            ],
-            "assets_generated": [
-              {
-                "asset_name": "Ultrasound Report",
-                "asset_type": "Medical report",
-                "description": "Findings report integrated with mammography results"
-              }
-            ]
-          },
-          {
-            "assessment_name": "Bilateral Breast MRI",
-            "assessment_description": "High-resolution magnetic resonance imaging recommended for high-risk patients with >20% lifetime risk",
-            "constructs_measured": [
-              "Breast Cancer Risk"
-            ],
-            "modality": "Medical Imaging",
-            "technology_vendor": {
-              "name": "Various MRI manufacturers",
-              "type": "hardware",
-              "specific_equipment": "3T MRI machines with breast coils"
-            },
-            "protocols": {
-              "preparation_steps": [
-                "Confirm Tyrer-Cuzick score >20%",
-                "Schedule 6 months from mammography",
-                "Ensure insurance pre-authorization"
-              ],
-              "coaching_cues": [
-                "Perform with contrast enhancement",
-                "Follow standardized breast MRI protocols"
-              ],
-              "common_mistakes": [
-                "Not scheduling at appropriate intervals",
-                "Using without proper risk stratification"
-              ]
-            },
-            "metrics": [
-              {
-                "metric_name": "MRI Enhancement Patterns",
-                "unit": "categorical (normal/suspicious/malignant)",
-                "reference_ranges": "Based on BI-RADS classification system",
-                "validity_confidence": "Very high sensitivity for cancer detection",
-                "reliability_confidence": "High with proper protocols and interpretation"
-              }
-            ],
-            "state_influences": [
-              {
-                "state_name": "High Risk Status",
-                "impact_on_assessment": "Only performed in patients with >20% lifetime risk",
-                "impact_on_interpretation": "Higher pre-test probability affects interpretation"
-              }
-            ],
-            "assets_generated": [
-              {
-                "asset_name": "MRI Report",
-                "asset_type": "Medical report",
-                "description": "Detailed imaging report with recommendations for follow-up"
-              }
-            ]
-          },
-          {
-            "assessment_name": "Genetic Testing",
-            "assessment_description": "DNA analysis via blood or saliva to identify hereditary cancer mutations",
-            "constructs_measured": [
-              "Genetic Cancer Risk"
-            ],
-            "modality": "Laboratory Testing",
-            "technology_vendor": {
-              "name": "Myriad Genetics, Ambry Genetics",
-              "type": "software/laboratory",
-              "specific_equipment": "DNA sequencing platforms, saliva collection kits"
-            },
-            "protocols": {
-              "preparation_steps": [
-                "Confirm NCCN qualification criteria met",
-                "Genetic counseling consultation",
-                "Insurance pre-authorization"
-              ],
-              "coaching_cues": [
-                "Collect adequate DNA sample",
-                "Ensure proper sample handling and transport"
-              ],
-              "common_mistakes": [
-                "Testing without proper qualification",
-                "Inadequate pre-test counseling",
-                "Not considering family implications"
-              ]
-            },
-            "metrics": [
-              {
-                "metric_name": "Genetic Mutation Status",
-                "unit": "categorical (positive/negative/variant of uncertain significance)",
-                "reference_ranges": "Positive = significantly elevated risk, Negative = population risk",
-                "validity_confidence": "Very high for known pathogenic mutations",
-                "reliability_confidence": "Very high with proper laboratory standards"
-              }
-            ],
-            "state_influences": [
-              {
-                "state_name": "Family History Accuracy",
-                "impact_on_assessment": "Qualification depends on accurate family history",
-                "impact_on_interpretation": "Results have implications for family members"
-              }
-            ],
-            "assets_generated": [
-              {
-                "asset_name": "Genetic Test Report",
-                "asset_type": "Laboratory report",
-                "description": "Detailed genetic analysis with mutation identification and risk implications"
-              }
-            ]
-          },
-          {
-            "assessment_name": "Body Mass Index Calculation",
-            "assessment_description": "Height and weight measurement to calculate BMI as a component of breast cancer risk assessment",
-            "constructs_measured": [
-              "Body Mass Index (BMI)",
-              "Breast Cancer Risk"
-            ],
-            "modality": "Physical Measurement",
-            "technology_vendor": {
-              "name": "Standard clinical scales and stadiometers",
-              "type": "hardware",
-              "specific_equipment": "Digital scales, height measurement devices"
-            },
-            "protocols": {
-              "preparation_steps": [
-                "Calibrate scale",
-                "Ensure proper patient preparation (minimal clothing)"
-              ],
-              "coaching_cues": [
-                "Stand straight for height measurement",
-                "Remove heavy clothing and shoes"
-              ],
-              "common_mistakes": [
-                "Inaccurate measurements due to clothing",
-                "Not calibrating equipment",
-                "Using self-reported values"
-              ]
-            },
-            "metrics": [
-              {
-                "metric_name": "Body Mass Index",
-                "unit": "kg/m\u00b2",
-                "reference_ranges": "<18.5 underweight, 18.5-24.9 normal, 25-29.9 overweight, \u226530 obese",
-                "validity_confidence": "Moderate - does not account for body composition",
-                "reliability_confidence": "High with proper measurement technique"
-              }
-            ],
-            "state_influences": [
-              {
-                "state_name": "Body Composition",
-                "impact_on_assessment": "BMI doesn't distinguish between muscle and fat mass",
-                "impact_on_interpretation": "May misclassify athletic individuals with high muscle mass"
-              }
-            ],
-            "assets_generated": [
-              {
-                "asset_name": "BMI Calculation",
-                "asset_type": "Numeric value",
-                "description": "BMI value integrated into risk assessment calculations"
-              }
-            ]
-          }
-        ]
+        "error": "JSON parsing failed",
+        "raw_response": "{\n    \"assessments\": [\n        {\n            \"assessment_name\": \"Genetic Cancer Risk Assessment Survey\",\n            \"assessment_description\": \"A questionnaire that identifies lifetime and 10-year risk of developing breast cancer through personal and family history evaluation\",\n            \"constructs_measured\": [\"Breast Cancer Risk\", \"Family History\", \"Personal Medical History\"],\n            \"modality\": \"Survey/Questionnaire\",\n            \"technology_vendor\": {\n                \"name\": \"Multiple vendors including Famgenics, Vulpara CRA Health, Cancer IQ, Ambry CARE platform\",\n                \"type\": \"software\",\n                \"specific_equipment\": \"Mobile-friendly web platform with QR code access\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Send survey link 5 days before appointment\", \"Patient completes on mobile device\", \"Clinical team reviews results before patient visit\"],\n                \"coaching_cues\": [\"Verify answers during clinical visit\", \"Fill in unanswered sections\", \"Modify and recalculate as needed\"],\n                \"common_mistakes\": [\"Patients skip difficult questions\", \"Inaccurate answers due to lack of understanding\", \"Incomplete family history information\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"Tyra-Cusk Lifetime Risk Score\",\n                    \"unit\": \"Percentage\",\n                    \"reference_ranges\": \"Greater than 20% (high risk), 15-20% (intermediate risk), Less than 15% (average risk)\",\n                    \"validity_confidence\": \"Low - flawed due to lifetime horizon not matching clinical decision needs\",\n                    \"reliability_confidence\": \"Moderate - depends on accuracy of patient-reported data\"\n                },\n                {\n                    \"metric_name\": \"Gail 10-year Risk Score\",\n                    \"unit\": \"Percentage\",\n                    \"reference_ranges\": \"Greater than 1.66% per year qualifies for chemoprevention\",\n                    \"validity_confidence\": \"Moderate\",\n                    \"reliability_confidence\": \"Moderate\"\n                },\n                {\n                    \"metric_name\": \"NCCN Genetics Qualification\",\n                    \"unit\": \"Binary (qualifies/does not qualify)\",\n                    \"reference_ranges\": \"Rule-based qualification for genetic testing\",\n                    \"validity_confidence\": \"Moderate - too complicated for clinical implementation\",\n                    \"reliability_confidence\": \"High for rule-based criteria\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Patient knowledge level\",\n                    \"impact_on_assessment\": \"Affects ability to accurately complete survey questions\",\n                    \"impact_on_interpretation\": \"May lead to inaccurate risk stratification\"\n                },\n                {\n                    \"state_name\": \"Family communication patterns\",\n                    \"impact_on_assessment\": \"Influences completeness of family history data\",\n                    \"impact_on_interpretation\": \"Incomplete data may underestimate genetic risk\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"Risk Assessment Dashboard\",\n                    \"asset_type\": \"Digital dashboard\",\n                    \"description\": \"Clinical dashboard showing calculated risk scores and recommendations\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"Screening Mammography\",\n            \"assessment_description\": \"X-ray imaging of breast tissue to detect abnormal patterns, lesions, or signs of cancer, available in 2D and 3D formats\",\n            \"constructs_measured\": [\"Breast Cancer Risk\", \"Breast Density\"],\n            \"modality\": \"Medical Imaging\",\n            \"technology_vendor\": {\n                \"name\": \"Hologic, Siemens, GE, Fuji\",\n                \"type\": \"hardware\",\n                \"specific_equipment\": \"Digital mammography units with tomosynthesis capability\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Obtain prior mammogram images\", \"Patient positioning by mammography technologist\", \"Acquire images using standardized protocols\"],\n                \"coaching_cues\": [\"Ensure all breast tissue captured\", \"Verify image quality before patient leaves\", \"Apply computer-assisted detection (CAD) algorithms\"],\n                \"common_mistakes\": [\"Incomplete breast tissue capture\", \"Poor positioning affecting image quality\", \"Missing prior comparison images\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"AI Detection Score\",\n                    \"unit\": \"Binary (positive/negative)\",\n                    \"reference_ranges\": \"Positive requires diagnostic workup\",\n                    \"validity_confidence\": \"High with 3D mammography and AI assistance\",\n                    \"reliability_confidence\": \"High\"\n                },\n                {\n                    \"metric_name\": \"Breast Density Category\",\n                    \"unit\": \"Categorical (A, B, C, D)\",\n                    \"reference_ranges\": \"A/B (non-dense), C/D (increased density requiring supplemental imaging)\",\n                    \"validity_confidence\": \"High with automated software assessment\",\n                    \"reliability_confidence\": \"High\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Breast size and deformability\",\n                    \"impact_on_assessment\": \"Affects ability to capture all tissue and image quality\",\n                    \"impact_on_interpretation\": \"May require additional views or supplemental imaging\"\n                },\n                {\n                    \"state_name\": \"Hormonal status\",\n                    \"impact_on_assessment\": \"Influences breast density patterns\",\n                    \"impact_on_interpretation\": \"Post-menopausal women typically have lower density\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"Radiologist Report\",\n                    \"asset_type\": \"Medical report\",\n                    \"description\": \"Detailed interpretation including density assessment, findings, and recommendations\"\n                },\n                {\n                    \"asset_name\": \"Patient Letter\",\n                    \"asset_type\": \"Written communication\",\n                    \"description\": \"Summary letter mailed to patient with results and recommendations\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"Breast Ultrasound\",\n            \"assessment_description\": \"Whole breast ultrasound used as supplemental imaging for women with dense breast tissue or intermediate risk\",\n            \"constructs_measured\": [\"Breast Cancer Risk\"],\n            \"modality\": \"Medical Imaging\",\n            \"technology_vendor\": {\n                \"name\": \"Various ultrasound manufacturers\",\n                \"type\": \"hardware\",\n                \"specific_equipment\": \"High-frequency ultrasound transducers\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Patient positioning\", \"Apply ultrasound gel\", \"Systematic scanning of entire breast\"],\n                \"coaching_cues\": [\"Ensure complete breast coverage\", \"Document any abnormalities\", \"Correlate with mammography findings\"],\n                \"common_mistakes\": [\"Incomplete breast coverage\", \"Missing small lesions in dense tissue\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"Ultrasound Findings\",\n                    \"unit\": \"Descriptive assessment\",\n                    \"reference_ranges\": \"Normal, benign findings, or suspicious lesions requiring biopsy\",\n                    \"validity_confidence\": \"High for dense breast tissue evaluation\",\n                    \"reliability_confidence\": \"High\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Breast density\",\n                    \"impact_on_assessment\": \"More effective in dense breast tissue where mammography may miss lesions\",\n                    \"impact_on_interpretation\": \"Complementary to mammography in dense breasts\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"Ultrasound Report\",\n                    \"asset_type\": \"Medical report\",\n                    \"description\": \"Detailed findings and recommendations from ultrasound examination\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"Bilateral Breast MRI\",\n            \"assessment_description\": \"High-resolution magnetic resonance imaging used for high-risk patients (>20% lifetime risk) as supplemental screening\",\n            \"constructs_measured\": [\"Breast Cancer Risk\"],\n            \"modality\": \"Medical Imaging\",\n            \"technology_vendor\": {\n                \"name\": \"Various MRI manufacturers\",\n                \"type\": \"hardware\",\n                \"specific_equipment\": \"3 Tesla MRI scanners with breast coils\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Schedule 6 months after initial screening\", \"Patient preparation and positioning\", \"Contrast agent administration\"],\n                \"coaching_cues\": [\"Ensure proper timing in menstrual cycle\", \"Monitor for contrast reactions\", \"Complete bilateral imaging\"],\n                \"common_mistakes\": [\"Incorrect timing relative to menstrual cycle\", \"Motion artifacts\", \"Inadequate contrast enhancement\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"MRI Enhancement Patterns\",\n                    \"unit\": \"Descriptive assessment\",\n                    \"reference_ranges\": \"No enhancement, benign enhancement, or suspicious enhancement requiring biopsy\",\n                    \"validity_confidence\": \"Very high for detecting early breast cancer\",\n                    \"reliability_confidence\": \"High\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Menstrual cycle phase\",\n                    \"impact_on_assessment\": \"Affects background parenchymal enhancement\",\n                    \"impact_on_interpretation\": \"Optimal timing needed for accurate interpretation\"\n                },\n                {\n                    \"state_name\": \"Hormonal status\",\n                    \"impact_on_assessment\": \"Influences enhancement patterns\",\n                    \"impact_on_interpretation\": \"Post-menopausal women have less background enhancement\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"MRI Report\",\n                    \"asset_type\": \"Medical report\",\n                    \"description\": \"Comprehensive assessment of enhancement patterns and recommendations\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"Genetic Testing\",\n            \"assessment_description\": \"DNA analysis to identify hereditary cancer mutations, particularly BRCA1/BRCA2 and other cancer predisposition genes\",\n            \"constructs_measured\": [\"Family History\", \"Personal Medical History\"],\n            \"modality\": \"Laboratory Test\",\n            \"technology_vendor\": {\n                \"name\": \"Myriad Genetics, Ambry Genetics\",\n                \"type\": \"software/laboratory service\",\n                \"specific_equipment\": \"DNA sequencing platforms\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Obtain blood sample or saliva specimen\", \"Complete genetic counseling consent\", \"Send to certified laboratory\"],\n                \"coaching_cues\": [\"Ensure proper specimen collection\", \"Provide genetic counseling\", \"Discuss implications of results\"],\n                \"common_mistakes\": [\"Inadequate pre-test counseling\", \"Testing patients who don't meet criteria\", \"Insufficient family history documentation\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"Genetic Mutation Status\",\n                    \"unit\": \"Categorical (positive/negative/variant of uncertain significance)\",\n                    \"reference_ranges\": \"Positive mutations significantly increase cancer risk (e.g., BRCA2: 60-80% lifetime breast cancer risk)\",\n                    \"validity_confidence\": \"Very high for known pathogenic mutations\",\n                    \"reliability_confidence\": \"Very high\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Family cancer history completeness\",\n                    \"impact_on_assessment\": \"Determines appropriateness of testing\",\n                    \"impact_on_interpretation\": \"Incomplete history may miss qualification criteria\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"Genetic Test Report\",\n                    \"asset_type\": \"Laboratory report\",\n                    \"description\": \"Detailed analysis of genetic variants and cancer risk implications\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"Mammogram Quality Assessment\",\n            \"assessment_description\": \"Evaluation of mammographic image quality and positioning to ensure adequate breast tissue capture and diagnostic accuracy\",\n            \"constructs_measured\": [\"Mammogram Quality\"],\n            \"modality\": \"Image Analysis\",\n            \"technology_vendor\": {\n                \"name\": \"Densitas\",\n                \"type\": \"software\",\n                \"specific_equipment\": \"AI-powered image quality analysis software\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Acquire mammographic images\", \"Submit images for quality analysis\", \"Review positioning and tissue capture\"],\n                \"coaching_cues\": [\"Assess breast tissue inclusion\", \"Evaluate image compression\", \"Check for positioning artifacts\"],\n                \"common_mistakes\": [\"Incomplete tissue capture\", \"Poor compression technique\", \"Inadequate positioning for breast size\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"Image Quality Score\",\n                    \"unit\": \"Qualitative assessment\",\n                    \"reference_ranges\": \"Adequate/inadequate tissue capture and positioning\",\n                    \"validity_confidence\": \"High for detecting positioning issues\",\n                    \"reliability_confidence\": \"High\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Breast size and volume\",\n                    \"impact_on_assessment\": \"Larger breasts more difficult to position adequately\",\n                    \"impact_on_interpretation\": \"May require specialized techniques or additional views\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"Quality Assessment Report\",\n                    \"asset_type\": \"Technical report\",\n                    \"description\": \"Analysis of image quality metrics and positioning adequacy\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"Body Mass Index Calculation\",\n            \"assessment_description\": \"Height and weight-based calculation used in breast cancer risk assessment models\",\n            \"constructs_measured\": [\"Body Mass Index\", \"Breast Cancer Risk\"],\n            \"modality\": \"Physical Measurement\",\n            \"technology_vendor\": {\n                \"name\": \"Standard measurement tools\",\n                \"type\": \"hardware\",\n                \"specific_equipment\": \"Digital scale and stadiometer\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Measure height without shoes\", \"Measure weight in light clothing\", \"Calculate BMI using standard formula\"],\n                \"coaching_cues\": [\"Ensure accurate measurements\", \"Use consistent measurement conditions\", \"Document measurements in risk assessment\"],\n                \"common_mistakes\": [\"Inaccurate height/weight measurements\", \"Not accounting for clothing weight\", \"Using outdated measurements\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"Body Mass Index\",\n                    \"unit\": \"kg/m\u00b2\",\n                    \"reference_ranges\": \"Used as continuous variable in Tyra-Cusk risk calculation\",\n                    \"validity_confidence\": \"Low - inadequate measure of body composition\",\n                    \"reliability_confidence\": \"High for calculation accuracy\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Body composition changes\",\n                    \"impact_on_assessment\": \"BMI changes affect breast cancer risk calculations\",\n                    \"impact_on_interpretation\": \"Risk is dynamic and can be modified through lifestyle interventions\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"BMI Calculation\",\n                    \"asset_type\": \"Numeric value\",\n                    \"description\": \"BMI value incorporated into risk assessment algorithms\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"Gynecologic History Assessment\",\n            \"assessment_description\": \"Comprehensive evaluation of reproductive history including pregnancies, hormonal exposures, and previous breast procedures\",\n            \"constructs_measured\": [\"Gynecologic History\", \"Personal Medical History\"],\n            \"modality\": \"Clinical Interview/Survey\",\n            \"technology_vendor\": {\n                \"name\": \"Integrated into risk assessment platforms\",\n                \"type\": \"software\",\n                \"specific_equipment\": \"Electronic health record systems\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Review reproductive history\", \"Document hormonal exposures\", \"Record previous breast biopsies\"],\n                \"coaching_cues\": [\"Ask about number of births\", \"Inquire about miscarriages/abortions\", \"Document age at menarche/menopause\"],\n                \"common_mistakes\": [\"Incomplete reproductive history\", \"Missing hormonal exposure details\", \"Not documenting previous breast procedures\"]\n            },\n            \"metrics\": [\n                {"
       },
       "interventions": {
         "interventions": [
           {
-            "intervention_name": "Precision Screening Mammography Protocol",
-            "intervention_description": "Hyper-tailored imaging cadence using 3D mammography with AI-assisted detection for high-risk individuals",
-            "purpose": "Early detection of breast cancer in high-risk populations to improve survival rates and reduce treatment burden",
+            "intervention_name": "Supplemental Breast Imaging - Ultrasound",
+            "intervention_description": "Whole breast ultrasound performed as supplemental screening for women with increased breast density (Category C or D) or intermediate breast cancer risk (Tyrer-Cuzick 15-20%)",
+            "purpose": "To detect breast cancers that may be missed by mammography alone in dense breast tissue or intermediate risk patients",
             "constructs_targeted": [
               "Breast Cancer Risk",
-              "Mammogram Quality"
-            ],
-            "intervention_types": [
-              "Medical Imaging"
-            ],
-            "protocols": {
-              "duration": "Ongoing surveillance",
-              "frequency": "Every 6 months for high-risk (>20% lifetime risk), annually for average risk",
-              "intensity": "3D mammography with computer-assisted detection (CAD) and AI pattern recognition",
-              "volume": "Bilateral breast imaging with prior comparison studies",
-              "progression_criteria": [
-                "Tyrau score >20%",
-                "Category C or D breast density",
-                "Positive AI detection"
-              ],
-              "reassessment_intervals": "Annual risk reassessment with updated Tyrau scoring"
-            },
-            "constraints_accommodations": [
-              {
-                "constraint_type": "Dense breast tissue (Category C/D)",
-                "accommodation_strategy": "Supplemental whole breast ultrasound in addition to mammography"
-              },
-              {
-                "constraint_type": "High lifetime risk (>20%)",
-                "accommodation_strategy": "Bilateral MRI at 6-month intervals"
-              }
-            ],
-            "resource_requirements": {
-              "time": "30-45 minutes per imaging session",
-              "equipment": "3D mammography units (Hologic, Siemens, GE, Fuji), AI detection software, PACS system",
-              "staff_expertise": "Certified mammography technicians, radiologists trained in breast imaging",
-              "cost_level": "Moderate to High"
-            }
-          },
-          {
-            "intervention_name": "Comprehensive Cancer Risk Assessment",
-            "intervention_description": "Multi-component survey combining lifetime breast cancer risk calculation and genetic risk evaluation",
-            "purpose": "Stratify patients into risk categories to guide appropriate screening and prevention strategies",
-            "constructs_targeted": [
-              "Lifetime Breast Cancer Risk",
-              "Genetic Cancer Risk",
               "Breast Density"
             ],
             "intervention_types": [
-              "Assessment/Survey"
+              "Imaging"
             ],
             "protocols": {
-              "duration": "30-60 minutes initial completion",
-              "frequency": "Annually with updates for family history changes",
-              "intensity": "Comprehensive questionnaire covering personal/family history, lifestyle factors",
-              "volume": "Complete family history to third-degree relatives, detailed personal medical history",
+              "duration": "30-45 minutes per session",
+              "frequency": "Annually with mammogram",
+              "intensity": "Standard diagnostic imaging",
+              "volume": "Bilateral whole breast screening",
               "progression_criteria": [
-                "Tyrau score thresholds: <15% (average), 15-20% (intermediate), >20% (high risk)",
-                "NCCN genetic testing criteria"
+                "Stable imaging results",
+                "No suspicious findings"
               ],
-              "reassessment_intervals": "Annual review with risk recalculation"
+              "reassessment_intervals": "12 months"
             },
             "constraints_accommodations": [
               {
-                "constraint_type": "Incomplete family history knowledge",
-                "accommodation_strategy": "Clinical staff assistance and family member outreach recommendations"
-              },
-              {
-                "constraint_type": "Limited time during clinic visit",
-                "accommodation_strategy": "Pre-visit mobile survey completion with QR code access"
+                "constraint_type": "Dense breast tissue",
+                "accommodation_strategy": "Ultrasound provides better visualization through dense tissue than mammography"
               }
             ],
             "resource_requirements": {
-              "time": "Pre-visit: 30-60 minutes patient time, In-clinic: 10-15 minutes review",
-              "equipment": "Survey platforms (Famgenics, Vulpara CRA Health, Cancer IQ, Ambry CARE)",
-              "staff_expertise": "Genetic counselors, trained clinical staff for survey administration",
+              "time": "30-45 minutes",
+              "equipment": "Ultrasound machine with breast imaging capabilities",
+              "staff_expertise": "Certified breast imaging technologist and radiologist",
+              "cost_level": "Moderate"
+            }
+          },
+          {
+            "intervention_name": "High-Risk MRI Screening",
+            "intervention_description": "Bilateral breast MRI performed as supplemental screening for women with high breast cancer risk (Tyrer-Cuzick >20% lifetime risk)",
+            "purpose": "Enhanced early detection screening for high-risk patients due to inadequacy of annual mammography alone",
+            "constructs_targeted": [
+              "Breast Cancer Risk",
+              "Family History"
+            ],
+            "intervention_types": [
+              "Imaging"
+            ],
+            "protocols": {
+              "duration": "45-60 minutes per session",
+              "frequency": "Every 6 months as interval imaging",
+              "intensity": "High-resolution contrast-enhanced imaging",
+              "volume": "Bilateral breast coverage",
+              "progression_criteria": [
+                "Continued high-risk status",
+                "No contraindications to contrast"
+              ],
+              "reassessment_intervals": "6 months"
+            },
+            "constraints_accommodations": [
+              {
+                "constraint_type": "High lifetime risk",
+                "accommodation_strategy": "More frequent and sensitive imaging modality than standard screening"
+              }
+            ],
+            "resource_requirements": {
+              "time": "45-60 minutes",
+              "equipment": "MRI machine with breast imaging coils and contrast capability",
+              "staff_expertise": "MRI technologist and breast imaging radiologist",
+              "cost_level": "High"
+            }
+          },
+          {
+            "intervention_name": "Genetic Testing",
+            "intervention_description": "DNA testing via blood or saliva to identify hereditary cancer mutations when patient meets NCCN criteria",
+            "purpose": "Identify inherited genetic mutations that significantly increase cancer risk for patient and family members",
+            "constructs_targeted": [
+              "Breast Cancer Risk",
+              "Family History",
+              "Personal Medical History"
+            ],
+            "intervention_types": [
+              "Genetic Testing"
+            ],
+            "protocols": {
+              "duration": "Single sample collection, 2-3 weeks for results",
+              "frequency": "One-time testing unless new indications arise",
+              "intensity": "Comprehensive multi-gene panel testing",
+              "volume": "Blood draw or saliva sample",
+              "progression_criteria": [
+                "Meets NCCN genetic testing criteria"
+              ],
+              "reassessment_intervals": "Results-dependent, may require family cascade testing"
+            },
+            "constraints_accommodations": [
+              {
+                "constraint_type": "Family history complexity",
+                "accommodation_strategy": "Genetic counselor assistance for pedigree development and result interpretation"
+              }
+            ],
+            "resource_requirements": {
+              "time": "30 minutes for collection, 60-90 minutes for counseling",
+              "equipment": "Blood collection supplies or saliva collection kit",
+              "staff_expertise": "Genetic counselor, laboratory partnership (Myriad, Ambry)",
               "cost_level": "Moderate"
             }
           },
           {
             "intervention_name": "Chemoprevention with Tamoxifen",
-            "intervention_description": "Anti-estrogen medication therapy to reduce breast cancer risk in high-risk individuals",
-            "purpose": "Reduce breast cancer incidence by 50% in high-risk women through estrogen receptor blockade",
+            "intervention_description": "Anti-estrogen medication for women with >1.66% 10-year breast cancer risk per Gail model to reduce cancer incidence",
+            "purpose": "Reduce breast cancer risk by 50% in eligible high-risk women through estrogen blockade",
             "constructs_targeted": [
+              "Breast Cancer Risk",
+              "Gynecologic History"
+            ],
+            "intervention_types": [
+              "Pharmacological"
+            ],
+            "protocols": {
+              "duration": "5 years of daily medication",
+              "frequency": "Daily oral medication",
+              "intensity": "Standard dosing per clinical guidelines",
+              "volume": "One pill daily",
+              "progression_criteria": [
+                "Continued high risk",
+                "Tolerability assessment",
+                "No contraindications"
+              ],
+              "reassessment_intervals": "Every 6 months for monitoring"
+            },
+            "constraints_accommodations": [
+              {
+                "constraint_type": "Side effect profile",
+                "accommodation_strategy": "Regular monitoring and risk-benefit assessment"
+              }
+            ],
+            "resource_requirements": {
+              "time": "Initial consultation 30-60 minutes, follow-ups 15-30 minutes",
+              "equipment": "None specific",
+              "staff_expertise": "Oncologist or high-risk clinic physician",
+              "cost_level": "Low"
+            }
+          },
+          {
+            "intervention_name": "Lifestyle Medicine Program - Body Mass Index Optimization",
+            "intervention_description": "Comprehensive nutrition and exercise program to reduce BMI and improve body composition as breast cancer risk reduction strategy",
+            "purpose": "Modify controllable risk factors through BMI reduction and improved body composition to lower breast cancer risk",
+            "constructs_targeted": [
+              "Body Mass Index",
               "Breast Cancer Risk"
             ],
             "intervention_types": [
-              "Medical/Pharmaceutical"
-            ],
-            "protocols": {
-              "duration": "5 years of continuous therapy",
-              "frequency": "Daily oral medication",
-              "intensity": "Standard dosing per clinical guidelines",
-              "volume": "Single daily tablet",
-              "progression_criteria": [
-                "Gail model 10-year risk >1.66% per year",
-                "Patient counseling and informed consent"
-              ],
-              "reassessment_intervals": "Every 6 months during treatment"
-            },
-            "constraints_accommodations": [
-              {
-                "constraint_type": "Contraindications to tamoxifen",
-                "accommodation_strategy": "Alternative risk-reducing medications or enhanced surveillance"
-              },
-              {
-                "constraint_type": "Side effect intolerance",
-                "accommodation_strategy": "Dose modification or alternative prevention strategies"
-              }
-            ],
-            "resource_requirements": {
-              "time": "Initial consultation: 30-45 minutes, Follow-up: 15-20 minutes",
-              "equipment": "Standard clinical facilities for monitoring",
-              "staff_expertise": "Oncologist or physician trained in chemoprevention, pharmacy support",
-              "cost_level": "Moderate"
-            }
-          },
-          {
-            "intervention_name": "Genetic Testing and Counseling Program",
-            "intervention_description": "DNA analysis for hereditary cancer mutations with pre and post-test genetic counseling",
-            "purpose": "Identify inherited cancer predisposition to guide personalized screening and prevention strategies",
-            "constructs_targeted": [
-              "Genetic Cancer Risk"
-            ],
-            "intervention_types": [
-              "Medical/Genetic Testing"
-            ],
-            "protocols": {
-              "duration": "2-4 weeks for results, ongoing counseling as needed",
-              "frequency": "One-time testing with periodic updates as new genes identified",
-              "intensity": "Comprehensive multi-gene panel testing",
-              "volume": "Blood draw or saliva sample",
-              "progression_criteria": [
-                "NCCN genetic testing criteria met",
-                "Pre-test counseling completed"
-              ],
-              "reassessment_intervals": "Results review and post-test counseling within 2-4 weeks"
-            },
-            "constraints_accommodations": [
-              {
-                "constraint_type": "Insurance coverage limitations",
-                "accommodation_strategy": "Out-of-pocket payment options ($250), prior authorization assistance"
-              },
-              {
-                "constraint_type": "Family member cascade testing needs",
-                "accommodation_strategy": "Family outreach and genetic counseling referrals"
-              }
-            ],
-            "resource_requirements": {
-              "time": "Pre-test counseling: 30-45 minutes, Post-test: 45-60 minutes",
-              "equipment": "Laboratory partnerships (Myriad Genetics, Ambry Genetics)",
-              "staff_expertise": "Certified genetic counselors, genetics-trained physicians",
-              "cost_level": "Moderate"
-            }
-          },
-          {
-            "intervention_name": "Lifestyle Medicine Program for Cancer Risk Reduction",
-            "intervention_description": "Comprehensive lifestyle modification program targeting nutrition, exercise, stress management, and substance use",
-            "purpose": "Modify controllable risk factors to reduce overall cancer risk and improve body composition",
-            "constructs_targeted": [
-              "Breast Cancer Risk",
-              "Body Mass Index (BMI)"
-            ],
-            "intervention_types": [
               "Nutrition",
-              "Physical Exercise",
-              "Stress Management",
-              "Education"
+              "Physical Exercise"
             ],
             "protocols": {
-              "duration": "6-12 month structured program with ongoing maintenance",
-              "frequency": "Weekly coaching sessions initially, monthly maintenance",
-              "intensity": "Personalized based on individual risk factors and capabilities",
-              "volume": "Multi-component intervention addressing all lifestyle pillars",
+              "duration": "Ongoing lifestyle modification program",
+              "frequency": "Daily nutrition guidelines, 3-5x weekly exercise",
+              "intensity": "Individualized based on current fitness and health status",
+              "volume": "Personalized caloric and macronutrient targets, structured exercise plan",
               "progression_criteria": [
                 "BMI reduction targets",
                 "Body composition improvements",
-                "Risk score improvements"
+                "Metabolic marker improvements"
               ],
-              "reassessment_intervals": "Monthly during active phase, quarterly during maintenance"
+              "reassessment_intervals": "Monthly for first 3 months, then quarterly"
             },
             "constraints_accommodations": [
               {
-                "constraint_type": "Time limitations",
-                "accommodation_strategy": "Flexible scheduling and remote coaching options"
-              },
-              {
-                "constraint_type": "Individual dietary preferences/restrictions",
-                "accommodation_strategy": "Personalized nutrition plans rather than one-size-fits-all approach"
+                "constraint_type": "Individual metabolic differences",
+                "accommodation_strategy": "One-size-fits-one personalized approach rather than standard protocols"
               }
             ],
             "resource_requirements": {
-              "time": "Initial assessment: 60-90 minutes, Weekly sessions: 30-45 minutes",
-              "equipment": "Body composition analysis tools, fitness assessment equipment",
-              "staff_expertise": "Registered dietitians, exercise physiologists, health coaches",
-              "cost_level": "Moderate to High"
+              "time": "Initial assessment 90 minutes, follow-ups 30-60 minutes",
+              "equipment": "Body composition analysis, exercise equipment access",
+              "staff_expertise": "Registered dietitian, exercise physiologist, lifestyle medicine physician",
+              "cost_level": "Moderate"
             }
           },
           {
             "intervention_name": "Alcohol Reduction Education Program",
-            "intervention_description": "Targeted educational intervention to reduce alcohol consumption as part of cancer risk reduction",
-            "purpose": "Reduce indirect cancer risk factors including metabolic impact and BMI elevation from alcohol consumption",
+            "intervention_description": "Educational intervention to reduce alcohol consumption as part of risky behavior modification for breast cancer risk reduction",
+            "purpose": "Address alcohol as risk factor through education on metabolic impacts, BMI effects, and direct cancer risk associations",
             "constructs_targeted": [
               "Breast Cancer Risk",
-              "Body Mass Index (BMI)"
+              "Body Mass Index",
+              "Social History"
             ],
             "intervention_types": [
               "Education",
               "Behavioral"
             ],
             "protocols": {
-              "duration": "8-12 week structured program",
-              "frequency": "Weekly educational sessions and check-ins",
-              "intensity": "Moderate intensity behavioral modification approach",
-              "volume": "Individual and group education sessions",
+              "duration": "Initial education session with ongoing support",
+              "frequency": "Initial session, monthly check-ins for 6 months",
+              "intensity": "Moderate behavioral modification approach",
+              "volume": "Educational materials, behavior tracking, support resources",
               "progression_criteria": [
-                "Reduced alcohol consumption targets",
-                "Improved metabolic markers"
+                "Reduced alcohol consumption",
+                "Improved metabolic markers",
+                "BMI improvements"
               ],
-              "reassessment_intervals": "Weekly during program, monthly follow-up"
+              "reassessment_intervals": "Monthly for 6 months, then quarterly"
             },
             "constraints_accommodations": [
               {
-                "constraint_type": "Social/cultural barriers to alcohol reduction",
-                "accommodation_strategy": "Culturally sensitive education and alternative social strategies"
-              },
-              {
-                "constraint_type": "Alcohol dependence concerns",
-                "accommodation_strategy": "Referral to addiction specialists and medical supervision"
+                "constraint_type": "Social and psychological factors",
+                "accommodation_strategy": "Individualized approach recognizing social connections while focusing on health benefits"
               }
             ],
             "resource_requirements": {
-              "time": "Sessions: 45-60 minutes weekly",
+              "time": "Initial session 60 minutes, follow-ups 30 minutes",
               "equipment": "Educational materials, tracking tools",
-              "staff_expertise": "Health educators, behavioral counselors, addiction specialists if needed",
+              "staff_expertise": "Health educator, behavioral counselor, or lifestyle medicine specialist",
+              "cost_level": "Low"
+            }
+          },
+          {
+            "intervention_name": "Precision Screening Protocol",
+            "intervention_description": "Hyper-tailored imaging cadence based on individual risk factors including family history, breast density, and personal risk assessment",
+            "purpose": "Optimize early detection through personalized screening intervals and modalities based on individual risk profile",
+            "constructs_targeted": [
+              "Breast Cancer Risk",
+              "Breast Density",
+              "Family History",
+              "Mammogram Quality"
+            ],
+            "intervention_types": [
+              "Imaging",
+              "Care Coordination"
+            ],
+            "protocols": {
+              "duration": "Ongoing personalized screening program",
+              "frequency": "Risk-stratified: 6-month intervals for high-risk, annual for intermediate, standard for average risk",
+              "intensity": "Multi-modal imaging based on risk level",
+              "volume": "Combination of 3D mammography, ultrasound, and MRI as indicated",
+              "progression_criteria": [
+                "Continued risk stratification",
+                "Quality imaging acquisition",
+                "No interval cancers"
+              ],
+              "reassessment_intervals": "Annual risk reassessment with dynamic protocol adjustment"
+            },
+            "constraints_accommodations": [
+              {
+                "constraint_type": "Dynamic risk changes",
+                "accommodation_strategy": "Continuous risk monitoring and protocol adjustment based on changing factors"
+              }
+            ],
+            "resource_requirements": {
+              "time": "Variable based on imaging modalities required",
+              "equipment": "3D mammography, ultrasound, MRI capabilities",
+              "staff_expertise": "Breast imaging radiologist, high-risk program coordinator",
+              "cost_level": "High"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "Ontology Knowledge Gathering Interview - Mollie \u2013 2025_07_24 17_13 BST \u2013 Notes by Gemini.txt",
+      "transcript_length": 66075,
+      "constructs_identified": 15,
+      "domains_constructs": {
+        "practitioner_domains": [
+          {
+            "domain_name": "Lifestyle Medicine",
+            "domain_description": "Encompasses six areas: nutrition, physical activity, sleep, stress reduction/management, substance use reduction, and positive social connection to optimize health and functioning",
+            "specialization_notes": "Uses lifestyle elements to prevent disease and treat existing conditions, working as foundation for optimal health span and lifespan"
+          },
+          {
+            "domain_name": "Blood Glucose Management",
+            "domain_description": "Encompasses the spectrum of insulin resistance from normal glycemic control to impaired glucose tolerance, pre-diabetes, type 2 diabetes, and end-stage type 2 diabetes requiring exogenous insulin",
+            "specialization_notes": "Also referred to as metabolic health domain"
+          },
+          {
+            "domain_name": "Cardiometabolic Conditions",
+            "domain_description": "Common conditions including hypertension, dyslipidemia, diabetes, overweight, and obesity",
+            "specialization_notes": "Often overlaps with metabolic syndrome and related cardiovascular risk factors"
+          },
+          {
+            "domain_name": "Chronic Disease Management",
+            "domain_description": "Management and prevention of chronic diseases in both hospital and outpatient settings using conventional western medicine",
+            "specialization_notes": "Blends conventional approaches with lifestyle medicine using evidence-based protocols including medications, procedures, and surgeries as needed"
+          },
+          {
+            "domain_name": "Cardiovascular Health",
+            "domain_description": "Assessment and management of cardiovascular disease and risk factors",
+            "specialization_notes": "Often interconnected with metabolic health assessments due to metabolic syndrome overlap"
+          }
+        ],
+        "constructs_mentioned": [
+          {
+            "construct_name": "Hemoglobin A1C",
+            "construct_description": "Blood test measuring average blood glucose over 3 months through red blood cell glycation",
+            "domain_association": "Blood Glucose Management",
+            "assessment_context": "Non-fasting blood test with reference ranges: <5.7 normal, 5.7-6.4 pre-diabetes, \u22656.5 type 2 diabetes"
+          },
+          {
+            "construct_name": "Fasting Glucose",
+            "construct_description": "Blood glucose measurement taken after fasting period",
+            "domain_association": "Blood Glucose Management",
+            "assessment_context": "Requires fasting collection, used alongside other glucose markers"
+          },
+          {
+            "construct_name": "Fasting Insulin",
+            "construct_description": "Insulin level measurement taken after fasting period",
+            "domain_association": "Blood Glucose Management",
+            "assessment_context": "Used in HOMA-IR calculation for insulin resistance assessment"
+          },
+          {
+            "construct_name": "HOMA-IR",
+            "construct_description": "Homeostatic Model Assessment for Insulin Resistance calculation using fasting insulin and glucose",
+            "domain_association": "Blood Glucose Management",
+            "assessment_context": "Online calculator tool; <2 indicates no signs of insulin resistance"
+          },
+          {
+            "construct_name": "Oral Glucose Tolerance Test",
+            "construct_description": "Test measuring glucose and insulin response to 75g glucose load over 2 hours",
+            "domain_association": "Blood Glucose Management",
+            "assessment_context": "Gold standard for diagnosing insulin resistance; resource intensive requiring 3-hour lab visit"
+          },
+          {
+            "construct_name": "BMI",
+            "construct_description": "Body Mass Index calculated from height and weight measurements",
+            "domain_association": "Cardiometabolic Conditions",
+            "assessment_context": "Basic anthropometric measurement with demographic-specific reference ranges"
+          },
+          {
+            "construct_name": "Body Composition",
+            "construct_description": "Assessment of body fat percentage and lean mass distribution",
+            "domain_association": "Cardiometabolic Conditions",
+            "assessment_context": "Measured via DEXA scan (gold standard), waist circumference, or waist-to-hip ratio"
+          },
+          {
+            "construct_name": "Waist Circumference",
+            "construct_description": "Measurement of waist at appropriate anatomical landmarks",
+            "domain_association": "Cardiometabolic Conditions",
+            "assessment_context": "Requires proper instruction for accurate measurement; has gender and ethnicity-specific reference ranges"
+          },
+          {
+            "construct_name": "Weight Management History",
+            "construct_description": "Comprehensive assessment of weight trajectory, previous interventions, and relationship with weight",
+            "domain_association": "Cardiometabolic Conditions",
+            "assessment_context": "Critical for interpreting body composition results; includes screening for eating disorders and medication effects"
+          },
+          {
+            "construct_name": "Sleep Quality",
+            "construct_description": "Assessment of sleep duration, quality, regularity, and potential sleep disorders",
+            "domain_association": "Lifestyle Medicine",
+            "assessment_context": "Uses questionnaires like GSAQ, Pittsburgh Sleep Quality Index, Stop-Bang for sleep apnea risk"
+          },
+          {
+            "construct_name": "Sleep Apnea Risk",
+            "construct_description": "Assessment of risk factors and symptoms for obstructive sleep apnea",
+            "domain_association": "Lifestyle Medicine",
+            "assessment_context": "Stop-Bang questionnaire used; higher risk with elevated BMI, hypertension, male gender"
+          },
+          {
+            "construct_name": "Nutrition Assessment",
+            "construct_description": "Comprehensive evaluation of dietary patterns, preferences, and eating behaviors",
+            "domain_association": "Lifestyle Medicine",
+            "assessment_context": "24-hour dietary recalls, food logging, dietary preferences assessment, eating pattern evaluation"
+          },
+          {
+            "construct_name": "Physical Activity Level",
+            "construct_description": "Assessment of exercise patterns including intensity, duration, and frequency",
+            "domain_association": "Lifestyle Medicine",
+            "assessment_context": "Uses IPAQ questionnaire; benchmark of 150 min/week moderate or 75 min/week vigorous intensity plus 2 days strength training"
+          },
+          {
+            "construct_name": "Stress Level",
+            "construct_description": "Assessment of stress as demands exceeding available resources to manage them",
+            "domain_association": "Lifestyle Medicine",
+            "assessment_context": "Uses PSS-4 questionnaire; includes screening for mental health conditions like anxiety and depression"
+          },
+          {
+            "construct_name": "Continuous Glucose Monitoring",
+            "construct_description": "Patch-worn device measuring interstitial fluid glucose continuously for ~2 weeks",
+            "domain_association": "Blood Glucose Management",
+            "assessment_context": "Shows glucose response to meals, stress, sleep; requires interpretation by knowledgeable practitioner"
+          }
+        ],
+        "sport_specificity": []
+      },
+      "assessments": {
+        "error": "JSON parsing failed",
+        "raw_response": "{\n    \"assessments\": [\n        {\n            \"assessment_name\": \"Hemoglobin A1C\",\n            \"assessment_description\": \"Blood test measuring glycated red blood cells over 3 months to assess average blood glucose levels\",\n            \"constructs_measured\": [\"Hemoglobin A1C\"],\n            \"modality\": \"Blood test\",\n            \"technology_vendor\": {\n                \"name\": \"Any blood processing vendor\",\n                \"type\": \"hardware\",\n                \"specific_equipment\": \"Blood draw equipment and lab processing\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"No fasting required\", \"Can be collected any time of day\"],\n                \"coaching_cues\": [],\n                \"common_mistakes\": [\"Not considering hemoglobinopathies\", \"Ignoring factors affecting red blood cells\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"A1C percentage\",\n                    \"unit\": \"percentage\",\n                    \"reference_ranges\": \"<5.7% normal, 5.7-6.4% pre-diabetes, \u22656.5% diabetes\",\n                    \"validity_confidence\": \"High confidence but lagging indicator\",\n                    \"reliability_confidence\": \"High\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Iron deficiency\",\n                    \"impact_on_assessment\": \"Affects red blood cell function\",\n                    \"impact_on_interpretation\": \"Can skew results\"\n                },\n                {\n                    \"state_name\": \"Oral steroid use\",\n                    \"impact_on_assessment\": \"Raises blood glucose\",\n                    \"impact_on_interpretation\": \"May elevate A1C values\"\n                },\n                {\n                    \"state_name\": \"Lifestyle factors\",\n                    \"impact_on_assessment\": \"Travel, diet changes, exercise patterns\",\n                    \"impact_on_interpretation\": \"Can influence 3-month average\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"Lab report\",\n                    \"asset_type\": \"PDF report\",\n                    \"description\": \"Delivered to patient and clinician\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"Fasting Glucose\",\n            \"assessment_description\": \"Blood test measuring glucose levels after fasting period\",\n            \"constructs_measured\": [\"Fasting Glucose\"],\n            \"modality\": \"Blood test\",\n            \"technology_vendor\": {\n                \"name\": \"Any blood processing vendor\",\n                \"type\": \"hardware\",\n                \"specific_equipment\": \"Blood draw equipment and lab processing\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Must be collected fasted\"],\n                \"coaching_cues\": [],\n                \"common_mistakes\": [\"Not ensuring proper fasting state\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"Glucose level\",\n                    \"unit\": \"mg/dL\",\n                    \"reference_ranges\": \"Standard ranges apply\",\n                    \"validity_confidence\": \"Moderate - can be affected by various factors\",\n                    \"reliability_confidence\": \"Moderate\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Fasting state\",\n                    \"impact_on_assessment\": \"Must be properly fasted\",\n                    \"impact_on_interpretation\": \"Non-fasted samples invalid\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"Lab report\",\n                    \"asset_type\": \"PDF report\",\n                    \"description\": \"Delivered to patient and clinician\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"Fasting Insulin\",\n            \"assessment_description\": \"Blood test measuring insulin levels after fasting period\",\n            \"constructs_measured\": [\"Fasting Insulin\"],\n            \"modality\": \"Blood test\",\n            \"technology_vendor\": {\n                \"name\": \"Any blood processing vendor\",\n                \"type\": \"hardware\",\n                \"specific_equipment\": \"Blood draw equipment and lab processing\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Must be collected fasted\"],\n                \"coaching_cues\": [],\n                \"common_mistakes\": [\"Not ensuring proper fasting state\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"Insulin level\",\n                    \"unit\": \"\u03bcU/mL\",\n                    \"reference_ranges\": \"Standard ranges apply\",\n                    \"validity_confidence\": \"Moderate confidence\",\n                    \"reliability_confidence\": \"Moderate\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Fasting state\",\n                    \"impact_on_assessment\": \"Must be properly fasted\",\n                    \"impact_on_interpretation\": \"Non-fasted samples invalid\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"Lab report\",\n                    \"asset_type\": \"PDF report\",\n                    \"description\": \"Delivered to patient and clinician\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"HOMA-IR Calculation\",\n            \"assessment_description\": \"Calculated measure of insulin resistance using fasting glucose and insulin values\",\n            \"constructs_measured\": [\"HOMA-IR\"],\n            \"modality\": \"Calculation\",\n            \"technology_vendor\": {\n                \"name\": \"Online calculators (e.g., MD Calc app)\",\n                \"type\": \"software\",\n                \"specific_equipment\": \"Calculator or app\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Requires fasting glucose and insulin values\"],\n                \"coaching_cues\": [\"Use online calculator\", \"Input fasting values\"],\n                \"common_mistakes\": [\"Using non-fasted values\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"HOMA-IR value\",\n                    \"unit\": \"unitless\",\n                    \"reference_ranges\": \"<2 indicates no insulin resistance\",\n                    \"validity_confidence\": \"Good for early detection\",\n                    \"reliability_confidence\": \"Good\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Fasting state of input values\",\n                    \"impact_on_assessment\": \"Depends on quality of input measurements\",\n                    \"impact_on_interpretation\": \"Invalid if inputs are not fasted\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"Calculated value\",\n                    \"asset_type\": \"raw data\",\n                    \"description\": \"Numerical result from calculation\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"Oral Glucose Tolerance Test\",\n            \"assessment_description\": \"3-hour test measuring glucose and insulin response to 75g glucose load\",\n            \"constructs_measured\": [\"Oral Glucose Tolerance Test\"],\n            \"modality\": \"Blood test with glucose challenge\",\n            \"technology_vendor\": {\n                \"name\": \"Labs that stock glucose drinks\",\n                \"type\": \"hardware\",\n                \"specific_equipment\": \"75g glucose drink, blood draw equipment\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Fast before test\", \"Go to lab location\", \"Drink glucose load\", \"Wait 2 hours without exercise\", \"Return for second blood draw\"],\n                \"coaching_cues\": [\"No exercise during waiting period\", \"Stay at normal activity level\"],\n                \"common_mistakes\": [\"Exercising during test period\", \"Not following proper timing\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"Glucose and insulin response curves\",\n                    \"unit\": \"mg/dL and \u03bcU/mL\",\n                    \"reference_ranges\": \"Requires interpretation - ranges to be looked up\",\n                    \"validity_confidence\": \"Gold standard for insulin resistance diagnosis\",\n                    \"reliability_confidence\": \"High\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Physical activity during test\",\n                    \"impact_on_assessment\": \"Must avoid exercise\",\n                    \"impact_on_interpretation\": \"Exercise invalidates results\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"Lab report with curves\",\n                    \"asset_type\": \"PDF report\",\n                    \"description\": \"Raw values requiring interpretation, delivered to patient and provider\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"BMI Assessment\",\n            \"assessment_description\": \"Body Mass Index calculated from height and weight measurements\",\n            \"constructs_measured\": [\"BMI\"],\n            \"modality\": \"Physical measurement\",\n            \"technology_vendor\": {\n                \"name\": \"Scale and measuring tape/stadiometer\",\n                \"type\": \"hardware\",\n                \"specific_equipment\": \"Weight scale, height measurement tool\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Measure height and weight\", \"Calculate BMI\"],\n                \"coaching_cues\": [],\n                \"common_mistakes\": [\"Not accounting for muscle mass\", \"Ignoring ethnic variations\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"BMI value\",\n                    \"unit\": \"kg/m\u00b2\",\n                    \"reference_ranges\": \"Standard BMI categories with ethnic adjustments\",\n                    \"validity_confidence\": \"Lowest confidence of body composition measures\",\n                    \"reliability_confidence\": \"Moderate\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Weight management history\",\n                    \"impact_on_assessment\": \"Critical for interpretation\",\n                    \"impact_on_interpretation\": \"Recent weight loss/gain changes meaning significantly\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"BMI calculation\",\n                    \"asset_type\": \"raw data\",\n                    \"description\": \"Numerical BMI value\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"DEXA Scan\",\n            \"assessment_description\": \"Dual-energy X-ray absorptiometry for detailed body composition analysis\",\n            \"constructs_measured\": [\"Body Composition\"],\n            \"modality\": \"Imaging study\",\n            \"technology_vendor\": {\n                \"name\": \"DEXA scan providers\",\n                \"type\": \"hardware\",\n                \"specific_equipment\": \"DEXA scanning machine\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Schedule scan\", \"Follow pre-scan instructions\"],\n                \"coaching_cues\": [],\n                \"common_mistakes\": []\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"Body fat percentage, visceral fat, lean mass\",\n                    \"unit\": \"percentage and absolute values\",\n                    \"reference_ranges\": \"Age, sex, and ethnicity adjusted ranges\",\n                    \"validity_confidence\": \"Gold standard for body composition - highest confidence\",\n                    \"reliability_confidence\": \"High\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Weight management history\",\n                    \"impact_on_assessment\": \"Context crucial for interpretation\",\n                    \"impact_on_interpretation\": \"Current trajectory affects meaning of results\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"DEXA report\",\n                    \"asset_type\": \"PDF report\",\n                    \"description\": \"Detailed body composition report with raw data\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"Waist Circumference\",\n            \"assessment_description\": \"Measurement of waist circumference at appropriate anatomical landmarks\",\n            \"constructs_measured\": [\"Waist Circumference\"],\n            \"modality\": \"Physical measurement\",\n            \"technology_vendor\": {\n                \"name\": \"Measuring tape\",\n                \"type\": \"hardware\",\n                \"specific_equipment\": \"Flexible measuring tape\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Locate proper anatomical landmarks\", \"Use measuring tape\", \"Record measurement\"],\n                \"coaching_cues\": [\"Proper landmark identification\", \"Consistent measurement technique\"],\n                \"common_mistakes\": [\"Incorrect anatomical landmarks\", \"Inconsistent measurement technique\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"Waist circumference\",\n                    \"unit\": \"inches or centimeters\",\n                    \"reference_ranges\": \"Gender, race, and ethnicity specific ranges\",\n                    \"validity_confidence\": \"Intermediate confidence\",\n                    \"reliability_confidence\": \"Good with proper technique\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Weight management history\",\n                    \"impact_on_assessment\": \"Trends more important than single measurement\",\n                    \"impact_on_interpretation\": \"Context of weight journey essential\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"Measurement record\",\n                    \"asset_type\": \"raw data\",\n                    \"description\": \"Numerical measurement value for trending\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"Weight Management History Interview\",\n            \"assessment_description\": \"Structured interview to assess weight history, eating disorders, medications, and weight-related medical conditions\",\n            \"constructs_measured\": [\"Weight Management History\"],\n            \"modality\": \"Clinical interview\",\n            \"technology_vendor\": {\n                \"name\": \"Interview protocol\",\n                \"type\": \"software\",\n                \"specific_equipment\": \"Structured interview questions\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Screen for eating disorders\", \"Review medications affecting weight\", \"Assess medical conditions\", \"Document weight trajectory\", \"Explore relationship with food\"],\n                \"coaching_cues\": [\"Start with pathology screening\", \"Look for eating disorders first\", \"Consider medication effects\"],\n                \"common_mistakes\": [\"Not screening for eating disorders\", \"Missing medication-induced weight changes\", \"Lack of counseling about weight-affecting medications\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"Weight history profile\",\n                    \"unit\": \"qualitative assessment\",\n                    \"reference_ranges\": \"No standard ranges - individualized assessment\",\n                    \"validity_confidence\": \"Moderate - depends on patient recall\",\n                    \"reliability_confidence\": \"Moderate\"\n                }\n            ],\n            \"state_influences\": [\n                {\n                    \"state_name\": \"Current life stressors\",\n                    \"impact_on_assessment\": \"Major life events affect weight patterns\",\n                    \"impact_on_interpretation\": \"Context critical for developing support plan\"\n                }\n            ],\n            \"assets_generated\": [\n                {\n                    \"asset_name\": \"Clinical notes\",\n                    \"asset_type\": \"documentation\",\n                    \"description\": \"Written assessment of weight management history and risk factors\"\n                }\n            ]\n        },\n        {\n            \"assessment_name\": \"Sleep Quality Assessment\",\n            \"assessment_description\": \"Multi-tool assessment including questionnaires and clinical evaluation for sleep disorders\",\n            \"constructs_measured\": [\"Sleep Quality\", \"Sleep Apnea Risk\"],\n            \"modality\": \"Survey and clinical assessment\",\n            \"technology_vendor\": {\n                \"name\": \"Multiple tools: STOP-BANG, GSAQ, Pittsburgh Sleep Quality Index, MD Calc app\",\n                \"type\": \"software\",\n                \"specific_equipment\": \"Validated questionnaires and calculation tools\"\n            },\n            \"protocols\": {\n                \"preparation_steps\": [\"Assess objective risk factors (BMI, hypertension)\", \"Administer STOP-BANG for sleep apnea risk\", \"Use GSAQ for broad sleep disorder screening\", \"Conduct subjective sleep quality interview\", \"Consider specific questionnaires based on symptoms\"],\n                \"coaching_cues\": [\"Start with objective risk assessment\", \"Use STOP-BANG for sleep apnea screening\", \"Tailor specific questionnaires to symptoms\"],\n                \"common_mistakes\": [\"Missing sleep apnea risk in high-risk populations\", \"Not considering medication effects on sleep\"]\n            },\n            \"metrics\": [\n                {\n                    \"metric_name\": \"Sleep questionnaire scores, hours of sleep, sleep regularity\",\n                    \"unit\": \"scores and hours\",\n                    \"reference_ranges\": \"7-9 hours for adults, questionnaire-specific scoring\",\n                    \"validity_confidence\":"
+      },
+      "interventions": {
+        "interventions": [
+          {
+            "intervention_name": "Lifestyle Medicine Assessment Protocol",
+            "intervention_description": "Comprehensive assessment combining conventional western medicine biomarkers with lifestyle medicine pillars to evaluate and manage blood glucose/metabolic health",
+            "purpose": "To assess insulin resistance spectrum from normal glycemic control to type 2 diabetes and develop personalized lifestyle interventions",
+            "constructs_targeted": [
+              "Hemoglobin A1C",
+              "Fasting Glucose",
+              "Fasting Insulin",
+              "HOMA-IR",
+              "Oral Glucose Tolerance Test",
+              "BMI",
+              "Body Composition",
+              "Waist Circumference",
+              "Weight Management History",
+              "Sleep Quality",
+              "Sleep Apnea Risk",
+              "Nutrition Assessment",
+              "Physical Activity Level",
+              "Stress Level",
+              "Continuous Glucose Monitoring"
+            ],
+            "intervention_types": [
+              "Physical",
+              "Nutrition",
+              "Sleep",
+              "Stress Management"
+            ],
+            "protocols": {
+              "duration": "Ongoing with initial comprehensive assessment",
+              "frequency": "Initial assessment then regular follow-ups based on risk stratification",
+              "intensity": "Varies by resource level (low/moderate/high)",
+              "volume": "Comprehensive multi-pillar assessment covering 6 lifestyle medicine domains",
+              "progression_criteria": [
+                "Improvement in biomarkers",
+                "Achievement of physical activity guidelines",
+                "Sleep quality improvement",
+                "Stress management effectiveness"
+              ],
+              "reassessment_intervals": "Based on A1C trends and clinical progression"
+            },
+            "constraints_accommodations": [
+              {
+                "constraint_type": "Limited resources",
+                "accommodation_strategy": "Focus on weight, BMI, hemoglobin A1C, waist circumference, basic lifestyle questionnaire"
+              },
+              {
+                "constraint_type": "Moderate resources",
+                "accommodation_strategy": "Add fasting insulin, DEXA scan, detailed weight management history, structured lifestyle pillar interviews"
+              },
+              {
+                "constraint_type": "High resources",
+                "accommodation_strategy": "Include oral glucose tolerance test, CGM monitoring, comprehensive sleep studies when indicated"
+              },
+              {
+                "constraint_type": "Medical history complications",
+                "accommodation_strategy": "Account for hemoglobinopathies, medication effects, chronic conditions affecting interpretation"
+              }
+            ],
+            "resource_requirements": {
+              "time": "Variable - basic assessment 30-60 minutes, comprehensive assessment 2-3 hours across sessions",
+              "equipment": "Basic: scale, tape measure, blood draw supplies. Advanced: DEXA scanner, CGM devices, sleep study equipment",
+              "staff_expertise": "Lifestyle medicine trained clinician with knowledge of metabolic health, sleep disorders, nutrition counseling",
+              "cost_level": "Low to High based on assessment depth and technology used"
+            }
+          },
+          {
+            "intervention_name": "Nutrition Assessment and Counseling",
+            "intervention_description": "Comprehensive dietary evaluation using 24-hour recalls, food logging, and CGM data to optimize blood glucose management",
+            "purpose": "To assess current nutritional patterns and provide evidence-based dietary modifications for blood glucose control",
+            "constructs_targeted": [
+              "Nutrition Assessment",
+              "Continuous Glucose Monitoring",
+              "Hemoglobin A1C",
+              "Fasting Glucose"
+            ],
+            "intervention_types": [
+              "Nutrition"
+            ],
+            "protocols": {
+              "duration": "Initial assessment with ongoing monitoring and adjustments",
+              "frequency": "Regular food logging with periodic reviews",
+              "intensity": "Detailed 24-hour dietary recalls and pattern analysis",
+              "volume": "Comprehensive dietary preference assessment, eating behavior evaluation",
+              "progression_criteria": [
+                "Improved glucose responses",
+                "Sustainable dietary pattern adoption",
+                "Achievement of nutritional goals"
+              ],
+              "reassessment_intervals": "Weekly to monthly based on CGM data and clinical response"
+            },
+            "constraints_accommodations": [
+              {
+                "constraint_type": "Technology limitations",
+                "accommodation_strategy": "Use any available food logging method (Excel, Word, photos, apps)"
+              },
+              {
+                "constraint_type": "User experience preferences",
+                "accommodation_strategy": "Adapt to patient's preferred logging method and technology comfort level"
+              }
+            ],
+            "resource_requirements": {
+              "time": "Initial assessment 45-60 minutes, follow-ups 15-30 minutes",
+              "equipment": "CGM devices (Stilo/Dexcom), food logging apps (Aura Stilo, Diet ID), basic measuring tools",
+              "staff_expertise": "Nutrition counseling with blood glucose management expertise",
+              "cost_level": "Moderate to High with CGM integration"
+            }
+          },
+          {
+            "intervention_name": "Sleep Assessment and Optimization",
+            "intervention_description": "Comprehensive sleep evaluation including sleep disorder screening and sleep hygiene optimization for metabolic health",
+            "purpose": "To identify and address sleep disorders and poor sleep quality that impact blood glucose management",
+            "constructs_targeted": [
+              "Sleep Quality",
+              "Sleep Apnea Risk",
+              "Stress Level",
+              "Body Composition"
+            ],
+            "intervention_types": [
+              "Sleep"
+            ],
+            "protocols": {
+              "duration": "Initial screening with ongoing monitoring and interventions as needed",
+              "frequency": "Daily sleep tracking with periodic comprehensive assessments",
+              "intensity": "Ranges from basic questionnaires to formal sleep studies",
+              "volume": "Multi-tool assessment including GSAQ, Stop-Bang, PSQ, wearable data",
+              "progression_criteria": [
+                "Improved sleep quality scores",
+                "Reduced sleep apnea risk",
+                "Achievement of 7-9 hours regular sleep"
+              ],
+              "reassessment_intervals": "Monthly for sleep hygiene, as needed for sleep disorders"
+            },
+            "constraints_accommodations": [
+              {
+                "constraint_type": "Severe sleep pathology",
+                "accommodation_strategy": "Low threshold for sleep medicine referral and formal sleep studies"
+              },
+              {
+                "constraint_type": "Limited access to sleep studies",
+                "accommodation_strategy": "Focus on validated questionnaires and wearable data for initial assessment"
+              }
+            ],
+            "resource_requirements": {
+              "time": "Initial assessment 30-45 minutes, sleep study referral coordination",
+              "equipment": "Wearable devices (Aura Ring), sleep study equipment when indicated, validated questionnaires",
+              "staff_expertise": "Sleep disorder screening knowledge, sleep hygiene counseling",
+              "cost_level": "Low to High depending on need for formal sleep studies"
+            }
+          },
+          {
+            "intervention_name": "Physical Activity Assessment and Prescription",
+            "intervention_description": "Systematic evaluation of current activity levels and development of personalized exercise prescriptions based on Physical Activity Guidelines for Americans",
+            "purpose": "To assess current physical activity levels and develop interventions to meet guidelines for metabolic health improvement",
+            "constructs_targeted": [
+              "Physical Activity Level",
+              "Body Composition",
+              "BMI",
+              "Weight Management History"
+            ],
+            "intervention_types": [
+              "Physical"
+            ],
+            "protocols": {
+              "duration": "Initial assessment with progressive activity prescription",
+              "frequency": "Target 150 minutes moderate or 75 minutes vigorous weekly plus 2 days strength training",
+              "intensity": "Light, moderate, vigorous based on individual capacity and perceived exertion",
+              "volume": "Comprehensive activity assessment including steps, exercise minutes, strength training",
+              "progression_criteria": [
+                "Meeting Physical Activity Guidelines",
+                "Improved fitness capacity",
+                "Sustainable activity patterns"
+              ],
+              "reassessment_intervals": "Monthly progress reviews with activity adjustments"
+            },
+            "constraints_accommodations": [
+              {
+                "constraint_type": "Baseline fitness limitations",
+                "accommodation_strategy": "Individualized intensity assessment using talk test and RPE"
+              },
+              {
+                "constraint_type": "Limited exercise access",
+                "accommodation_strategy": "Focus on daily physical activity and functional movement integration"
+              }
+            ],
+            "resource_requirements": {
+              "time": "Initial assessment 30 minutes, regular monitoring",
+              "equipment": "Wearable activity trackers, IPAQ questionnaire, basic fitness assessment tools",
+              "staff_expertise": "Exercise prescription knowledge, understanding of activity guidelines",
+              "cost_level": "Low to Moderate"
+            }
+          },
+          {
+            "intervention_name": "Stress Management Assessment and Intervention",
+            "intervention_description": "Comprehensive stress evaluation including mental health screening and stress management technique development",
+            "purpose": "To identify stress levels and develop coping strategies that support metabolic health and blood glucose management",
+            "constructs_targeted": [
+              "Stress Level",
+              "Sleep Quality",
+              "Weight Management History"
+            ],
+            "intervention_types": [
+              "Stress Management"
+            ],
+            "protocols": {
+              "duration": "Initial comprehensive assessment with ongoing stress management skill development",
+              "frequency": "Regular stress monitoring with technique practice",
+              "intensity": "Varies from basic stress awareness to intensive coping skill development",
+              "volume": "Multi-domain assessment including demands vs resources evaluation",
+              "progression_criteria": [
+                "Improved PSS-4 scores",
+                "Effective stress management technique utilization",
+                "Reduced stress-related metabolic impact"
+              ],
+              "reassessment_intervals": "Monthly stress assessment with technique refinement"
+            },
+            "constraints_accommodations": [
+              {
+                "constraint_type": "Significant mental health concerns",
+                "accommodation_strategy": "Screen with GAD-7, PHQ-9 and refer for specialized mental health care when indicated"
+              },
+              {
+                "constraint_type": "Trauma history",
+                "accommodation_strategy": "Careful screening with appropriate resources and referral support available"
+              }
+            ],
+            "resource_requirements": {
+              "time": "Initial assessment 45-60 minutes, regular brief check-ins",
+              "equipment": "Validated questionnaires (PSS-4, GAD-7, PHQ-9), Aura Ring stress monitoring",
+              "staff_expertise": "Mental health screening competency, stress management counseling skills",
               "cost_level": "Low to Moderate"
             }
           }
@@ -671,8 +707,8 @@
     }
   ],
   "summary": {
-    "total_files": 1,
-    "successful": 1,
+    "total_files": 2,
+    "successful": 2,
     "failed": 0
   }
 }
