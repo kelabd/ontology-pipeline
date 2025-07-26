@@ -681,6 +681,166 @@ def show_relationships(data):
 def show_network_graph(data):
     st.header("🕸️ Relationship Network Graph")
 
+    # === Transcript selector ===
+    file_options = [f.get("file_name", "Unknown") for f in data.get("processed_files", [])]
+    selected_file = st.selectbox("Select transcript:", file_options)
+
+    file_data = next(f for f in data['processed_files'] if f.get('file_name') == selected_file)
+    relationships = file_data.get('relationships', {})
+
+    # === Node type filter ===
+    st.markdown("**Filter node types:**")
+    selected_types = st.multiselect(
+        "Select which types of nodes to display:",
+        options=["construct", "assessment", "intervention"],
+        default=["construct", "assessment", "intervention"]
+    )
+
+    # === Edge label toggle ===
+    show_edge_labels = st.checkbox("Show edge labels", value=False)
+
+    # === Legend ===
+    st.markdown("""
+    **Node Colors:**
+    - 🟣 Constructs: `#4a148c`
+    - 🔵 Assessments: `#0277bd`
+    - 🟢 Interventions: `#2e7d32`
+    """)
+
+    # === Build Graph ===
+    G = nx.DiGraph()
+    color_map = {
+        'construct': '#4a148c',
+        'assessment': '#0277bd',
+        'intervention': '#2e7d32'
+    }
+
+    node_types = {}
+    edge_labels = {}
+
+    def add_node(n, n_type):
+        if n_type in selected_types:
+            G.add_node(n)
+            node_types[n] = n_type
+
+    # Construct → Construct
+    for rel in relationships.get('construct_relationships', []):
+        src = rel['source_construct']
+        tgt = rel['target_construct']
+        label = rel.get('relationship_type', '')
+        add_node(src, 'construct')
+        add_node(tgt, 'construct')
+        G.add_edge(src, tgt)
+        edge_labels[(src, tgt)] = label
+
+    # Assessment → Construct
+    for rel in relationships.get('assessment_construct_links', []):
+        a = rel['assessment_name']
+        for c in rel.get('constructs_measured', []):
+            add_node(a, 'assessment')
+            add_node(c, 'construct')
+            G.add_edge(a, c)
+            edge_labels[(a, c)] = rel.get('measurement_relationship', 'measures')
+
+    # Intervention → Construct
+    for rel in relationships.get('intervention_construct_links', []):
+        i = rel['intervention_name']
+        for c in rel.get('constructs_targeted', []):
+            add_node(i, 'intervention')
+            add_node(c, 'construct')
+            G.add_edge(i, c)
+            edge_labels[(i, c)] = 'targets'
+
+    # Assessment → Intervention
+    for rel in relationships.get('assessment_intervention_connections', []):
+        a = rel['assessment_name']
+        i = rel['intervention_name']
+        add_node(a, 'assessment')
+        add_node(i, 'intervention')
+        G.add_edge(a, i)
+        edge_labels[(a, i)] = rel.get('connection_type', 'informs')
+
+    # Layout
+    pos = nx.spring_layout(G, k=0.7, seed=42)
+    edge_x, edge_y, edge_texts = [], [], []
+
+    for src, tgt in G.edges():
+        x0, y0 = pos[src]
+        x1, y1 = pos[tgt]
+        edge_x.extend([x0, x1, None])
+        edge_y.extend([y0, y1, None])
+        edge_texts.append(edge_labels.get((src, tgt), ''))
+
+    node_x, node_y, node_labels, node_colors = [], [], [], []
+
+    for node in G.nodes():
+        x, y = pos[node]
+        node_x.append(x)
+        node_y.append(y)
+        node_labels.append(node)
+        n_type = node_types.get(node, 'construct')
+        node_colors.append(color_map.get(n_type, '#999'))
+
+    # Plotly Traces
+    edge_trace = go.Scatter(
+        x=edge_x,
+        y=edge_y,
+        line=dict(width=1, color='#ccc'),
+        hoverinfo='none',
+        mode='lines'
+    )
+
+    node_trace = go.Scatter(
+        x=node_x,
+        y=node_y,
+        mode='markers+text',
+        hoverinfo='text',
+        text=node_labels,
+        textposition='top center',
+        marker=dict(
+            color=node_colors,
+            size=10,
+            line=dict(width=1, color='black')
+        )
+    )
+
+    fig = go.Figure(data=[edge_trace, node_trace])
+
+    if show_edge_labels:
+        annotations = []
+        for (src, tgt), label in edge_labels.items():
+            x0, y0 = pos[src]
+            x1, y1 = pos[tgt]
+            mid_x = (x0 + x1) / 2
+            mid_y = (y0 + y1) / 2
+            annotations.append(
+                dict(
+                    x=mid_x,
+                    y=mid_y,
+                    text=label,
+                    showarrow=False,
+                    font=dict(size=10),
+                    xanchor="center",
+                    yanchor="middle"
+                )
+            )
+        fig.update_layout(annotations=annotations)
+
+    fig.update_layout(
+        title=f"Ontology Graph for {selected_file}",
+        title_font_size=18,
+        showlegend=False,
+        hovermode='closest',
+        margin=dict(b=20, l=5, r=5, t=40),
+        xaxis=dict(showgrid=False, zeroline=False),
+        yaxis=dict(showgrid=False, zeroline=False),
+        height=600
+    )
+
+    st.plotly_chart(fig, use_container_width=True)
+
+    st.header("🕸️ Relationship Network Graph")
+
     G = nx.DiGraph()
 
     color_map = {
@@ -789,7 +949,6 @@ def show_network_graph(data):
     )
 
     st.plotly_chart(fig, use_container_width=True)
-
 
 if __name__ == "__main__":
     main()
