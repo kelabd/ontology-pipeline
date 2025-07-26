@@ -307,7 +307,7 @@ def main():
     page = st.sidebar.selectbox(
         "Choose a view:",
         ["📊 Overview", "📄 By Transcript", "🎯 Domains", "🔬 Constructs", 
-         "🧪 Assessments", "💊 Interventions", "⚙️ Technologies", "📏 Metrics"]
+         "🧪 Assessments", "💊 Interventions", "⚙️ Technologies", "📏 Metrics", "🔗 Relationships"]
     )
     
     if page == "📊 Overview":
@@ -326,6 +326,9 @@ def main():
         show_technologies(entities)
     elif page == "📏 Metrics":
         show_metrics(entities)
+    elif page == "🔗 Relationships":
+        show_relationships(data)
+
 
 def show_overview(data, entities):
     st.header("📊 Extraction Overview")
@@ -595,6 +598,57 @@ def show_metrics(entities):
             with col2:
                 st.write("**Used in assessments:**", ', '.join(set(metric_data['used_in_assessments'])))
                 st.write("**Found in transcripts:**", ', '.join(set(metric_data['files'])))
+                
+def show_relationships(data):
+    st.header("🔗 Relationships Between Constructs, Assessments, and Interventions")
+
+    for file_data in data.get('processed_files', []):
+        file_name = file_data.get('file_name', 'Unknown')
+        relationships = file_data.get('relationships', {})
+
+        with st.expander(f"📁 {file_name}"):
+            # Construct → Construct
+            construct_rels = relationships.get('construct_relationships', [])
+            if construct_rels:
+                st.subheader("🧠 Construct Relationships")
+                df = pd.DataFrame(construct_rels)
+                st.dataframe(df, use_container_width=True)
+
+            # Assessment → Construct
+            assess_construct_links = relationships.get('assessment_construct_links', [])
+            if assess_construct_links:
+                st.subheader("📊 Assessment ↔ Constructs")
+                rows = []
+                for link in assess_construct_links:
+                    rows.append({
+                        "Assessment": link.get("assessment_name", ""),
+                        "Constructs": ", ".join(link.get("constructs_measured", [])),
+                        "Relationship": link.get("measurement_relationship", ""),
+                        "Interpretation Factors": "; ".join(link.get("interpretation_factors", []))
+                    })
+                st.dataframe(pd.DataFrame(rows), use_container_width=True)
+
+            # Intervention → Construct
+            int_construct_links = relationships.get('intervention_construct_links', [])
+            if int_construct_links:
+                st.subheader("💊 Interventions ↔ Constructs")
+                rows = []
+                for link in int_construct_links:
+                    rows.append({
+                        "Intervention": link.get("intervention_name", ""),
+                        "Targets": ", ".join(link.get("constructs_targeted", [])),
+                        "Mechanism": link.get("mechanism_of_action", ""),
+                        "Expected Outcomes": "; ".join(link.get("expected_outcomes", [])),
+                        "Timeline": link.get("timeline_expectations", "")
+                    })
+                st.dataframe(pd.DataFrame(rows), use_container_width=True)
+
+            # Assessment → Intervention
+            assess_int_links = relationships.get('assessment_intervention_connections', [])
+            if assess_int_links:
+                st.subheader("🔄 Assessment ↔ Intervention Connections")
+                df = pd.DataFrame(assess_int_links)
+                st.dataframe(df, use_container_width=True)
 
 if __name__ == "__main__":
     main()
