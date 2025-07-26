@@ -714,51 +714,61 @@ def show_network_graph(data):
         'assessment': '#0277bd',
         'intervention': '#2e7d32'
     }
-
     node_types = {}
     edge_labels = {}
-
-    def add_node(n, n_type):
-        if n_type in selected_types:
-            G.add_node(n)
-            node_types[n] = n_type
-
+    
+    # Helper to conditionally add nodes and edges
+    def safe_add_edge(src, src_type, tgt, tgt_type, label):
+        if src_type in selected_types and tgt_type in selected_types:
+            G.add_node(src)
+            G.add_node(tgt)
+            node_types[src] = src_type
+            node_types[tgt] = tgt_type
+            G.add_edge(src, tgt)
+            edge_labels[(src, tgt)] = label
+    
     # Construct → Construct
     for rel in relationships.get('construct_relationships', []):
-        src = rel['source_construct']
-        tgt = rel['target_construct']
-        label = rel.get('relationship_type', '')
-        add_node(src, 'construct')
-        add_node(tgt, 'construct')
-        G.add_edge(src, tgt)
-        edge_labels[(src, tgt)] = label
-
+        safe_add_edge(
+            src=rel['source_construct'],
+            src_type='construct',
+            tgt=rel['target_construct'],
+            tgt_type='construct',
+            label=rel.get('relationship_type', '')
+        )
+    
     # Assessment → Construct
     for rel in relationships.get('assessment_construct_links', []):
-        a = rel['assessment_name']
         for c in rel.get('constructs_measured', []):
-            add_node(a, 'assessment')
-            add_node(c, 'construct')
-            G.add_edge(a, c)
-            edge_labels[(a, c)] = rel.get('measurement_relationship', 'measures')
-
+            safe_add_edge(
+                src=rel['assessment_name'],
+                src_type='assessment',
+                tgt=c,
+                tgt_type='construct',
+                label=rel.get('measurement_relationship', 'measures')
+            )
+    
     # Intervention → Construct
     for rel in relationships.get('intervention_construct_links', []):
-        i = rel['intervention_name']
         for c in rel.get('constructs_targeted', []):
-            add_node(i, 'intervention')
-            add_node(c, 'construct')
-            G.add_edge(i, c)
-            edge_labels[(i, c)] = 'targets'
-
+            safe_add_edge(
+                src=rel['intervention_name'],
+                src_type='intervention',
+                tgt=c,
+                tgt_type='construct',
+                label='targets'
+            )
+    
     # Assessment → Intervention
     for rel in relationships.get('assessment_intervention_connections', []):
-        a = rel['assessment_name']
-        i = rel['intervention_name']
-        add_node(a, 'assessment')
-        add_node(i, 'intervention')
-        G.add_edge(a, i)
-        edge_labels[(a, i)] = rel.get('connection_type', 'informs')
+        safe_add_edge(
+            src=rel['assessment_name'],
+            src_type='assessment',
+            tgt=rel['intervention_name'],
+            tgt_type='intervention',
+            label=rel.get('connection_type', 'informs')
+        )
+
 
     # Layout
     pos = nx.spring_layout(G, k=0.7, seed=42)
