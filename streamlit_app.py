@@ -476,6 +476,29 @@ def show_by_transcript(data):
                     st.write("**Targets:**", ', '.join(intervention.get('constructs_targeted', [])))
                 if intervention.get('intervention_types'):
                     st.write("**Types:**", ', '.join(intervention.get('intervention_types', [])))
+                    
+        # Technologies
+        st.subheader("⚙️ Technologies")
+        techs = file_data.get('ontology_guided_data', {}).get('technologies_metrics', {}).get('technologies', [])
+        for tech in techs:
+            with st.expander(f"⚙️ {tech.get('technology_name', 'Unknown Technology')}"):
+                st.write("**Vendor/Manufacturer:**", tech.get('vendor_manufacturer', 'N/A'))
+                st.write("**Type:**", tech.get('technology_type', 'N/A'))
+                st.write("**Specific Model:**", tech.get('specific_model', 'N/A'))
+                st.write("**Used For Assessments:**", ', '.join(tech.get('used_for_assessments', [])))
+                st.write("**What It Measures:**", ', '.join(tech.get('what_it_measures', [])))
+                st.write("**Data Output Format:**", tech.get('data_output_format', 'N/A'))
+                
+        # Metrics
+        st.subheader("📏 Metrics")
+        metrics = file_data.get('ontology_guided_data', {}).get('technologies_metrics', {}).get('metrics', [])
+        for metric in metrics:
+            with st.expander(f"📏 {metric.get('metric_name', 'Unknown Metric')}"):
+                st.write("**Unit:**", metric.get('measurement_unit', 'N/A'))
+                st.write("**Assessment Source:**", metric.get('assessment_source', 'N/A'))
+                st.write("**Normal Ranges:**", metric.get('normal_ranges', 'N/A'))
+                st.write("**Interpretation Notes:**", metric.get('interpretation_notes', ''))
+
     
     elif file_data:
         st.error(f"❌ Error processing this file: {file_data.get('error', 'Unknown error')}")
