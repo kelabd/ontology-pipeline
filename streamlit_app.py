@@ -77,6 +77,113 @@ def extract_all_entities(data):
         'technologies': {},
         'metrics': {}
     }
+
+    for file_data in data.get('processed_files', []):
+        if 'error' in file_data:
+            continue
+
+        file_name = file_data.get('file_name', 'Unknown')
+
+        # Domains & Constructs
+        domains_constructs = file_data.get('domains_constructs', {})
+        for domain in domains_constructs.get('practitioner_domains', []):
+            domain_name = domain.get('domain_name', '')
+            if domain_name:
+                if domain_name not in entities['domains']:
+                    entities['domains'][domain_name] = {
+                        'description': domain.get('domain_description', ''),
+                        'files': [],
+                        'specialization_notes': []
+                    }
+                entities['domains'][domain_name]['files'].append(file_name)
+                entities['domains'][domain_name]['specialization_notes'].append(
+                    domain.get('specialization_notes', '')
+                )
+
+        for construct in domains_constructs.get('constructs_mentioned', []):
+            construct_name = construct.get('construct_name', '')
+            if construct_name:
+                if construct_name not in entities['constructs']:
+                    entities['constructs'][construct_name] = {
+                        'description': construct.get('construct_description', ''),
+                        'domain_association': construct.get('domain_association', ''),
+                        'files': [],
+                        'assessment_contexts': []
+                    }
+                entities['constructs'][construct_name]['files'].append(file_name)
+                entities['constructs'][construct_name]['assessment_contexts'].append(
+                    construct.get('assessment_context', '')
+                )
+
+        # Assessments
+        assessments_data = file_data.get('assessments', {})
+        for assessment in assessments_data.get('assessments', []):
+            assessment_name = assessment.get('assessment_name', '')
+            if assessment_name:
+                if assessment_name not in entities['assessments']:
+                    entities['assessments'][assessment_name] = {
+                        'description': assessment.get('assessment_description', ''),
+                        'modality': assessment.get('modality', ''),
+                        'constructs_measured': assessment.get('constructs_measured', []),
+                        'files': [],
+                        'technologies': [],
+                        'metrics': []
+                    }
+                entities['assessments'][assessment_name]['files'].append(file_name)
+
+        # Interventions
+        interventions_data = file_data.get('interventions', {})
+        for intervention in interventions_data.get('interventions', []):
+            intervention_name = intervention.get('intervention_name', '')
+            if intervention_name:
+                if intervention_name not in entities['interventions']:
+                    entities['interventions'][intervention_name] = {
+                        'description': intervention.get('intervention_description', ''),
+                        'purpose': intervention.get('purpose', ''),
+                        'constructs_targeted': intervention.get('constructs_targeted', []),
+                        'intervention_types': intervention.get('intervention_types', []),
+                        'files': []
+                    }
+                entities['interventions'][intervention_name]['files'].append(file_name)
+
+        # 🧠 ADD Technologies & Metrics from `ontology_guided_data`
+        tech_metrics = file_data.get('ontology_guided_data', {}).get('technologies_metrics', {})
+        for tech in tech_metrics.get('technologies', []):
+            tech_name = tech.get('technology_name', '')
+            if tech_name:
+                if tech_name not in entities['technologies']:
+                    entities['technologies'][tech_name] = {
+                        'type': tech.get('technology_type', ''),
+                        'equipment': tech.get('specific_model', ''),
+                        'used_in_assessments': tech.get('used_for_assessments', []),
+                        'files': []
+                    }
+                entities['technologies'][tech_name]['files'].append(file_name)
+
+        for metric in tech_metrics.get('metrics', []):
+            metric_name = metric.get('metric_name', '')
+            if metric_name:
+                if metric_name not in entities['metrics']:
+                    entities['metrics'][metric_name] = {
+                        'unit': metric.get('measurement_unit', ''),
+                        'reference_ranges': metric.get('normal_ranges', ''),
+                        'validity_confidence': metric.get('interpretation_notes', ''),
+                        'used_in_assessments': [metric.get('assessment_source', '')],
+                        'files': []
+                    }
+                entities['metrics'][metric_name]['files'].append(file_name)
+
+    return entities
+
+    """Extract and organize all entities from the data"""
+    entities = {
+        'domains': {},
+        'constructs': {},
+        'assessments': {},
+        'interventions': {},
+        'technologies': {},
+        'metrics': {}
+    }
     
     for file_data in data.get('processed_files', []):
         if 'error' in file_data:
