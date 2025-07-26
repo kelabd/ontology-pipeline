@@ -68,9 +68,15 @@ class BaseOntologyExtractor:
             return {"error": "JSON parsing failed", "raw_response": text}
     
     def clean_response_text(self, text: str) -> str:
-        """Clean Claude's response to extract pure JSON"""
+        """Enhanced JSON cleaning"""
         text = text.strip()
         
+        # Remove any text before JSON
+        json_start = text.find('{')
+        if json_start > 0:
+            text = text[json_start:]
+        
+        # Remove markdown blocks
         if text.startswith('```json'):
             text = text[7:]
         elif text.startswith('```'):
@@ -78,6 +84,13 @@ class BaseOntologyExtractor:
         
         if text.endswith('```'):
             text = text[:-3]
+        
+        # Find the actual JSON object
+        json_start = text.find('{')
+        json_end = text.rfind('}')
+        
+        if json_start != -1 and json_end != -1 and json_end > json_start:
+            text = text[json_start:json_end + 1]
         
         return text.strip()
     
@@ -580,22 +593,23 @@ class OntologyGuidedExtractor(BaseOntologyExtractor):
         response_text = self.make_api_call(prompt, max_tokens=4000)
         return self.safe_json_parse(response_text)
     
-    def extract_assessments_guided(self, transcript: str, constructs: List[str]) -> Dict:
-        """Pass 2: Ontology-guided assessment extraction"""
-        prompt = self.prompts.assessments_guided(transcript, constructs)
-        response = self.make_api_call(prompt, max_tokens=4000)
+    def extract_technologies_metrics_guided(self, transcript: str, assessments: List[str]) -> Dict:
+        """Pass 3: Fixed technology and metrics extraction"""
+        # Use the fixed prompt method
+        prompt = self.prompts.technologies_metrics_guided_fixed(transcript, assessments)
+        response = self.make_api_call(prompt, max_tokens=3000)  # Reduced tokens
         return self.safe_json_parse(response)
     
-    def extract_technologies_metrics_guided(self, transcript: str, assessments: List[str]) -> Dict:
-        """Pass 3: Dedicated technology and metrics extraction"""
-        prompt = self.prompts.technologies_metrics_guided(transcript, assessments)
-        response = self.make_api_call(prompt, max_tokens=4000)
+    def extract_assessments_guided(self, transcript: str, constructs: List[str]) -> Dict:
+        """Pass 2: Fixed assessment extraction"""
+        prompt = self.prompts.assessments_guided_fixed(transcript, constructs)
+        response = self.make_api_call(prompt, max_tokens=3000)
         return self.safe_json_parse(response)
     
     def extract_interventions_guided(self, transcript: str, constructs: List[str]) -> Dict:
-        """Pass 4: Ontology-guided intervention extraction"""
-        prompt = self.prompts.interventions_guided(transcript, constructs)
-        response = self.make_api_call(prompt, max_tokens=4000)
+        """Pass 4: Fixed intervention extraction"""
+        prompt = self.prompts.interventions_guided_fixed(transcript, constructs)
+        response = self.make_api_call(prompt, max_tokens=3000)
         return self.safe_json_parse(response)
     
     def extract_goals_constraints_guided(self, transcript: str, constructs: List[str]) -> Dict:

@@ -499,14 +499,113 @@ Extract all interventions:
 
 Include exercise programs, nutrition plans, lifestyle modifications, medical treatments, education protocols - anything designed to improve health/performance outcomes.
 """
+    # Quick fix for src/prompts.py - add these methods to OntologyPrompts class
+
+    def technologies_metrics_guided_fixed(self, transcript: str, assessments: List[str]) -> str:
+        """Fixed technology and metrics extraction with strict JSON requirements"""
+        tech_context = self.get_ontology_context(["technology", "metric"])
+        assessments_context = ", ".join(assessments[:10])
+        
+        return f"""
+    Extract ALL technologies and metrics mentioned in this interview transcript.
     
+    ONTOLOGY FRAMEWORK:
+    {tech_context}
+    
+    ASSESSMENTS IDENTIFIED: {assessments_context}
+    
+    TRANSCRIPT:
+    {transcript}...
+    
+    CRITICAL: Return ONLY valid JSON. No explanatory text, no markdown, no comments.
+    
+    {{
+        "technologies": [
+            {{
+                "technology_name": "string",
+                "vendor_manufacturer": "string", 
+                "technology_type": "hardware/software/service",
+                "specific_model": "string",
+                "used_for_assessments": ["list"],
+                "what_it_measures": ["list"],
+                "data_output_format": "string"
+            }}
+        ],
+        "metrics": [
+            {{
+                "metric_name": "string",
+                "measurement_unit": "string",
+                "assessment_source": "string",
+                "normal_ranges": "string",
+                "interpretation_notes": "string"
+            }}
+        ]
+    }}
+    
+    Hunt for: equipment brands (VALD, Oura, COSMED), measurement units (cm, mmHg, %), specific values, vendor names.
+    """
+    
+    def assessments_guided_fixed(self, transcript: str, constructs: List[str]) -> str:
+        """Fixed assessment extraction with truncated transcript"""
+        constructs_context = ", ".join(constructs[:10])
+        ontology_context = self.get_ontology_context(["assessment"])
+        
+        return f"""
+    ONTOLOGY FRAMEWORK:
+    {ontology_context}
+    
+    CONSTRUCTS: {constructs_context}
+    
+    TRANSCRIPT (truncated):
+    {transcript}...
+    
+    Return ONLY valid JSON:
+    
+    {{
+        "assessments": [
+            {{
+                "assessment_name": "string",
+                "assessment_description": "string", 
+                "constructs_measured": ["list"],
+                "modality": "string"
+            }}
+        ]
+    }}
+    """
+    
+    def interventions_guided_fixed(self, transcript: str, constructs: List[str]) -> str:
+        """Fixed intervention extraction"""
+        constructs_context = ", ".join(constructs[:10])
+        
+        return f"""
+    CONSTRUCTS: {constructs_context}
+    
+    TRANSCRIPT (truncated):
+    {transcript}...
+    
+    Return ONLY valid JSON:
+    
+    {{
+        "interventions": [
+            {{
+                "intervention_name": "string",
+                "intervention_description": "string",
+                "constructs_targeted": ["list"],
+                "intervention_types": ["list"]
+            }}
+        ]
+    }}
+    
+    Look for: exercise programs, nutrition plans, treatments, protocols, strategies to improve health/performance.
+    """    
+
     def validation_guided(self, transcript: str, all_extractions: Dict) -> str:
         """Validation and gap identification"""
         return f"""
 Review this transcript and the extracted information to identify any significant gaps.
 
-TRANSCRIPT EXCERPT (first 1500 chars):
-{transcript[:1500]}...
+TRANSCRIPT EXCERPT :
+{transcript}...
 
 Perform ontology validation:
 {{
@@ -540,6 +639,7 @@ Perform ontology validation:
     ]
 }}
 """
+
 
 # Legacy class for backward compatibility
 class ExtractionPrompts(OntologyPrompts):
