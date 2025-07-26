@@ -5,6 +5,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 from collections import defaultdict, Counter
 import os
+import networkx as nx
+
 
 # Configure page
 st.set_page_config(
@@ -307,7 +309,8 @@ def main():
     page = st.sidebar.selectbox(
         "Choose a view:",
         ["📊 Overview", "📄 By Transcript", "🎯 Domains", "🔬 Constructs", 
-         "🧪 Assessments", "💊 Interventions", "⚙️ Technologies", "📏 Metrics", "🔗 Relationships"]
+         "🧪 Assessments", "💊 Interventions", "⚙️ Technologies", "📏 Metrics",
+         "🔗 Relationships", "🕸️ Network Graph"]
     )
     
     if page == "📊 Overview":
@@ -328,6 +331,8 @@ def main():
         show_metrics(entities)
     elif page == "🔗 Relationships":
         show_relationships(data)
+    elif page == "🕸️ Network Graph":
+        show_network_graph(data)
 
 
 def show_overview(data, entities):
@@ -649,6 +654,119 @@ def show_relationships(data):
                 st.subheader("🔄 Assessment ↔ Intervention Connections")
                 df = pd.DataFrame(assess_int_links)
                 st.dataframe(df, use_container_width=True)
+
+def show_network_graph(data):
+    st.header("🕸️ Relationship Network Graph")
+
+    G = nx.DiGraph()
+
+    color_map = {
+        'construct': '#4a148c',
+        'assessment': '#0277bd',
+        'intervention': '#2e7d32'
+    }
+
+    node_types = {}
+    edge_labels = {}
+
+    for file_data in data.get('processed_files', []):
+        relationships = file_data.get('relationships', {})
+
+        # Construct → Construct
+        for rel in relationships.get('construct_relationships', []):
+            src = rel['source_construct']
+            tgt = rel['target_construct']
+            label = rel.get('relationship_type', '')
+            G.add_edge(src, tgt)
+            node_types[src] = 'construct'
+            node_types[tgt] = 'construct'
+            edge_labels[(src, tgt)] = label
+
+        # Assessment → Construct
+        for rel in relationships.get('assessment_construct_links', []):
+            a = rel['assessment_name']
+            for c in rel.get('constructs_measured', []):
+                G.add_edge(a, c)
+                node_types[a] = 'assessment'
+                node_types[c] = 'construct'
+                edge_labels[(a, c)] = rel.get('measurement_relationship', 'measures')
+
+        # Intervention → Construct
+        for rel in relationships.get('intervention_construct_links', []):
+            i = rel['intervention_name']
+            for c in rel.get('constructs_targeted', []):
+                G.add_edge(i, c)
+                node_types[i] = 'intervention'
+                node_types[c] = 'construct'
+                edge_labels[(i, c)] = 'targets'
+
+        # Assessment → Intervention
+        for rel in relationships.get('assessment_intervention_connections', []):
+            a = rel['assessment_name']
+            i = rel['intervention_name']
+            G.add_edge(a, i)
+            node_types[a] = 'assessment'
+            node_types[i] = 'intervention'
+            edge_labels[(a, i)] = rel.get('connection_type', 'informs')
+
+    # Layout
+    pos = nx.spring_layout(G, k=0.7, seed=42)
+
+    edge_x = []
+    edge_y = []
+    for src, tgt in G.edges():
+        x0, y0 = pos[src]
+        x1, y1 = pos[tgt]
+        edge_x.extend([x0, x1, None])
+        edge_y.extend([y0, y1, None])
+
+    node_x = []
+    node_y = []
+    node_labels = []
+    node_colors = []
+
+    for node in G.nodes():
+        x, y = pos[node]
+        node_x.append(x)
+        node_y.append(y)
+        node_labels.append(node)
+        node_type = node_types.get(node, 'construct')
+        node_colors.append(color_map.get(node_type, '#888'))
+
+    edge_trace = go.Scatter(
+        x=edge_x, y=edge_y,
+        line=dict(width=0.8, color='#ccc'),
+        hoverinfo='none',
+        mode='lines'
+    )
+
+    node_trace = go.Scatter(
+        x=node_x, y=node_y,
+        mode='markers+text',
+        hoverinfo='text',
+        text=node_labels,
+        textposition='top center',
+        marker=dict(
+            color=node_colors,
+            size=10,
+            line=dict(width=1, color='black')
+        )
+    )
+
+    fig = go.Figure(data=[edge_trace, node_trace])
+    fig.update_layout(
+        title="Ontology Relationship Graph",
+        title_font_size=20,
+        showlegend=False,
+        hovermode='closest',
+        margin=dict(b=20,l=5,r=5,t=40),
+        xaxis=dict(showgrid=False, zeroline=False),
+        yaxis=dict(showgrid=False, zeroline=False),
+        height=600
+    )
+
+    st.plotly_chart(fig, use_container_width=True)
+
 
 if __name__ == "__main__":
     main()
