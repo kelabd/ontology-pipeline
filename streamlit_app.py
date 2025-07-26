@@ -699,13 +699,8 @@ def show_network_graph(data):
     # === Edge label toggle ===
     show_edge_labels = st.checkbox("Show edge labels", value=False)
 
-    # === Legend ===
-    st.markdown("""
-    **Node Colors:**
-    - 🟣 Constructs: `#4a148c`
-    - 🔵 Assessments: `#0277bd`
-    - 🟢 Interventions: `#2e7d32`
-    """)
+    # === Click-to-isolate mode ===
+    isolate_mode = st.toggle("🧬 Enable Click-to-Isolate Mode")
 
     # === Build Graph ===
     G = nx.DiGraph()
@@ -716,8 +711,7 @@ def show_network_graph(data):
     }
     node_types = {}
     edge_labels = {}
-    
-    # Helper to conditionally add nodes and edges
+
     def safe_add_edge(src, src_type, tgt, tgt_type, label):
         if src_type in selected_types and tgt_type in selected_types:
             G.add_node(src)
@@ -726,7 +720,7 @@ def show_network_graph(data):
             node_types[tgt] = tgt_type
             G.add_edge(src, tgt)
             edge_labels[(src, tgt)] = label
-    
+
     # Construct → Construct
     for rel in relationships.get('construct_relationships', []):
         safe_add_edge(
@@ -736,7 +730,7 @@ def show_network_graph(data):
             tgt_type='construct',
             label=rel.get('relationship_type', '')
         )
-    
+
     # Assessment → Construct
     for rel in relationships.get('assessment_construct_links', []):
         for c in rel.get('constructs_measured', []):
@@ -747,7 +741,7 @@ def show_network_graph(data):
                 tgt_type='construct',
                 label=rel.get('measurement_relationship', 'measures')
             )
-    
+
     # Intervention → Construct
     for rel in relationships.get('intervention_construct_links', []):
         for c in rel.get('constructs_targeted', []):
@@ -758,7 +752,7 @@ def show_network_graph(data):
                 tgt_type='construct',
                 label='targets'
             )
-    
+
     # Assessment → Intervention
     for rel in relationships.get('assessment_intervention_connections', []):
         safe_add_edge(
@@ -769,21 +763,32 @@ def show_network_graph(data):
             label=rel.get('connection_type', 'informs')
         )
 
-
-    # Layout
+    # === Layout
     pos = nx.spring_layout(G, k=0.7, seed=42)
-    edge_x, edge_y, edge_texts = [], [], []
 
+    # === Isolation logic
+    node_list = sorted(G.nodes())
+    selected_node = None
+    if isolate_mode and node_list:
+        selected_node = st.selectbox("Click (select) a node to isolate:", node_list)
+        neighborhood = set([selected_node])
+        neighborhood.update(G.successors(selected_node))
+        neighborhood.update(G.predecessors(selected_node))
+    else:
+        neighborhood = set(G.nodes())
+
+    # === Plot prep
+    edge_x, edge_y, edge_texts = [], [], []
     for src, tgt in G.edges():
-        x0, y0 = pos[src]
-        x1, y1 = pos[tgt]
-        edge_x.extend([x0, x1, None])
-        edge_y.extend([y0, y1, None])
-        edge_texts.append(edge_labels.get((src, tgt), ''))
+        if src in neighborhood and tgt in neighborhood:
+            x0, y0 = pos[src]
+            x1, y1 = pos[tgt]
+            edge_x.extend([x0, x1, None])
+            edge_y.extend([y0, y1, None])
+            edge_texts.append(edge_labels.get((src, tgt), ''))
 
     node_x, node_y, node_labels, node_colors = [], [], [], []
-
-    for node in G.nodes():
+    for node in neighborhood:
         x, y = pos[node]
         node_x.append(x)
         node_y.append(y)
@@ -791,7 +796,7 @@ def show_network_graph(data):
         n_type = node_types.get(node, 'construct')
         node_colors.append(color_map.get(n_type, '#999'))
 
-    # Plotly Traces
+    # === Plotly Traces
     edge_trace = go.Scatter(
         x=edge_x,
         y=edge_y,
@@ -819,23 +824,25 @@ def show_network_graph(data):
     if show_edge_labels:
         annotations = []
         for (src, tgt), label in edge_labels.items():
-            x0, y0 = pos[src]
-            x1, y1 = pos[tgt]
-            mid_x = (x0 + x1) / 2
-            mid_y = (y0 + y1) / 2
-            annotations.append(
-                dict(
-                    x=mid_x,
-                    y=mid_y,
-                    text=label,
-                    showarrow=False,
-                    font=dict(size=10),
-                    xanchor="center",
-                    yanchor="middle"
+            if src in neighborhood and tgt in neighborhood:
+                x0, y0 = pos[src]
+                x1, y1 = pos[tgt]
+                mid_x = (x0 + x1) / 2
+                mid_y = (y0 + y1) / 2
+                annotations.append(
+                    dict(
+                        x=mid_x,
+                        y=mid_y,
+                        text=label,
+                        showarrow=False,
+                        font=dict(size=10),
+                        xanchor="center",
+                        yanchor="middle"
+                    )
                 )
-            )
         fig.update_layout(annotations=annotations)
 
+    # === Layout & Legend
     fig.update_layout(
         title=f"Ontology Graph for {selected_file}",
         title_font_size=18,
@@ -847,7 +854,16 @@ def show_network_graph(data):
         height=600
     )
 
+    # === Legend
+    st.markdown("""
+    **Node Colors:**
+    - 🟣 Constructs: `#4a148c`
+    - 🔵 Assessments: `#0277bd`
+    - 🟢 Interventions: `#2e7d32`
+    """)
+
     st.plotly_chart(fig, use_container_width=True)
+
 
     st.header("🕸️ Relationship Network Graph")
 
