@@ -302,9 +302,6 @@ def main():
     if data is None:
         st.stop()
     
-    # 🟢 Call feedback form here
-    sidebar_feedback_form(data)
-    
     # Extract entities
     entities = extract_all_entities(data)
     
@@ -316,6 +313,9 @@ def main():
          "🧪 Assessments", "💊 Interventions", "⚙️ Technologies", "📏 Metrics",
          "🔗 Relationships", "🕸️ Network Graph"]
     )
+    
+    # 🟢 Call feedback form here
+    sidebar_feedback_form(data)
     
     if page == "📊 Overview":
         show_overview(data, entities)
