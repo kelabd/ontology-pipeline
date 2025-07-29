@@ -862,14 +862,19 @@ def sidebar_feedback_form(data):
                 "name": name
             }
 
-            csv_path = "H:/Shared drives/Data & AI Innovation Workspace/feedback_log.csv"
-
+            # Create feedback folder if it doesn't exist
+            feedback_dir = os.path.join("data", "feedback")
+            os.makedirs(feedback_dir, exist_ok=True)
+            
+            # Save feedback to CSV
+            csv_path = os.path.join(feedback_dir, "feedback_log.csv")
+            
             if os.path.exists(csv_path):
                 df = pd.read_csv(csv_path)
                 df = df.append(feedback_row, ignore_index=True)
             else:
                 df = pd.DataFrame([feedback_row])
-
+            
             df.to_csv(csv_path, index=False)
             st.sidebar.success("✅ Feedback submitted!")
 
