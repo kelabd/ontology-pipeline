@@ -872,7 +872,7 @@ def sidebar_feedback_form(data):
             
             if os.path.exists(csv_path):
                 df = pd.read_csv(csv_path)
-                df = df.append(feedback_row, ignore_index=True)
+                df = pd.concat([df, pd.DataFrame([feedback_row])], ignore_index=True)
             else:
                 df = pd.DataFrame([feedback_row])
             
