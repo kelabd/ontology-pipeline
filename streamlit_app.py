@@ -862,7 +862,7 @@ def sidebar_feedback_form(data):
             try:
                 # Connect to Google Sheets
                 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-                creds_dict = dict(st.secrets["google_sheets"])
+                creds_dict = dict(st.secrets["gcp_service_account"])
                 credentials = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
                 client = gspread.authorize(credentials)
 
