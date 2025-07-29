@@ -875,6 +875,7 @@ def sidebar_feedback_form(data):
             else:
                 df = pd.DataFrame([feedback_row])
             
+            st.sidebar.code(f"Working directory: {os.getcwd()}")
             df.to_csv(csv_path, index=False)
             st.sidebar.success("✅ Feedback submitted!")
 
