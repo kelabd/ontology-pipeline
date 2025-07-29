@@ -6,6 +6,7 @@ import plotly.graph_objects as go
 from collections import defaultdict, Counter
 import os
 import networkx as nx
+import datetime
 
 
 # Configure page
@@ -300,6 +301,9 @@ def main():
     data = load_extraction_data()
     if data is None:
         st.stop()
+    
+    # 🟢 Call feedback form here
+    sidebar_feedback_form(data)
     
     # Extract entities
     entities = extract_all_entities(data)
@@ -830,6 +834,47 @@ def render_network_graph(relationships, context_label=""):
     )
 
     st.plotly_chart(fig, use_container_width=True)
+    
+def sidebar_feedback_form(data):
+    st.sidebar.markdown("---")
+    st.sidebar.subheader("💬 Pipeline Feedback")
+
+    with st.sidebar.form(key="feedback_form"):
+        transcript_files = [f.get("file_name", "Unknown") for f in data.get("processed_files", [])]
+        selected_transcript = st.selectbox("Transcript", transcript_files)
+
+        rating = st.slider("How accurate is the extraction?", 1, 5, 3)
+        comments = st.text_area("Comments (optional)", placeholder="What worked well or what needs improvement?")
+        name = st.text_input("Name (optional)")
+
+        submit = st.form_submit_button("Submit Feedback")
+
+        if submit:
+            import pandas as pd
+            import os
+            import datetime
+
+            feedback_row = {
+                "timestamp": datetime.datetime.now().isoformat(),
+                "transcript": selected_transcript,
+                "rating": rating,
+                "comments": comments,
+                "name": name
+            }
+
+            csv_path = "H:/Shared drives/Data & AI Innovation Workspace/feedback_log.csv"
+
+            if os.path.exists(csv_path):
+                df = pd.read_csv(csv_path)
+                df = df.append(feedback_row, ignore_index=True)
+            else:
+                df = pd.DataFrame([feedback_row])
+
+            df.to_csv(csv_path, index=False)
+            st.sidebar.success("✅ Feedback submitted!")
+
+
+
 
 if __name__ == "__main__":
     main()
