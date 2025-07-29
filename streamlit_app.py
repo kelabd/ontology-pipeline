@@ -7,6 +7,8 @@ from collections import defaultdict, Counter
 import os
 import networkx as nx
 import datetime
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
 
 # Configure page
@@ -842,7 +844,6 @@ def sidebar_feedback_form(data):
     with st.sidebar.form(key="feedback_form"):
         transcript_files = [f.get("file_name", "Unknown") for f in data.get("processed_files", [])]
         selected_transcript = st.selectbox("Transcript", transcript_files)
-
         rating = st.slider("How accurate is the extraction?", 1, 5, 3)
         comments = st.text_area("Comments (optional)", placeholder="What worked well or what needs improvement?")
         name = st.text_input("Name (optional)")
@@ -850,35 +851,27 @@ def sidebar_feedback_form(data):
         submit = st.form_submit_button("Submit Feedback")
 
         if submit:
-            import pandas as pd
-            import os
-            import datetime
+            feedback_row = [
+                datetime.datetime.now().isoformat(),
+                selected_transcript,
+                rating,
+                comments,
+                name
+            ]
 
-            feedback_row = {
-                "timestamp": datetime.datetime.now().isoformat(),
-                "transcript": selected_transcript,
-                "rating": rating,
-                "comments": comments,
-                "name": name
-            }
+            try:
+                # Connect to Google Sheets
+                scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+                creds_dict = dict(st.secrets["google_sheets"])
+                credentials = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
+                client = gspread.authorize(credentials)
 
-            # Create feedback folder if it doesn't exist
-            feedback_dir = os.path.join("data", "feedback")
-            os.makedirs(feedback_dir, exist_ok=True)
-            
-            st.sidebar.code(f"Working directory: {os.getcwd()}")
-            # Save feedback to CSV
-            csv_path = os.path.join(feedback_dir, "feedback_log.csv")
-            
-            if os.path.exists(csv_path):
-                df = pd.read_csv(csv_path)
-                df = pd.concat([df, pd.DataFrame([feedback_row])], ignore_index=True)
-            else:
-                df = pd.DataFrame([feedback_row])
-            
-            
-            df.to_csv(csv_path, index=False)
-            st.sidebar.success("✅ Feedback submitted!")
+                # Open the Google Sheet by ID
+                sheet = client.open_by_key("10ZwixIt5zHBXsPl2Uw3YPffLphJ6-ovF5ck5O-Rxr6A").worksheet("Feedback")
+                sheet.append_row(feedback_row)
+                st.sidebar.success("✅ Feedback submitted!")
+            except Exception as e:
+                st.sidebar.error(f"⚠️ Failed to submit feedback: {e}")
 
 
 
