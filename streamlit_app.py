@@ -866,6 +866,7 @@ def sidebar_feedback_form(data):
             feedback_dir = os.path.join("data", "feedback")
             os.makedirs(feedback_dir, exist_ok=True)
             
+            st.sidebar.code(f"Working directory: {os.getcwd()}")
             # Save feedback to CSV
             csv_path = os.path.join(feedback_dir, "feedback_log.csv")
             
@@ -875,7 +876,7 @@ def sidebar_feedback_form(data):
             else:
                 df = pd.DataFrame([feedback_row])
             
-            st.sidebar.code(f"Working directory: {os.getcwd()}")
+            
             df.to_csv(csv_path, index=False)
             st.sidebar.success("✅ Feedback submitted!")
 
