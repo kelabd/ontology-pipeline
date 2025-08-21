@@ -43,6 +43,66 @@ class BaseOntologyExtractor:
         self.ontology_schema = ONTOLOGY_SCHEMA
         self.prompts = OntologyPrompts()  # Use new improved prompts
         
+    def load_existing_results(self, output_dir: str = "data/outputs") -> Dict:
+        """Load existing extraction results if they exist"""
+        output_path = Path(output_dir)
+        results_file = output_path / "extraction_results.json"
+        
+        if results_file.exists():
+            try:
+                with open(results_file, 'r') as f:
+                    existing_results = json.load(f)
+                print(f"📂 Loaded existing results with {len(existing_results.get('processed_files', []))} files")
+                return existing_results
+            except Exception as e:
+                print(f"⚠️ Failed to load existing results: {e}")
+        
+        return None
+    
+
+    
+    def get_processed_filenames(self, existing_results: Dict) -> set:
+        """Get set of already processed filenames"""
+        if not existing_results or 'processed_files' not in existing_results:
+            return set()
+        
+        processed_files = set()
+        for file_result in existing_results.get('processed_files', []):
+            if 'error' not in file_result:
+                processed_files.add(file_result['file_name'])
+        
+        return processed_files
+    
+    def merge_results(self, existing_results: Dict, new_results: Dict) -> Dict:
+        """Merge new results with existing results"""
+        if not existing_results:
+            return new_results
+        
+        # Create a map of existing results by filename
+        existing_map = {}
+        for file_result in existing_results.get('processed_files', []):
+            if 'error' not in file_result:
+                existing_map[file_result['file_name']] = file_result
+        
+        # Add new results, overwriting any duplicates
+        for file_result in new_results.get('processed_files', []):
+            if 'error' not in file_result:
+                existing_map[file_result['file_name']] = file_result
+        
+        # Rebuild the merged results
+        merged_results = {
+            "processed_files": list(existing_map.values()),
+            "summary": {
+                "total_files": len(existing_map),
+                "successful": len([f for f in existing_map.values() if 'error' not in f]),
+                "failed": len([f for f in existing_map.values() if 'error' in f]),
+                "extraction_type": new_results['summary'].get('extraction_type', existing_results['summary'].get('extraction_type', 'Unknown')),
+                "total_api_calls": existing_results['summary'].get('total_api_calls', 0) + new_results['summary'].get('total_api_calls', 0)
+            }
+        }
+        
+        return merged_results
+        
     def make_api_call(self, prompt: str, max_tokens: int = 4000) -> str:
         """Make API call to Claude with error handling"""
         try:
@@ -183,47 +243,74 @@ class OntologyExtractor(BaseOntologyExtractor):
         return result
     
     def process_transcript_folder(self, folder_path: str) -> Dict:
-        """Process all transcripts in a folder using enhanced standard approach"""
+        """Process all transcripts using enhanced standard approach with incremental processing"""
         folder = Path(folder_path)
         if not folder.exists():
             raise ValueError(f"Folder does not exist: {folder_path}")
         
+        # Load existing results
+        existing_results = self.load_existing_results()
+        processed_filenames = self.get_processed_filenames(existing_results)
+        
         transcript_files = list(folder.glob("*.txt"))
         if not transcript_files:
             print(f"❌ No .txt files found in {folder_path}")
-            return {"error": "No transcript files found"}
+            return existing_results or {"error": "No transcript files found"}
         
-        print(f"📁 Found {len(transcript_files)} transcript files")
+        # Filter for only new/unprocessed files
+        new_files = [f for f in transcript_files if f.name not in processed_filenames]
+        already_processed = [f for f in transcript_files if f.name in processed_filenames]
         
-        results = {
+        print(f"📁 Found {len(transcript_files)} total transcript files")
+        print(f"✅ Already processed: {len(already_processed)} files")
+        print(f"🆕 New files to process: {len(new_files)} files")
+        
+        if not new_files:
+            print("🎉 All transcripts already processed!")
+            return existing_results
+        
+        # Process only new files
+        new_results = {
             "processed_files": [],
             "summary": {
-                "total_files": len(transcript_files),
+                "total_files": len(new_files),
                 "successful": 0,
                 "failed": 0,
-                "extraction_type": self.extraction_type
+                "extraction_type": self.extraction_type,
+                "total_api_calls": 0
             }
         }
         
-        for i, file_path in enumerate(transcript_files, 1):
+        for i, file_path in enumerate(new_files, 1):
             try:
-                print(f"\n[{i}/{len(transcript_files)}]", end=" ")
+                print(f"\n[{i}/{len(new_files)}] Processing new file: {file_path.name}")
                 file_result = self.process_single_transcript(file_path)
-                results["processed_files"].append(file_result)
-                results["summary"]["successful"] += 1
+                new_results["processed_files"].append(file_result)
+                new_results["summary"]["successful"] += 1
+                new_results["summary"]["total_api_calls"] += 4  # 4 passes
                 
                 # Small delay for API rate limiting
                 time.sleep(0.5)
                 
             except Exception as e:
                 print(f"❌ Error processing {file_path.name}: {e}")
-                results["processed_files"].append({
+                new_results["processed_files"].append({
                     "file_name": file_path.name,
                     "error": str(e)
                 })
-                results["summary"]["failed"] += 1
+                new_results["summary"]["failed"] += 1
         
-        return results
+        # Merge with existing results
+        final_results = self.merge_results(existing_results, new_results)
+        
+        print(f"\n📊 MERGE SUMMARY:")
+        print(f"   Existing files preserved: {len(already_processed)}")
+        print(f"   New files processed: {len(new_files)}")
+        print(f"   Total files in results: {final_results['summary']['total_files']}")
+        print(f"   New API calls made: {new_results['summary']['total_api_calls']}")
+        print(f"   Total API calls (all time): {final_results['summary']['total_api_calls']}")
+        
+        return final_results
 
 class RobustOntologyExtractor(BaseOntologyExtractor):
     """Enhanced 7-pass extraction system for maximum information capture"""
@@ -398,7 +485,7 @@ class RobustOntologyExtractor(BaseOntologyExtractor):
         print("  🗺️  Pass 1: Knowledge domain mapping...")
         knowledge_map = self.extract_knowledge_domains(transcript)
         
-        print("  🔍 Pass 2: Comprehensive entity extraction...")  
+        print("  🔍 Pass 2: Comprehensive entity extraction...")
         entities = self.extract_comprehensive_entities(transcript, knowledge_map)
         
         print("  🧪 Pass 3: Detailed assessment extraction...")
@@ -408,148 +495,74 @@ class RobustOntologyExtractor(BaseOntologyExtractor):
         interventions = self.extract_detailed_interventions(transcript, entities)
         
         print("  🎯 Pass 5: Contextual factors extraction...")
-        contextual_info = self.extract_contextual_factors(transcript, entities)
+        contextual_factors = self.extract_contextual_factors(transcript, entities)
         
-        print("  🔗 Pass 6: Comprehensive relationships...")
-        relationships = self.extract_comprehensive_relationships(transcript, {
-            'knowledge_map': knowledge_map,
-            'entities': entities,
-            'assessments': assessments,
-            'interventions': interventions
-        })
+        print("  🔗 Pass 6: Comprehensive relationship extraction...")
+        all_data = {
+            "knowledge_map": knowledge_map,
+            "entities": entities,
+            "assessments": assessments,
+            "interventions": interventions,
+            "contextual_factors": contextual_factors
+        }
+        relationships = self.extract_comprehensive_relationships(transcript, all_data)
         
         print("  ✅ Pass 7: Validation and enhancement...")
-        validation = self.validate_and_enhance(transcript, {
-            'knowledge_map': knowledge_map,
-            'entities': entities,
-            'assessments': assessments,
-            'interventions': interventions,
-            'relationships': relationships
-        })
+        validation = self.validate_and_enhance(transcript, all_data)
         
-        # Calculate constructs for compatibility
-        total_constructs = 0
-        if entities and isinstance(entities, dict):
-            for category in entities.values():
-                if isinstance(category, list):
-                    total_constructs += len(category)
-        
-        # Create legacy-compatible format
-        legacy_domains_constructs = self.convert_to_legacy_domains(knowledge_map, entities)
-        legacy_assessments = self.convert_to_legacy_assessments(assessments)
-        legacy_interventions = self.convert_to_legacy_interventions(interventions)
+        # Extract construct names for summary
+        constructs_list = []
+        if entities and "constructs_mentioned" in entities:
+            constructs_list = [c.get("construct_name", "") for c in entities["constructs_mentioned"]]
         
         result = {
             "file_name": file_path.name,
             "transcript_length": len(transcript),
-            "constructs_identified": total_constructs,
-            
-            # Legacy format for compatibility
-            "domains_constructs": legacy_domains_constructs,
-            "assessments": legacy_assessments,
-            "interventions": legacy_interventions,
+            "constructs_identified": len(constructs_list),
+            "knowledge_map": knowledge_map,
+            "entities": entities,
+            "assessments": assessments,
+            "interventions": interventions,
+            "contextual_factors": contextual_factors,
             "relationships": relationships,
-            
-            # Enhanced robust data
-            "robust_data": {
-                "knowledge_map": knowledge_map,
-                "entities": entities,
-                "detailed_assessments": assessments,
-                "detailed_interventions": interventions,
-                "contextual_info": contextual_info,
-                "validation": validation
-            }
+            "validation": validation
         }
         
-        print(f"  ✅ Found {total_constructs} total entities")
+        print(f"  ✅ Found {len(constructs_list)} constructs")
         return result
     
-    def convert_to_legacy_domains(self, knowledge_map: Dict, entities: Dict) -> Dict:
-        """Convert to legacy format for compatibility"""
-        legacy = {
-            "practitioner_domains": [],
-            "constructs_mentioned": [],
-            "sport_specificity": []
-        }
-        
-        # Convert expertise to domains
-        if knowledge_map and "primary_expertise" in knowledge_map:
-            for expertise in knowledge_map["primary_expertise"]:
-                legacy["practitioner_domains"].append({
-                    "domain_name": expertise.get("area", ""),
-                    "domain_description": expertise.get("description", ""),
-                    "specialization_notes": expertise.get("scope", "")
-                })
-        
-        # Convert entities to constructs
-        if entities and "constructs_mentioned" in entities:
-            for construct in entities["constructs_mentioned"]:
-                legacy["constructs_mentioned"].append({
-                    "construct_name": construct.get("construct_name", ""),
-                    "construct_description": construct.get("construct_description", ""),
-                    "domain_association": construct.get("domain_association", ""),
-                    "assessment_context": construct.get("how_assessed", "")
-                })
-        
-        return legacy
-    
-    def convert_to_legacy_assessments(self, assessments: Dict) -> Dict:
-        """Convert assessments to legacy format"""
-        if not assessments or "assessments" not in assessments:
-            return {"assessments": []}
-        
-        legacy_assessments = []
-        for assessment in assessments["assessments"]:
-            legacy_assessments.append({
-                "assessment_name": assessment.get("assessment_name", ""),
-                "assessment_description": assessment.get("assessment_description", ""),
-                "constructs_measured": assessment.get("constructs_measured", []),
-                "modality": assessment.get("modality", ""),
-                "technology_vendor": {},
-                "protocols": {},
-                "metrics": [],
-                "state_influences": [],
-                "assets_generated": []
-            })
-        
-        return {"assessments": legacy_assessments}
-    
-    def convert_to_legacy_interventions(self, interventions: Dict) -> Dict:
-        """Convert interventions to legacy format"""
-        if not interventions or "interventions" not in interventions:
-            return {"interventions": []}
-        
-        legacy_interventions = []
-        for intervention in interventions["interventions"]:
-            legacy_interventions.append({
-                "intervention_name": intervention.get("intervention_name", ""),
-                "intervention_description": intervention.get("intervention_description", ""),
-                "purpose": intervention.get("purpose", ""),
-                "constructs_targeted": intervention.get("constructs_targeted", []),
-                "intervention_types": intervention.get("intervention_types", []),
-                "protocols": {},
-                "resource_requirements": {}
-            })
-        
-        return {"interventions": legacy_interventions}
-    
     def process_transcript_folder(self, folder_path: str) -> Dict:
-        """Process all transcripts using robust extraction"""
+        """Process all transcripts using 7-pass robust extraction with incremental processing"""
         folder = Path(folder_path)
         if not folder.exists():
             raise ValueError(f"Folder does not exist: {folder_path}")
         
+        # Load existing results
+        existing_results = self.load_existing_results()
+        processed_filenames = self.get_processed_filenames(existing_results)
+        
         transcript_files = list(folder.glob("*.txt"))
         if not transcript_files:
             print(f"❌ No .txt files found in {folder_path}")
-            return {"error": "No transcript files found"}
+            return existing_results or {"error": "No transcript files found"}
         
-        print(f"📁 Found {len(transcript_files)} transcript files")
+        # Filter for only new/unprocessed files
+        new_files = [f for f in transcript_files if f.name not in processed_filenames]
+        already_processed = [f for f in transcript_files if f.name in processed_filenames]
         
-        results = {
+        print(f"📁 Found {len(transcript_files)} total transcript files")
+        print(f"✅ Already processed: {len(already_processed)} files")
+        print(f"🆕 New files to process: {len(new_files)} files")
+        
+        if not new_files:
+            print("🎉 All transcripts already processed!")
+            return existing_results
+        
+        # Process only new files
+        new_results = {
             "processed_files": [],
             "summary": {
-                "total_files": len(transcript_files),
+                "total_files": len(new_files),
                 "successful": 0,
                 "failed": 0,
                 "extraction_type": self.extraction_type,
@@ -557,26 +570,36 @@ class RobustOntologyExtractor(BaseOntologyExtractor):
             }
         }
         
-        for i, file_path in enumerate(transcript_files, 1):
+        for i, file_path in enumerate(new_files, 1):
             try:
-                print(f"\n[{i}/{len(transcript_files)}]", end=" ")
+                print(f"\n[{i}/{len(new_files)}] Processing new file: {file_path.name}")
                 file_result = self.process_single_transcript(file_path)
-                results["processed_files"].append(file_result)
-                results["summary"]["successful"] += 1
-                results["summary"]["total_api_calls"] += 7  # 7 passes
+                new_results["processed_files"].append(file_result)
+                new_results["summary"]["successful"] += 1
+                new_results["summary"]["total_api_calls"] += 7  # 7 passes
                 
                 # Small delay for API rate limiting
                 time.sleep(1)
                 
             except Exception as e:
                 print(f"❌ Error processing {file_path.name}: {e}")
-                results["processed_files"].append({
+                new_results["processed_files"].append({
                     "file_name": file_path.name,
                     "error": str(e)
                 })
-                results["summary"]["failed"] += 1
+                new_results["summary"]["failed"] += 1
         
-        return results
+        # Merge with existing results
+        final_results = self.merge_results(existing_results, new_results)
+        
+        print(f"\n📊 MERGE SUMMARY:")
+        print(f"   Existing files preserved: {len(already_processed)}")
+        print(f"   New files processed: {len(new_files)}")
+        print(f"   Total files in results: {final_results['summary']['total_files']}")
+        print(f"   New API calls made: {new_results['summary']['total_api_calls']}")
+        print(f"   Total API calls (all time): {final_results['summary']['total_api_calls']}")
+        
+        return final_results
 
 class OntologyGuidedExtractor(BaseOntologyExtractor):
     """Ontology-guided extraction that combines comprehensive coverage with specific term hunting"""
@@ -893,22 +916,37 @@ class OntologyGuidedExtractor(BaseOntologyExtractor):
         return result
     
     def process_transcript_folder(self, folder_path: str) -> Dict:
-        """Process all transcripts using ontology-guided extraction"""
+        """Process all transcripts using ontology-guided extraction with incremental processing"""
         folder = Path(folder_path)
         if not folder.exists():
             raise ValueError(f"Folder does not exist: {folder_path}")
         
+        # Load existing results
+        existing_results = self.load_existing_results()
+        processed_filenames = self.get_processed_filenames(existing_results)
+        
         transcript_files = list(folder.glob("*.txt"))
         if not transcript_files:
             print(f"❌ No .txt files found in {folder_path}")
-            return {"error": "No transcript files found"}
+            return existing_results or {"error": "No transcript files found"}
         
-        print(f"📁 Found {len(transcript_files)} transcript files")
+        # Filter for only new/unprocessed files
+        new_files = [f for f in transcript_files if f.name not in processed_filenames]
+        already_processed = [f for f in transcript_files if f.name in processed_filenames]
         
-        results = {
+        print(f"📁 Found {len(transcript_files)} total transcript files")
+        print(f"✅ Already processed: {len(already_processed)} files")
+        print(f"🆕 New files to process: {len(new_files)} files")
+        
+        if not new_files:
+            print("🎉 All transcripts already processed!")
+            return existing_results
+        
+        # Process only new files
+        new_results = {
             "processed_files": [],
             "summary": {
-                "total_files": len(transcript_files),
+                "total_files": len(new_files),
                 "successful": 0,
                 "failed": 0,
                 "extraction_type": self.extraction_type,
@@ -916,26 +954,36 @@ class OntologyGuidedExtractor(BaseOntologyExtractor):
             }
         }
         
-        for i, file_path in enumerate(transcript_files, 1):
+        for i, file_path in enumerate(new_files, 1):
             try:
-                print(f"\n[{i}/{len(transcript_files)}]", end=" ")
+                print(f"\n[{i}/{len(new_files)}] Processing new file: {file_path.name}")
                 file_result = self.process_single_transcript(file_path)
-                results["processed_files"].append(file_result)
-                results["summary"]["successful"] += 1
-                results["summary"]["total_api_calls"] += 8  # 8 passes
+                new_results["processed_files"].append(file_result)
+                new_results["summary"]["successful"] += 1
+                new_results["summary"]["total_api_calls"] += 8  # 8 passes
                 
                 # Small delay for API rate limiting
                 time.sleep(1)
                 
             except Exception as e:
                 print(f"❌ Error processing {file_path.name}: {e}")
-                results["processed_files"].append({
+                new_results["processed_files"].append({
                     "file_name": file_path.name,
                     "error": str(e)
                 })
-                results["summary"]["failed"] += 1
+                new_results["summary"]["failed"] += 1
         
-        return results
+        # Merge with existing results
+        final_results = self.merge_results(existing_results, new_results)
+        
+        print(f"\n📊 MERGE SUMMARY:")
+        print(f"   Existing files preserved: {len(already_processed)}")
+        print(f"   New files processed: {len(new_files)}")
+        print(f"   Total files in results: {final_results['summary']['total_files']}")
+        print(f"   New API calls made: {new_results['summary']['total_api_calls']}")
+        print(f"   Total API calls (all time): {final_results['summary']['total_api_calls']}")
+        
+        return final_results
 
 # Factory function for easy extractor selection
 def create_extractor(extractor_type: str = "standard", api_key: Optional[str] = None):

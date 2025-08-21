@@ -1,0 +1,231 @@
+﻿Aug 14, 2025
+Mollie Ontology Interview 3 - Transcript
+00:00:00
+ 
+Dr. Naomi Myhill: Okay, that's a transcript. And there we go. We got the recording. Okay, great. So, I think today we're going to talk about liver health and I think it was specifically metabolic dysfunction related to to liver health. So let's get started with that if you're happy to get going Molly.
+Mollie Dwivedi: Yeah.
+Dr. Naomi Myhill: Brilliant.
+Mollie Dwivedi: Yeah.
+Dr. Naomi Myhill: Okay. So um the first question then kind of related to liver health as as that domain is when you kind of get the information in that there is an issue perhaps with liver health. How do you typically assess that in those types of health seekers? So a broad question to begin with.
+Mollie Dwivedi: Yeah. So, liver health is something that is commonly assessed as part of any sort of routine medical evaluation if you go get established with a primary care provider, a GP. Um and they it is it's easily assessed by a comprehensive metabolic panel um that includes a number of levels of liver function evaluation.
+ 
+ 
+00:01:26
+ 
+Mollie Dwivedi: Um and so that is I would say one of the most common ways that liver dysfunction gets identified is through the liver function tests that are commonly a part of the comprehensive metabolic panel. Um the other thing to be thinking about with liver health is that is becoming very very common is this masal masd um metabolic dysfunction associated stotic liver disease which is a a brand new term um that replaces non-alcoholic fatty liver disease or non-alcoholic stato hepatitis um nafal and nash those are just a lot of acronyms. Um those are the what what these conditions were previously called, but they're now lumped into this new um term masled. So the other way that you we're thinking about liver health now is because metabolic associated or metabolic dysfunction in the liver is becoming very very common. And it is now the most common cause of cerosis which is replacing alcoholic cerosis. So it is really common because these metabolic dysfunction um conditions are very common. So insulin resistance, metabolic syndrome, obesity, hypertension etc. So those are the two kind of buckets that I I think about with regards to liver health.
+ 
+ 
+00:03:05
+ 
+Mollie Dwivedi: Um so the first being this the screening blood test that we identify that can pick up some subtle abnormalities and then the presence of these coorbidities that are are very very common. So focusing on masled masled um because it is so common um is that where you'd like me to kind of go next?
+Dr. Naomi Myhill: Yeah, that would be brilliant. Yeah, if you can talk more to that and the assessments you would use specifically for that um that constructs, that would be great.
+Mollie Dwivedi: Yep. So metabolic dysfunction associated stotic liver disease is when we have it's a spectrum of conditions where we have some fat buildup in the liver to we have some fat in the liver that's c causing some inflammation to the more most advanced end of the spectrum which is fibrosis or scarring the liver of the liver and then cerosis is kind of the the end stage of that. So, uh, the first thing to think about is kind of your initial intake with their patients. So, the vital signs. So, we're looking at the body mass index, um, the waist circumference, waist to hip ratio, and then, you know, more advanced measurements that include body composition, which tells us about visceral atapost tissue.
+ 
+ 
+00:04:33
+ 
+Mollie Dwivedi: those um kind of intake metrics can start to clue us off at who may be at risk um of having massie. Um also hypertension, high blood pressure as well can clue us into who may be at risk for this. Um and then also the medical history. So insulin resistance, obesity, overweight, hypertension, high cholesterol, cardiovascular disease, diabetes, metabolic syndrome, those are going to be the conditions that put people at risk of of having this. So asking people about their medical history and then of course doing a general intake workup which will clue us into what's happening in each of these cardiomatabolic systems. Uh so that's the the first way that I I think about it before we we order any any testing for anybody to identify who may be who may be at risk. Um the other piece of the history that is important here uh very important is lifestyle parameters because we know that unhealthy lifestyle behaviors can predispose to developing um this this condition. And with regards to liver health specifically, um obviously thinking about um alcohol intake and frequency and quantity and things like that as well.
+ 
+ 
+00:05:55
+ 
+Mollie Dwivedi: Um so that is kind of the initial interview and assessing people that are are at risk for this because it is very very common. So it is something that we we want to catch because we want to identify this when people have just the simple buildup of fat in the liver not when they have fibrosis. Ideally we want to catch this when people have fat in the liver because we know that interventions can reverse it um particularly in those early stages and that can be really really meaningful for somebody's somebody's long-term health. Um so that's kind of my approach and and how I think about this. Um then how we go about and identifying this. So um the the society guidelines like the the American gastroenterology association I think the AGA um and also the American Diabetes Association um recommend using the FIB 4 index in people that have metabolic dysfunction. So people that have these metabolic risk factors that that we talked about. So elevated BMI, waist circumference, signs of insulin resistance, cardiovascular disease, hypertension, dysipidemia. Um those are the people who we want to proactively screen with the FIB for.
+ 
+ 
+00:07:18
+ 
+Mollie Dwivedi: And the FIB 4 is is really just um an algorithm that takes into account the liver enzymes, uh the platelets, and the age um I believe. And so that gives us an idea of who is at risk for having advanced fibrosis. So that's going to be kind of the later stage of the of the liver of the of this process happening moving into scarring of the liver. So it has a the fib 4 index has a really high negative predictive value in this population. Um, and that is explicitly in the the population of people that have these metabolic risk factors, not necessarily for the general pro population because if you think think about it, um, there's all sorts of other causes of liver disease that we can kind of hit on um that that can that can raise um the liver enzymes uh affect the platelets etc. So if we are applying this to the general population, we risk kind of overdiagnosing fibrosis. Um and so we we want to avoid that. So in in the patient in the population with metabolic risk factors is who we want to just apply the fib 4 index and kind of as a general screening test.
+ 
+ 
+00:08:39
+ 
+Mollie Dwivedi: Um and then the other, you know, set of early testing that we do that I alluded to is going to be the the liver function panel. So particularly, um we're talking about um the the liver enzymes, the A and ALT specifically. Um, and so the ideal range of AST for um, both sexes is about um, in the 30s for men and about in the 20s for women. So A and ALT, the reference ranges vary by lab, but that's kind of just a general rule when you're when you are assessing these these panels. So 20s for ALT for women and then in the 30s for A and ALT for men. Um and so it's really common to find liver and these enzymes A and ALT to be elevated um just in the general population and there's a lot of potential causes for it. So when we see elevations in this we need to be thinking cast a wide differential diagnosis. Um and so this is again where um a lot of the history comes into play and considering is somebody um a have risk factor metabolic risk factors that we really think um that they may have stattopitis which is what um that um when the liver enzymes are elevated in the presence of fat.
+ 
+ 
+00:10:09
+ 
+Mollie Dwivedi: But we also want to, you know, ask, have they drank a lot of alcohol um before the time the test was collected? Asking about just alcohol history in general. Um medications and supplements particularly um can contribute. There are certain, you know, medications, but um certainly supplements are something that we don't want to ignore. There are certain supplements that in high doses um can actually aggravate the the liver quite a lot. Um so there's a resource called livertox. um where you can uh look up some of the these databases, but it's important to take a really thorough med medication and supplement history when you when you run into this. Um and then of course hepatitis is something you don't you don't want to miss. So um checking a hepsi antibbody and a hep surface antigen u something really important. um you know he hepatitis C is is curable at this point um and is recommended for screening for for all adults. Um and then also by looking at the degree of elevation you can kind of get a better idea of what could be going on.
+ 
+ 
+00:11:17
+ 
+Mollie Dwivedi: So if the liver enzymes are are significantly elevated you know in the 200s you can be thinking about um things like more more rare things like autoimmune conditions and and things like that. some of the the less common um conditions. And usually at that level, you'd want to refer out to get some help from hepatology and and and things so that you're not missing any potential causes. Um and then as a part of that elevated liver enzyme panel, of course, if somebody does have the metabolic risk factors, if it hasn't been checked already, then you would check um a FIB 4 um as well. Um, so I'll pause there. Any initial follow-up thoughts or questions?
+Dr. Naomi Myhill: Yeah, thanks for that. Um, so follow up just on on the blood panel firstly. Um, how does the and you mentioned this slightly, but just want to reinforce this. How does the kind of health seekers current state influence those findings? What do you need to control for before the blood panel?
+ 
+ 
+00:12:24
+ 
+Dr. Naomi Myhill: Um, like is it fasted for example? Um, yeah, if you can just give a bit of detail of that, that would be great.
+Mollie Dwivedi: Yeah. So, um it does not the the liver panel, the comprehensive metabolic panel. Um, and then if we're also thinking about the fib 4, if we're drawing that at the same time, um, they do not need to be fasted because the fib 4 would also then require a CBC which would include platelets. Um, so the CBC and the CMP do not need to be fasted. Um what I would say is that um you know you if if if you're going if you have a you know r you don't want to um uh so if somebody is they they don't want to take the test after um having, you know, randomly had more alcohol than is typical for them. Now, that being said, I think you could make the case that if people are drinking a lot such that their liver enzymes are raised, you probably want to know about it.
+ 
+ 
+00:13:42
+ 
+Mollie Dwivedi: Um, but in the case that somebody had um a few drinks at an event and they typically do not drink like that at all, I will repeat the liver panel to make sure it normalizes. Um, so, um, so, so that's one, one consideration because of how much alcohol affects the liver. Um, and so those are kind of the main things. I mean, I think, you know, really strenuous exercise. So, I wouldn't come off of a, you know, competitive event, um, as well and get your blood work drawn right after. So, those are kind of the main things.
+Dr. Naomi Myhill: Great. Thanks for that. And you mentioned body composition um as well. What type of body composition assessments would you implement? I know this is probably like a step back from this um but just relating it to this domain as well. What type of body composition assessments would you implement at that?
+Mollie Dwivedi: Yeah. So with most basic body mass index um and then some of the um measurements that indirectly assess for higher risk of visceral adap atapost tissue.
+ 
+ 
+00:14:53
+ 
+Mollie Dwivedi: So um things like waist circumference um waist to hip ratio, waist to height ratio are a couple of of those that can be done indirectly. And then of course the more um the more advanced uh methods like the DEXA or an MRI anything that can give us an output of or quantify visceral atapost tissue would would be helpful.
+Dr. Naomi Myhill: Okay, great. Are there any other assessments related to liver health or specifically the the metabolic dysfunction um stic liver disease?
+Mollie Dwivedi: Yes, you got it. You got it. Um, yeah, definitely. Definitely. So, um, with the results of the FIB 4, so if you have a a patient that has metabolic risk factors, we suspect there's a high likelihood of, uh, stic liver disease.
+Dr. Naomi Myhill: Yeah.
+Mollie Dwivedi: Um, then we're looking and interpreting the results of the FIB 4. So, it's an index that spits out numbers and you're when you're looking at um, these numbers, you need to keep the patient's age in mind. Um so adults over the age of 65 we have a little bit higher tolerance to um diagnosing the fibrosis or u prognosticating fibros fibrosis.
+ 
+ 
+00:16:11
+ 
+Mollie Dwivedi: So um but in adults under 65 we have three tiers. we have normal um which is less than 1.3 um at which point the risk of it has a very high negative predictive value for ruling out advanced fibrosis at least um and so so that's for adults under the age of 65 less than 1.3 is is is considered um low very low risk of of significant fibrosis but then when it's um 1.3 or above um the the risk of fibrosis increases. So, we want to look into anything that is 1.3 or above. Um and I can I'll talk about that next, how we do that, what we look into. Um and then if it's above 2.67, then there's a very high risk of significant fibrosis. And then for adults over the age of 65, we use two as the inflection point. So two or above is high risk and less than two rules out significant fibrosis. So what do we do with that information then? Um a liver ultrasound is is commonly performed and that can look at the liver the liver and the contour of the liver and it can also identify fat um deposits in the liver.
+ 
+ 
+00:17:35
+ 
+Mollie Dwivedi: Um now it can't determine fibrosis the degree of fibrosis. Um it can see advanced cerosis and but um we need to do additional imaging in addition to the ultrasound. So ultrasound is commonly performed and it's not wrong. Um but if we the key point here is that if somebody has an elevated risk um of fibrosis that we actually need to do some elasttography which looks at which is a type of ultrasound that looks at the for the presence of fibrosis or scarring in the liver. Um so it's one type of those um elastography is is a fibro scan. Um and so it measures the stiffness of the liver and gives out a reading um on a numerical scale that goes from you know lower numbers mean lower risk and higher numbers mean higher risk of um fibrosis. Um so the elastography or fibrocan will give you an output that is anywhere from f0 um to f4 um and that's where the the fibrosis increases from f-0 to f4. So f-0 is you have some fat in the liver but there is no scarring um and so on and so forth.
+ 
+ 
+00:19:00
+ 
+Mollie Dwivedi: So from F0 to F1, it it determines the the importance of doing this is because this determines your management in your assessment. Um your your ongoing monitoring, I should say, not assessment. Um so uh this is this is how we this is really the most important thing to be keeping in mind when assessing somebody um for a massie.
+Dr. Naomi Myhill: Great. Thanks for that, Molly. With those assessments, would you are they only a one time point assessment or do you assess them with those types of ultrasounds at different time points than I suppose based off of an intervention that you might do?
+Mollie Dwivedi: Right. Yes. So you do you monitor ongoing to monitor for you know with the in the case of treatment um hopeful improvement um but if nothing else to monitor for stability or progression of the disease.
+Dr. Naomi Myhill: Okay, great. Um, are there any other assessments related to that condition that you haven't mentioned yet?
+Mollie Dwivedi: Um, this can also be evaluated um by MRI. Um, that's less common.
+ 
+ 
+00:20:23
+ 
+Mollie Dwivedi: Um, I would have to I would doubt that the whole body MRI would be able to accurately um diagnose the the stage of fibrosis, but I don't know. Um, the the whole body MRI would certainly um pick up on on some of this, but I'm not I'm not certain about the degree of um accuracy. But there is a specific type of um MRI scan that I'm blanking on the name of at the moment um that you can use to kind of quantify these stages as well.
+Dr. Naomi Myhill: Okay, great. So, we'll move on to begin the interventions now. Um, so how would you design interventions from those assessment results? So you can kind of go one by one on the assessments kind of how you would how you would do it in in that order. So what we want really is just to capture the the assessment that you're talking about in terms of the results um the intervention choice and kind of your your input into that as well.
+Mollie Dwivedi: Yeah. Yeah.
+ 
+ 
+00:21:36
+ 
+Mollie Dwivedi: So on the assessments um thinking with with the history so each of these risk factors you know has its own assessment and we want to of course pay attention and treat each of the comorbidities that are identified in a medical history or or a a a panel a blood panel or otherwise. Um and then specifically with regard to liver health. So just you know as a as a side mention that of course you want to treat any other cause of liver dysfunction accordingly. Um and sometimes that may you know require referral to to hepatlogy to to diagnose and treat these conditions. But stopping any um supplements that may be may be contributing um understanding and quantifying alcohol use um is is important for anybody with with liver dysfunction kind of regardless of the cause. Um and then of course you know treating hepatitis and things like that. Um and then so for management we're really looking to the stage of fibrosis to determine or yeah the the presence of or stage of fibrosis um to determine the management. So this is kind of where um the elastography comes in um and and guides guides our management and ongoing monitoring.
+ 
+ 
+00:23:08
+ 
+Mollie Dwivedi: Um so for F0 to F1 um that is going to be where we have fat deposits in the liver. Um but there is no fibrosis. Um and so for all for all of these stages F0 to F4 lifestyle intervention is the cornerstone of management. Now the rate the the rate of return that you'll see um you know varies and is everybody is different and so the lifestyle inter intervention is is key and um essential for everybody going um anybody diagnosed with this um condition because um although the likelihood of reversal at the end stages like F3 and F4 is is less likely you can still make meaningful improvements and it can improve um people's frailty, quality of life and their other coorbidities like cardiovascular dis disease is the most common cause of of death in this population. And so um everybody can benefit from from lifestyle intervention regardless of their stage. Um but it does kind of help us to prognosticate how people will respond to lifestyle treatment based on understanding their stage. Um so keeping in mind that lifestyle intervention is for all stages.
+ 
+ 
+00:24:33
+ 
+Mollie Dwivedi: Um you know we go through the six pillars of lifestyle medicine with a big focus on nutrition and physical activity. Um so the data shows us that nutrition and physical activity together are more effective for this condition um than either alone. Um and specifically dietary interventions that have shown improvement um with this condition are Mediterranean or similar plantforward dietary patterns. So eating a lot of fruits, vegetables, whole grains, beans, peas, lentils, nuts, and seeds. Um some fatty fish, low-fat dairy, things like that. Um that type of eating pattern has has been shown to be beneficial. Um and then also on the exercise piece, aerobic and strength training. um very important uh going keeping in line with the um physical activity guidelines for Americans 150 minutes a week of moderate to vigorous physical physical activity um and then uh resistance training two days a week um there's often a necessity for some weight loss um in this in this group as well um because the weight loss will help pull fat out of the liver and we can see this is where we can see some of that this condition being reversed.
+ 
+ 
+00:25:49
+ 
+Mollie Dwivedi: Um, and so we do see with just as as low as 5% body weight loss that we do have some improvement in the degree of fat deposits in the liver. Um, and so that is a target that we want to share with people. Sometimes people think they have to lose you know 30 40 pounds in order to make a difference but 5% um can can be meaningful uh for people that have the stato hepatitis. So they have the liver elevated liver enzymes in addition to the fat deposits in the liver. We have a little bit higher threshold to to reverse that. And that's going to be um a weight loss of about 7% of body weight. And then people that have fibrosis um with especially at the lower stages um can improve their fibrosis with um 10% body weight loss. So just higher weight loss requirements with the increasing um stage uh or pres presence or stage of fibrosis especially in the F3 F F4 we may not see you know major clinical improvement in the fibrosis of of the liver uh but it can remove the fat from the liver and is good for the cardioabolic health as well of course.
+ 
+ 
+00:27:03
+ 
+Mollie Dwivedi: Um, do you want me to keep going?
+Dr. Naomi Myhill: I do have one follow-up question on that actually specifically Molly and you you alluded to the fact that like reducing the fat can have a positive effect but what's the I suppose can you elaborate on that mechanism of influence there with that type of physical activity intervention and weight loss so what what in the the kind of weight loss actually causes
+Mollie Dwivedi: Yeah. Um so it's all through it's things like nutrition and physical activity um can improve insulin resistance is and we know that insulin resistance contributes to the pathophysiology of the of the fat being deposited into the liver. Um what what happens is um that when we increase the insulin sensitivity we are able to better process the blood sugar um and we reduce the contribution of the um stores going into into the liver itself. Um and so you know weight loss in general the the the fat it has to be is is is metabolized from the liver um to be to be removed when removing fat stores. Um and so so the the weight loss um does help with reducing visceral atapost tissue and um removing fat from skeletal muscle um and the the liver tissue.
+ 
+ 
+00:28:33
+ 
+Dr. Naomi Myhill: And this this intervention can also influence insulin resistance if I'm correct as well and based on what we said before. So that's another link of a physical activity lifestyle medicine pillar in terms of that intervention.
+Mollie Dwivedi: Exactly. So, um it not only improves the insulin resistance and re um the weight loss pulls the fat out of the liver which both are influential on the liver health. itself. Um but it als they also work on the other very common comorbid conditions high cholesterol high blood pressure um that have separate processes that contribute to the morbidity and mortality of the patient that has this cluster of syndromes.
+Dr. Naomi Myhill: Okay, great. Um, so just to follow up on the the nutrition and physical activity interventions and you mentioned this before in previous interviews, but just to kind of highlight, what's your standardized kind of procedure for that? Are you recommending them to a strength and conditioning coach or someone to provide those interventions? And what's the follow-up timeline that you would have and then redo those assessments after those interventions?
+ 
+ 
+00:29:53
+ 
+Mollie Dwivedi: Yeah. Yeah. Absolutely. So, um so we'll we'll we'll speak to lifestyle intervention specifically and then there are some other adjunct treatments that we can use with like medications. Um but specifically with um the lifestyle intervention, we want these patients to be in intensive lifestyle intervention programs because we know that more frequent touch points often result in better um cardiumabolic results especially for for conditions like like these um including weight loss. Um and so ideally um with an with no resource constraints I would love for these patients to work with the um qualified allied health professionals in each of those domains. Um so a registered dietician um to focus on those plantforward nutri uh dietary patterns um and then uh exercise specialists um to work on that aerobic and resistance training and to implement those plans. And so basically, you know, where each of those start is assessing assessing the patient, assessing where they're at, understanding all of their co-orbidities, understanding the patient preferences and the patient goals in addition to the medical team's goals. um and really reconciling that and leading with the coach approach where the patient is in the driver's seat and the health professional is in the passenger seat helping them read the map.
+ 
+ 
+00:31:32
+ 
+Mollie Dwivedi: Um, and so that's kind of the the general approach because we want these changes to be lifelong and sustainable. And we're not looking for quick fixes or or, you know, um or results that lead to only short-term short-term gains. And so we need to teach the patient to become um an expert in each of these domains themselves so that they feel confident in choosing the plant uh forward foods that are going to be best for them for the rest of their life. um and not, you know, reading off of of meal plans, for example. And then, um teach the patient to become an expert in um aerobic and resistance training um so that they can continue with with this um and continue continue to make progress to improve their body composition and manage their manage their weight. Um is that specific enough?
+Dr. Naomi Myhill: Yeah, that's great. So, kind of to reiterate, those lifestyle medicine pillar interventions of kind of nutrition, dietary interventions, and and physical activity are lifelong interventions. So, they're not necessarily capped at like a a 90-day program or something like that.
+ 
+ 
+00:32:48
+ 
+Dr. Naomi Myhill: You want to instill those habits so they continue to do that for kind of the rest of their life. Is that correct?
+Mollie Dwivedi: Right. Okay. So, yeah, I didn't answer that part of the question. So, um ideally the intensive program um lasts for a few weeks and every patient's needs are going to be different um depending on how much support they they need. So the the big picture idea is that early on we have hight touch support. So that's one to two times a week. Uh maybe even you know having um asynchronous electronic communications in between those. So texts, messages, um photos, things like that. Um but that's kind of constant communication with um their health coach, dietitian, andor fitness specialists. Um, and so that should should last for several weeks. You know, I would imagine, you know, at least 12 12 weeks would be would be reasonable. Um, and then what we see most programs do with good result is that they start to then space out the interventions.
+ 
+ 
+00:33:55
+ 
+Mollie Dwivedi: So they're meeting every um two weeks instead of one to two times a week. Um and so that usually that goes on for usually six to 12 months with kind of gradual spacing spacing out thereafter but then also ensuring ongoing followup and monitoring. So this this patient should always be monitored for signs of relapse um and provided with adequate supports um in a in a timely fashion. Um so going from one to two times a week um for several weeks to a couple of months um to going to once every two weeks for a couple of months and then maybe monthly or quarterly uh thereafter which with I would say a minimum of quarterly to every six months as being um the the the minimum for for people that have this condition.
+Dr. Naomi Myhill: Okay, great. Thanks for elaborating on that, Molly. That's great. Um, are there any other interventions that you want to discuss and describe?
+Mollie Dwivedi: Yeah. So, there are some there are some some interesting specifics um for for this condition with regards to lifestyle.
+ 
+ 
+00:35:11
+ 
+Mollie Dwivedi: So, on continuing on the the dietary piece, we really want to avoid fructose. um we see that fructo the consumption of fructose specifically um contributes to the development of this condition and the worsening of it. So we really want to counsel people to avoid fructose. Um so that's going to be in things like of course like juices um and soda but you know things like energy drinks or unsweet tea things like that. Um so we want to counsel people about that. Um and then actually also drinking coffee um has been shown to um reduce the risk of liver fibrosis. So that's a kind of an interesting uh intervention. Two cups of coffee a day um that most many people would probably like. Um and then alcohol. Alcohol is is also key. We really want to avoid um we really want to um avoid alcohol if if people are interested in that. um or certainly avoiding uh high-risk alcohol. So things like binge drinking um or more than than moderate, but really um you know we do see that less is more um with regards to alcohol and and this condition.
+ 
+ 
+00:36:24
+ 
+Mollie Dwivedi: So we we want to be kind of constantly monitoring for that and also providing some education um around alcohol and um its effects on the liver and the the the risks of exacerbating um problems um advancement of of this condition with um with consistent alcohol use. And then also education around um things like supplements that people should be avoiding and and things like that with regards to to liver health. Um and then the you know management of their coorbidities as well. So I I think uh we want to you know be sure that we're we're optimizing all of these other risk factors that contribute to the development of the condition. Um and and really optimize that and and educate people I think is is cornerstone. people are typically very motivated when they un when they see that they have this condition um because they people generally know how important the liver is and so it can be a really big turning point for people to really focus on optimizing their cardiumabolic health um when they're when they're diagnosed with with this condition.
+ 
+ 
+00:37:35
+ 
+Mollie Dwivedi: So I think education is is key to empower people um to improve this condition and all of the other associated risk factors. Um so those are the major lifestyle um factors but then there are the you know more advanced and adjunctive treatments um that we always want to keep in mind. So if people have F2 or above, so that indicates more significant fibrosis and/or cerosis um they should be referred to a hepatologist um for ongoing monitoring because there can be um with this with this condition increased risk of hpatoscellular carcinoma which is the type of cancer. Um also we want to monitor for things like portal hypertension. So other complications that can cluster with this condition um and to rule out any other contributing insults to the liver as well. Um and because there are you know GLP1s are medications that can be used to to treat this condition um because of the effect on on weight loss. Um so so the GLP1s there's also pyogglitazone has been shown to be which is a medicine for for diabetes that has been shown to be helpful for this condition.
+ 
+ 
+00:38:51
+ 
+Mollie Dwivedi: Um so the hepatologist will sometimes prescribe these and there are also some um newer agents that are kind of in the later stages of clinical trials um that can be used uh for for this condition as well. And so that's where engaging with a hepatologist can be great to get people access to these medications. Um and you can consider things like aspirin um and vitamin E for example are sometimes used in this um with with the presence of fibrosis. Um so yeah those are those are pretty much as a catchall for these earlier stages and then when we want to refer out which is um what we want to the main thing that we want to keep in mind for cascade.
+Dr. Naomi Myhill: That's great. So, just to clarify there with those kind of referrals, are the health seekers also getting those lifestyle medicine interventions at the same time as being referred out as well?
+Mollie Dwivedi: Yes. Yep.
+Dr. Naomi Myhill: Yeah.
+Mollie Dwivedi: Absolutely. So, every single patient that is diagnosed with this condition um should be recommended for lifestyle intervention.
+ 
+ 
+00:40:05
+ 
+Mollie Dwivedi: Now, the lifestyle intervention is going to be different for everybody. the intensity of it even uh we have to meet we have to use a a stage match intervention which is the terminology that that we use in behavior change for the trans theor trans theoretical model um which describes the stages of change and for any person that is engaged in lifestyle change we want to do a stage match intervention um so they if they are in the pre-contemplation phase we want to give them a different intervention than we want to give somebody that's in the action phase. So that requires just some assessment and discussion. Um and so we want to to give people an intervention that is appropriate to their their stage of change. Um but yes, that is always done simultaneously with referral to um a hepatologist.
+Dr. Naomi Myhill: Okay, great. There was one question I just wanted to follow up on um with and you mentioned around supplements um and some supplements you need to check what they're having, but then also are there certain supplements that you would say to the health seeker because you have um this liver disease you shouldn't be having?
+ 
+ 
+00:41:21
+ 
+Dr. Naomi Myhill: And do you know what those supplements are? Like can you give us any examples of those?
+Mollie Dwivedi: You know, I off the top of my head, let me look it up real quick. Jog my memory.
+Dr. Naomi Myhill: If you can't right now, it's fine. You can always do like a retrospective list that you can send across. But yeah, just out of interest really, I think it would be good to add that into our ontology of things that they they shouldn't have.
+Mollie Dwivedi: Yeah, let me um I can get it real quick here. Um okay. So, some supplements um uh yeah, no, I actually I actually don't know right now.
+Dr. Naomi Myhill: That's okay. No worries. We can follow up on that one um offline. Anyway, so are there any other interventions that you want to describe relating to this condition or have we covered them?
+Mollie Dwivedi: Okay. Um, I would I the thing I would put a just a little bit uh more color to is the GLP1 um and associated medications like GLP-1, GIPS, etc. Um, I really the I think that these medications should be used um in conjunction with intensive lifestyle intervention um with with any patient that has obesity and certainly any of these conditions and or people with overweight and associated cardabolic conditions uh because of the power um for them
+ 
+ 
+00:43:19
+ 
+Mollie Dwivedi: to to really improve the whole spectrum of of these syndrome. specifically um insulin resistance and excess body weight that have these kind of downstream effects with hypertension and dysipidemia. So I think that um is is key to to really be leaning into the use of these medications for the appropriate patient and for the patient that is interested in in using them. Um, so that's the the main thing. And the other thing I'll say about um on the nutrition side of things that that just came to mind is um is painting some some color around the the nutrition interventions. Um we really want to the the rationale for using a Mediterranean style diet um or similar is because of the low saturated fat content. that is key and that kind of propagates insulin resistance like we talked about before which contributes we know has a major contribution to this um to this condition. So it's that excess saturated fat that needs to be deposited somewhere finds its way to the liver um and then kind of exacerbates um this this whole process.
+ 
+ 
+00:44:33
+ 
+Mollie Dwivedi: So, um eating high-fiber diet um helps to um helps with um kind of offsetting um that excess body weight.
+Dr. Naomi Myhill: Okay, great. Yeah, thanks for clarifying that. I think that loops really well kind of into intology and what we've spoken about before. Um, is there anything else related to uh liver health andotic liver disease that we haven't mentioned that you wanted to cover?
+Mollie Dwivedi: Um I would say you know the the other just main thing is to always cast a wide net um with these patients and um considering things like gall stones. Um this is where like an ultrasound can can be helpful. Um and so um considering that those you know typically have a a different pattern um of um of findings on the the liver enzyme or the liver function panel. Um so those typically present differently but uh we do also you know want to be aware. So just doing a good history and physical to understand um what what may be contributing to to somebody's liver dysfunction.
+Dr. Naomi Myhill: Okay, great.
+ 
+ 
+00:45:52
+ 
+Dr. Naomi Myhill: So, I think we'll end the interview there, I think.
+Mollie Dwivedi: Let me actually Naomi I found a I found a list here.
+Dr. Naomi Myhill: Oh, go for it.
+Mollie Dwivedi: So um so anabolic steroids can can exacerbate liver injury.
+Dr. Naomi Myhill: Yeah.
+Mollie Dwivedi: So um not you know not super common but something to keep in mind for um anabolic steroids. Um also green tea extract um have been shown to be cause liver injury. Um and then the multi-ingredient nutritional supplements.
+Dr. Naomi Myhill: Heat.
+Mollie Dwivedi: So things like hydroxy cut herbal life things like that. Um and then as far as kind of like the botanicals um really high doses of turmeric or curcumin um have been shown to cause liver injury. Some another common one, um, black coohash and, uh, red yeast rice. Um, some of these other ones I don't I I've not even heard of. So, um, I will we'll leave those out, but those are ones um, the botanicals that we we want to keep in mind and always get a full list and and run them through a livertox or other database to see if they um, are associated with liver injury.
+Dr. Naomi Myhill: Okay, great. Thanks for that. Um, cool. So, I think that that probably concludes our liver health ontology interview. Um, we did it on time as well. This is great. Let me let me turn off the transcript and the recording.
+ 
+ 
+Transcription ended after 00:47:31
+
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
