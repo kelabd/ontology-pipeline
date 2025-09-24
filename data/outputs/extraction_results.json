@@ -6725,13 +6725,2407 @@
           ]
         }
       }
+    },
+    {
+      "file_name": "Ontology Interview - Stephanie \u2013 2025_09_24 16_26 BST \u2013 Notes by Gemini.txt",
+      "transcript_length": 48934,
+      "constructs_identified": 10,
+      "domains_constructs": {
+        "practitioner_domains": [
+          {
+            "domain_name": "Sports Nutrition",
+            "domain_description": "Specialized nutrition support for athletes across different sports, focusing on performance optimization and health maintenance",
+            "specialization_notes": "Expertise in energy demands, macronutrient timing, sport-specific requirements, and working with collegiate and professional athletes"
+          },
+          {
+            "domain_name": "Nutritional Health",
+            "domain_description": "Assessment and intervention for dietary quality, energy intake, and nutritional adequacy across populations",
+            "specialization_notes": "Focus on dietary recalls, food frequency assessments, and individualized nutrition planning"
+          },
+          {
+            "domain_name": "Mental Health",
+            "domain_description": "Assessment of relationship with food and eating behaviors that impact nutritional outcomes",
+            "specialization_notes": "Identifies when referral to mental health providers is needed for eating-related psychological issues"
+          }
+        ],
+        "constructs_mentioned": [
+          {
+            "construct_name": "Dietary Quality",
+            "construct_description": "Assessment of nutrient density and food group adequacy in dietary patterns, measured through validated screeners and detailed dietary recalls",
+            "domain_association": "Nutritional Health",
+            "assessment_context": "Primary focus construct - assessed via Prime Diet Quality Score Screener, Mini-EAT questionnaire, and comprehensive 24-hour dietary recalls"
+          },
+          {
+            "construct_name": "Energy Intake",
+            "construct_description": "Total caloric consumption relative to individual needs and energy expenditure demands",
+            "domain_association": "Sports Nutrition",
+            "assessment_context": "Critical for athletic performance and health outcomes, assessed through dietary recalls and compared to sport-specific energy demands"
+          },
+          {
+            "construct_name": "Body Composition",
+            "construct_description": "Assessment of muscle mass, fat mass, and bone mineral density through DEXA scanning",
+            "domain_association": "Physical Health",
+            "assessment_context": "Used as objective data before consultations, particularly important for athletes and older populations"
+          },
+          {
+            "construct_name": "Macronutrient Distribution",
+            "construct_description": "Adequate and appropriate ratios of carbohydrates, proteins, and fats based on individual goals and activity levels",
+            "domain_association": "Sports Nutrition",
+            "assessment_context": "Assessed for adequacy, timing throughout day, and appropriateness for sport and body type"
+          },
+          {
+            "construct_name": "Nutrient Timing",
+            "construct_description": "Strategic timing of food intake relative to training, competition, and daily activities",
+            "domain_association": "Sports Nutrition",
+            "assessment_context": "Evaluated for training periodization, game day nutrition, and travel scenarios"
+          },
+          {
+            "construct_name": "Micronutrient Status",
+            "construct_description": "Adequacy of vitamins and minerals, particularly important for those with dietary restrictions",
+            "domain_association": "Nutritional Health",
+            "assessment_context": "Assessed through blood work and dietary analysis, especially for vegan athletes and those with restrictions"
+          },
+          {
+            "construct_name": "Food Self-Efficacy",
+            "construct_description": "Individual capability in food procurement, preparation, and safety practices",
+            "domain_association": "Nutritional Health",
+            "assessment_context": "Includes grocery shopping, cooking skills, food safety knowledge, and kitchen management"
+          },
+          {
+            "construct_name": "Gastrointestinal Function",
+            "construct_description": "Digestive comfort and function, particularly around training and competition",
+            "domain_association": "Sports Nutrition",
+            "assessment_context": "Assessment of GI distress, game day stomach issues, and food tolerance during activity"
+          },
+          {
+            "construct_name": "Relationship with Food",
+            "construct_description": "Psychological and behavioral patterns around eating that influence nutritional behaviors",
+            "domain_association": "Mental Health",
+            "assessment_context": "Critical assessment that may require mental health referral, particularly important for female athletes and weight-class sports"
+          },
+          {
+            "construct_name": "Blood Biomarkers",
+            "construct_description": "Laboratory values including lipid profile, iron status, T3, and vitamin D levels",
+            "domain_association": "Physical Health",
+            "assessment_context": "Used as objective pre-consultation data to identify potential energy availability issues and nutritional deficiencies"
+          }
+        ],
+        "sport_specificity": [
+          {
+            "sport": "High Energy Demand Sports",
+            "assessment_modifications": "Greater focus on total energy intake assessment and frequent monitoring",
+            "intervention_modifications": "Higher caloric needs, may require inclusion of energy-dense foods typically considered lower quality"
+          },
+          {
+            "sport": "Baseball",
+            "assessment_modifications": "Assessment of eating patterns during long games and high game volume",
+            "intervention_modifications": "Focus on sustained energy and hydration strategies for extended play periods"
+          },
+          {
+            "sport": "Weight Class Sports",
+            "assessment_modifications": "Intensive monitoring of energy balance and body composition changes",
+            "intervention_modifications": "Careful energy manipulation while maintaining performance and health"
+          },
+          {
+            "sport": "Football (American)",
+            "assessment_modifications": "Cultural considerations around nutrition education receptivity",
+            "intervention_modifications": "Adapted education approaches due to lower baseline interest in performance nutrition"
+          },
+          {
+            "sport": "Women's Soccer",
+            "assessment_modifications": "Enhanced screening for body image and eating behavior concerns",
+            "intervention_modifications": "More comprehensive nutrition education due to higher receptivity to performance nutrition"
+          }
+        ]
+      },
+      "assessments": {
+        "assessments": [
+          {
+            "assessment_name": "Prime Diet Quality Score Screener (Rapid)",
+            "assessment_description": "A 13-question validated screening tool that evaluates dietary quality by assessing frequency and portions of key food groups including processed meats, red meats, fish, dairy, fast food, sodas, grains, sweets, legumes, vegetables, whole fruits, and nuts/seeds. Provides a scoring system to compare nutrient density against general health recommendations.",
+            "constructs_measured": [
+              "Dietary Quality",
+              "Macronutrient Distribution",
+              "Micronutrient Status"
+            ],
+            "modality": "Survey/Questionnaire"
+          },
+          {
+            "assessment_name": "Mini-EAT Dietary Quality Assessment",
+            "assessment_description": "A 9-question validated screening tool for dietary quality assessment that includes questions about alcohol consumption and asks about processed versus unprocessed foods. Similar to PDQS but with slightly different question formatting and additional alcohol assessment.",
+            "constructs_measured": [
+              "Dietary Quality",
+              "Macronutrient Distribution"
+            ],
+            "modality": "Survey/Questionnaire"
+          },
+          {
+            "assessment_name": "24-Hour Dietary Recall",
+            "assessment_description": "Comprehensive one-on-one interview process where practitioner conducts detailed interrogation of complete daily food intake including specific foods, brands, portions, cooking methods, timing, and eating patterns. Includes assessment across different scenarios (game days, travel days, home vs facility eating) and evaluation of food groups, nutrient density, and eating behaviors.",
+            "constructs_measured": [
+              "Dietary Quality",
+              "Energy Intake",
+              "Macronutrient Distribution",
+              "Nutrient Timing",
+              "Micronutrient Status",
+              "Relationship with Food"
+            ],
+            "modality": "Clinical Interview"
+          },
+          {
+            "assessment_name": "Food Photo Log",
+            "assessment_description": "Visual documentation of actual food intake through photographs to validate and compare against dietary recall information. Used to improve accuracy of portion size estimation and identify discrepancies between reported and actual intake.",
+            "constructs_measured": [
+              "Dietary Quality",
+              "Energy Intake",
+              "Macronutrient Distribution"
+            ],
+            "modality": "Digital Tracking"
+          }
+        ]
+      },
+      "interventions": {
+        "interventions": [
+          {
+            "intervention_name": "Fruit and Vegetable Intake Increase",
+            "intervention_description": "Targeting 4-5 cups of combined fruits and vegetables per day to decrease disease risk over time. Starting with preferred fruits/vegetables and gradually building variety.",
+            "constructs_targeted": [
+              "Dietary Quality",
+              "Micronutrient Status"
+            ],
+            "intervention_types": [
+              "Dietary modification",
+              "Behavioral intervention"
+            ]
+          },
+          {
+            "intervention_name": "Food Group Completion Assessment and Addition",
+            "intervention_description": "Identifying missing food groups in the diet and incorporating them through enjoyable, convenient options that fit the individual's preferences and schedule.",
+            "constructs_targeted": [
+              "Dietary Quality",
+              "Macronutrient Distribution",
+              "Micronutrient Status"
+            ],
+            "intervention_types": [
+              "Dietary modification",
+              "Nutritional counseling"
+            ]
+          },
+          {
+            "intervention_name": "Whole Grain Integration",
+            "intervention_description": "Introducing whole grains like whole wheat bread or pasta to replace some refined grains when appropriate, considering overall fiber intake from other plant-based foods.",
+            "constructs_targeted": [
+              "Dietary Quality",
+              "Micronutrient Status"
+            ],
+            "intervention_types": [
+              "Dietary modification"
+            ]
+          },
+          {
+            "intervention_name": "Macronutrient Timing and Distribution Optimization",
+            "intervention_description": "Ensuring adequate spacing of macronutrients throughout the day, particularly carbohydrates around training times, with consistent frequency and appropriate portions.",
+            "constructs_targeted": [
+              "Macronutrient Distribution",
+              "Nutrient Timing",
+              "Energy Intake"
+            ],
+            "intervention_types": [
+              "Dietary modification",
+              "Performance optimization"
+            ]
+          },
+          {
+            "intervention_name": "Individualized Meal Planning",
+            "intervention_description": "Creating detailed meal plans with multiple options for each meal period, incorporating existing preferred foods and habits while addressing nutritional gaps. Plans consider cooking ability, food access, and schedule constraints.",
+            "constructs_targeted": [
+              "Dietary Quality",
+              "Energy Intake",
+              "Macronutrient Distribution",
+              "Food Self-Efficacy"
+            ],
+            "intervention_types": [
+              "Dietary modification",
+              "Nutritional counseling",
+              "Behavioral intervention"
+            ]
+          },
+          {
+            "intervention_name": "Plate Model Implementation",
+            "intervention_description": "Using visual plate ratios with different food groups for individuals who prefer less detailed approaches, adapted for different types of days or goals.",
+            "constructs_targeted": [
+              "Dietary Quality",
+              "Macronutrient Distribution"
+            ],
+            "intervention_types": [
+              "Dietary modification",
+              "Educational intervention"
+            ]
+          }
+        ]
+      },
+      "relationships": {
+        "construct_relationships": [
+          {
+            "source_construct": "Energy Intake",
+            "target_construct": "Dietary Quality",
+            "relationship_type": "dependency",
+            "relationship_description": "High dietary quality alone is insufficient if energy intake is inadequate - overall energy needs must be met even if it requires including lower nutrient density foods",
+            "evidence_mentioned": "Cricket athlete example - decent dietary quality but not getting enough overall energy; athletic populations needing candy for energy intake",
+            "directionality": "bidirectional"
+          },
+          {
+            "source_construct": "Energy Intake",
+            "target_construct": "Body Composition",
+            "relationship_type": "causal",
+            "relationship_description": "Inadequate energy intake leads to inability to maintain body weight or muscle mass throughout seasons",
+            "evidence_mentioned": "Vegan athlete example - history of not keeping on body weight or muscle mass due to energy intake issues",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Macronutrient Distribution",
+            "target_construct": "Body Composition",
+            "relationship_type": "causal",
+            "relationship_description": "Adequate protein and carbohydrate intake is necessary to maintain body composition, especially during training seasons",
+            "evidence_mentioned": "Vegan athlete needing adequate protein and carbohydrate to maintain body composition",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Relationship with Food",
+            "target_construct": "Dietary Quality",
+            "relationship_type": "causal",
+            "relationship_description": "Poor relationship with food dictates eating behaviors and habits, overriding nutrition knowledge and preventing dietary quality improvements",
+            "evidence_mentioned": "Practitioner observation that relationship with food 'is truly not even knowledge about nutrition... It's really mindset'",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Nutrient Timing",
+            "target_construct": "Gastrointestinal Function",
+            "relationship_type": "association",
+            "relationship_description": "Timing of food intake around training and competition affects GI comfort and function",
+            "evidence_mentioned": "Assessment of GI issues around training/competition and 'game stomach' with nerves affecting eating ability",
+            "directionality": "bidirectional"
+          },
+          {
+            "source_construct": "Food Self-Efficacy",
+            "target_construct": "Dietary Quality",
+            "relationship_type": "dependency",
+            "relationship_description": "Ability to shop, maintain kitchen, and prepare food directly impacts ability to achieve dietary quality goals",
+            "evidence_mentioned": "Assessment of 'cooking like self-efficacy with actually getting food on the table' including grocery shopping and food preparation",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Blood Biomarkers",
+            "target_construct": "Energy Intake",
+            "relationship_type": "association",
+            "relationship_description": "Blood markers like high lipids and low T3 indicate potential inadequate energy availability",
+            "evidence_mentioned": "High lipid levels and low T3 as flags for not eating enough",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Micronutrient Status",
+            "target_construct": "Dietary Quality",
+            "relationship_type": "dependency",
+            "relationship_description": "Dietary restrictions require attention to micronutrient needs that may be lost from excluded food groups",
+            "evidence_mentioned": "Vegan athlete example needing calcium from fortified dairy alternatives and other micronutrient considerations",
+            "directionality": "bidirectional"
+          }
+        ],
+        "assessment_construct_links": [
+          {
+            "assessment_name": "Prime Diet Quality Score Screener (Rapid)",
+            "constructs_measured": [
+              "Dietary Quality"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "Sport type and energy demands",
+              "Athletic vs general population needs",
+              "Individual energy requirements"
+            ]
+          },
+          {
+            "assessment_name": "Mini-EAT Dietary Quality Assessment",
+            "constructs_measured": [
+              "Dietary Quality"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "Alcohol consumption patterns",
+              "Food processing knowledge of individual"
+            ]
+          },
+          {
+            "assessment_name": "24-Hour Dietary Recall",
+            "constructs_measured": [
+              "Dietary Quality",
+              "Energy Intake",
+              "Macronutrient Distribution",
+              "Nutrient Timing",
+              "Relationship with Food"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "Typical vs atypical days",
+              "Travel days",
+              "Game days",
+              "Training vs rest days",
+              "Injury status",
+              "Mood state"
+            ]
+          },
+          {
+            "assessment_name": "Food Photo Log",
+            "constructs_measured": [
+              "Dietary Quality",
+              "Energy Intake",
+              "Macronutrient Distribution"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "Accuracy of self-reporting",
+              "Portion size estimation",
+              "Food preparation methods"
+            ]
+          }
+        ],
+        "intervention_construct_links": [
+          {
+            "intervention_name": "Fruit and Vegetable Intake Increase",
+            "constructs_targeted": [
+              "Dietary Quality",
+              "Micronutrient Status"
+            ],
+            "mechanism_of_action": "Adding 4-5 cups combined fruits and vegetables daily to decrease disease risk and improve nutrient density",
+            "expected_outcomes": [
+              "Improved dietary quality scores",
+              "Better micronutrient status",
+              "Reduced disease risk"
+            ],
+            "timeline_expectations": "Gradual implementation starting with preferred options"
+          },
+          {
+            "intervention_name": "Food Group Completion Assessment and Addition",
+            "constructs_targeted": [
+              "Dietary Quality",
+              "Micronutrient Status"
+            ],
+            "mechanism_of_action": "Identifying missing food groups and adding them back through enjoyable, convenient options",
+            "expected_outcomes": [
+              "Complete nutritional profile",
+              "Improved dietary quality",
+              "Better micronutrient coverage"
+            ],
+            "timeline_expectations": "Phased approach focusing on biggest impact areas first"
+          },
+          {
+            "intervention_name": "Whole Grain Integration",
+            "constructs_targeted": [
+              "Dietary Quality",
+              "Micronutrient Status"
+            ],
+            "mechanism_of_action": "Replacing refined grains with whole grain options to improve fiber and nutrient content",
+            "expected_outcomes": [
+              "Increased fiber intake",
+              "Better nutrient density",
+              "Improved dietary quality"
+            ],
+            "timeline_expectations": "Gradual substitution based on individual preferences"
+          },
+          {
+            "intervention_name": "Macronutrient Timing and Distribution Optimization",
+            "constructs_targeted": [
+              "Nutrient Timing",
+              "Energy Intake",
+              "Body Composition"
+            ],
+            "mechanism_of_action": "Spacing macronutrients throughout the day relative to training and daily activities",
+            "expected_outcomes": [
+              "Better energy availability",
+              "Improved body composition maintenance",
+              "Enhanced performance"
+            ],
+            "timeline_expectations": "Immediate implementation with ongoing refinement"
+          },
+          {
+            "intervention_name": "Individualized Meal Planning",
+            "constructs_targeted": [
+              "Dietary Quality",
+              "Energy Intake",
+              "Food Self-Efficacy"
+            ],
+            "mechanism_of_action": "Creating specific meal plans with multiple options that incorporate individual preferences, schedule, and cooking abilities",
+            "expected_outcomes": [
+              "Improved adherence",
+              "Better dietary quality",
+              "Increased food self-efficacy"
+            ],
+            "timeline_expectations": "Immediate implementation with ongoing adjustments"
+          },
+          {
+            "intervention_name": "Plate Model Implementation",
+            "constructs_targeted": [
+              "Dietary Quality",
+              "Macronutrient Distribution"
+            ],
+            "mechanism_of_action": "Using visual ratios of food groups on the plate to guide meal composition",
+            "expected_outcomes": [
+              "Simplified meal planning",
+              "Consistent macronutrient distribution",
+              "Improved dietary quality"
+            ],
+            "timeline_expectations": "Immediate implementation as a lower-level intervention approach"
+          }
+        ],
+        "assessment_intervention_connections": [
+          {
+            "assessment_name": "24-Hour Dietary Recall",
+            "intervention_name": "Food Group Completion Assessment and Addition",
+            "connection_type": "informs",
+            "connection_description": "Dietary recall identifies missing food groups which directly informs which food groups need to be added back"
+          },
+          {
+            "assessment_name": "24-Hour Dietary Recall",
+            "intervention_name": "Fruit and Vegetable Intake Increase",
+            "connection_type": "triggers",
+            "connection_description": "Low fruit and vegetable intake identified in recall triggers intervention to increase to 4-5 cups daily"
+          },
+          {
+            "assessment_name": "Prime Diet Quality Score Screener (Rapid)",
+            "intervention_name": "Whole Grain Integration",
+            "connection_type": "informs",
+            "connection_description": "Screener identifies refined grain consumption patterns that inform whole grain integration strategies"
+          },
+          {
+            "assessment_name": "Food Photo Log",
+            "intervention_name": "Individualized Meal Planning",
+            "connection_type": "informs",
+            "connection_description": "Photo log provides accurate portion and preparation information that informs realistic meal planning"
+          },
+          {
+            "assessment_name": "24-Hour Dietary Recall",
+            "intervention_name": "Macronutrient Timing and Distribution Optimization",
+            "connection_type": "informs",
+            "connection_description": "Recall reveals current timing patterns and macronutrient distribution throughout the day"
+          },
+          {
+            "assessment_name": "Food Photo Log",
+            "intervention_name": "Plate Model Implementation",
+            "connection_type": "evaluates",
+            "connection_description": "Photo log can monitor adherence to plate model ratios and food group distributions"
+          }
+        ]
+      },
+      "ontology_guided_data": {
+        "technologies_metrics": {
+          "technologies": [
+            {
+              "technology_name": "DEXA",
+              "vendor_manufacturer": "Not specified",
+              "technology_type": "hardware",
+              "specific_model": "Not specified",
+              "used_for_assessments": [
+                "Body composition assessment",
+                "Bone mineral density assessment"
+              ],
+              "what_it_measures": [
+                "Body composition",
+                "Bone mineral density"
+              ],
+              "data_output_format": "Not specified"
+            },
+            {
+              "technology_name": "Bod Pod",
+              "vendor_manufacturer": "Not specified",
+              "technology_type": "hardware",
+              "specific_model": "Not specified",
+              "used_for_assessments": [
+                "Body composition assessment"
+              ],
+              "what_it_measures": [
+                "Body composition"
+              ],
+              "data_output_format": "Not specified"
+            },
+            {
+              "technology_name": "LabCorp",
+              "vendor_manufacturer": "LabCorp",
+              "technology_type": "service",
+              "specific_model": "Not applicable",
+              "used_for_assessments": [
+                "Blood work",
+                "Laboratory testing"
+              ],
+              "what_it_measures": [
+                "Various blood biomarkers"
+              ],
+              "data_output_format": "Laboratory report"
+            }
+          ],
+          "metrics": [
+            {
+              "metric_name": "Body Fat Percentage",
+              "measurement_unit": "%",
+              "assessment_source": "DEXA or Bod Pod",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "Used for body composition assessment"
+            },
+            {
+              "metric_name": "Bone Mineral Density",
+              "measurement_unit": "Not specified",
+              "assessment_source": "DEXA",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "Important for older population assessment"
+            },
+            {
+              "metric_name": "T3",
+              "measurement_unit": "Not specified",
+              "assessment_source": "Blood work",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "Low T3 can indicate low energy availability"
+            },
+            {
+              "metric_name": "Lipid Profile",
+              "measurement_unit": "Not specified",
+              "assessment_source": "Blood work",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "High lipid levels can indicate low energy availability"
+            },
+            {
+              "metric_name": "Iron Profile",
+              "measurement_unit": "Not specified",
+              "assessment_source": "Blood work",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "Used to assess iron status and dietary quality"
+            },
+            {
+              "metric_name": "Vitamin D",
+              "measurement_unit": "Not specified",
+              "assessment_source": "Blood work",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "Difficult to obtain adequate levels through diet alone"
+            },
+            {
+              "metric_name": "Prime Diet Quality Score",
+              "measurement_unit": "Score",
+              "assessment_source": "Prime Diet Quality Score Screener (Rapid)",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "13-question assessment of dietary quality based on food group frequencies"
+            },
+            {
+              "metric_name": "Mini-EAT Score",
+              "measurement_unit": "Score",
+              "assessment_source": "Mini-EAT Dietary Quality Assessment",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "9-question dietary quality assessment including alcohol consumption"
+            },
+            {
+              "metric_name": "Healthy Eating Index",
+              "measurement_unit": "Score",
+              "assessment_source": "Healthy Eating Index Assessment",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "Compares dietary intake to Dietary Guidelines for Americans"
+            }
+          ]
+        },
+        "goals_constraints": {
+          "client_goals": [
+            {
+              "goal_description": "Maintain body weight and muscle mass throughout season",
+              "goal_type": "performance",
+              "target_constructs": [
+                "Body Composition",
+                "Energy Intake",
+                "Macronutrient Distribution"
+              ],
+              "success_metrics": [
+                "body weight trends",
+                "body composition measurements",
+                "performance output"
+              ],
+              "timeline": "throughout season",
+              "priority_level": "high"
+            },
+            {
+              "goal_description": "Meet micronutrient needs with dietary restrictions",
+              "goal_type": "health",
+              "target_constructs": [
+                "Micronutrient Status",
+                "Dietary Quality"
+              ],
+              "success_metrics": [
+                "blood biomarkers",
+                "supplementation adequacy"
+              ],
+              "timeline": "ongoing",
+              "priority_level": "high"
+            },
+            {
+              "goal_description": "Manage lipid levels",
+              "goal_type": "health",
+              "target_constructs": [
+                "Blood Biomarkers",
+                "Dietary Quality"
+              ],
+              "success_metrics": [
+                "lipid profile results"
+              ],
+              "timeline": "long-term",
+              "priority_level": "medium"
+            },
+            {
+              "goal_description": "Support injury recovery",
+              "goal_type": "health",
+              "target_constructs": [
+                "Energy Intake",
+                "Macronutrient Distribution",
+                "Micronutrient Status"
+              ],
+              "success_metrics": [
+                "recovery timeline",
+                "protein intake adequacy"
+              ],
+              "timeline": "injury-dependent",
+              "priority_level": "high"
+            }
+          ],
+          "constraints_preferences": [
+            {
+              "constraint_type": "access",
+              "description": "Food access and availability varies by setting (collegiate dining, home cooking, travel)",
+              "impact_on_assessment": "Need to assess multiple eating scenarios and environments",
+              "impact_on_intervention": "Must provide flexible options for different settings",
+              "workaround_strategies": [
+                "multiple meal plan options",
+                "travel-specific recommendations",
+                "facility-based alternatives"
+              ]
+            },
+            {
+              "constraint_type": "preference",
+              "description": "Dietary restrictions (vegan, vegetarian, food safety concerns)",
+              "impact_on_assessment": "Requires specific micronutrient screening and supplementation review",
+              "impact_on_intervention": "Need fortified foods and targeted supplementation strategies",
+              "workaround_strategies": [
+                "calcium-fortified alternatives",
+                "B12 supplementation",
+                "food safety education"
+              ]
+            },
+            {
+              "constraint_type": "time",
+              "description": "Team culture and leadership time allocation for nutrition education",
+              "impact_on_assessment": "May limit depth of individual assessment possible",
+              "impact_on_intervention": "Affects intervention complexity and follow-up frequency",
+              "workaround_strategies": [
+                "group education sessions",
+                "simplified plate model approaches",
+                "peer support systems"
+              ]
+            },
+            {
+              "constraint_type": "equipment",
+              "description": "Kitchen access and cooking skills vary significantly",
+              "impact_on_assessment": "Must assess food self-efficacy and preparation capabilities",
+              "impact_on_intervention": "Intervention complexity must match skill level",
+              "workaround_strategies": [
+                "basic cooking education",
+                "no-cook meal options",
+                "pre-prepared food recommendations"
+              ]
+            }
+          ],
+          "moderating_factors": [
+            {
+              "factor_name": "Sport type and energy demands",
+              "description": "Higher energy demand sports require different nutrition monitoring intensity",
+              "what_it_affects": "assessment frequency and intervention intensity",
+              "management_approach": "Adjust monitoring frequency and energy intake targets based on sport demands"
+            },
+            {
+              "factor_name": "Relationship with food",
+              "description": "Mindset and psychological relationship with eating affects all nutrition behaviors",
+              "what_it_affects": "intervention effectiveness and adherence",
+              "management_approach": "Address psychological factors first, may require mental health referral"
+            },
+            {
+              "factor_name": "Injury or illness status",
+              "description": "Current health state affects normal eating patterns and needs",
+              "what_it_affects": "assessment timing and intervention priorities",
+              "management_approach": "Adjust assessment timing for typical intake vs current state, modify goals accordingly"
+            },
+            {
+              "factor_name": "Travel and competition schedule",
+              "description": "Schedule variability affects eating opportunities and food access",
+              "what_it_affects": "assessment comprehensiveness and intervention practicality",
+              "management_approach": "Assess multiple scenarios, provide situation-specific recommendations"
+            }
+          ],
+          "individual_differences": [
+            {
+              "difference_factor": "Sex (female athletes)",
+              "assessment_implications": "Higher risk for body image issues and disordered eating patterns",
+              "intervention_implications": "May require more sensitive approach and additional mental health support"
+            },
+            {
+              "difference_factor": "Weight class sports participation",
+              "assessment_implications": "Requires more intensive monitoring for restrictive eating behaviors",
+              "intervention_implications": "Need specialized approach for weight management and body composition"
+            },
+            {
+              "difference_factor": "Age and population (older vs younger)",
+              "assessment_implications": "Older populations may have different micronutrient needs and relationship with food issues",
+              "intervention_implications": "Bone health becomes more important, may need different communication approaches"
+            },
+            {
+              "difference_factor": "Training status and experience level",
+              "assessment_implications": "Experienced athletes may have better nutrition knowledge but also more ingrained habits",
+              "intervention_implications": "Can provide more complex interventions to experienced athletes"
+            },
+            {
+              "difference_factor": "Cultural background and sport culture",
+              "assessment_implications": "Different sports have varying levels of nutrition awareness and openness",
+              "intervention_implications": "Must adapt communication style and intervention complexity to cultural context"
+            }
+          ]
+        },
+        "detailed_protocols": {
+          "assessment_protocols": [
+            {
+              "assessment_name": "Prime Diet Quality Score Screener (Rapid)",
+              "detailed_steps": [
+                "Administer 13-question screener covering key food groups",
+                "Assess frequency and portions of processed meats, red meats, fish, dairy",
+                "Evaluate fast food, sodas/sugary drinks consumption patterns",
+                "Document grain intake (whole vs refined grains)",
+                "Record sweets, legumes, vegetables, whole fruits consumption",
+                "Assess nuts and seeds intake frequency",
+                "Apply standardized scoring system to responses",
+                "Generate dietary quality score compared to general health recommendations"
+              ],
+              "preparation_requirements": [
+                "Ensure participant is in normal dietary state (not injured/ill long-term)",
+                "Confirm participant understands to report typical intake patterns",
+                "Have scoring guidelines readily available",
+                "Prepare clarification examples for food categories"
+              ],
+              "equipment_setup": "Digital or paper questionnaire format with clear food category definitions",
+              "data_collection_process": "Self-administered questionnaire with consistent response format across all 13 questions focusing on frequency and portion assessment",
+              "quality_assurance": [
+                "Verify participant understands food category distinctions",
+                "Confirm responses reflect typical patterns, not temporary states",
+                "Cross-reference with any available supplementary dietary information"
+              ],
+              "troubleshooting": [
+                "If participant unsure about processed vs unprocessed foods, provide specific examples (sausages, salami for processed)",
+                "For portion confusion, offer standardized portion references",
+                "If recent dietary changes due to injury/illness, instruct to report pre-change patterns"
+              ]
+            },
+            {
+              "assessment_name": "Mini-EAT Dietary Quality Assessment",
+              "detailed_steps": [
+                "Administer 9-question dietary quality screener",
+                "Include alcohol consumption assessment",
+                "Evaluate processed vs unprocessed meat consumption",
+                "Document responses using standardized format",
+                "Apply validated scoring methodology",
+                "Compare results to established dietary quality benchmarks"
+              ],
+              "preparation_requirements": [
+                "Ensure participant clarity on processed vs unprocessed meat definitions",
+                "Prepare alcohol consumption guidelines if relevant to population",
+                "Have validation scoring criteria available"
+              ],
+              "equipment_setup": "Questionnaire with clear food category definitions and examples",
+              "data_collection_process": "Self-administered 9-question format with focus on food group frequencies and alcohol intake patterns",
+              "quality_assurance": [
+                "Verify understanding of meat processing distinctions",
+                "Confirm alcohol reporting accuracy if applicable",
+                "Validate responses represent typical consumption patterns"
+              ],
+              "troubleshooting": [
+                "Provide specific examples when participants unclear about meat processing",
+                "For alcohol questions, ensure comfortable reporting environment",
+                "Address any cultural or personal barriers to accurate reporting"
+              ]
+            },
+            {
+              "assessment_name": "24-Hour Dietary Recall",
+              "detailed_steps": [
+                "Review pre-assessment data (lab work, DEXA, performance trends, weight trends)",
+                "Create structured outline with all eating opportunities (breakfast, morning snack, pre/during/post training, etc.)",
+                "Conduct systematic interrogation of each eating period",
+                "Document specific food brands, preparation methods, and portion sizes",
+                "Use visual aids for portion estimation (hands, containers)",
+                "Assess cooking methods and added fats/oils",
+                "Verify actual consumption vs. food served",
+                "Document timing of all eating occasions",
+                "Assess variations for travel, competition, off-days",
+                "Record supplement intake with dosages",
+                "Evaluate relationship with food through language and behavioral cues",
+                "Cross-reference with any available food photo logs"
+              ],
+              "preparation_requirements": [
+                "Obtain recent lab work (lipid profile, iron profile, T3, vitamin D)",
+                "Gather DEXA scan results if available",
+                "Review performance data trends",
+                "Collect weight/body composition trends",
+                "Prepare structured recall outline template",
+                "Have portion estimation tools ready"
+              ],
+              "equipment_setup": "Structured interview template, portion estimation tools (measuring cups, visual aids), access to pre-assessment data",
+              "data_collection_process": "One-on-one interview (preferably in-person) systematically covering all eating occasions with detailed probing for specificity",
+              "quality_assurance": [
+                "Use multiple probing techniques for portion accuracy",
+                "Cross-reference with objective data (labs, body composition)",
+                "Verify consistency across different day types",
+                "Compare with food photo logs when available",
+                "Assess for under/over-reporting patterns"
+              ],
+              "troubleshooting": [
+                "If portions unclear, use multiple reference methods (hands, containers, common objects)",
+                "For vague food descriptions, probe for specific brands and preparation",
+                "If recall seems inaccurate, gently probe with objective data inconsistencies",
+                "Address discomfort with food discussions through relationship building"
+              ]
+            },
+            {
+              "assessment_name": "Food Photo Log",
+              "detailed_steps": [
+                "Instruct participant on photo documentation standards",
+                "Request photos of all eating occasions over specified period",
+                "Include reference objects for portion estimation",
+                "Document timing of each eating occasion",
+                "Cross-reference with dietary recall information",
+                "Analyze for consistency and accuracy validation"
+              ],
+              "preparation_requirements": [
+                "Provide clear photography instructions",
+                "Establish timeframe for documentation",
+                "Ensure participant has reliable camera access",
+                "Provide reference objects if needed"
+              ],
+              "equipment_setup": "Camera/smartphone, reference objects for scale, clear documentation instructions",
+              "data_collection_process": "Participant-led photo documentation of all food intake over designated period with timing notation",
+              "quality_assurance": [
+                "Verify photo quality and completeness",
+                "Cross-reference with recall data for validation",
+                "Check for missed eating occasions",
+                "Assess portion accuracy using reference objects"
+              ],
+              "troubleshooting": [
+                "If photos unclear, request retakes with better lighting/angles",
+                "For missed occasions, discuss barriers and solutions",
+                "Address privacy concerns in social eating situations",
+                "Provide alternative documentation methods if technology barriers exist"
+              ]
+            }
+          ],
+          "intervention_protocols": [
+            {
+              "intervention_name": "Fruit and Vegetable Intake Increase",
+              "implementation_steps": [
+                "Assess current fruit and vegetable preferences",
+                "Identify specific liked fruits and vegetables",
+                "Start with preferred options even if limited variety",
+                "Target 4-5 cups combined fruits and vegetables daily",
+                "Identify optimal meal/snack timing for additions",
+                "Build gradually from current intake level",
+                "Focus on enjoyable preparation methods",
+                "Address practical barriers (cost, access, preparation time)"
+              ],
+              "dosage_specifications": {
+                "specific_parameters": "4-5 cups combined fruits and vegetables daily",
+                "progression_rules": "Start with 1-2 preferred options, gradually increase variety and frequency",
+                "modification_criteria": "Adjust based on individual preferences, practical constraints, and tolerance"
+              },
+              "monitoring_protocols": [
+                "Track daily fruit and vegetable servings",
+                "Monitor variety expansion over time",
+                "Assess adherence and enjoyment levels",
+                "Evaluate practical implementation success"
+              ],
+              "safety_considerations": [
+                "Consider individual food allergies/intolerances",
+                "Account for digestive tolerance with fiber increases",
+                "Ensure recommendations fit within overall energy needs"
+              ]
+            },
+            {
+              "intervention_name": "Food Group Completion Assessment and Addition",
+              "implementation_steps": [
+                "Systematically assess all major food groups for gaps",
+                "Identify missing food groups and reasons for absence",
+                "Determine openness to including missing food groups",
+                "Prioritize additions based on nutritional impact",
+                "Suggest enjoyable ways to incorporate missing groups",
+                "Address practical barriers (lactose intolerance, cost, availability)",
+                "Integrate additions into existing meal patterns",
+                "Provide alternatives when food groups cannot be added"
+              ],
+              "dosage_specifications": {
+                "specific_parameters": "Ensure representation from all major food groups daily",
+                "progression_rules": "Add one food group at a time, establish consistency before adding next",
+                "modification_criteria": "Modify based on dietary restrictions, preferences, and practical constraints"
+              },
+              "monitoring_protocols": [
+                "Track food group representation across meals",
+                "Monitor adherence to new additions",
+                "Assess satisfaction with food group additions",
+                "Evaluate nutritional adequacy improvements"
+              ],
+              "safety_considerations": [
+                "Respect dietary restrictions and allergies",
+                "Consider cultural and religious food practices",
+                "Ensure additions don't compromise overall energy balance"
+              ]
+            },
+            {
+              "intervention_name": "Whole Grain Integration",
+              "implementation_steps": [
+                "Assess current refined grain consumption patterns",
+                "Identify opportunities for whole grain substitutions",
+                "Start with familiar whole grain options (whole wheat bread/pasta)",
+                "Gradually introduce variety in whole grain choices",
+                "Consider fiber tolerance and digestive adaptation",
+                "Balance with overall fiber intake from other sources",
+                "Address taste preferences and preparation methods"
+              ],
+              "dosage_specifications": {
+                "specific_parameters": "Progressive replacement of refined grains with whole grain alternatives",
+                "progression_rules": "Start with 1-2 substitutions, increase based on tolerance and preference",
+                "modification_criteria": "Adjust based on digestive tolerance, taste preferences, and overall fiber intake"
+              },
+              "monitoring_protocols": [
+                "Track whole grain vs refined grain ratio",
+                "Monitor digestive tolerance",
+                "Assess taste satisfaction and adherence",
+                "Evaluate overall fiber intake balance"
+              ],
+              "safety_considerations": [
+                "Monitor for digestive discomfort with fiber increases",
+                "Ensure adequate hydration with increased fiber",
+                "Consider individual tolerance levels"
+              ]
+            },
+            {
+              "intervention_name": "Macronutrient Timing and Distribution Optimization",
+              "implementation_steps": [
+                "Assess current macronutrient distribution throughout day",
+                "Identify optimal timing relative to training/activity",
+                "Ensure adequate carbohydrate spacing throughout day",
+                "Optimize protein distribution across meals",
+                "Balance fat intake appropriately",
+                "Align timing with individual schedule and preferences",
+                "Consider sport-specific or activity-specific needs"
+              ],
+              "dosage_specifications": {
+                "specific_parameters": "Distribute macronutrients appropriately across eating occasions relative to activity timing",
+                "progression_rules": "Adjust timing gradually to allow adaptation to new patterns",
+                "modification_criteria": "Modify based on training schedule, individual response, and practical constraints"
+              },
+              "monitoring_protocols": [
+                "Track macronutrient timing relative to training",
+                "Monitor energy levels and performance response",
+                "Assess adherence to timing recommendations",
+                "Evaluate practical implementation success"
+              ],
+              "safety_considerations": [
+                "Ensure adequate energy availability throughout day",
+                "Consider individual digestive tolerance around training",
+                "Avoid extreme timing restrictions that compromise overall intake"
+              ]
+            },
+            {
+              "intervention_name": "Individualized Meal Planning",
+              "implementation_steps": [
+                "Assess individual planning preferences and capabilities",
+                "Determine appropriate level of detail (plate model vs specific portions)",
+                "Create multiple options for each meal period",
+                "Incorporate existing food preferences and habits",
+                "Address practical constraints (cooking skills, time, budget)",
+                "Include variations for different scenarios (travel, competition, off-days)",
+                "Ensure plans are sustainable and enjoyable",
+                "Provide flexibility within structure"
+              ],
+              "dosage_specifications": {
+                "specific_parameters": "Customized meal plans ranging from general plate model ratios to specific portion recommendations",
+                "progression_rules": "Start with preferred level of detail, adjust based on success and comfort",
+                "modification_criteria": "Modify based on adherence, lifestyle changes, and goal progression"
+              },
+              "monitoring_protocols": [
+                "Track adherence to meal plan recommendations",
+                "Monitor satisfaction and sustainability",
+                "Assess practical implementation challenges",
+                "Evaluate goal achievement progress"
+              ],
+              "safety_considerations": [
+                "Ensure plans meet individual energy and nutrient needs",
+                "Avoid overly restrictive approaches",
+                "Consider individual food allergies and intolerances"
+              ]
+            },
+            {
+              "intervention_name": "Plate Model Implementation",
+              "implementation_steps": [
+                "Introduce plate model concept with visual aids",
+                "Establish appropriate ratios for different food groups",
+                "Customize ratios based on individual goals and activity level",
+                "Provide examples of foods for each plate section",
+                "Practice portion estimation using plate divisions",
+                "Adapt model for different meal types and occasions",
+                "Address variations for different day types (training vs rest)"
+              ],
+              "dosage_specifications": {
+                "specific_parameters": "Plate divided into appropriate ratios of food groups based on individual needs",
+                "progression_rules": "Start with basic model, refine ratios based on response and goals",
+                "modification_criteria": "Adjust ratios based on training demands, body composition goals, and individual response"
+              },
+              "monitoring_protocols": [
+                "Track adherence to plate model ratios",
+                "Monitor ease of implementation",
+                "Assess goal achievement with model use",
+                "Evaluate need for ratio adjustments"
+              ],
+              "safety_considerations": [
+                "Ensure plate model meets individual energy needs",
+                "Avoid overly rigid interpretation that compromises intake",
+                "Consider individual preferences within model framework"
+              ]
+            }
+          ],
+          "practical_considerations": [
+            {
+              "consideration_type": "Resource Allocation",
+              "description": "Different assessment and intervention approaches required based on available resources and contact time",
+              "practical_solutions": [
+                "Use validated screeners for low-resource situations",
+                "Reserve detailed dietary recalls for high-resource, one-on-one situations",
+                "Combine multiple assessment methods when possible for validation"
+              ]
+            },
+            {
+              "consideration_type": "Population-Specific Adaptations",
+              "description": "Athletic populations may require different dietary quality standards due to high energy demands",
+              "practical_solutions": [
+                "Consider energy-dense foods as tools rather than poor quality choices",
+                "Adapt recommendations based on sport demands and training phases",
+                "Balance dietary quality with adequate energy intake priorities"
+              ]
+            },
+            {
+              "consideration_type": "Individual Sustainability",
+              "description": "Interventions must be tailored to individual preferences, capabilities, and constraints",
+              "practical_solutions": [
+                "Leverage existing food preferences and habits",
+                "Start with single changes rather than comprehensive overhauls",
+                "Address practical barriers (cost, time, cooking skills, food access)"
+              ]
+            },
+            {
+              "consideration_type": "Relationship with Food",
+              "description": "Underlying food relationships can significantly impact intervention success",
+              "practical_solutions": [
+                "Assess relationship with food through language and behavioral cues",
+                "Refer to mental health professionals when appropriate",
+                "Avoid interventions that may worsen problematic food relationships"
+              ]
+            },
+            {
+              "consideration_type": "Validation and Accuracy",
+              "description": "Self-reported dietary information is notoriously inaccurate",
+              "practical_solutions": [
+                "Use multiple assessment methods for cross-validation",
+                "Incorporate objective measures (labs, body composition) for verification",
+                "Employ food photo logs to supplement recall accuracy"
+              ]
+            }
+          ]
+        },
+        "validation": {
+          "ontology_coverage_check": {
+            "constructs_identified": 10,
+            "assessments_identified": 4,
+            "interventions_identified": 6,
+            "technologies_identified": 3,
+            "metrics_identified": 9
+          },
+          "potential_missed_entities": [
+            {
+              "entity_type": "assessment",
+              "potential_entity": "Food Frequency Questionnaire (FFQ)",
+              "evidence_in_transcript": "in a situation where you are unable to really do that full recall with someone, there are food frequency questionnaires and things like that available",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "assessment",
+              "potential_entity": "Healthy Eating Index (HEI)",
+              "evidence_in_transcript": "there's also the healthy eating index which compares to the dietary guidelines for Americans",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "assessment",
+              "potential_entity": "Picture Food Log/Photo Documentation",
+              "evidence_in_transcript": "whenever possible, having some sort of picture food log to compare can be extremely useful",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "construct",
+              "potential_entity": "Food Safety Knowledge/Self-Efficacy",
+              "evidence_in_transcript": "food safety. Honestly, like I there you I have some athletes who will not eat chicken at home because they are afraid of the food safety aspect of it",
+              "confidence": "medium"
+            },
+            {
+              "entity_type": "construct",
+              "potential_entity": "Cooking Self-Efficacy",
+              "evidence_in_transcript": "cooking like um self-efficacy with actually getting food on the table for themselves, whether that be grocery shopping, maintaining a kitchen with food, actually preparing the food",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "construct",
+              "potential_entity": "Food Access and Availability",
+              "evidence_in_transcript": "if we have just any situation we're talking about food access and availability... do they have financial resources available to to be taking care of that",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "construct",
+              "potential_entity": "Travel Nutrition Management",
+              "evidence_in_transcript": "Travel is really big of course like what their schedule looks like and what's possible for them",
+              "confidence": "medium"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Food Group Completion Strategy",
+              "evidence_in_transcript": "the big view here is are we hitting all the food groups period. Are you are you missing any food groups?",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Portion Size Education",
+              "evidence_in_transcript": "in person you are always going to get a little bit more information... if I say they say okay I always have rice for dinner i'm like okay well how much do you have",
+              "confidence": "medium"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Brand-Specific Food Recommendations",
+              "evidence_in_transcript": "so I try to get brands whenever I can for not only better nutrition information but also just preferences and habits",
+              "confidence": "medium"
+            },
+            {
+              "entity_type": "metric",
+              "potential_entity": "Food Group Frequency",
+              "evidence_in_transcript": "Are we getting enough of those? So if we look at like... starches within the carbohydrate umbrella. Are we getting those throughout the day?",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "metric",
+              "potential_entity": "Fruits and Vegetables Servings (4-5 cups/day)",
+              "evidence_in_transcript": "there is some research that shows that having like four to five cups of combined fruits and veggies a day can be really helpful",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "technology",
+              "potential_entity": "Paid Dietary Assessment Platforms",
+              "evidence_in_transcript": "There are some tools that like you can pay for where you people do this whole like survey thing they fill out where there's like pictures",
+              "confidence": "low"
+            }
+          ],
+          "quality_assessment": {
+            "extraction_completeness": "medium",
+            "terminology_consistency": "high",
+            "relationship_coverage": "medium",
+            "overall_confidence": "medium"
+          },
+          "recommendations": [
+            {
+              "recommendation_type": "entity_addition",
+              "description": "Add Food Frequency Questionnaire, Healthy Eating Index, and Picture Food Log as formal assessment methods with detailed specifications",
+              "priority": "high"
+            },
+            {
+              "recommendation_type": "construct_expansion",
+              "description": "Include Cooking Self-Efficacy and Food Access/Availability as distinct constructs with their own assessment and intervention pathways",
+              "priority": "high"
+            },
+            {
+              "recommendation_type": "intervention_detail",
+              "description": "Develop more granular intervention categories for food group completion, portion education, and brand-specific recommendations",
+              "priority": "medium"
+            },
+            {
+              "recommendation_type": "metric_standardization",
+              "description": "Establish specific metrics for food group frequency and standardized serving recommendations (e.g., 4-5 cups fruits/vegetables)",
+              "priority": "medium"
+            },
+            {
+              "recommendation_type": "relationship_mapping",
+              "description": "Better define relationships between constructs (e.g., how food access influences dietary quality assessment choice)",
+              "priority": "medium"
+            },
+            {
+              "recommendation_type": "context_factors",
+              "description": "Include athlete state considerations (injury, mood, travel) as contextual factors that influence assessment timing and interpretation",
+              "priority": "low"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Ontology Interview 1 - Peter Tierney \u2013 2025_09_16 12_56 BST \u2013 Notes by Gemini.txt",
+      "transcript_length": 76077,
+      "constructs_identified": 6,
+      "domains_constructs": {
+        "practitioner_domains": [
+          {
+            "domain_name": "Recovery",
+            "domain_description": "Sleep assessment and intervention for active people and athletes to support recovery processes",
+            "specialization_notes": "Particularly relevant for recovery for a lot of active people, athletes"
+          },
+          {
+            "domain_name": "Cardiovascular Health",
+            "domain_description": "Sleep's role in cardiovascular health and reducing mortality risk",
+            "specialization_notes": "From a general physiology or cardiovascular health perspective, reducing mortality risk related to lifestyle"
+          },
+          {
+            "domain_name": "Performance",
+            "domain_description": "Sleep optimization for both general population and professional athlete performance",
+            "specialization_notes": "For both health and performance, general population, professional athlete and also any age"
+          },
+          {
+            "domain_name": "Mental Health",
+            "domain_description": "Sleep's relationship with cognitive performance, memory, and fatigue management",
+            "specialization_notes": "Connected to cognitive performance, memory benefits, and fatigue levels"
+          }
+        ],
+        "constructs_mentioned": [
+          {
+            "construct_name": "Sleep Quality",
+            "construct_description": "Subjective and objective measures of how well someone sleeps, including sleep efficiency, stages, and disruption",
+            "domain_association": "Recovery, Performance, Mental Health",
+            "assessment_context": "Assessed through subjective ratings, validated questionnaires (Pittsburgh Sleep Quality Index), and wearable technology metrics"
+          },
+          {
+            "construct_name": "Sleep Duration",
+            "construct_description": "Total sleep time measured in hours, with recommended range of 6.5-8.5 hours for general population",
+            "domain_association": "Recovery, Performance, Cardiovascular Health",
+            "assessment_context": "Most reliable metric from wearables, assessed subjectively through daily questions and objectively through continuous monitoring"
+          },
+          {
+            "construct_name": "Sleep Regularity",
+            "construct_description": "Consistency of bedtime and wake time patterns, measured through sleep regularity index",
+            "domain_association": "Recovery, Performance",
+            "assessment_context": "Tracked through wearables showing adherence to consistent sleep-wake cycles within +/- 30 minutes"
+          },
+          {
+            "construct_name": "Fatigue",
+            "construct_description": "Energy levels and tiredness, related to but distinct from sleep quality measures",
+            "domain_association": "Recovery, Performance, Mental Health",
+            "assessment_context": "Assessed through subjective daily ratings and sleepiness scales, connected to sleep disruption and illness"
+          },
+          {
+            "construct_name": "Heart Rate Variability",
+            "construct_description": "Physiological measure captured during sleep that relates to recovery and stress adaptation",
+            "domain_association": "Recovery, Cardiovascular Health",
+            "assessment_context": "Measured through wearable devices during sleep as summary statistic"
+          },
+          {
+            "construct_name": "Cognitive Performance",
+            "construct_description": "Memory, reaction time, and cognitive function benefits derived from adequate sleep",
+            "domain_association": "Mental Health, Performance",
+            "assessment_context": "Indirectly assessed through sleep metrics, with potential for direct cognitive assessments"
+          }
+        ],
+        "sport_specificity": [
+          {
+            "sport": "Cycling (multi-day events)",
+            "assessment_modifications": "Monitor proportion of deep sleep during sleep restriction periods",
+            "intervention_modifications": "Recognize body's prioritization of physical recovery sleep stages during high physical demands"
+          },
+          {
+            "sport": "Football/Team Sports",
+            "assessment_modifications": "Customize questionnaire language from business meetings to important fixtures, consider fixture schedules in sleep regularity assessment",
+            "intervention_modifications": "Avoid sleep prompts 30 minutes before kickoff, integrate fixture calendar for appropriate timing of interventions"
+          },
+          {
+            "sport": "General Athletes vs Health Seekers",
+            "assessment_modifications": "Athletes may require more frequent monitoring and sport-specific questionnaire modifications",
+            "intervention_modifications": "Athletes need calendar integration for training/competition schedules, health seekers need simpler, less frequent interventions integrated with work schedules"
+          }
+        ]
+      },
+      "assessments": {
+        "assessments": [
+          {
+            "assessment_name": "Daily Subjective Sleep Questions",
+            "assessment_description": "Simple daily questions asking how much sleep (hours), sleep quality rating, and fatigue/energy levels using scales (0-10, 5-point, or 100-point)",
+            "constructs_measured": [
+              "Sleep Duration",
+              "Sleep Quality",
+              "Fatigue"
+            ],
+            "modality": "Subjective"
+          },
+          {
+            "assessment_name": "Pittsburgh Sleep Quality Index (PSQI)",
+            "assessment_description": "Validated questionnaire assessing sleep quality over the past month, used quarterly or annually as a screening tool",
+            "constructs_measured": [
+              "Sleep Quality",
+              "Sleep Duration"
+            ],
+            "modality": "Subjective"
+          },
+          {
+            "assessment_name": "Sleep Poly Scale",
+            "assessment_description": "Validated questionnaire measuring multiple aspects of sleep patterns and behaviors",
+            "constructs_measured": [
+              "Sleep Quality",
+              "Sleep Duration"
+            ],
+            "modality": "Subjective"
+          },
+          {
+            "assessment_name": "Epworth Sleepiness Scale",
+            "assessment_description": "Validated questionnaire assessing daytime sleepiness and tiredness during daily activities",
+            "constructs_measured": [
+              "Fatigue",
+              "Sleep Quality"
+            ],
+            "modality": "Subjective"
+          },
+          {
+            "assessment_name": "Wearable Sleep Monitoring",
+            "assessment_description": "Continuous sleep measurement using devices like Oura Ring, Whoop, Fitbit, smartwatches providing total sleep time, sleep stages, efficiency, and regularity metrics",
+            "constructs_measured": [
+              "Sleep Duration",
+              "Sleep Quality",
+              "Sleep Regularity",
+              "Heart Rate Variability"
+            ],
+            "modality": "Objective"
+          },
+          {
+            "assessment_name": "Polysomnography (Sleep Study)",
+            "assessment_description": "Laboratory-based comprehensive sleep assessment measuring brain waves, sleep stages, and physiological parameters overnight",
+            "constructs_measured": [
+              "Sleep Quality",
+              "Sleep Duration"
+            ],
+            "modality": "Objective"
+          }
+        ]
+      },
+      "interventions": {
+        "interventions": [
+          {
+            "intervention_name": "Sleep Observation Period",
+            "intervention_description": "Initial monitoring period using wearable devices or sleep diary to collect continuous sleep data for 2-4 weeks to establish baseline patterns and identify specific sleep issues",
+            "constructs_targeted": [
+              "Sleep Quality",
+              "Sleep Duration",
+              "Sleep Regularity"
+            ],
+            "intervention_types": [
+              "Assessment",
+              "Monitoring"
+            ]
+          },
+          {
+            "intervention_name": "Generic Sleep Hygiene Education",
+            "intervention_description": "Educational reminders and behavioral guidance covering fundamental sleep practices including room environment optimization (quiet, dark, cool), caffeine timing (6-10 hours before bed), morning sunlight exposure, and pre-sleep routines",
+            "constructs_targeted": [
+              "Sleep Quality",
+              "Sleep Duration",
+              "Fatigue"
+            ],
+            "intervention_types": [
+              "Educational",
+              "Behavioral"
+            ]
+          },
+          {
+            "intervention_name": "Personalized Sleep Behavior Prompts",
+            "intervention_description": "Automated, context-aware notifications through app based on individual bedtime and schedule, including wind-down reminders, caffeine cut-off alerts, and screen time limitations tailored to personal calendar and activities",
+            "constructs_targeted": [
+              "Sleep Quality",
+              "Sleep Regularity"
+            ],
+            "intervention_types": [
+              "Behavioral",
+              "Technology-based"
+            ]
+          },
+          {
+            "intervention_name": "Sleep Expert Consultation",
+            "intervention_description": "Online consultation with sleep specialist for persistent sleep problems, providing deeper analysis and specific interventions beyond generic sleep hygiene recommendations",
+            "constructs_targeted": [
+              "Sleep Quality",
+              "Sleep Duration",
+              "Fatigue"
+            ],
+            "intervention_types": [
+              "Professional consultation",
+              "Assessment"
+            ]
+          },
+          {
+            "intervention_name": "Physical Activity for Sleep Improvement",
+            "intervention_description": "Exercise prescription to address sleep difficulties by ensuring adequate physical fatigue and activity levels to promote natural tiredness at bedtime",
+            "constructs_targeted": [
+              "Sleep Quality",
+              "Fatigue"
+            ],
+            "intervention_types": [
+              "Exercise",
+              "Behavioral"
+            ]
+          },
+          {
+            "intervention_name": "Sleep-Supportive Nutrition Guidance",
+            "intervention_description": "Nutritional recommendations to support sleep quality, including meal timing, food choices, and eating patterns that promote better sleep",
+            "constructs_targeted": [
+              "Sleep Quality",
+              "Sleep Duration"
+            ],
+            "intervention_types": [
+              "Nutritional",
+              "Educational"
+            ]
+          },
+          {
+            "intervention_name": "Sleep Regularity Coaching",
+            "intervention_description": "Behavioral intervention focused on establishing consistent bedtime and wake time patterns within 30-minute windows, using visual feedback and sleep regularity index monitoring",
+            "constructs_targeted": [
+              "Sleep Regularity",
+              "Sleep Quality"
+            ],
+            "intervention_types": [
+              "Behavioral",
+              "Coaching"
+            ]
+          },
+          {
+            "intervention_name": "Contextual Sleep Support",
+            "intervention_description": "Adaptive sleep guidance for specific life circumstances such as new parents, shift workers, or athletes with irregular schedules, providing realistic and achievable sleep strategies",
+            "constructs_targeted": [
+              "Sleep Quality",
+              "Sleep Duration",
+              "Fatigue"
+            ],
+            "intervention_types": [
+              "Behavioral",
+              "Personalized coaching"
+            ]
+          }
+        ]
+      },
+      "relationships": {
+        "construct_relationships": [
+          {
+            "source_construct": "Sleep Quality",
+            "target_construct": "Fatigue",
+            "relationship_type": "causal",
+            "relationship_description": "Poor sleep quality directly leads to increased fatigue and reduced energy levels",
+            "evidence_mentioned": "Mentioned as one of three key subjective questions asked consistently - fatigue/energy level related to sleep",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Sleep Duration",
+            "target_construct": "Cognitive Performance",
+            "relationship_type": "causal",
+            "relationship_description": "Sleep duration affects memory benefits and cognitive function including reaction time",
+            "evidence_mentioned": "Mentioned cognitive performance benefits from adequate sleep, memory benefits, reaction time assessments",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Sleep Regularity",
+            "target_construct": "Sleep Quality",
+            "relationship_type": "causal",
+            "relationship_description": "Sleep regularity (consistent bedtime/wake time) is now recognized as very important for overall sleep quality",
+            "evidence_mentioned": "Sleep regularity has become more popular and important, affects overall sleep patterns",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Sleep Quality",
+            "target_construct": "Heart Rate Variability",
+            "relationship_type": "association",
+            "relationship_description": "Sleep affects resting heart rate which is measured overnight by wearables",
+            "evidence_mentioned": "Wearables measure resting heart rate overnight as a sleep-related metric",
+            "directionality": "bidirectional"
+          }
+        ],
+        "assessment_construct_links": [
+          {
+            "assessment_name": "Daily Subjective Sleep Questions",
+            "constructs_measured": [
+              "Sleep Duration",
+              "Sleep Quality",
+              "Fatigue"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "Timeline context (recent month vs longer periods)",
+              "Stressful periods (exams, illness)",
+              "Individual's normal patterns",
+              "Seasonal variations"
+            ]
+          },
+          {
+            "assessment_name": "Pittsburgh Sleep Quality Index (PSQI)",
+            "constructs_measured": [
+              "Sleep Quality",
+              "Sleep Duration"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "Used as screener to identify sleep problems",
+              "Quarterly or annual frequency",
+              "Combined with other questionnaires for comprehensive assessment"
+            ]
+          },
+          {
+            "assessment_name": "Sleep Poly Scale",
+            "constructs_measured": [
+              "Sleep Quality",
+              "Fatigue"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "Assesses tiredness vs sleep quality",
+              "Can be customized for specific populations (athletes vs business people)"
+            ]
+          },
+          {
+            "assessment_name": "Epworth Sleepiness Scale",
+            "constructs_measured": [
+              "Fatigue"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "Measures sleepiness during daily activities",
+              "Context-specific tweaking needed for different populations"
+            ]
+          },
+          {
+            "assessment_name": "Wearable Sleep Monitoring",
+            "constructs_measured": [
+              "Sleep Duration",
+              "Sleep Quality",
+              "Sleep Regularity",
+              "Heart Rate Variability"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "Individual vs population norms",
+              "Device-specific variations",
+              "Movement affecting accuracy",
+              "Trend analysis over single night data"
+            ]
+          },
+          {
+            "assessment_name": "Polysomnography (Sleep Study)",
+            "constructs_measured": [
+              "Sleep Quality",
+              "Sleep Duration"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "Foreign environment affecting natural sleep",
+              "Single night snapshot limitations",
+              "Most accurate but least feasible"
+            ]
+          }
+        ],
+        "intervention_construct_links": [
+          {
+            "intervention_name": "Sleep Observation Period",
+            "constructs_targeted": [
+              "Sleep Duration",
+              "Sleep Quality",
+              "Sleep Regularity"
+            ],
+            "mechanism_of_action": "Continuous monitoring to establish baseline patterns and identify issues",
+            "expected_outcomes": [
+              "Baseline establishment",
+              "Pattern recognition",
+              "Behavior awareness leading to natural improvement"
+            ],
+            "timeline_expectations": "2-4 weeks or longer for comprehensive observation"
+          },
+          {
+            "intervention_name": "Generic Sleep Hygiene Education",
+            "constructs_targeted": [
+              "Sleep Quality",
+              "Sleep Duration"
+            ],
+            "mechanism_of_action": "Education on environmental factors (dark, quiet, cool room), caffeine timing, morning sunlight exposure",
+            "expected_outcomes": [
+              "Improved sleep environment",
+              "Better sleep timing",
+              "Reduced sleep disruption"
+            ],
+            "timeline_expectations": "Immediate implementation with gradual improvement over weeks"
+          },
+          {
+            "intervention_name": "Personalized Sleep Behavior Prompts",
+            "constructs_targeted": [
+              "Sleep Regularity",
+              "Sleep Quality"
+            ],
+            "mechanism_of_action": "App-based reminders timed to individual's schedule (e.g., wind-down reminders 2 hours before bedtime)",
+            "expected_outcomes": [
+              "More consistent bedtime routine",
+              "Better sleep preparation",
+              "Improved sleep regularity"
+            ],
+            "timeline_expectations": "Daily prompts with behavioral changes developing over weeks"
+          },
+          {
+            "intervention_name": "Sleep Expert Consultation",
+            "constructs_targeted": [
+              "Sleep Quality",
+              "Sleep Duration"
+            ],
+            "mechanism_of_action": "Professional assessment and personalized recommendations beyond generic advice",
+            "expected_outcomes": [
+              "Specific behavioral interventions",
+              "Identification of underlying issues",
+              "Tailored treatment plans"
+            ],
+            "timeline_expectations": "Consultation followed by intervention period of 6-12 weeks"
+          },
+          {
+            "intervention_name": "Physical Activity for Sleep Improvement",
+            "constructs_targeted": [
+              "Sleep Quality",
+              "Sleep Duration"
+            ],
+            "mechanism_of_action": "Adequate physical activity creates natural tiredness and improves sleep drive",
+            "expected_outcomes": [
+              "Easier sleep initiation",
+              "Deeper sleep",
+              "More natural sleep-wake cycle"
+            ],
+            "timeline_expectations": "Effects seen within days to weeks of consistent activity"
+          },
+          {
+            "intervention_name": "Sleep-Supportive Nutrition Guidance",
+            "constructs_targeted": [
+              "Sleep Quality"
+            ],
+            "mechanism_of_action": "Proper nutrition timing and content to support natural sleep processes",
+            "expected_outcomes": [
+              "Reduced sleep disruption from digestion",
+              "Better sleep quality",
+              "More stable sleep patterns"
+            ],
+            "timeline_expectations": "Gradual improvement over weeks with consistent implementation"
+          },
+          {
+            "intervention_name": "Sleep Regularity Coaching",
+            "constructs_targeted": [
+              "Sleep Regularity"
+            ],
+            "mechanism_of_action": "Guidance on maintaining consistent sleep-wake times within 30-minute windows",
+            "expected_outcomes": [
+              "More consistent sleep schedule",
+              "Improved sleep quality through regularity",
+              "Better circadian rhythm alignment"
+            ],
+            "timeline_expectations": "Behavioral changes over weeks, physiological adaptation over months"
+          },
+          {
+            "intervention_name": "Contextual Sleep Support",
+            "constructs_targeted": [
+              "Sleep Quality",
+              "Sleep Duration"
+            ],
+            "mechanism_of_action": "Tailored support for specific life circumstances (new parents, shift workers, athletes)",
+            "expected_outcomes": [
+              "Realistic sleep optimization within constraints",
+              "Reduced sleep-related anxiety",
+              "Practical coping strategies"
+            ],
+            "timeline_expectations": "Ongoing support with adaptations as circumstances change"
+          }
+        ],
+        "assessment_intervention_connections": [
+          {
+            "assessment_name": "Daily Subjective Sleep Questions",
+            "intervention_name": "Sleep Observation Period",
+            "connection_type": "informs",
+            "connection_description": "Daily questions provide continuous subjective data during observation period"
+          },
+          {
+            "assessment_name": "Pittsburgh Sleep Quality Index (PSQI)",
+            "intervention_name": "Sleep Expert Consultation",
+            "connection_type": "triggers",
+            "connection_description": "Poor PSQI scores (below 50-60 threshold) trigger referral to sleep expert"
+          },
+          {
+            "assessment_name": "Wearable Sleep Monitoring",
+            "intervention_name": "Personalized Sleep Behavior Prompts",
+            "connection_type": "informs",
+            "connection_description": "Wearable data on bedtime patterns informs timing of personalized prompts (e.g., wind-down reminders 2 hours before typical bedtime)"
+          },
+          {
+            "assessment_name": "Wearable Sleep Monitoring",
+            "intervention_name": "Sleep Observation Period",
+            "connection_type": "monitors",
+            "connection_description": "Wearables provide objective data during observation period to complement subjective reports"
+          },
+          {
+            "assessment_name": "Sleep Poly Scale",
+            "intervention_name": "Generic Sleep Hygiene Education",
+            "connection_type": "informs",
+            "connection_description": "Scale results determine if generic education is sufficient or if more intensive intervention needed"
+          },
+          {
+            "assessment_name": "Epworth Sleepiness Scale",
+            "intervention_name": "Physical Activity for Sleep Improvement",
+            "connection_type": "informs",
+            "connection_description": "High sleepiness scores may indicate need for physical activity intervention to improve natural sleep drive"
+          },
+          {
+            "assessment_name": "Polysomnography (Sleep Study)",
+            "intervention_name": "Sleep Expert Consultation",
+            "connection_type": "evaluates",
+            "connection_description": "Sleep study used only after expert consultation determines it necessary, not as first-line assessment"
+          },
+          {
+            "assessment_name": "Wearable Sleep Monitoring",
+            "intervention_name": "Sleep Regularity Coaching",
+            "connection_type": "monitors",
+            "connection_description": "Wearable data on sleep regularity patterns (bedtime/wake time consistency) monitors effectiveness of regularity coaching"
+          }
+        ]
+      },
+      "ontology_guided_data": {
+        "technologies_metrics": {
+          "technologies": [
+            {
+              "technology_name": "Oura Ring",
+              "vendor_manufacturer": "Oura",
+              "technology_type": "hardware",
+              "specific_model": "Ring",
+              "used_for_assessments": [
+                "Wearable Sleep Monitoring"
+              ],
+              "what_it_measures": [
+                "Total Sleep Time",
+                "Sleep Efficiency",
+                "Sleep Stages",
+                "Sleep Regularity",
+                "Awake Time",
+                "Movement",
+                "Resting Heart Rate"
+              ],
+              "data_output_format": "API integration, summary statistics"
+            },
+            {
+              "technology_name": "Whoop",
+              "vendor_manufacturer": "Whoop",
+              "technology_type": "hardware",
+              "specific_model": "Band",
+              "used_for_assessments": [
+                "Wearable Sleep Monitoring"
+              ],
+              "what_it_measures": [
+                "Total Sleep Time",
+                "Sleep Efficiency",
+                "Sleep Stages",
+                "Deep Sleep",
+                "REM Sleep",
+                "Sleep Regularity"
+              ],
+              "data_output_format": "API integration, summary statistics"
+            },
+            {
+              "technology_name": "Fitbit",
+              "vendor_manufacturer": "Fitbit",
+              "technology_type": "hardware",
+              "specific_model": "Various models",
+              "used_for_assessments": [
+                "Wearable Sleep Monitoring"
+              ],
+              "what_it_measures": [
+                "Total Sleep Time",
+                "Sleep Efficiency",
+                "Sleep Stages",
+                "Sleep Regularity"
+              ],
+              "data_output_format": "API integration, summary statistics"
+            },
+            {
+              "technology_name": "Apple Watch",
+              "vendor_manufacturer": "Apple",
+              "technology_type": "hardware",
+              "specific_model": "Smartwatch",
+              "used_for_assessments": [
+                "Wearable Sleep Monitoring"
+              ],
+              "what_it_measures": [
+                "Total Sleep Time",
+                "Sleep Efficiency",
+                "Sleep Stages",
+                "Sleep Regularity"
+              ],
+              "data_output_format": "API integration, summary statistics"
+            },
+            {
+              "technology_name": "Garmin",
+              "vendor_manufacturer": "Garmin",
+              "technology_type": "hardware",
+              "specific_model": "Various smartwatch models",
+              "used_for_assessments": [
+                "Wearable Sleep Monitoring"
+              ],
+              "what_it_measures": [
+                "Total Sleep Time",
+                "Sleep Efficiency",
+                "Sleep Stages",
+                "Sleep Regularity"
+              ],
+              "data_output_format": "API integration, summary statistics"
+            },
+            {
+              "technology_name": "Polar",
+              "vendor_manufacturer": "Polar",
+              "technology_type": "hardware",
+              "specific_model": "Various models including Polar Loop",
+              "used_for_assessments": [
+                "Wearable Sleep Monitoring"
+              ],
+              "what_it_measures": [
+                "Total Sleep Time",
+                "Sleep Efficiency",
+                "Sleep Stages",
+                "Sleep Regularity"
+              ],
+              "data_output_format": "API integration, summary statistics"
+            },
+            {
+              "technology_name": "Samsung",
+              "vendor_manufacturer": "Samsung",
+              "technology_type": "hardware",
+              "specific_model": "Smartwatch and Ring",
+              "used_for_assessments": [
+                "Wearable Sleep Monitoring"
+              ],
+              "what_it_measures": [
+                "Total Sleep Time",
+                "Sleep Efficiency",
+                "Sleep Stages",
+                "Sleep Regularity"
+              ],
+              "data_output_format": "API integration, summary statistics"
+            },
+            {
+              "technology_name": "Ultrahuman",
+              "vendor_manufacturer": "Ultrahuman",
+              "technology_type": "hardware",
+              "specific_model": "Ring",
+              "used_for_assessments": [
+                "Wearable Sleep Monitoring"
+              ],
+              "what_it_measures": [
+                "Total Sleep Time",
+                "Sleep Efficiency",
+                "Sleep Stages",
+                "Sleep Regularity"
+              ],
+              "data_output_format": "API integration, summary statistics"
+            },
+            {
+              "technology_name": "Amazfit",
+              "vendor_manufacturer": "Amazfit",
+              "technology_type": "hardware",
+              "specific_model": "Ring and Strap",
+              "used_for_assessments": [
+                "Wearable Sleep Monitoring"
+              ],
+              "what_it_measures": [
+                "Total Sleep Time",
+                "Sleep Efficiency",
+                "Sleep Stages",
+                "Sleep Regularity"
+              ],
+              "data_output_format": "API integration, summary statistics"
+            },
+            {
+              "technology_name": "Google Forms",
+              "vendor_manufacturer": "Google",
+              "technology_type": "software",
+              "specific_model": "Web application",
+              "used_for_assessments": [
+                "Daily Subjective Sleep Questions",
+                "Pittsburgh Sleep Quality Index (PSQI)",
+                "Sleep Poly Scale",
+                "Epworth Sleepiness Scale"
+              ],
+              "what_it_measures": [
+                "Subjective sleep quality",
+                "Sleep duration",
+                "Fatigue levels",
+                "Energy levels"
+              ],
+              "data_output_format": "Digital questionnaire data, PDF reports"
+            },
+            {
+              "technology_name": "PSG Equipment",
+              "vendor_manufacturer": "Various",
+              "technology_type": "hardware",
+              "specific_model": "Polysomnography systems",
+              "used_for_assessments": [
+                "Polysomnography (Sleep Study)"
+              ],
+              "what_it_measures": [
+                "Sleep Quality",
+                "Sleep Efficiency",
+                "Sleep Stages",
+                "Brain Wave Activity"
+              ],
+              "data_output_format": "Sleep lab report, detailed sleep analysis"
+            }
+          ],
+          "metrics": [
+            {
+              "metric_name": "Total Sleep Time",
+              "measurement_unit": "hours or minutes",
+              "assessment_source": "Wearable Sleep Monitoring",
+              "normal_ranges": "6.5 to 8.5 hours",
+              "interpretation_notes": "Most reliable wearable metric, individual ranges more important than population norms"
+            },
+            {
+              "metric_name": "Sleep Efficiency",
+              "measurement_unit": "percentage (%)",
+              "assessment_source": "Wearable Sleep Monitoring, Polysomnography",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "Measure of sleep quality, derived from wearables and sleep studies"
+            },
+            {
+              "metric_name": "Deep Sleep",
+              "measurement_unit": "hours or percentage (%)",
+              "assessment_source": "Wearable Sleep Monitoring, Polysomnography",
+              "normal_ranges": "Approximately 20% of total sleep",
+              "interpretation_notes": "Oura Ring and Whoop are better performers, sensitive to changes like alcohol consumption"
+            },
+            {
+              "metric_name": "REM Sleep",
+              "measurement_unit": "hours or percentage (%)",
+              "assessment_source": "Wearable Sleep Monitoring, Polysomnography",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "Sensitive to alcohol consumption, dose-dependent relationship"
+            },
+            {
+              "metric_name": "Sleep Regularity Index",
+              "measurement_unit": "0 to 100 score",
+              "assessment_source": "Wearable Sleep Monitoring",
+              "normal_ranges": "Within \u00b130 minutes of average bedtime/wake time",
+              "interpretation_notes": "Important metric for sleep consistency, visual representation preferred over numerical scores"
+            },
+            {
+              "metric_name": "Awake Time",
+              "measurement_unit": "minutes",
+              "assessment_source": "Wearable Sleep Monitoring",
+              "normal_ranges": "Individual baseline dependent",
+              "interpretation_notes": "Indicator of sleep disruption, useful when combined with movement data"
+            },
+            {
+              "metric_name": "Sleep Latency",
+              "measurement_unit": "minutes",
+              "assessment_source": "Wearable Sleep Monitoring, Polysomnography",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "Time to fall asleep, estimated by wearables"
+            },
+            {
+              "metric_name": "Movement During Sleep",
+              "measurement_unit": "count or frequency",
+              "assessment_source": "Wearable Sleep Monitoring",
+              "normal_ranges": "Individual baseline dependent",
+              "interpretation_notes": "Indicator of sleep disruption, excessive movement can affect sensor accuracy"
+            },
+            {
+              "metric_name": "Resting Heart Rate",
+              "measurement_unit": "beats per minute (bpm)",
+              "assessment_source": "Wearable Sleep Monitoring",
+              "normal_ranges": "Individual baseline dependent",
+              "interpretation_notes": "Averaged overnight value, useful for trend monitoring"
+            },
+            {
+              "metric_name": "Subjective Sleep Duration",
+              "measurement_unit": "hours",
+              "assessment_source": "Daily Subjective Sleep Questions",
+              "normal_ranges": "Individual reported normal",
+              "interpretation_notes": "Self-reported sleep time, may differ from wearable measurements by ~30 minutes"
+            },
+            {
+              "metric_name": "Subjective Sleep Quality",
+              "measurement_unit": "0-10 scale or 5-point scale",
+              "assessment_source": "Daily Subjective Sleep Questions",
+              "normal_ranges": "Individual baseline dependent",
+              "interpretation_notes": "How well someone feels they slept, important complement to objective measures"
+            },
+            {
+              "metric_name": "Fatigue Level",
+              "measurement_unit": "0-10 scale or 100-point scale",
+              "assessment_source": "Daily Subjective Sleep Questions",
+              "normal_ranges": "Individual baseline dependent",
+              "interpretation_notes": "Energy level assessment, related to but distinct from sleep quality"
+            },
+            {
+              "metric_name": "Pittsburgh Sleep Quality Index Score",
+              "measurement_unit": "Composite score",
+              "assessment_source": "Pittsburgh Sleep Quality Index (PSQI)",
+              "normal_ranges": "Validated thresholds available",
+              "interpretation_notes": "Comprehensive sleep assessment, used quarterly or annually"
+            },
+            {
+              "metric_name": "Sleep Poly Scale Score",
+              "measurement_unit": "Composite score",
+              "assessment_source": "Sleep Poly Scale",
+              "normal_ranges": "Validated thresholds available",
+              "interpretation_notes": "Alternative validated sleep questionnaire"
+            },
+            {
+              "metric_name": "Epworth Sleepiness Scale Score",
+              "measurement_unit": "Composite score",
+              "assessment_source": "Epworth Sleepiness Scale",
+              "normal_ranges": "Validated thresholds available",
+              "interpretation_notes": "Measures daytime sleepiness and tiredness during daily activities"
+            },
+            {
+              "metric_name": "Combined Sleep Score",
+              "measurement_unit": "0-100 scale",
+              "assessment_source": "Combined questionnaires",
+              "normal_ranges": "Above 80 = sufficient, 55-80 = moderate, below 50-60 = intervention needed",
+              "interpretation_notes": "Custom combined score from multiple validated questionnaires"
+            }
+          ]
+        },
+        "goals_constraints": {
+          "client_goals": [
+            {
+              "goal_description": "Improve sleep quality and duration for better recovery and performance",
+              "goal_type": "health/performance",
+              "target_constructs": [
+                "Sleep Quality",
+                "Sleep Duration",
+                "Sleep Regularity",
+                "Fatigue"
+              ],
+              "success_metrics": [
+                "Sleep questionnaire scores",
+                "Total sleep time from wearables",
+                "Sleep efficiency",
+                "Subjective sleep quality ratings"
+              ],
+              "timeline": "6-12 weeks for behavioral interventions, quarterly reassessment",
+              "priority_level": "High - affects all other domains"
+            },
+            {
+              "goal_description": "Maintain consistent sleep patterns for optimal health",
+              "goal_type": "health",
+              "target_constructs": [
+                "Sleep Regularity",
+                "Sleep Duration"
+              ],
+              "success_metrics": [
+                "Sleep regularity index",
+                "Bedtime/wake time consistency within 30 minutes"
+              ],
+              "timeline": "Ongoing monitoring with 3-month trend analysis",
+              "priority_level": "High"
+            },
+            {
+              "goal_description": "Reduce sleep-related fatigue and improve cognitive performance",
+              "goal_type": "performance",
+              "target_constructs": [
+                "Fatigue",
+                "Cognitive Performance",
+                "Sleep Quality"
+              ],
+              "success_metrics": [
+                "Subjective fatigue ratings",
+                "Energy levels",
+                "Sleep efficiency"
+              ],
+              "timeline": "2-4 weeks observation period, then intervention",
+              "priority_level": "Medium"
+            }
+          ],
+          "constraints_preferences": [
+            {
+              "constraint_type": "technology/preference",
+              "description": "Some clients are completely anti-technology and won't wear devices",
+              "impact_on_assessment": "Cannot use wearable data, must rely on subjective questionnaires and sleep diaries",
+              "impact_on_intervention": "Limited to behavioral interventions and manual tracking",
+              "workaround_strategies": [
+                "Use daily subjective sleep questions",
+                "Implement sleep diary tracking",
+                "Focus on behavioral education"
+              ]
+            },
+            {
+              "constraint_type": "equipment/access",
+              "description": "Apple Watch battery life issues prevent overnight wear",
+              "impact_on_assessment": "Cannot collect continuous sleep data from Apple Watch users",
+              "impact_on_intervention": "Need alternative wearable recommendations or subjective tracking",
+              "workaround_strategies": [
+                "Recommend alternative wearables with better battery life",
+                "Use subjective sleep tracking",
+                "Consider smart rings or bands"
+              ]
+            },
+            {
+              "constraint_type": "time/schedule",
+              "description": "Athletes with late training sessions or irregular schedules",
+              "impact_on_assessment": "Standard sleep timing recommendations don't apply",
+              "impact_on_intervention": "Cannot use generic bedtime reminders or standard sleep hygiene advice",
+              "workaround_strategies": [
+                "Integrate calendar data",
+                "Customize timing based on individual schedules",
+                "Provide context-specific recommendations"
+              ]
+            },
+            {
+              "constraint_type": "medical/life circumstances",
+              "description": "New parents with disrupted sleep due to childcare",
+              "impact_on_assessment": "Sleep metrics will be poor but not indicative of sleep disorders",
+              "impact_on_intervention": "Standard sleep improvement advice is not realistic",
+              "workaround_strategies": [
+                "Toggle for new parent status",
+                "Focus on sleep efficiency rather than duration",
+                "Provide support rather than improvement pressure"
+              ]
+            },
+            {
+              "constraint_type": "access/cost",
+              "description": "Sleep lab studies are expensive and not feasible for most people",
+              "impact_on_assessment": "Cannot use gold standard PSG for everyone",
+              "impact_on_intervention": "Must use tiered approach before referral",
+              "workaround_strategies": [
+                "Use questionnaires and wearables first",
+                "Refer to sleep expert consultation before lab study",
+                "Reserve lab studies for persistent problems"
+              ]
+            }
+          ],
+          "moderating_factors": [
+            {
+              "factor_name": "Stressful periods (exams, work deadlines)",
+              "description": "Temporary periods of high stress that disrupt normal sleep patterns",
+              "what_it_affects": "Assessment results may falsely indicate chronic sleep problems",
+              "management_approach": "Consider context when interpreting questionnaire results, note seasonal/situational factors"
+            },
+            {
+              "factor_name": "Illness or injury",
+              "description": "Physical health issues that affect sleep patterns and needs",
+              "what_it_affects": "Both assessment results and intervention effectiveness",
+              "management_approach": "Account for recent illness/injury history, adjust expectations during recovery periods"
+            },
+            {
+              "factor_name": "Seasonal variations",
+              "description": "Natural changes in sleep patterns due to time of year, daylight exposure",
+              "what_it_affects": "Assessment results and baseline expectations",
+              "management_approach": "Track seasonal trends across population, adjust thresholds accordingly"
+            },
+            {
+              "factor_name": "Travel and time zone changes",
+              "description": "Disruption to circadian rhythms from travel",
+              "what_it_affects": "Sleep regularity and quality metrics",
+              "management_approach": "Flag travel periods, adjust interpretation of sleep data during and after travel"
+            },
+            {
+              "factor_name": "Alcohol consumption",
+              "description": "Dose-dependent relationship with REM sleep reduction",
+              "what_it_affects": "Sleep stage distribution and quality metrics",
+              "management_approach": "Track alcohol intake patterns, educate on sleep impact, monitor REM sleep trends"
+            },
+            {
+              "factor_name": "Physical activity levels",
+              "description": "Insufficient exercise can lead to difficulty falling asleep",
+              "what_it_affects": "Sleep latency and overall sleep quality",
+              "management_approach": "Assess physical activity as part of sleep intervention, recommend appropriate exercise"
+            }
+          ],
+          "individual_differences": [
+            {
+              "difference_factor": "Individual sleep needs (6.5-8.5 hours range)",
+              "assessment_implications": "Must establish individual baseline rather than using population norms only",
+              "intervention_implications": "Customize sleep duration targets based on individual patterns and needs"
+            },
+            {
+              "difference_factor": "Sleep movement patterns",
+              "assessment_implications": "High movement during sleep can affect wearable accuracy",
+              "intervention_implications": "May need alternative assessment methods for restless sleepers"
+            },
+            {
+              "difference_factor": "Technology literacy and engagement",
+              "assessment_implications": "Affects ability to use wearables and apps effectively",
+              "intervention_implications": "Need different intervention delivery methods for different tech comfort levels"
+            },
+            {
+              "difference_factor": "Occupation and shift work",
+              "assessment_implications": "Standard sleep timing questions may not apply",
+              "intervention_implications": "Need customized sleep hygiene advice for different work schedules"
+            },
+            {
+              "difference_factor": "Training status and recovery needs",
+              "assessment_implications": "Athletes may need different sleep duration and quality targets",
+              "intervention_implications": "Recovery-focused interventions vs general health maintenance"
+            },
+            {
+              "difference_factor": "Age-related sleep changes",
+              "assessment_implications": "Sleep architecture and needs change with age",
+              "intervention_implications": "Age-appropriate sleep recommendations and realistic expectations"
+            }
+          ]
+        },
+        "detailed_protocols": {
+          "error": "JSON parsing failed",
+          "raw_response": "```json\n{\n    \"assessment_protocols\": [\n        {\n            \"assessment_name\": \"Daily Subjective Sleep Questions\",\n            \"detailed_steps\": [\n                \"Deliver questions through digital platform (app or Google form)\",\n                \"Ask three core questions: 1) How much did you sleep? 2) How well did you sleep? 3) What is your fatigue/energy level?\",\n                \"Use consistent rating scales (0-10, 5-point, or 100-point scale)\",\n                \"Collect responses every morning or every few days as appropriate\",\n                \"Store responses in digital format for trend analysis\"\n            ],\n            \"preparation_requirements\": [\n                \"Set up digital questionnaire platform\",\n                \"Establish consistent timing for question delivery\",\n                \"Define rating scale parameters\",\n                \"Configure automated reminders if needed\"\n            ],\n            \"equipment_setup\": \"Digital platform (app, Google Forms, or similar questionnaire tool)\",\n            \"data_collection_process\": \"Automated digital collection with responses stored as structured data for analysis and trending\",\n            \"quality_assurance\": [\n                \"Ensure questions reference consistent time periods\",\n                \"Provide clear instructions on rating scale interpretation\",\n                \"Monitor response consistency and follow up on missing data\",\n                \"Validate responses against wearable data when available\"\n            ],\n            \"troubleshooting\": [\n                \"If inconsistent responses: clarify time period being referenced\",\n                \"If low compliance: adjust frequency or delivery method\",\n                \"If responses don't match wearable data: discuss interpretation differences\"\n            ]\n        },\n        {\n            \"assessment_name\": \"Pittsburgh Sleep Quality Index (PSQI)\",\n            \"detailed_steps\": [\n                \"Administer complete PSQI questionnaire digitally\",\n                \"Calculate composite score according to validated scoring system\",\n                \"Compare results to established norms and thresholds\",\n                \"Generate PDF report with scores and interpretation\",\n                \"Schedule follow-up consultation if scores indicate sleep problems\"\n            ],\n            \"preparation_requirements\": [\n                \"Obtain validated PSQI questionnaire\",\n                \"Set up scoring algorithm\",\n                \"Establish threshold values for intervention triggers\",\n                \"Prepare interpretation guidelines\"\n            ],\n            \"equipment_setup\": \"Digital questionnaire platform with automated scoring capability\",\n            \"data_collection_process\": \"Quarterly or bi-annual administration with automated scoring and report generation\",\n            \"quality_assurance\": [\n                \"Use validated questionnaire format\",\n                \"Ensure proper scoring methodology\",\n                \"Cross-reference with other sleep assessments\",\n                \"Maintain consistent administration intervals\"\n            ],\n            \"troubleshooting\": [\n                \"If scores seem inconsistent with other data: consider contextual factors (exams, stress periods)\",\n                \"If questionnaire too long: consider shortened version while maintaining validity\",\n                \"If responses unclear: provide examples for rating scale interpretation\"\n            ]\n        },\n        {\n            \"assessment_name\": \"Sleep Poly Scale\",\n            \"detailed_steps\": [\n                \"Administer validated Sleep Poly Scale questionnaire\",\n                \"Focus on sleep quality and disruption patterns\",\n                \"Score according to established methodology\",\n                \"Integrate with other sleep questionnaire results if using combined approach\",\n                \"Generate summary report with actionable insights\"\n            ],\n            \"preparation_requirements\": [\n                \"Obtain validated questionnaire\",\n                \"Set up scoring system\",\n                \"Define integration method if combining with other scales\",\n                \"Establish reference ranges\"\n            ],\n            \"equipment_setup\": \"Digital questionnaire platform\",\n            \"data_collection_process\": \"Periodic administration (quarterly/bi-annual) with automated scoring\",\n            \"quality_assurance\": [\n                \"Maintain validated question format\",\n                \"Ensure consistent scoring methodology\",\n                \"Validate against other sleep measures\",\n                \"Monitor for response patterns indicating misunderstanding\"\n            ],\n            \"troubleshooting\": [\n                \"If combined with other scales: ensure proper weighting\",\n                \"If responses inconsistent: clarify question interpretation\",\n                \"If scores don't align with subjective reports: investigate contextual factors\"\n            ]\n        },\n        {\n            \"assessment_name\": \"Epworth Sleepiness Scale\",\n            \"detailed_steps\": [\n                \"Administer standard Epworth Sleepiness Scale\",\n                \"Adapt situational questions for specific populations (athletes vs general population)\",\n                \"Calculate total score according to validated methodology\",\n                \"Interpret results using established severity categories\",\n                \"Flag scores indicating excessive daytime sleepiness\"\n            ],\n            \"preparation_requirements\": [\n                \"Obtain validated scale\",\n                \"Adapt questions for target population if needed\",\n                \"Set up scoring algorithm\",\n                \"Define threshold values for different severity levels\"\n            ],\n            \"equipment_setup\": \"Digital questionnaire platform\",\n            \"data_collection_process\": \"Periodic administration with automated scoring and interpretation\",\n            \"quality_assurance\": [\n                \"Maintain validated scoring methodology\",\n                \"Ensure appropriate population-specific adaptations\",\n                \"Cross-validate with other sleepiness indicators\",\n                \"Monitor for ceiling/floor effects\"\n            ],\n            \"troubleshooting\": [\n                \"If questions not relevant to population: adapt scenarios while maintaining validity\",\n                \"If scores don't match subjective sleepiness: consider timing of administration\",\n                \"If consistently high scores: prioritize for expert referral\"\n            ]\n        },\n        {\n            \"assessment_name\": \"Wearable Sleep Monitoring\",\n            \"detailed_steps\": [\n                \"Select appropriate wearable device (ring, band, or smartwatch)\",\n                \"Ensure proper device setup and calibration\",\n                \"Establish baseline individual ranges over 2-4 weeks\",\n                \"Monitor key metrics: total sleep time, sleep efficiency, regularity, awake time\",\n                \"Set up automated data syncing to central platform\",\n                \"Configure alert thresholds based on individual baselines\"\n            ],\n            \"preparation_requirements\": [\n                \"Device selection based on user preferences and needs\",\n                \"Account setup and app installation\",\n                \"Initial device calibration and fit optimization\",\n                \"Baseline data collection period planning\"\n            ],\n            \"equipment_setup\": \"Wearable device (Oura Ring, Whoop, Fitbit, Garmin, Apple Watch, etc.) with companion app and API integration\",\n            \"data_collection_process\": \"Continuous nightly monitoring with daily summary data sync via API to central platform\",\n            \"quality_assurance\": [\n                \"Regular device charging and maintenance\",\n                \"Monitor data quality and gaps\",\n                \"Cross-validate with subjective reports\",\n                \"Establish individual baseline ranges before setting alerts\"\n            ],\n            \"troubleshooting\": [\n                \"If data inconsistent: check device fit and charging habits\",\n                \"If readings don't match subjective experience: explain measurement differences\",\n                \"If excessive movement affects accuracy: consider alternative placement or device\",\n                \"If battery life issues: adjust charging routine or consider different device\"\n            ]\n        },\n        {\n            \"assessment_name\": \"Polysomnography (Sleep Study)\",\n            \"detailed_steps\": [\n                \"Refer to qualified sleep laboratory after initial assessments\",\n                \"Coordinate with sleep specialist for study scheduling\",\n                \"Provide pre-study preparation instructions to patient\",\n                \"Ensure comprehensive overnight monitoring in controlled environment\",\n                \"Obtain detailed report from sleep specialist\",\n                \"Integrate findings with other assessment data\"\n            ],\n            \"preparation_requirements\": [\n                \"Establish referral network with qualified sleep labs\",\n                \"Create referral criteria and protocols\",\n                \"Develop pre-study instruction materials\",\n                \"Set up communication channels with sleep specialists\"\n            ],\n            \"equipment_setup\": \"Professional sleep laboratory with full polysomnography equipment (EEG, EOG, EMG, respiratory monitoring, etc.)\",\n            \"data_collection_process\": \"Single-night comprehensive monitoring with professional analysis and detailed reporting\",\n            \"quality_assurance\": [\n                \"Use accredited sleep laboratories\",\n                \"Ensure proper pre-study preparation\",\n                \"Verify comprehensive analysis and reporting\",\n                \"Follow up on recommendations and findings\"\n            ],\n            \"troubleshooting\": [\n                \"If first-night effect suspected: consider repeat study\",\n                \"If results don't match wearable data: explain measurement differences and limitations\",\n                \"If access issues: explore alternative referral options\",\n                \"If cost concerns: prioritize based on severity and other assessment results\"\n            ]\n        }\n    ],\n    \"intervention_protocols\": [\n        {\n            \"intervention_name\": \"Sleep Observation Period\",\n            \"implementation_steps\": [\n                \"Initiate 2-4 week continuous monitoring period\",\n                \"Use wearable device or sleep diary for data collection\",\n                \"Collect daily subjective sleep quality ratings\",\n                \"Monitor without making behavioral changes initially\",\n                \"Analyze patterns and trends at end of observation period\",\n                \"Use data to inform subsequent intervention decisions\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"2-4 week duration with daily data collection\",\n                \"progression_rules\": \"Extend observation period if patterns unclear or if initial behavior change occurs\",\n                \"modification_criteria\": \"Shorten if clear patterns emerge early or urgent intervention needed\"\n            },\n            \"monitoring_protocols\": [\n                \"Daily data collection compliance tracking\",\n                \"Weekly pattern analysis\",\n                \"Identification of behavioral changes during observation\",\n                \"Documentation of external factors affecting sleep\"\n            ],\n            \"safety_considerations\": [\n                \"Monitor for severe sleep deprivation requiring immediate intervention\",\n                \"Watch for signs of sleep disorders requiring medical referral\",\n                \"Ensure observation doesn't delay necessary treatment\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Generic Sleep Hygiene Education\",\n            \"implementation_steps\": [\n                \"Provide comprehensive sleep hygiene guidelines\",\n                \"Cover room environment optimization (dark, quiet, cool)\",\n                \"Address caffeine timing (6-10 hours before bed)\",\n                \"Include morning sunlight exposure recommendations\",\n                \"Provide screen time and wind-down guidance\",\n                \"Deliver through app-based content and video education\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Initial comprehensive education followed by periodic reminders\",\n                \"progression_rules\": \"Progress from general guidelines to personalized recommendations\",\n                \"modification_criteria\": \"Adapt based on individual lifestyle and constraints\"\n            },\n            \"monitoring_protocols\": [\n                \"Track engagement with educational content\",\n                \"Monitor implementation of recommendations\",\n                \"Assess sleep metric improvements following education\",\n                \"Follow up on specific behavior changes\"\n            ],\n            \"safety_considerations\": [\n                \"Ensure recommendations don't conflict with medical conditions\",\n                \"Avoid creating anxiety about perfect adherence\",\n                \"Consider individual circumstances and limitations\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Personalized Sleep Behavior Prompts\",\n            \"implementation_steps\": [\n                \"Integrate with user's calendar and schedule\",\n                \"Set personalized bedtime based on individual patterns\",\n                \"Send wind-down reminders 2 hours before target bedtime\",\n                \"Provide context-specific prompts based on daily activities\",\n                \"Adjust timing for athletes around training/competition schedules\",\n                \"Include caffeine cutoff reminders based on individual bedtime\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Daily personalized prompts timed to individual schedule\",\n                \"progression_rules\": \"Increase specificity and personalization over time\",\n                \"modification_criteria\": \"Adjust frequency and timing based on user feedback and compliance\"\n            },\n            \"monitoring_protocols\": [\n                \"Track prompt delivery and user response\",\n                \"Monitor sleep timing improvements\",\n                \"Assess user engagement and feedback\",\n                \"Analyze effectiveness of different prompt types\"\n            ],\n            \"safety_considerations\": [\n                \"Avoid excessive notifications that create stress\",\n                \"Ensure prompts don't interfere with important activities\",\n                \"Respect user preferences for notification frequency\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Sleep Expert Consultation\",\n            \"implementation_steps\": [\n                \"Trigger referral based on assessment results and failed initial interventions\",\n                \"Provide comprehensive data package to sleep expert\",\n                \"Coordinate online or in-person consultation\",\n                \"Implement expert recommendations within platform\",\n                \"Schedule follow-up assessments and consultations\",\n                \"Integrate expert guidance with ongoing monitoring\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Initial consultation with follow-up as recommended by expert\",\n                \"progression_rules\": \"Progress from consultation to specific interventions to reassessment\",\n                \"modification_criteria\": \"Adjust frequency based on severity and response to interventions\"\n            },\n            \"monitoring_protocols\": [\n                \"Track implementation of expert recommendations\",\n                \"Monitor sleep improvements following consultation\",\n                \"Schedule regular check-ins with expert\",\n                \"Document intervention effectiveness\"\n            ],\n            \"safety_considerations\": [\n                \"Ensure expert is qualified and credentialed\",\n                \"Maintain communication between expert and primary care providers\",\n                \"Monitor for signs requiring medical intervention\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Physical Activity for Sleep Improvement\",\n            \"implementation_steps\": [\n                \"Assess current physical activity levels\",\n                \"Prescribe appropriate exercise timing and intensity\",\n                \"Avoid vigorous exercise within 3-4 hours of bedtime\",\n                \"Include morning or afternoon activity recommendations\",\n                \"Coordinate with existing fitness programs\",\n                \"Monitor activity impact on sleep metrics\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Moderate intensity activity 150+ minutes per week, timed appropriately relative to sleep\",\n                \"progression_rules\": \"Gradually increase activity level while monitoring sleep impact\",\n                \"modification_criteria\": \"Adjust timing and intensity based on sleep response and individual schedule\"\n            },\n            \"monitoring_protocols\": [\n                \"Track activity levels and timing\",\n                \"Monitor sleep quality changes with activity modifications\",\n                \"Assess energy levels and daytime alertness\",\n                \"Document optimal activity timing for individual\"\n            ],\n            \"safety_considerations\": [\n                \"Consider individual fitness level and health status\",\n                \"Avoid overexertion that could negatively impact sleep\",\n                \"Coordinate with healthcare providers for medical conditions\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Sleep-Supportive Nutrition Guidance\",\n            \"implementation_steps\": [\n                \"Assess current eating patterns and timing\",\n                \"Provide guidance on meal timing relative to sleep\",\n                \"Address caffeine and alcohol consumption patterns\",\n                \"Recommend sleep-supportive foods and nutrients\",\n                \"Coordinate with existing nutrition plans\",\n                \"Monitor dietary changes impact on sleep\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Avoid large meals 2-3 hours before bed, limit caffeine 6-10 hours before sleep\",\n                \"progression_rules\": \"Implement changes gradually to assess individual response\",\n                \"modification_criteria\": \"Adjust recommendations based on lifestyle, preferences, and sleep response\"\n            },\n            \"monitoring_protocols\": [\n                \"Track meal timing and composition\",\n                \"Monitor caffeine and alcohol intake patterns\",\n                \"Assess sleep quality changes with dietary modifications\",\n                \"Document individual responses to different foods/timing\"\n            ],\n            \"safety_considerations\": [\n                \"Consider existing dietary restrictions and medical conditions\",\n                \"Avoid extreme dietary changes that could impact health\",\n                \"Coordinate with registered dietitians for complex cases\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Sleep Regularity Coaching\",\n            \"implementation_steps\": [\n                \"Establish target bedtime and wake time based on individual needs\",\n                \"Provide visual feedback on sleep timing consistency\",\n                \"Set gradual adjustment goals for irregular sleepers\",\n                \"Use sleep regularity index or visual tracking tools\",\n                \"Provide strategies for maintaining consistency during disruptions\",\n                \"Address weekend sleep pattern variations\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Target \u00b130 minutes consistency in bedtime and wake time daily\",\n                \"progression_rules\": \"Gradually shift timing by 15-30 minutes per day if major changes needed\",\n                \"modification_criteria\": \"Adjust targets based on work schedule, lifestyle constraints, and individual chronotype\"\n            },\n            \"monitoring_protocols\": [\n                \"Track bedtime and wake time consistency\",\n                \"Monitor sleep regularity index improvements\",\n                \"Assess sleep quality changes with increased regularity\",\n                \"Document challenges and successful strategies\"\n            ],\n            \"safety_considerations\": [\n                \"Avoid extreme schedule changes that could cause sleep deprivation\",\n                \"Consider shift work and other schedule constraints\",\n                \"Monitor for signs of circadian rhythm disorders\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Contextual Sleep Support\",\n            \"implementation_steps\": ["
+        },
+        "validation": {
+          "ontology_coverage_check": {
+            "constructs_identified": 6,
+            "assessments_identified": 6,
+            "interventions_identified": 8,
+            "technologies_identified": 11,
+            "metrics_identified": 16
+          },
+          "potential_missed_entities": [
+            {
+              "entity_type": "assessment",
+              "potential_entity": "Sleep Diary",
+              "evidence_in_transcript": "that's probably just a consistent period of like a sleep diary or just the I guess like consistent questions. So, how much did you sleep and how how well did you sleep?",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "technology",
+              "potential_entity": "Mattress Toppers",
+              "evidence_in_transcript": "there's a couple of um mattress toppers that give measure sleep and give physiological feedback",
+              "confidence": "medium"
+            },
+            {
+              "entity_type": "technology",
+              "potential_entity": "Nearables/Bedside Devices",
+              "evidence_in_transcript": "There's some like nearables that um might measure sound and movement from a phone or a different device you can place beside your bed",
+              "confidence": "medium"
+            },
+            {
+              "entity_type": "metric",
+              "potential_entity": "Sleep Latency",
+              "evidence_in_transcript": "they'll try estimate things like latency, so how quickly you fall asleep",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "metric",
+              "potential_entity": "Movement/Awake Time",
+              "evidence_in_transcript": "the amount of time or movement you have awake at night time as well",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "metric",
+              "potential_entity": "Sleep Regularity Index",
+              "evidence_in_transcript": "there is some publisher research on like sleep regularity index which is a calculation you can determine",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Sleep Environment Optimization",
+              "evidence_in_transcript": "keeping your room environment appropriately quiet and dark and cool",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Caffeine Management",
+              "evidence_in_transcript": "limiting caffeine intake within 6 8 10 hours of going to sleep",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Light Exposure Management",
+              "evidence_in_transcript": "getting sunlight in the morning... limit your screen time or working time before bed",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Bedtime Reminders/Nudges",
+              "evidence_in_transcript": "It might be a little reminder through the app to say at 9:00 p.m. like, hey, like time to start winding down",
+              "confidence": "medium"
+            },
+            {
+              "entity_type": "construct",
+              "potential_entity": "Cognitive Performance",
+              "evidence_in_transcript": "I do think like the even just cognitive performance there's like memory benefits and things like that",
+              "confidence": "medium"
+            },
+            {
+              "entity_type": "construct",
+              "potential_entity": "Illness/Recovery",
+              "evidence_in_transcript": "I do think it's important to consider sleep within illness because one of the like secondary effects of being ill is obviously the illness takes a toll on your body",
+              "confidence": "medium"
+            }
+          ],
+          "quality_assessment": {
+            "extraction_completeness": "medium",
+            "terminology_consistency": "high",
+            "relationship_coverage": "medium",
+            "overall_confidence": "medium"
+          },
+          "recommendations": [
+            {
+              "recommendation_type": "entity_addition",
+              "description": "Add Sleep Diary as a formal assessment method with structured data collection protocols",
+              "priority": "high"
+            },
+            {
+              "recommendation_type": "metric_expansion",
+              "description": "Include additional sleep metrics like Sleep Latency, Movement/Awake Time, and Sleep Regularity Index",
+              "priority": "high"
+            },
+            {
+              "recommendation_type": "intervention_categorization",
+              "description": "Create subcategories for behavioral interventions (environment, timing, lifestyle) vs. technological interventions",
+              "priority": "medium"
+            },
+            {
+              "recommendation_type": "relationship_mapping",
+              "description": "Better define relationships between sleep and other constructs (physical activity, nutrition, cognitive performance, illness)",
+              "priority": "high"
+            },
+            {
+              "recommendation_type": "technology_classification",
+              "description": "Expand technology categories to include non-wearable devices (mattress toppers, nearables)",
+              "priority": "medium"
+            },
+            {
+              "recommendation_type": "contextual_factors",
+              "description": "Add contextual modifiers for different populations (new parents, shift workers, athletes vs. general population)",
+              "priority": "medium"
+            },
+            {
+              "recommendation_type": "validation_standards",
+              "description": "Include validation criteria and reference ranges for each assessment method",
+              "priority": "high"
+            },
+            {
+              "recommendation_type": "integration_protocols",
+              "description": "Define clear protocols for combining multiple assessment methods and interpreting conflicting data",
+              "priority": "high"
+            }
+          ]
+        }
+      }
     }
   ],
   "summary": {
-    "total_files": 6,
-    "successful": 6,
+    "total_files": 8,
+    "successful": 8,
     "failed": 0,
     "extraction_type": "Ontology-Guided (8-pass)",
-    "total_api_calls": 48
+    "total_api_calls": 64
   }
 }

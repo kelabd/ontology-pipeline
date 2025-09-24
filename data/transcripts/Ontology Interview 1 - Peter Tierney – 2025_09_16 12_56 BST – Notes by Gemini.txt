@@ -1,0 +1,401 @@
+﻿Sep 16, 2025
+Ontology Interview 1 - Peter Tierney - Transcript
+00:00:00
+ 
+Peter Tierney: was like your actual room behind you. It's so tidy.
+Dr. Naomi Myhill: No, it's actually quite a good like bookcase. I only have this on for for these calls and record like whenever it's being recorded so you don't you know sometimes the background like unblur. You can see like my washing just sitting there and things like that. So I was like I should probably be professional when it's being recorded and I'll just edit this this first bit out and we'll drop that into the AI. Um right. So, let's make sure I've got that on the right screen. Fab. Okay. So, we'll start the interview here. So, we mentioned yesterday we're going to focus on sleep as the construct. So before we get into the questions around the assessments for sleep just firstly um in your opinion which domains do you think sleep kind of sits within? Um doesn't need to be an exhaustive list but if you can give a a list and then a brief explanation of why you think they sit within those domains.
+ 
+ 
+00:01:08
+ 
+Peter Tierney: Yeah, I sleep is probably one of the ones that sits across like so many of the domains I think which is why it's one I think of saying like let's do this first and one I put a bit of time into some of the notes ready because um for both like health and performance, general population, professional athlete and also like any age, it's still as important and relevant and everybody has to sleep. So I think that's probably why so you could probably you could probably select all of the domains and it's quicker to deselect some of the ones that aren't. But like particularly relevant for recovery for a lot of active people, athletes I think from a even from like a general like physiology or cardiovascular health, I think it's there reducing mortality risk um to do with lifestyle. So yeah, definitely sits across a lot of a lot of domains.
+Dr. Naomi Myhill: Yeah, that that makes sense. Um based off of what we've got as well and the conversation we had yesterday. Um okay, so we'll we'll get into it.
+ 
+ 
+00:02:11
+ 
+Dr. Naomi Myhill: Um the first question, this is going to be this question is specific to sport. Um so how does the type of sport influence your kind of assessment choice relating to sleep and does it
+Peter Tierney: Um, I think it's probably like changed and evolved over the years because there's there's probably a time before all of the common wearable technologies. Um, and time after or since they've become much more available and popular. Um, so there has been the sort of like sleep just the kind of standard accelerometer almost that's been used in a lot of the research studies. But now with some of the commercial devices, I think how practitioners and people use that or can integrate some of the technology into their practice has changed. So I think previously um it would have been a lot more reliant on subjective questions. So asking any athlete you work with or support is like on a day-to-day basis like how they slept or how many hours they think they've slept. Um there's still nothing there's nothing wrong with that and that's still as important as some of the sort of wearable or technology derived measures.
+ 
+ 
+00:03:21
+ 
+Peter Tierney: But then layered on top of that I think in my experience we've done a lot of like sleep questionnaires. So we've used some of the validated questionnaires around like sleepiness or just sleep in general and they wouldn't be as like frequent or common. that typically and I think there's different use cases but typically that might be um a questionnaire like at the start of a season for example and you you try identify some of those people that have some sleep problems and so it's almost like a screener and I think for for me anyway it was like trying to then focus some attention on the people who do have problems instead of trying to create this problem around sleep that people maybe don't have and then you might do a follow-up questionnaire after a few months of intervention or just like behavior change and that type of thing. Um, so that's kind of I think how I would and I think a lot of other peers have used sort of sleep monitoring and then now with some of the wearable technologies like I said I think there's still a there's a place for both those things.
+ 
+ 
+00:04:20
+ 
+Peter Tierney: So I think best practice is probably a combination of like still the sort of day-to-day or like more frequent subjective questions. So asking people how they feel like they slept. there's still the space and need I think for some of the questionnaires but now there's obviously the kind of continuous feedback that we get from some of the wearable devices and the other piece to mention I think it's it's definitely just not as frequent unless it's like particular cases is like going to sleep lab for a sleep study um that is used obviously in some like particular cases particularly I think if people are really struggling with sleep um obviously it's like much less feasible for the masses even even in like elite sport but also one of the challenges with like PSG so a sleep study is that um when you go to sleep in like a foreign place that's not your own bed you inherently interrupt sleep or like challenge your sleep so the the measure in itself is having an influence on what it's trying to measure so that's one of the limitations of it so that's where some of the wearable technologies they may not be as accurate h for some of the stages and things like that but that's where I think that technology is almost better than some some of the like I guess sleep studies you can do in the lab.
+ 
+ 
+00:05:36
+ 
+Dr. Naomi Myhill: Yeah, that makes sense. Um, so the next question is is kind of related to our our levels of service in a way. So for sleep as a construct, what assessments would you use to measure sleep with unlimited and then moderate and then all the way to remote resource? So for this question, it's going to be if you list the assessments and then we're going to go into detail of each of those assessments essentially. So um yeah at this point if you just list the name and maybe a brief description then we've got follow-up questions to go into detail. So that is what assessments would you use for this construct with unlimited moderate and kind of remote resource.
+Peter Tierney: Okay. Um, so I guess like like maybe within the book it's let's do like the qualitative or that piece first and then maybe some of the wearables one. And I won't list all of the different brands like we have we can add that in and we have that. But I think from so from the day-to-day or the more continuous um like subjective ratings I think um the two most common questions that I've or sorry maybe three would be um like how much did you sleep as a subjective question.
+ 
+ 
+00:06:55
+ 
+Peter Tierney: So that's pretty simple and we can collect that like through an app through a questionnaire prompt people to to answer that every morning or if we see it more appropriate every few days or whatever it might be. So that's one question. Another one on um how like sleep quality. So how well did you sleep as well as how much? And then the other one potentially related to which isn't directly sleep is just like fatigue or energy level. So again just a basic like we've used a zero to 10 or a a five point scale or 100 point scale. We can probably discuss that on another time. But um those are probably three questions that I think are worth asking like more consistently. um another so there's probably like there's three questionnaires that I've used in the past like there's definitely more so I don't want to limit them just to that if other people have had experience using that but one the Pittsburgh sleep quality index uh questionnaire so that's been validated in in different populations and that is like a series of questions that like I said I don't think I would put that on anybody to ask them that more frequently than you know once every couple of months maybe it's a quarterly thing or an annual thing maybe maybe quarterly particularly for somebody who is um who is challenged with their sleep for somebody who doesn't have sleep problems
+ 
+ 
+00:08:11
+ 
+Peter Tierney: uh annually might be sufficient um but I think almost as a sort of a period of onboarding for people I think that might be a nice one or an option of a of a valid questionnaire to ask people h there is the sleep poly scale which is another one and then like I think it's the ep like the sleepiness scale epis sleepiness scale um which is just another like a different one. Now, in previous places, we've maybe I don't know if it's valid that we've combined some of them to to determine like a few different ones is quite a long quite like the three of them together quite long. So, that's another reason why I think um you know, I wouldn't do it that often. Um, but I do think checking in and because they're validated and it also takes into account like how tired people are during daily activities and stuff like that, I think it's it's pretty relevant and we can tweak some of the questions based on if somebody is like an athlete or a business person or um whatever whatever their sort of context is.
+ 
+ 
+00:09:07
+ 
+Peter Tierney: We can definitely tweak those questionnaire. So, they'd be three that I've experienced with um in the past, but like I said, there's definitely I think there's a couple of other ones that we could probably add into that bucket. Um then other like tools you're asking one I think just like yeah the wearables bucket. Um so examples like aura ring whoop Fitbit um and all the smartwatch variations or bands. Um I think how we'd use those is obviously the more continuous measurements. So if somebody wears it every night we get daily sleep measures as well as other physiology things um metrics that we that are of value. Um I think most of the challenges at the moment with sleep metrics and wearables isn't actually the data, it's like the interpretation of it. So um I think we probably want to depending on the type of person and like maybe using some of those qualitative scales as filters and trying to understand who the person or the user is. um potentially like muting some of the metrics and and values from people so that they don't get like anxious about you know exact numbers and stuff like that but I think they're great because we get some continuous values and we also understand how like day-to-day behaviors have an influence acutely on sleep which obviously you don't get with the sort of validate questionnaires you don't get with the sleep lab sort of studies as well.
+ 
+ 
+00:10:31
+ 
+Peter Tierney: So, I think I think those tools now just because of how accessible they are and how easy they are to integrate within a whole system, I think they're sort of like a no-brainer. Um, depending on like obviously we've loads of choices of which brands and stuff we want to integrate, but I think having that for every use case, unless somebody is entirely against wearing something, which I I have I have worked with people who just are completely anti-technology, which is fine. we can use the sort of qualitative measures then to get feedback continuously from them. But um to me it's a bit of a no-brainer to sort of integrate some of those devices and stuff into our whole sort of ecosystem. Um, and then I think, yeah, like I I'm not like a sleep scientist in terms of like working in a lab, but there's potentially some people who are we might have to refer to a sleep scientist to get a sleep study done if they're having particular difficulty or or or if they just really want to have that deeper level of analysis done.
+ 
+ 
+00:11:31
+ 
+Peter Tierney: Um, so that's like that obviously is just a bit of an inconvenience or potentially an added cost for that person or for us to to consider, but it's obviously worthwhile having as a little asterisk for for particular. But I but I would use a sort of um I would prefer to use the sort of questionnaires and a period of monitoring before saying we send everybody to a sleep lab to get a study done. I think that's it. Is that is that uh Yeah, I think so.
+Dr. Naomi Myhill: Yeah. Yeah, that makes sense. We can we can delve into them in in detail, but yeah, I think it was a good point you make about referrals. So, yeah, actually understanding this is step one, this is step two, and then step three if it's not solved or resolved, then referred. I think that within our cascade model, we can't resolve everything. So, there's going to be things that we have to refer out. And that's probably just one example where it would be referred out and there'll be other like medical conditions and things like that.
+ 
+ 
+00:12:31
+ 
+Dr. Naomi Myhill: Um with with our health seekers coming in we identify you need to be referred out. So I think that's absolutely fine to have in our model but we we need to build a process for that as well. So um yeah that's fine to identify that for sure.
+Peter Tierney: Yeah.
+Dr. Naomi Myhill: Um okay. So if we focus on the subjective questionnaires that you you mentioned those three which and what tools would you use to capture that information? Is it paperbased? Is there a a software that you would use um or recommend for that? And then the data that comes off that um is that what what's the asset? What's the type of asset? Is it PDF? Is it raw data? Is it going into kind of an AMS? Um, in your experience, what's the best way to do that?
+Peter Tierney: Yeah. Um, we have so we previously I've we've like with some of the people we've created our sort of own version of it and it was through like a digital questionnaire so like a Google form or that type of thing.
+ 
+ 
+00:13:33
+ 
+Peter Tierney: Now if there's an app you could probably do it through the app and collected all the sort of data through that and the so that that was like I mean I'm sure there's different ways of doing it or maybe there's other people who have you know like different apps or like official softwares related to those questionnaires. I do know people use pen and paper but at the time and I just think now it's like way less feasible to do that than like you know pushing a questionnaire on a Google form that type of thing. So that's how I've collected in the past. Um, and then the sort of output. I think there's a few different ways. Like obviously each of the different uh questionnaires have their way of um calculating like a score. So it'll be like oh if it's like above or of a certain value it'll say like you know good sleep or it'll give a sort of a rating. So I think using the validated ones of that. In the past like I said we kind of combined three together and we scaled those to give out like one value.
+ 
+ 
+00:14:31
+ 
+Peter Tierney: Um, so there's value in that because it's an easier thing to monitor. So if a if somebody comes into the Cascade ecosystem and over five years we can say that like this score has improved um you know over five years of of working with us. I think that's really good progress to show somebody. But I also think it's important to show all of the sort of constructs beneath the score as well. So like at least if if we're going to use three or two or one like understanding like the contributors to why someone's score is either good or bad for example. So um yeah like the score is useful as a high level indicator but it's also important for the person and for us in the background to understand okay this person's sleep score is bad because of x y and zed behavior or or that type of thing. So the output in the past for me and my experience or like with other people has been sort of like a PDF plus a sort of a like a consult or a follow-up um depending on like for example in a in a squad of like football athletes if if we've had if we have 24 20 30 athletes you know typically I know like you might say okay twothirds of those are sleeping like relatively okay no real
+ 
+ 
+00:15:49
+ 
+Peter Tierney: significant problems and they're not really looking for support. Um so that might be somebody would just say okay like continue to moni monitor with wearable technology and reassess in six months time. That might be one group or one sort of like pathway. If somebody does have sort of a bad score or sleep issues detected from the the questionnaires, um that would be sort of a PDF report plus a a consult I think or some sort of conversation with with somebody to say to to to feedback the results not to like create fear or anxiety but just to say okay there's a couple of things um this is a sort of a a plan like we'd give an exercise program or something else or a nutrition plan to say this is a plan to try and improve your sleep over the next like six weeks, 8 weeks, 12 weeks and then next quarter we might reevaluate with uh with the same questionnaire to see if we made any changes. Um so then that's probably the two like groupings we did in the past ask um if people wanted support or not because um that was important to us just in the context of like I guess like the elite sport world or professional sport world.
+ 
+ 
+00:16:58
+ 
+Peter Tierney: So within each of those two sort of like they're either good or bad, there's probably two subgroups of like they want support or they don't. Um if someone is a bad sleeper and they don't want support, that's probably another like layer of difficulty or challenge we've got to consider. If like if we've highlight it's almost like if we highlight any health problem or performance problem but somebody doesn't want support, there's a challenge there. Um but equally if somebody wants support put their sleep you know ratings based on the valid questionnaires and the wearables is really good. Um that's also like a a challenge for resource and hours and stuff if someone's looking for support when they probably don't need a huge amount of it. Um so yeah I think two pathways that would lead on from like a process of um one or a few of the sort of uh questionnaires um and then sort of determine from that if if they need support if they don't if their if their sort of rating is good or That's
+Dr. Naomi Myhill: Okay, great.
+ 
+ 
+00:18:02
+ 
+Dr. Naomi Myhill: You mentioned that you combined a couple of those questionnaires. Just slightly going off script, but I'm interested in in understanding a bit more about which questionnaires you combined and what was your reason for that? Were they focused on different elements of sleep in terms of collecting that data?
+Peter Tierney: enough.
+Dr. Naomi Myhill: And I suppose from the information, how did you break that up into the different areas?
+Peter Tierney: Yeah. Um at the time it was just a conversation with some of the group we were working with saying okay we feel like we they were the three sort of um questionnaires we felt were like validate had strong reasoning behind we got some support from a sleep consultant as well but when we decided to do like combine them um there were just some specific questions that again like we tweet and like I'll have to look at the exact way we've phrased or tweet some things I just don't have it to hand but I think for the it was for the sleep quality scale the SQS I think we changed some of the questions if I remember to like sport specific situations so I like I said I can't remember exactly but say for example one of the questions would be would be validated as um how how likely are you to be to your team to
+ 
+ 
+00:19:18
+ 
+Peter Tierney: be disrupted if you have an important business meeting tomorrow but if we were to ask an athlete that it like it it's completely irrelev because they're like what what's this questionnaire this isn't kind of made for me so we would have changed the language from business meeting to like important fixture and that so those are the kind of tweaks I think that we could make and I think like if we want we could go down that route to to sort of try customize it based on person but equally for a cascade user it could be um we just reference like in like the day the night before an important event such as a meeting a competition whatever it is so so that it's kind of a catch all. Um, and then I think we found the CP scale. It was asking some different questions and the outcome of that was slightly different to sort of that was more so assessing how t like again how tired somebody felt versus how well they slept. So they're obviously like related, but we felt okay if we combine them all together.
+ 
+ 
+00:20:19
+ 
+Peter Tierney: Like I said, we weren't doing we weren't asking these like every time we saw a player. It was very much like try identify pretty thoroughly like who has a sleep problem and then really focus on that group and then ask the same questionnaire again. So this might have been a once a season thing may but then maybe for three or four or six athletes who had real sleep problems it might have been you know twice a year or something and it was also with coaches so it wasn't specific to to athletes. So we did use this with coaches because we felt it was I guess like one of those things that probably like at the very start of the conversation we had it's it's one of the things that affects like everybody. It's not an athlete specific thing. It's not a professional athlete specific thing. It's very much like everybody needs to be able to perform well so they need enough sleep. Every needs to be healthy need enough sleep. That sort of thing.
+ 
+ 
+00:21:09
+ 
+Dr. Naomi Myhill: Yeah.
+Peter Tierney: But yeah the ratings like I can in terms of how we like scaled it.
+Dr. Naomi Myhill: Yeah, that makes sense.
+Peter Tierney: It took us a long time to like figure out a way to actually do it. So I can definitely dig it out. Um I like the way we did it. I don't know if it's like it's not validated as such in the scientific literature, but it's based on the validated the validated questionnaires and it filtered and was sensitive to detect changes in our sort of environment. So in that sense, it's probably got some applied value that maybe you know we can't add a reference to to using it uh somewhere else. But um yeah, it's based on a lot of the validated questionnaires.
+Dr. Naomi Myhill: Yeah, I think that would be really interesting probably for us to delve in into in a bit more detail maybe on a on a different call and bring bring Yan in because I think we need to we need to build something for Cascade that we run through our health seekers in that initial kind of discovery call.
+ 
+ 
+00:22:06
+ 
+Dr. Naomi Myhill: So getting an understanding of their sleep just in that basic sense from a survey can actually inform a lot of the decisions that we make going into their 360 plan. So having making a decision as to what questionnaire, what survey to use or combining them is going to be really key. So I think we we'll follow up on that one for sure.
+Peter Tierney: Yeah, definitely.
+Dr. Naomi Myhill: Um,
+Peter Tierney: Yeah. And I think like whilst we did, you know, we added the three together, it was it was quite a long questionnaire. I don't think you necessarily need to to do that, like I think there's probably a more concise version of that that still provides the value. Again, like it's sort of a flick between like do you have to use the validated scales that have been published or do you do you tweak it for your own? I think there's an element of both. There's got to be a little bit of flexibility, but I do think there's probably a shorter version of maybe what I've used in the past that maybe takes some of the pieces from obviously some of those different SC maybe some other questionires like we can have a look at that is just a bit more feasible for somebody because the challenge with onboarding somebody a health seeker is like sleep is obviously one important like component but then
+ 
+ 
+00:23:17
+ 
+Peter Tierney: when you've got to consider like one domain if you got to consider Then they probably have another screening questionnaire with something else. And then you've got to onboard them to like be familiar with the system and the app. And then we might be giving them a new device wearable to get them to figure out how to use. So there's all those different pieces. So you don't want to like overload somebody with all of this different information because it can be very overwhelming for somebody who isn't familiar with some of this stuff particularly and I imagine you know you'll have some people who are really into it who love all the numbers who maybe already have some of the who have some literacy and some of the things that we're going to share but equally you'll have people who you know are signing up this who maybe just don't have who need the support and you know if you get if you give them like a 70 questionnaire with all these other things the accuracy of that diminishes because they just get so tired from answering, you know, all of the different questions.
+ 
+ 
+00:24:09
+ 
+Peter Tierney: So, yeah.
+Dr. Naomi Myhill: Yeah, we we definitely want to avoid survey fatigue, I think. And it's it's kind of we're having this conversation um around our physical assessments as well and like our our cascade movement screen that we're trying to build is we a lot of probably about 70 80% of our kind of cascade health seekers are going to be people who don't necessarily do exercise you know every week and don't have much of a training background. So yeah, we need to make it really basic and easy for them to complete or they just won't complete it. Um so yeah, 70 question surveys is is not the one. Um yeah, we need to probably consolidate that down to maybe can we get it as low as like five or six questions as an example. Um but yeah, definitely one we can we can delve it in a bit more detail. Uh for sure. So bringing it back to those surveys, um can you describe like when you are prescribing these surveys to athletes or health seekers in your experience?
+ 
+ 
+00:25:16
+ 
+Dr. Naomi Myhill: Um what are the key steps, key cues that you might use to ensure that they are consistent when they fill them in? Um like are there any common mistakes that practitioners or health seekers might make? Is there any prep steps um or any sort of documentation that's required to read before they complete these surveys?
+Peter Tierney: I think they're fairly like intuitive and and like uh clear in terms of using I think just making sure that you know the questions are asked it's like over the last month or over the last fixed period of time how did you sleep? So some of the questions that in my experience we've seen um have been like oh the last month I've slept well but actually before that I was having difficulty with this and they're saying like what do I put in or like um you know these days I usually sleep less but like so the questionnaires are kind of averages or sort of just recent averages and and that's I think that's where I think you know in the past like I said there was a period before these common wearables and now we're living in a world where they're so easy to embed and I think that's where is a that that's a new angle I think of using the qu the questionnaires with the data from wearable so if somebody is like what you'd hope is you'd see like this match of okay someone's writing their sleep well they accurately can say I sleep six to seven
+ 
+ 
+00:26:45
+ 
+Peter Tierney: hours or eight hours a night and then the wearable says the same thing um the challenge we'll have also is um and I think I I wrote this in the sort of like ontology document that that I've I've saved. But um a lot of the literature sort of references like seven to nine hours but um some of the wear technologies reference typically like 30 minutes lower because of awake time that people wouldn't normally refer to. So if for example my bedtime is normally midnight and I wake up at 8:00 a.m. in a questionnaire you would write you know 8 hours but my wearable might tell me it's like 7 hours and 15 minutes and that can create a little bit of anxiety because people think they're falling short on sleep even though they're maybe not. Um so I think that's maybe like the only context. Not exactly related to what you're or specifically to what you're asking but I don't think there's anything um and I just haven't used some of them in a while to be honest. So I'd have to like refresh myself even over some of them.
+ 
+ 
+00:27:41
+ 
+Peter Tierney: But in the past yeah the main questions were more so around like the timeline. So making sure that we're asking questions relative to that fixed timeline. So um even that's probably the note if we do a follow-up questionnaire that the person's referencing obviously that time like between doing the two questionnaires not including the period before the first questionnaire. And that's that's I guess how we can assess some of the changes that we can make with some of the behavioral pieces as well.
+Dr. Naomi Myhill: Yeah, I think that answers the question um around and gives context around those those surveys. When you interpret the results um of the surveys, do you use any you kind of alluded to it there, but if you can elaborate a bit more, do you use any specific norms or reference ranges? Are you looking kind of within the health seeker or are you comparing to kind of population norms within that feedback from those surveys?
+Peter Tierney: Yeah. So for the for each of the different surveys there is like um sort of I guess like what what they've determined as like thresholds or different ranges.
+ 
+ 
+00:28:50
+ 
+Peter Tierney: Um we did like I said when we kind of amalgamated the three into one and just indexed our own score to be like zero out of 100. Um I think we flagged it and again I have to check this I just don't off the top of my head. I think it was like anything above 80 um out of 100 was like sufficient and green and unless somebody was seeking specific support we sort of said okay you know continue as you are. It was no real like we still we still supported the sort of like generic sleep environment behaviors all the things that everybody should sort of be aware of. We still supported people with that. Um, and then we sort of said maybe again I think it was like 55 to 80 or 60 to 80 or something was sort of this like moderate zone where like again it was kind of okay if someone's not looking for support and they're they're unless we identified something specifically we give them the same support as everybody but we might look through some of the results and you know if somebody was very anxious the night before a game that might be a a conversation less of a sit down but like a more informal conversation where we could specifically say like, "Hey, maybe let's try this, you know, before every game for this this next few
+ 
+ 
+00:30:02
+ 
+Peter Tierney: weeks." And then if somebody was sort of below that like 50 or 60 score, we we definitely try like have a a bit of an intervention and that's a bit more I guess like specific than just a generic, you know, like wind down, get off your phone, um that type of education, which is still valuable to like keep reminding and reinforcing, but it'd be a bit more specific. So I I just don't have the like questionnaires and um stuff to hand but like within each of those there'll be sort of like based on the scores that you input it will say like you know sleep problems and different uh different thresholds.
+Dr. Naomi Myhill: Yeah, that on the post review there'll be opportunity for you to add those reference those reference values in as well.
+Peter Tierney: Yeah.
+Dr. Naomi Myhill: So that that's fine. We can kind of do that afterwards. Um, cool. So with those surveys, um, how does the kind of health seeker or athletes current state influence that assessment and your interpretation of it?
+ 
+ 
+00:31:07
+ 
+Dr. Naomi Myhill: I know you you mentioned there about them thinking about the previous month rather than maybe the day. Um, can you go into a bit more detail about if there are specific cases where okay, you wouldn't assess them on that day or you take that change that interpretation based off of that?
+Peter Tierney: Yeah, definitely. We did have that conversation internally as well um previously where I worked. So like that was you know if we're asking somebody when they're doing exams for example like that might be a period where their sleep is like really poor or it's not considered normal even if it's over the last few weeks or the last month that might be a period where it might falsely alarm us to think that this person has a sleep problem and then you know you go through the process of like having a conversation or maybe even referring them to an expert and then they don't actually have a sleep problem. just going through a stressful period. Um, so I do think it's important to like understand the context.
+ 
+ 
+00:32:03
+ 
+Peter Tierney: Even time of year potentially has a bit of an influence. I don't think it's as strong necessarily, but you know, like people might sleep a little bit less in the summer than the winter. And um, I think for us just to have particularly as we start to like more and more data within the whole ecosystem is just to have a note of some of those things. So even I don't know if it requires too much on the person or the health seeker to input but at least for us in the background to say okay this you know we notice this trend across everybody in November or December sleeps less and okay that's probably just maybe because the time of year Christmas like travel holidays whatever else and we're not going to like alert people or start referring people um to sleep experts over Christmas just because they've had a month of like poor sleep that's that's I think on us to set up the I guess like thresholds and alerts and and just to interpret that with context. But at the same time, it's also important that like we can support people through those periods that might be a bit more like stressful or have a little bit less sleep and like they've still got to try navigate some of those things with like health in mind would be my take on it.
+ 
+ 
+00:33:11
+ 
+Peter Tierney: So um I do think the way we phrase the question and hopefully the way people interpret it is like the month hopefully the recent month captures like what's relevant and then if they are in a period of a month where they are under like a lot of stress then like that is still accurate for us to say okay this person is struggling with sleep we might need to add a little bit of extra support but definitely if there's a few think like pieces of context we have to capture like even recent illness um or if it's an athlete like recent injury. Somebody might be currently injured and they might be sleeping way more than normal because they're not training. So there's definitely some other pieces which probably within the whole like onboarding piece we've got to like connect the dots from sleep to injury history assessment to physical assessment to like time all those different pieces.
+Dr. Naomi Myhill: Yeah, that makes sense. And that's that's the challenge we've got to try and link all those pieces together. So, yeah, we we're trying to build that out with your help, Peter.
+ 
+ 
+00:34:15
+ 
+Dr. Naomi Myhill: So, um cool.
+Peter Tierney: Leave that for you.
+Dr. Naomi Myhill: Right. So, that covers surveys for our questions on the assessment. If we circle back to wearables now, um I know you've kind of you've put a list in the the Excel sheet of different wearables. Um so for this question, we can probably focus on kind of what you what you get from those wearables. So in terms of what technology and tools do you use? um maybe give a couple of examples of wearables um vendor name but it would be interesting to hear your thoughts and on the types of assets that you get from those wearables. So similarly to before um is it better if they are kind of linked into an AMS um can you access APIs? Is the assets type PDF for example or raw data from some of these wearables? Um, and how would you interpret those
+Peter Tierney: Yeah. Um, okay. There's probably like a few different like buckets of types of wearables.
+ 
+ 
+00:35:21
+ 
+Peter Tierney: Um, so what I mean by that, one would be like the smart rings. So there's like Aura ring, ultraum, and there's like amazefit have a ring. There's a couple of different brands. And then I think Samsung. So like this like we spoke with the other day there's like this never ending list of things but rings is one smart rings are one category. There's also smart bands. So like screenous ones like Whoop um like Polar Loop have come out with a new sort of device. There's an Amaze with strap. So there's those kind of ones that are sort of marketed as and positioned as these like distractionfree devices but similar to the rings no screen. That's a second sort of bucket or grouping. The third one then is just like the kind of classic smartwatch that might be like Apple Watch, uh Garmin, Chorus, Polar, um Samsung, Fitbit. Um obviously have the screen. The challenge with most of them are in terms of battery life and feasibility to wear at night are pretty good.
+ 
+ 
+00:36:18
+ 
+Peter Tierney: Apple Watch is probably the specific call out that everyone has issues with. They wear it all day and they can't wear it at night. Um but that's sort of the third bucket. And then there's probably like um a sub it's like related to wearables but it's not really wearables like nearables or like I can't remember what the phrasing people use but like so there's a couple of um mattress toppers that give measure sleep and give physiological feedback. There's some like nearables that um might measure sound and movement from a phone or a different device you can place beside your bed. So there's a couple of other ones. They're maybe less common just because of the feasibility of wearing them and people the wearables are so like I guess cheaper in comparison to those but they're the sort of yeah four I think buckets I don't think this I'm forgetting any there but they probably be the four that I think about in general they all sort of feedback the same metrics or the same like assets or types of things.
+ 
+ 
+00:37:15
+ 
+Peter Tierney: Um so there's like I mean they probably give out with too many metrics but they all will sort of estimate or derive uh total sleep time um sleep efficiency within that they will give a breakdown of different sleep stages and we can go into the detail of like they're probably not the most accurate pieces. um they'll then obviously give um when you go to sleep and when you wake up and there's a bit more evidence around sleep regularity now being like a very important thing. So that's kind of um become a bit more popular within some of the apps. Um and they'll try estimate things like latency, so how quickly you fall asleep, the amount of time or movement you have awake at night time as well. But um I think most of them will um from an API point of view like integrate to other or like send data to other places pretty easily typically. I don't I mean again unless someone has like a problem for the most part I don't think you need all of the like every single data point through the whole night and most of the wearables will give like sort of a summary value.
+ 
+ 
+00:38:22
+ 
+Peter Tierney: So it will give a total sleep time in hours or minutes in the morning and that value is probably sufficient for most people to to monitor rather than having to to sort of sync and capture every single moment throughout the night. Same with um something like it's not related to it's related to sleep but not with specifically within this like domain um like resting heart rate. So most wearables they'll measure through the whole night but at the end of the day they just average like the resting heart rate value overnight and that value is probably again sufficient. So I think that's um as long as every device is able to sort of sync those summary statistics at the end of the night to cascade platform. I think that's sufficient. Um well do you want to go into like some of the specific metrics themselves? Is that
+Dr. Naomi Myhill: Yeah, that's the next the next follow-up question is is yeah, for some of them probably probably not all of them because I know there's many, but probably your what you would rank as your most important kind of KPIs in terms of metrics for these wearables.
+ 
+ 
+00:39:28
+ 
+Dr. Naomi Myhill: How do you interpret them? Whether they're good, they're poor, are they even the words that you would use? Um and again linking to are there any specific norms or reference ranges, confidence in validity, reliability, specivity, etc. Um so that would be for your wearables like your rings for that bucket there, the smart watches, the bands, probably not so much for the mattress toppers um unless they have any specific metrics that you've come across. But yeah, if you can go into detail of those that would that would be great.
+Peter Tierney: Yeah, I think so. Yeah, like most most if not all of them will will sort of or like we will will share the same sort of metrics. I think the most reliable and sort of actionable metric is just total sleep time. So, it's just a measure of how much somebody sleeps. Pretty much every wearable that you wear sleep like overnight will will give you an estimate of that. And most are um will follow the same trend at least.
+ 
+ 
+00:40:32
+ 
+Peter Tierney: Um the advice that I usually get to people is like not to compare devices. So if you're wearing a Garmin, for example, and I'm wearing an Aura Ring, um they will still show the same trend, but the minutes might be off. So you know, Garmin might show a slightly higher total seat time than the ring, for example. And you can get very lost and worried about the differences versus the trends probably being a bit more valuable. Um in terms of so for total sea time there's probably like two different ways I think people or we should look at it. One is obviously the sort of general range that people should be sleeping a night is somewhere between six and a half and eight and a half hours I think based on that's based on sort of evidence and what we know about like just human needs. Um, and if someone's, you know, I would say significantly higher or lower than that, that's that's probably um, you know, some sort of flag. I don't say alert sounds very like alarming, but it's, you know, something for us to say, okay, this person hasn't slept what we consider a a normal for sort of a healthy amount.
+ 
+ 
+00:41:39
+ 
+Peter Tierney: And then maybe within that or beneath that is like an individual's normal sleep. So obviously we have um you know the 6 and 1 half to 8 and a half hours is like a a general global guideline but um me for example I would normally be within six and a half and seven hours and so like my normal range is within the sort of recommended range but then if I was to sleep eight and a half hours that would be a significant amount above my normal. So again, like some sort of flag or something to say like that's abnormal above or below my own individual range. And I think I'd probably apply that principle to pretty much every wearable derived metric. Um, so I don't I won't repeat myself for like every single every single one, but generally there's like a there's like an industry or sort of a scientific recommended range. Um, and then there's that individual person's range. And the the scientific one is obviously based on mostly like mortality risk for example as like the the key indicator or like recovery maybe in in athletes.
+ 
+ 
+00:42:50
+ 
+Peter Tierney: But the individual range is probably the most important in terms of like day-to-day management or week toe management. Um, and that yeah that does go I would say for pretty much every sleep and physiology derived metric um from wearables. But I don't know how much detail I want to go into that. But like other metrics um that I think are useful like the sleep regularity is is definitely good and there are some apps are different in like how they report this. Um there is some publisher research on like sleep regularity index which is a calculation you can determine. Some of the apps will use that. Some convert it into a zero to 100 score and some just visually show um sort of like a plus or minus 30 minutes of a bed of your average bedtime um and average wake time. And we'll just sort of visually show that if you're within that range like green is good and red is outside of that range. So from a behavioral standpoint that's probably sufficient for a lot of people is just to visually see it.
+ 
+ 
+00:43:50
+ 
+Peter Tierney: they don't need to, you know, have a specific number or get worried about values and stuff. Maybe for us on a larger scale, we want to we want to use the sort of sleep regularity index metric sort of behind the scenes, but if for most people dayto-day, I mean, most people know when they haven't slept within that regular window. It's like usually a late night or a or a very early start that disrupts it. Um, and I think flagging that, um, it's probably like it's very obvious visually for somebody to see it, but I think it's almost us like protecting people from getting too worked up about like one or two nights that are, you know, outside of a normal range. It's it's more so for us trying to show, okay, over the last three months, you've been, you know, you've been going to bed on average within the same hour. Like, brilliant. That's that's the way to go. And it's probably linked to like some of the topics we discussed with the questionnaire and stuff as well.
+ 
+ 
+00:44:43
+ 
+Peter Tierney: It's more so trying to stretch people's like get people to zoom out a little bit for some of these sleep metrics so we don't create anxiety around some of them. Um so that total sleep time regularity um and then some of the ones I guess that like show a little bit of sleep disruption. So like awake time uh movement can be good indicators particularly if we've also flagged somebody from a questionnaire that say like they wake up a lot in they toss and turn a lot at night and using the wearables to sort of verify some of that can be a really valuable um way to do things and then like we obviously have to talk about some of the sleep stages. I think we kind of touched on this even briefly yesterday, but um some of the devices are like okay at this. Um I've done some comparisons, you know, of like four or five different device at the same time and like the readings you get are just so far off. Um, I think probably just because they're very popular and they probably have a little bit more evidence or like research published on them.
+ 
+ 
+00:45:45
+ 
+Peter Tierney: Orura Ring and Whoop seem to be two of the like better performers in terms of um detecting like deep sleep and and ORM sleep. They're still not perfect and I don't think they'll ever be perfect because they're not directly measuring like brain wave activity. So they they kind of can't. Um, but I think trying to steer people away from uh some of the like marketing messages that are very like behaviorally driven around some of those measures is probably wise for us. Um, I do think they can be sensitive to changes. So again, similar to the point I was making around, if somebody has uh typically two hours of deep sleep, for example, and something changes massively outside of their range, there's probably something that has changed or affected their sleep. Um, but I do know some people who, you know, have a wearable is showing they have 12 minutes of deep sleep and they've gone to a sleep lab and it's it's it's like an hour and a half, which is a normal amount and it's within a reference range that we know.
+ 
+ 
+00:46:47
+ 
+Peter Tierney: Um, but on the other hand, like I've seen um some data for I collect this on myself. So I analyzed like the effect of alcohol on my sleep and on my REM sleep and the evidence the scientific evidence suggests that alcohol is a dose event relationship with REM sleep. So the more alcohol you drink the less REM sleep you get and when I wore an Aura ring I was able to show pretty much the exact same thing as what I would have expected from the research that as I drank more alcohol rem decrease. So they are sensitive to those changes and stuff. But again, it's trying I think for us it's important to guide people to interpret them best within the cascade system versus some of the generic sort of yeah like marketed uh marketed stance. um they're probably the main I'm trying to think what else other metrics they're probably the main things really um from wearables like I said apply that sort of there's two different avenues or angles to look at it one is a sort of typical reference range that's from the published literature and then there's the sort of individual range as
+ 
+ 
+00:47:55
+ 
+Dr. Naomi Myhill: Yeah, that's that that's really useful, Peter. I think yeah, just knowing what the kind of the key KPIs are. Um, but yeah, uh, we need to integrate everything essentially. So, it's not going to be a siloed piece of information. It will be steeped in context for those alerts or however we're kind of reporting back to the health seeker. So yeah, all of this information needs to come in and and be recycled in our into our ontology um so we can inform multiple different things. Um okay, so just aligning with that kind of last question around the wearables, are there any particular um states of the health seeker or athlete that might influence your assessment or interpretation of total number of sleep hours, for example, or REM sleep? Um, and are there certain times where you might say, "We don't have enough data yet, or actually that's only happened for one day. We need to hold off and wait for a few more days," for example, before having a an intervention or a reaction to this. You're
+ 
+ 
+00:49:08
+ 
+Dr. Naomi Myhill: on mute.
+Peter Tierney: Sorry, I always do that.
+Dr. Naomi Myhill: It's all right.
+Peter Tierney: Um, there's like two pieces. H I wonder if Gemini can detect what I'm saying even being on mute. That's see see what comes up from that.
+Dr. Naomi Myhill: That would be creepy.
+Peter Tierney: Um um there are so there's one there is one caveat that with all of these measures sometimes when and some of the published data when you see some of the outliers. So for example, if someone is a really bad sleeper and they move around a lot, like that can affect the measurement in itself. And so that's something I think there's like it's it's quite an extreme case, but if someone's moving around a ton in their sleep, you obviously these measures are more accurate when the body's at rest and there's less movement and that has an impact on sensor accuracy. So that's like one piece just to like note and I personally haven't seen it with people like myself or people's data that I've seen but I do know that I've seen some of the publisher research when you see outliers in some of the the larger data sets that's that's when some of the accuracy tends to deteriorate when you probably want it to be more accurate for some of the people who actually have problems.
+ 
+ 
+00:50:17
+ 
+Peter Tierney: Um but in terms of what you're asking around yeah like I guess the flags I think um and this this does apply I think to each of these sleep metrics and probably some of the physiology ones as well for me if like if some if there's a night that is um or a morning reading or whatever if a summary from last night if there's a metric um and probably for sleep I would say mostly like sleep time or awake time so maybe those two um versus some of the stages if if something is extremely far, like two standard deviations outside of what you typically expect from that person, that might be worth like flagging to them on that day. Again, not to like create anxiety, more so to be like, hey, this is a this is quite a different um you know, data point for you and and just prompt them to sort of think about what that might have been from. And it might have just been from like a kid, their child like something happened, they woke up like you know nothing or a bit of travel.
+ 
+ 
+00:51:19
+ 
+Peter Tierney: Um I think when for some of for some of the value I think in in like wearable metrics and continuous monitoring is when you see like consecutive days or trends. So if for example with sleep if I saw one night that was 30 minutes less than normal like that's not to me like this red flag that we have to you know prompt somebody with. If if somebody was two hours less sleep, that might be because that's quite a big like maybe that's a two salviation drop from or outside of normal range. But if for example we saw a smaller change over the course of like three nights, that might be um as strong of a flag as one night. That's two standard deviations decided norm because we've seen a change in pattern that's consistent and almost we want to try reverse if if it's a negative pattern want to try to reverse that pattern before it becomes this new sort of chronic state of like less sleep for example and I do think that applies across like resting heart rate and stuff as well.
+ 
+ 
+00:52:21
+ 
+Peter Tierney: So I think within some of the flags or alerts or thresholds, we'll have obviously like the individual range, the sort of scientific range or the sort of general range and then within that we'd have like a day or an acute flagging sort of system. Um and then also a sort of a consecutive or a lagging system as well.
+Dr. Naomi Myhill: Okay. Yeah, that makes sense. Um, so the final kind of bucket of assessments you mentioned was the lab-based sleep study. I know you mentioned you're not a sleep scientist, but um if you can briefly just based off of what you know um just go over kind of the type of assessment, what what kind of technology is used and any kind of key steps and metrics that you get from that. um caveat we can kind of build this in kind of post interview as well but as much information as you've kind of got on that would be really useful and I know you mentioned earlier that you would kind of you would initially start maybe with those surveys and then the wearable data before you refer onto this lab-based sleep study.
+ 
+ 
+00:53:35
+ 
+Dr. Naomi Myhill: So with that, would you class the lab-based sleep study as an assessment or an intervention or both?
+Peter Tierney: Good question. Um, I think the lab based study is in it in its true it is an assessment. Um, I'm trying to think of like it might be similar to thinking about like a DEXA scan for body composition. So um like you can't dex scan somebody every month because of radiation and it's just not feasible. It's extremely exp like so there's a few limitations that the same way I wouldn't send somebody to a sleep lab every month to get a sleep study done because it's completely like just not feasible and expensive and not necessary either. H so I think in a true sense it is an assessment. I think off the back of it, you'd have the sleep scientist who has sort of analyzed the data, provide some recommendations or or like insight based on that night of sleep. Um, so to be honest, most even the sort of sleep consultant that we that I've worked with in the past, um, we didn't send the f like the first protocol wasn't like if somebody has a sleep problem, let's get them straight to a lab.
+ 
+ 
+00:54:51
+ 
+Peter Tierney: it was more so let's like spend a bit of time with them to see if we can address it before needing to send them to a seat lab. Um so I think it's almost like it's not like last resort but I don't think you know we don't want to just be filtering people through a questionnaire and saying oh this person's below x score let's send them all to a sleep lab to get assessed. So I mean you'll get the same what they'll do is like they'll they'll measure like sleep quality efficiency um they'll give a measure of sleep stages um for that one night. Um the challenge with that is like and you they'll try say okay come in rested and all those other pieces and like you know no caffeine and whatever else you can control. But the challenge with um I guess like sleep stages as well is that you know my understanding of it is that your body obviously you'll you'll get you'll typically get maybe like 20% of your sleep is deep sleep and sleep but your body will probably take what it needs in terms of um there's a little bit of evidence sort of see now even with wearable technologies saw this cyclist do like a multi-day event and even though his sleep time was decreasing or like I guess like restricted the proportion of the sleep measured from wearables.
+ 
+ 
+00:56:10
+ 
+Peter Tierney: So obviously limitation but the proportion of deep sleep that this athlete was uh achieving or experiencing was increasing. And so I think that to me is like an indication that okay this this cyclist is obviously going through like physical like physically high and really intense days and his body is saying when he's sleeping I'm going to I'm going to prioritize physical recovery because that's what I that's what I need. So, you know, for somebody to go into sleep lab once and say, "Oh, yeah, this you typically get 20% deep sleep or 15% deep sleep, it might flag something sort of falsely, I guess, because that might not be a typical pattern." And linked to that is also, you know, somebody going to a lab sleeping with some sensors on their body that they're not used to and that actually potentially impacting the quality of their sleep that they're trying to assess as well. So, I do think it's like it's probably, you know, if we're flagging people and there's like potentially a referral system or or like process that we have, I think it's almost a referral to a sleep expert first, have have a consultation with a sleep expert and then their their recommendation might be no, let's use behavioral intervention first and then maybe down the line they might want to do a sleep assessment.
+ 
+ 
+00:57:25
+ 
+Peter Tierney: So, I think that's probably the process. So, I'd almost try to like push it a little bit further away from, you know, people people being able to like use it as a oh, let's just get this done really quickly because it's like fancy and it it feels a bit like, you know, it feels nice for people to go through this like process. I'd almost push it a little bit further again.
+Dr. Naomi Myhill: Yeah, that's great. That that answers the question really. Um, so I think we've covered assessments now. Unless there's any assessments that we haven't gone through in any detail that you you want to cover.
+Peter Tierney: I don't think so. Uh yeah, I don't think so.
+Dr. Naomi Myhill: Cool. And we can always circle back as well. Um so the next kind of part of the the interview is around the interventions based off of the data and results that you get from the assessments. So um we could do this in stages based off of the the buckets of assessments which might be might be better.
+ 
+ 
+00:58:27
+ 
+Dr. Naomi Myhill: So if we focus on the surveys, how do you design interventions from those assessment results? So from the results of the surveys, would your next step be a type of intervention or and that could even be prescribing a wearable for example as a as a type of intervention. So what would be your next steps um when you get that information from the assessment? So here we're kind of looking about how those results inform the intervention choice. What are your kind of go-to interventions? The name kind of description purpose of those interventions.
+Peter Tierney: Yeah. Yeah. Um I think so it's probably evolved and I like initially it probably would start with like a little bit of an observation period. So, I do think at the moment that's probably a wearable device to to observe a period of like sleep data. Um, if somebody is, you know, not doesn't want to commit to buying wearable, that's probably just a consistent period of like a sleep diary or just the I guess like consistent questions.
+ 
+ 
+00:59:37
+ 
+Peter Tierney: So, how much did you sleep and how how well did you sleep? Doing that for a period of time to really get a continuous snapshot of somebody. Usually what you'll find is when someone does a sleep questionnaire and then there's a period of data collection, their behaviors will improve drastically for that initial period. It's like someone logging a food diary, h they'll always eat a little bit better because they're actively thinking about it. So you got to like interpret that in mind. But that's probably a starting place alongside so like a period of like observation either wearables or subjective. And then I just think almost a reminder or like refresher of the generic sleep behaviors and and uh things that can support sleep. So like you know keeping your room environment appropriately quiet and dark and cool. Um you know limiting caffeine intake within 6 8 10 hours of going to sleep. Um getting sunlight in the morning. So like the the kind of generic things that might solve some people's sort of problems or might just tidy up some of the poor behaviors or maybe the reasons why we've seen a a poor sleep score from a questionnaire.
+ 
+ 
+01:00:45
+ 
+Peter Tierney: Um so that's probably like a starting place for most people. Um I do think then if if the problem starts to persist that's I think the point of like referral to a sleep expert and and so it's not again it's it's like trying to delay their like really extremist like oh someone does a questionnaire like send them to to get a sleep study go to an expert and because then if you do that with every like we're talking about earlier on if you do it with every single assessment tool we have like again it's going to be a full-time job for somebody just to get up to speed and and like into the flow of using cascade which I just think isn't feasible or even isn't beneficial for everybody if they get so worked up about every single aspect. So I do think yeah like initial period of observation that might be two to four weeks maybe or even maybe a little longer observation a sort of maybe reminder or like nudge around consistency behaviors. So, I don't know exactly what that would look like from Cascade, but it might be, you know, if someone has set a bedtime for themselves of like 11:00 p.m.
+ 
+ 
+01:01:46
+ 
+Peter Tierney: It might be a little reminder through the app to say at 9:00 p.m. like, hey, like time to start winding down. That that type of like again, it's kind of generic, but it's somewhat related than specific to that person's needs. Um and then yeah maybe if the problem persists or after a period where we maybe reassess or we see some really bad data from a wearable or the continuous data we then maybe refer to a maybe just like an online consult with a sleep expert and then it's sort of have a discussion around what that looks like. There might be some specific interventions that a sleep scientist might recommend that are a layer deeper than the sort of generic ones and then go from there.
+Dr. Naomi Myhill: Yeah. Nice. So, with the with some of those you mentioned, would you say they were educational type of interventions in terms of just reminders of what they should do kind of before they go to sleep and things like that? Um, and then with that, it'd be good to get your thoughts on how we deliver that information to the health seeker or the athlete and is it different if it's a health seeker compared to an athlete.
+ 
+ 
+01:02:52
+ 
+Peter Tierney: Yeah.
+Dr. Naomi Myhill: So, yeah, kind of what what are the formats that you would use to deliver those as well?
+Peter Tierney: Yeah. Okay. Yeah. Good. I have I don't know if I've thought about this like fully but um my gut would or my initial reaction is like yeah some that the observational one is a little bit like we're just observing your data like you know we're just going to collect this for a few weeks like there's nothing actionable from the the health seeker the athlete to to do in that in that case um I think so yeah that's observational I think I do think the educational one is like or it is sorry the the sleep behaviors or an educational one. And um I think it is just like some general reminders of like if it's prompts through like without being excessive like without prompting somebody you know the whole time but um there's probably a layer of context or or some other questions you may need to ask which maybe are captured in uh the initial kind of survey or maybe in some of the other assessments that are kind of supporting obviously not just the sleep piece but if it's a general population health seeker That might be a couple of prompts around like yeah like two hours before bed or a caffeine cut off or um sort of yeah pushing somebody to do that but also maybe like
+ 
+ 
+01:04:16
+ 
+Peter Tierney: seeing you know making sure it's related to their bedtime. So we can probably pull that from wearable data and then subtract two hours and that's an automated prompt is pretty that's pretty straightforward to do. For an athlete it's a little bit more complex because they might have or even just somebody working different shifts or whatever it is. Like if somebody's training late at night or performing late at night and that that's obviously like they don't want to get a message from the Cascade app 30 minutes before kickoff to say like oh it start to wind down you know that's just like it's sort of just completely inaccurate and it kind of discredits I think some of the value that cascade or just in general like advice can be. So I think as long as it's specific to that person and we probably have to capture some of the context from that person because obviously like we have to know when they have like fixtures or training or what their typical schedule looks like looks like. Um but yeah, I do think it's probably just through through app and then maybe some like video education within the app of um like do you want to know more about this metric or or whatever else and it might be a short video just explaining you know why we've proposed a caffeine cut off or why we've proposed um you know trying to limit your screen time or working time before bed and and sort of helping people
+ 
+ 
+01:05:45
+ 
+Peter Tierney: understand like the why behind certain things as opposed to just telling them like stop doing this or keep doing that. Um I think and I imagine the persona or the type of person who's signing up to Cascade is probably will be more interested in understanding the why that like I imagine particularly early days like they're the type of people who want to understand a little bit more detail and stuff around different things. So, I think that's probably yeah, I might need to put put a bit more thought into that, but I think that's probably a decent starting place for most people.
+Dr. Naomi Myhill: Yeah, I think that some some good ideas there. I think probably one of the one of the questions or one of one of the things we need to answer is kind of what factors moderate the effectiveness of those types of interventions and a lot of that comes to what's the health seekers's goal? What are their constraints, preferences, and how does that change? So, how can we kind of dynamically adjust those?
+ 
+ 
+01:06:44
+ 
+Dr. Naomi Myhill: Whether it's like a little video that's sent or an alert within the app, how does that change? Because I don't think it's going to be consistent over time because within like 90 days, for example, like a health seeker could they could start a new sport or they could join start a new job or, you know,
+Peter Tierney: Yeah. Yeah.
+Dr. Naomi Myhill: their their schedule can change. So, I think that that's important not just for probably the the sleep interventions, but other interventions as well.
+Peter Tierney: Definitely.
+Dr. Naomi Myhill: we we need to capture all that information. So we need to have the calendar their calendar synced within the app essentially um as well but
+Peter Tierney: Yeah. Yeah. Yeah. And I think I've suggested this in other places. I do think syncing someone's calendar is like someone asked me before I can't remember if it was like company or something anyway but they were sort of saying like what's um like what's one thing that like gender population can learn from elite athletes and I was just I ended up talking to them about like their calendar and I was saying well an elite athletes calendar is completely organized for them.
+ 
+ 
+01:07:44
+ 
+Peter Tierney: they get told when to like answer these questions, when to eat, when to train, when to sleep, when to travel. Like it's kind of just printed for them. And I feel like one of the missing pieces of a lot of um apps and things is like they're not integrated into calendars. And like exactly what you said, I think if someone has a calendar and they have like fixtures and even me business meetings, travel trips, uh childc care pickup, like what literally any sort of thing like that at least if Cascade can sort of and this is probably one for Kum. So if he's listening to this, he can uh he can write but almost to like at least it's like giving some context for the day. It's like okay, I've looked at Naomi's calendar. Hey, like I see you're playing a game tonight or something like you know or you've worked late tonight. Like here are some here are some tips you could do after that before you go to bed or like that's that's definitely like ideal state for anything like this around like not just sleep nudges just per health and performance nudges in general.
+ 
+ 
+01:08:46
+ 
+Peter Tierney: It has to be built around someone's actual genuine day.
+Dr. Naomi Myhill: Yeah, I I think that's the goal that that's what we have to achieve, I think, to be successful. like it it needs to fit in with their day and what they're doing because I think this is what the challenge is coming from working with just mostly athletes is like athletes are there because they want to be there to do a job but our health seekers are going to have a very different attitude to this and like they they don't want it to be complicated. They want it to be basic. They're not going to jump through a number of different hoops to get there. So we kind of need to meet them where they are. Um, and I know that's something that Resh says a lot as well. It's kind of like a a mini little slogan, but yeah, I think that is is really key having the calendar integrated, especially for things like this. Um, but yeah.
+ 
+ 
+01:09:39
+ 
+Dr. Naomi Myhill: Okay. So, I think unless there are any other types of intervention that you want to go into that we haven't discussed, we might have covered all bases on sleep.
+Peter Tierney: Yeah, I think it's probably just worth noting here and like I don't know it's like it is going to be linked to like other different so like if there's a physical activity piece like one of the things that I've said to a lot of people is like people people who maybe struggle to sleep their minds always go to like what supplement can I take to like fix my sleep and a lot of the time I think they have like a physical activity issue as in they're not exercising enough. Um, so there's like it's just worth noting there's like the sleep interventions or behaviors we propose obviously will will be related around like before bed and after bed you know like the kind of standard pieces that everybody's relatively familiar with like you know winding down dark before going to bed and then light and alert when you wake up but it's also around like eating sufficiently and getting enough activity so that you're actually tired when you go to bed and things like that.
+ 
+ 
+01:10:50
+ 
+Peter Tierney: So, I don't think it's one we have to go specifically into now, but it's worth just like remembering, I think, when if there's other pieces to the pie, I guess, um, that's connected. But, um, and and then maybe the only other one is like a toggle for like a new parent, like just because because I I think like Cascade or any health and performance platform should be inviting to like everybody to use. And that's a period where parents, new parents, I'm not I'm not speaking from experience here, but obviously will probably need as much support as they'd ever need during that period where they're and they don't want like an app like a wearable saying like sleep more, sleep more, sleep more and they're like I can't because that's not like I have a kid who's two weeks old who's like I'm up with during the night. But if you can support them around that type of thing. So, like I guess it is just trying to capture like all those different scenarios with people and it's like trying to help people in really difficult periods instead of being this annoying like person like tapping your shoulder saying like do this, do this when it's just not realistic.
+ 
+ 
+01:11:59
+ 
+Peter Tierney: Um, so yeah, I don't know if that's really but I do think we've kind of talked about most of the most of the things around like assessment intervention tools around sleep. Um, and I'll have a think we can obviously add in some stuff after as well.
+Dr. Naomi Myhill: Yeah, I think you actually touched on I did have the question written down, but Um are there any other constructs that sleep directly improves or is dependent on? So you mentioned there around nutrition um and physical activity. So I guess that's that's probably the only other follow-up question really. Is there any other constructs you think have a kind of relationship whether it's direct or indirect relationship with sleep that helps us then map out in the ontology as well.
+Peter Tierney: Yeah. Yeah. So, definitely like the physical activity and nutrition. I do think like the even just cognitive performance there's like memory benefits and things like that. So, again, there's loads of like you can assess all these like reaction time and things. There's loads of different like assessments you can do for like cognitive performance and function whether we want to do that or if it's of interest.
+ 
+ 
+01:13:05
+ 
+Peter Tierney: It's we can we can consider and discuss it. I think the other piece maybe then is like maybe not like illness detection probably comes with some of the physiology metrics but um I do think it's important to consider sleep within illness because one of the like secondary effects of being ill is obviously the illness takes a toll on your body itself but um usually the fatigue comes from illness disrupting your sleep not maybe not directly from the illness if that makes sense or like from
+Dr. Naomi Myhill: Yeah.
+Peter Tierney: from what from my experience in some people is like you can be sick but if you're sleeping well enough you can be sick and like not that tired but um when illness starts to impact sleep you obviously have like this double-edged sword of like being sick and your body fighting that and then also just being extremely tired because of the effect it has. So yeah, it's definitely worth I guess maybe mentioning that again if it's I don't know what the contra name is but like injury or illness or something like that as well.
+Dr. Naomi Myhill: Yeah. Yeah, definitely. And that that falls in into injury and we have separate categories. We've broken down illness into different different aspects. But yeah, that makes sense. Um and that's something as well like on the post review if you have other thoughts around different things it connects to especially when you review the different domains um and constructs as well that you want to add in and you can add it in there too. Um okay great I think we'll finish the interview there. Um we've pretty much covered kind of what we need to so I'll just stop the recording.
+ 
+ 
+Transcription ended after 01:14:45
+
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
