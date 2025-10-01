@@ -9119,13 +9119,1059 @@
           ]
         }
       }
+    },
+    {
+      "file_name": "Ontology Meeting - Aubrey \u2013 2025_10_01 15_33 BST \u2013 Notes by Gemini.txt",
+      "transcript_length": 38191,
+      "constructs_identified": 12,
+      "domains_constructs": {
+        "practitioner_domains": [
+          {
+            "domain_name": "Digestive Health",
+            "domain_description": "Treatment of digestive disturbances and complaints using comprehensive assessment including stool analysis, organic acids testing, and targeted interventions",
+            "specialization_notes": "Primary expertise area with focus on identifying pathogens, dysbiosis, and absorption issues"
+          },
+          {
+            "domain_name": "Female Health",
+            "domain_description": "Hormone optimization for females including perimenopause management and energy optimization",
+            "specialization_notes": "Specialized in female hormone assessment and intervention"
+          },
+          {
+            "domain_name": "Male Health",
+            "domain_description": "Male hormone assessment and optimization including andropause management",
+            "specialization_notes": "Focus on male hormone health and energy optimization"
+          },
+          {
+            "domain_name": "Sports Medicine",
+            "domain_description": "Injury management using regenerative injection therapies, ultrasound diagnostics, and tailored nutrition/supplementation",
+            "specialization_notes": "Completed residency in regenerative injection therapies with international training and ultrasound specialization"
+          },
+          {
+            "domain_name": "Recovery",
+            "domain_description": "Assessment and optimization of recovery markers including sleep data, heart rate variability, and glucose monitoring",
+            "specialization_notes": "Uses wearable technology data (Whoop, Oura) and continuous glucose monitoring for recovery optimization"
+          }
+        ],
+        "constructs_mentioned": [
+          {
+            "construct_name": "White Blood Cell Count",
+            "construct_description": "Volume count of all white blood cell types combined, indicator of immune system status",
+            "domain_association": "Physical Health",
+            "assessment_context": "CBC differential analysis to identify immune suppression or chronic infection"
+          },
+          {
+            "construct_name": "Neutrophil Count",
+            "construct_description": "Count of neutrophils (immune system 'soldiers') that find infections, optimal >3000",
+            "domain_association": "Physical Health",
+            "assessment_context": "Key marker for immune function and infection susceptibility"
+          },
+          {
+            "construct_name": "Neutrophil to Lymphocyte Ratio",
+            "construct_description": "Ratio between neutrophils and lymphocytes, optimal 2:1 ratio",
+            "domain_association": "Physical Health",
+            "assessment_context": "Immune system balance assessment for infection response capability"
+          },
+          {
+            "construct_name": "Hydration Status",
+            "construct_description": "Assessment of body fluid balance through red blood cell count, hemoglobin, and hematocrit levels",
+            "domain_association": "Physical Health",
+            "assessment_context": "Critical for athletes, affects interpretation of multiple blood markers"
+          },
+          {
+            "construct_name": "Hemoglobin",
+            "construct_description": "Oxygen-carrying protein within red blood cells",
+            "domain_association": "Cardiovascular Health",
+            "assessment_context": "Oxygen transport capacity and anemia screening"
+          },
+          {
+            "construct_name": "Mean Corpuscular Volume",
+            "construct_description": "Size of individual red blood cells, optimal around 90, indicates DNA synthesis efficiency",
+            "domain_association": "Physical Health",
+            "assessment_context": "Nutrient deficiency screening (B12, folate, iron)"
+          },
+          {
+            "construct_name": "Vitamin B12 Status",
+            "construct_description": "Essential for DNA synthesis and ATP production, optimal >600 (reference 200-1100)",
+            "domain_association": "Physical Health",
+            "assessment_context": "Energy production and cellular turnover optimization"
+          },
+          {
+            "construct_name": "Vitamin D Status",
+            "construct_description": "Critical for immune function, optimal 60+ for immune protection, affected by genetics and skin pigmentation",
+            "domain_association": "Physical Health",
+            "assessment_context": "Immune optimization and bone health, requires individualized dosing"
+          },
+          {
+            "construct_name": "Blood Pressure",
+            "construct_description": "Cardiovascular assessment including POTS and orthostatic hypotension testing",
+            "domain_association": "Cardiovascular Health",
+            "assessment_context": "Standard physical examination component for cardiovascular health"
+          },
+          {
+            "construct_name": "Heart Rate Variability",
+            "construct_description": "Autonomic nervous system function marker tracked through wearable devices",
+            "domain_association": "Recovery",
+            "assessment_context": "Recovery and stress adaptation monitoring for athletes"
+          },
+          {
+            "construct_name": "Sleep Quality",
+            "construct_description": "Sleep data assessment for recovery and performance optimization",
+            "domain_association": "Recovery",
+            "assessment_context": "Critical factor affecting immune function and supplement effectiveness"
+          },
+          {
+            "construct_name": "Glucose Control",
+            "construct_description": "24-hour continuous glucose monitoring for metabolic assessment",
+            "domain_association": "Physical Health",
+            "assessment_context": "Metabolic optimization and energy management"
+          }
+        ],
+        "sport_specificity": [
+          {
+            "sport": "Cricket",
+            "assessment_modifications": "Consider limited sun exposure despite outdoor play due to protective clothing, helmets, and long-duration matches",
+            "intervention_modifications": "May require higher vitamin D supplementation due to covered playing attire and potential ethnic considerations for vitamin D synthesis"
+          },
+          {
+            "sport": "General Athletics",
+            "assessment_modifications": "Creatinine interpretation differs for athletes due to higher muscle mass and exercise stress. Hydration status critical for accurate blood marker interpretation",
+            "intervention_modifications": "Exercise stress can suppress immune function, affecting neutrophil counts and supplement effectiveness"
+          }
+        ]
+      },
+      "assessments": {
+        "assessments": [
+          {
+            "assessment_name": "CBC and Differential",
+            "assessment_description": "Complete Blood Count with differential - a comprehensive blood test that evaluates red blood cells, white blood cells, and their various components to assess immune function, infection status, and overall blood health",
+            "constructs_measured": [
+              "White Blood Cell Count",
+              "Neutrophil Count",
+              "Neutrophil to Lymphocyte Ratio",
+              "Hydration Status",
+              "Hemoglobin"
+            ],
+            "modality": "Blood Test"
+          },
+          {
+            "assessment_name": "Vitamin B12 Test",
+            "assessment_description": "Serum test measuring vitamin B12 levels to assess DNA synthesis capability, cellular turnover, and mitochondrial ATP synthesis function",
+            "constructs_measured": [
+              "Vitamin B12 Status"
+            ],
+            "modality": "Blood Test"
+          },
+          {
+            "assessment_name": "Vitamin D Test",
+            "assessment_description": "Serum test measuring 25-hydroxyvitamin D levels to assess vitamin D status for immune function and bone health",
+            "constructs_measured": [
+              "Vitamin D Status"
+            ],
+            "modality": "Blood Test"
+          },
+          {
+            "assessment_name": "Mean Corpuscular Volume Test",
+            "assessment_description": "Blood test measuring the average size of red blood cells to assess DNA synthesis and identify potential B12/folate deficiencies or iron deficiency",
+            "constructs_measured": [
+              "Mean Corpuscular Volume"
+            ],
+            "modality": "Blood Test"
+          }
+        ]
+      },
+      "interventions": {
+        "interventions": [
+          {
+            "intervention_name": "Reishi Mushroom Supplementation for Low Neutrophils",
+            "intervention_description": "Reishi mushroom supplementation to work at the bone marrow level to increase neutrophil count when neutrophils are low and monocytes are not elevated. Specific products mentioned include MRS formula by Pure Encapsulations or NSF certified reishi mushroom (bioel sport mushroom).",
+            "constructs_targeted": [
+              "White Blood Cell Count",
+              "Neutrophil Count",
+              "Neutrophil to Lymphocyte Ratio"
+            ],
+            "intervention_types": [
+              "Supplementation"
+            ]
+          },
+          {
+            "intervention_name": "Antiviral Protocol for Elevated Monocytes",
+            "intervention_description": "Use of echinacea and grapefruit seed extract when monocytes are elevated, indicating potential viral infection or chronic inflammation.",
+            "constructs_targeted": [
+              "White Blood Cell Count"
+            ],
+            "intervention_types": [
+              "Supplementation"
+            ]
+          },
+          {
+            "intervention_name": "Antiparasitic Treatment Protocol",
+            "intervention_description": "Use of berberine or wormwood for elevated eosinophils indicating parasitic infection. May include antibiotics like metronidazole depending on stool sample results showing parasites like blastocystis hominis or giardia.",
+            "constructs_targeted": [
+              "White Blood Cell Count"
+            ],
+            "intervention_types": [
+              "Supplementation",
+              "Medication"
+            ]
+          },
+          {
+            "intervention_name": "Allergy Management Protocol",
+            "intervention_description": "For elevated basophils indicating allergies: Designs for Health Biofizz (vitamin C and bioflavonoids) one scoop daily, plus quercetin and nettles combination product two capsules three times daily until allergen identification/removal or season change. Also includes sublingual immunotherapy from Quantum Allergy for environmental allergens.",
+            "constructs_targeted": [
+              "White Blood Cell Count"
+            ],
+            "intervention_types": [
+              "Supplementation",
+              "Immunotherapy"
+            ]
+          },
+          {
+            "intervention_name": "Hydration Optimization Protocol",
+            "intervention_description": "Addressing dehydration when red blood cell count, hemoglobin, and hematocrit are all elevated, indicating concentrated blood due to fluid loss.",
+            "constructs_targeted": [
+              "Hydration Status",
+              "Hemoglobin"
+            ],
+            "intervention_types": [
+              "Lifestyle Modification"
+            ]
+          },
+          {
+            "intervention_name": "Vitamin B12 Supplementation Protocol",
+            "intervention_description": "For B12 levels below 600 (optimal): 1000 mcg sublingual B12 daily, or 5000 mcg B12 intramuscular injection weekly for 4 weeks followed by one week washout before retesting. Sublingual preferred for absorption, injections for compliance issues or pernicious anemia.",
+            "constructs_targeted": [
+              "Vitamin B12 Status",
+              "Mean Corpuscular Volume"
+            ],
+            "intervention_types": [
+              "Supplementation",
+              "Injection"
+            ]
+          },
+          {
+            "intervention_name": "Vitamin D Optimization Protocol",
+            "intervention_description": "For low vitamin D (Sean at 30, wanting 60+ for immune protection): 10,000 IU daily for one month without vitamin K for rapid increase, then maintenance dose of 4000 IU with vitamin K (100-200 mcg K2). Retest after 3 months. Higher doses needed for northern hemisphere and darker skin pigmentation.",
+            "constructs_targeted": [
+              "Vitamin D Status"
+            ],
+            "intervention_types": [
+              "Supplementation"
+            ]
+          },
+          {
+            "intervention_name": "Platelet Count Enhancement for PRP",
+            "intervention_description": "Reishi mushroom supplementation for several weeks before PRP procedures to increase platelet count in patients with low-normal platelets.",
+            "constructs_targeted": [
+              "White Blood Cell Count"
+            ],
+            "intervention_types": [
+              "Supplementation"
+            ]
+          }
+        ]
+      },
+      "relationships": {
+        "construct_relationships": [
+          {
+            "source_construct": "Neutrophil Count",
+            "target_construct": "White Blood Cell Count",
+            "relationship_type": "dependency",
+            "relationship_description": "Neutrophil count is a component that contributes to the total white blood cell count",
+            "evidence_mentioned": "White blood cell count is comprised of adding up the differential, including neutrophils",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Neutrophil Count",
+            "target_construct": "Neutrophil to Lymphocyte Ratio",
+            "relationship_type": "dependency",
+            "relationship_description": "Neutrophil count is the numerator in calculating the neutrophil to lymphocyte ratio",
+            "evidence_mentioned": "We want to see a neutrophil to lymphocyte ratio of 2:1, with neutrophils being twice as robust as lymphocytes",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Hydration Status",
+            "target_construct": "Hemoglobin",
+            "relationship_type": "causal",
+            "relationship_description": "Dehydration causes elevated hemoglobin levels due to blood concentration",
+            "evidence_mentioned": "When red blood cell count is high, I think about dehydration and look for high hemoglobin and high hematocrit",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Vitamin B12 Status",
+            "target_construct": "Mean Corpuscular Volume",
+            "relationship_type": "causal",
+            "relationship_description": "Low vitamin B12 causes enlarged red blood cells (high MCV) due to impaired DNA synthesis",
+            "evidence_mentioned": "Mean corpuscular volume greater than 90 leads us to test for vitamin B12 and B9, as DNA synthesis becomes sluggish",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Blood Pressure",
+            "target_construct": "Heart Rate Variability",
+            "relationship_type": "association",
+            "relationship_description": "Both are cardiovascular markers assessed together for overall health status",
+            "evidence_mentioned": "Physical exam includes blood pressure testing and looking at heart rate variability from devices like Whoop and Oura",
+            "directionality": "bidirectional"
+          }
+        ],
+        "assessment_construct_links": [
+          {
+            "assessment_name": "CBC and Differential",
+            "constructs_measured": [
+              "White Blood Cell Count",
+              "Neutrophil Count",
+              "Neutrophil to Lymphocyte Ratio",
+              "Hemoglobin",
+              "Mean Corpuscular Volume"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "hydration status",
+              "athlete vs health seeker status",
+              "timing of blood draw",
+              "recent supplementation"
+            ]
+          },
+          {
+            "assessment_name": "Vitamin B12 Test",
+            "constructs_measured": [
+              "Vitamin B12 Status"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "recent supplementation (requires 1-week washout)",
+              "digestive absorption capacity",
+              "dietary patterns"
+            ]
+          },
+          {
+            "assessment_name": "Vitamin D Test",
+            "constructs_measured": [
+              "Vitamin D Status"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "recent supplementation (requires 1-week washout)",
+              "ethnicity/skin pigmentation",
+              "geographic location",
+              "genetic polymorphisms"
+            ]
+          },
+          {
+            "assessment_name": "Mean Corpuscular Volume Test",
+            "constructs_measured": [
+              "Mean Corpuscular Volume",
+              "Vitamin B12 Status"
+            ],
+            "measurement_relationship": "indirect",
+            "interpretation_factors": [
+              "optimal target of 90",
+              "relationship to B12/B9 status",
+              "iron status"
+            ]
+          }
+        ],
+        "intervention_construct_links": [
+          {
+            "intervention_name": "Reishi Mushroom Supplementation for Low Neutrophils",
+            "constructs_targeted": [
+              "Neutrophil Count",
+              "White Blood Cell Count"
+            ],
+            "mechanism_of_action": "Works at the bone marrow level to increase neutrophil production",
+            "expected_outcomes": [
+              "increased neutrophil count",
+              "improved neutrophil to lymphocyte ratio"
+            ],
+            "timeline_expectations": "2-4 weeks for reassessment due to 7-hour half-life of mature white blood cells"
+          },
+          {
+            "intervention_name": "Antiviral Protocol for Elevated Monocytes",
+            "constructs_targeted": [
+              "White Blood Cell Count"
+            ],
+            "mechanism_of_action": "Uses echinacea and grapefruit seed extract to address viral infections causing monocyte elevation",
+            "expected_outcomes": [
+              "reduced monocyte count",
+              "normalized white blood cell differential"
+            ],
+            "timeline_expectations": "2-4 weeks for reassessment"
+          },
+          {
+            "intervention_name": "Hydration Optimization Protocol",
+            "constructs_targeted": [
+              "Hydration Status",
+              "Hemoglobin"
+            ],
+            "mechanism_of_action": "Improves fluid balance to normalize blood concentration",
+            "expected_outcomes": [
+              "normalized hemoglobin levels",
+              "improved hematocrit",
+              "better red blood cell count"
+            ],
+            "timeline_expectations": "Immediate to days for hydration effects"
+          },
+          {
+            "intervention_name": "Vitamin B12 Supplementation Protocol",
+            "constructs_targeted": [
+              "Vitamin B12 Status",
+              "Mean Corpuscular Volume"
+            ],
+            "mechanism_of_action": "Sublingual absorption bypasses digestive issues, supports DNA synthesis",
+            "expected_outcomes": [
+              "B12 levels >600",
+              "normalized MCV around 90"
+            ],
+            "timeline_expectations": "3 months for reassessment, with 1-week washout before testing"
+          },
+          {
+            "intervention_name": "Vitamin D Optimization Protocol",
+            "constructs_targeted": [
+              "Vitamin D Status"
+            ],
+            "mechanism_of_action": "High-dose vitamin D (10,000 IU) for rapid increase, then maintenance dose with K2",
+            "expected_outcomes": [
+              "vitamin D levels >60 for immune protection",
+              "optimal range 30-100"
+            ],
+            "timeline_expectations": "3 months for reassessment after protocol initiation"
+          },
+          {
+            "intervention_name": "Platelet Count Enhancement for PRP",
+            "constructs_targeted": [
+              "White Blood Cell Count"
+            ],
+            "mechanism_of_action": "Reishi mushrooms increase platelet count for PRP procedures",
+            "expected_outcomes": [
+              "increased platelet count for optimal PRP"
+            ],
+            "timeline_expectations": "2 weeks of supplementation before PRP procedure"
+          }
+        ],
+        "assessment_intervention_connections": [
+          {
+            "assessment_name": "CBC and Differential",
+            "intervention_name": "Reishi Mushroom Supplementation for Low Neutrophils",
+            "connection_type": "triggers",
+            "connection_description": "Low neutrophil count (<3000) or poor neutrophil to lymphocyte ratio triggers reishi supplementation"
+          },
+          {
+            "assessment_name": "CBC and Differential",
+            "intervention_name": "Hydration Optimization Protocol",
+            "connection_type": "triggers",
+            "connection_description": "High red blood cell count, hemoglobin, and hematocrit indicate dehydration requiring hydration protocol"
+          },
+          {
+            "assessment_name": "Vitamin B12 Test",
+            "intervention_name": "Vitamin B12 Supplementation Protocol",
+            "connection_type": "triggers",
+            "connection_description": "B12 levels <600 trigger supplementation protocol with 1000mcg daily sublingual"
+          },
+          {
+            "assessment_name": "Mean Corpuscular Volume Test",
+            "intervention_name": "Vitamin B12 Supplementation Protocol",
+            "connection_type": "triggers",
+            "connection_description": "MCV >90 suggests B12/B9 deficiency requiring supplementation"
+          },
+          {
+            "assessment_name": "Vitamin D Test",
+            "intervention_name": "Vitamin D Optimization Protocol",
+            "connection_type": "triggers",
+            "connection_description": "Vitamin D levels <60 trigger high-dose protocol followed by maintenance dosing"
+          },
+          {
+            "assessment_name": "CBC and Differential",
+            "intervention_name": "Platelet Count Enhancement for PRP",
+            "connection_type": "informs",
+            "connection_description": "Platelet count assessment determines need for enhancement before PRP procedures"
+          }
+        ]
+      },
+      "ontology_guided_data": {
+        "technologies_metrics": {
+          "technologies": [
+            {
+              "technology_name": "VALD ForceDecks",
+              "vendor_manufacturer": "VALD",
+              "technology_type": "hardware",
+              "specific_model": "ForceDecks",
+              "used_for_assessments": [
+                "Force Assessment"
+              ],
+              "what_it_measures": [
+                "Force metrics"
+              ],
+              "data_output_format": "Digital force data"
+            },
+            {
+              "technology_name": "Oura Ring",
+              "vendor_manufacturer": "Oura",
+              "technology_type": "hardware",
+              "specific_model": "Oura Ring",
+              "used_for_assessments": [
+                "Sleep Analysis",
+                "Heart Rate Variability"
+              ],
+              "what_it_measures": [
+                "Sleep data",
+                "Heart rate variability"
+              ],
+              "data_output_format": "Digital health metrics"
+            },
+            {
+              "technology_name": "Whoop",
+              "vendor_manufacturer": "Whoop",
+              "technology_type": "hardware",
+              "specific_model": "Whoop device",
+              "used_for_assessments": [
+                "Heart Rate Variability",
+                "Sleep Analysis"
+              ],
+              "what_it_measures": [
+                "Heart rate variability",
+                "Sleep data"
+              ],
+              "data_output_format": "Digital health metrics"
+            },
+            {
+              "technology_name": "24-hour CGM",
+              "vendor_manufacturer": "Various",
+              "technology_type": "hardware",
+              "specific_model": "Continuous Glucose Monitor",
+              "used_for_assessments": [
+                "Glucose Monitoring"
+              ],
+              "what_it_measures": [
+                "Blood glucose levels"
+              ],
+              "data_output_format": "Continuous glucose readings"
+            },
+            {
+              "technology_name": "Ultrasound",
+              "vendor_manufacturer": "Various",
+              "technology_type": "hardware",
+              "specific_model": "Ultrasound machine",
+              "used_for_assessments": [
+                "Ultrasound Diagnostics"
+              ],
+              "what_it_measures": [
+                "Tissue imaging"
+              ],
+              "data_output_format": "Ultrasound images"
+            },
+            {
+              "technology_name": "Life Labs",
+              "vendor_manufacturer": "Life Labs",
+              "technology_type": "service",
+              "specific_model": "Laboratory testing service",
+              "used_for_assessments": [
+                "Blood work",
+                "Laboratory testing"
+              ],
+              "what_it_measures": [
+                "Various blood biomarkers"
+              ],
+              "data_output_format": "Laboratory reports"
+            },
+            {
+              "technology_name": "Meridian Valley Lab",
+              "vendor_manufacturer": "Meridian Valley",
+              "technology_type": "service",
+              "specific_model": "Food sensitivity testing",
+              "used_for_assessments": [
+                "Food Sensitivity Test"
+              ],
+              "what_it_measures": [
+                "IGG and IG food sensitivity"
+              ],
+              "data_output_format": "Food sensitivity report"
+            },
+            {
+              "technology_name": "Quantum Allergy",
+              "vendor_manufacturer": "Quantum Allergy",
+              "technology_type": "service",
+              "specific_model": "Sublingual immunotherapy",
+              "used_for_assessments": [
+                "Allergy Treatment"
+              ],
+              "what_it_measures": [
+                "Allergen response"
+              ],
+              "data_output_format": "Treatment protocol"
+            }
+          ],
+          "metrics": [
+            {
+              "metric_name": "White Blood Cell Count",
+              "measurement_unit": "cells/\u03bcL",
+              "assessment_source": "CBC and Differential",
+              "normal_ranges": "3.8 to 10.8 (lab dependent: 4 to 12)",
+              "interpretation_notes": "Volume count of all white blood cells; low levels may indicate chronic infection"
+            },
+            {
+              "metric_name": "Neutrophils",
+              "measurement_unit": "cells/\u03bcL",
+              "assessment_source": "CBC and Differential",
+              "normal_ranges": "1,500 to 7,800 (optimal >3,000)",
+              "interpretation_notes": "Immune system soldiers; neutropenia if below 1,500-2,000"
+            },
+            {
+              "metric_name": "Lymphocytes",
+              "measurement_unit": "cells/\u03bcL",
+              "assessment_source": "CBC and Differential",
+              "normal_ranges": "Variable by lab",
+              "interpretation_notes": "Neutralize infections; want 2:1 neutrophil to lymphocyte ratio"
+            },
+            {
+              "metric_name": "Monocytes",
+              "measurement_unit": "cells/\u03bcL",
+              "assessment_source": "CBC and Differential",
+              "normal_ranges": "200 to 950",
+              "interpretation_notes": "Elevated with viral infections, chronic inflammation, autoimmune disease"
+            },
+            {
+              "metric_name": "Eosinophils",
+              "measurement_unit": "cells/\u03bcL",
+              "assessment_source": "CBC and Differential",
+              "normal_ranges": "15 to 500",
+              "interpretation_notes": "Elevated with parasitic infections"
+            },
+            {
+              "metric_name": "Basophils",
+              "measurement_unit": "cells/\u03bcL",
+              "assessment_source": "CBC and Differential",
+              "normal_ranges": "0 to 200",
+              "interpretation_notes": "Elevated with allergic reactions"
+            },
+            {
+              "metric_name": "Red Blood Cell Count",
+              "measurement_unit": "cells/\u03bcL",
+              "assessment_source": "CBC and Differential",
+              "normal_ranges": "3.8 to 5.1",
+              "interpretation_notes": "Volume count; high levels may indicate dehydration"
+            },
+            {
+              "metric_name": "Hemoglobin",
+              "measurement_unit": "g/dL",
+              "assessment_source": "CBC and Differential",
+              "normal_ranges": "11.7 to 15.5",
+              "interpretation_notes": "Oxygen carrying protein; low levels indicate anemia"
+            },
+            {
+              "metric_name": "Hematocrit",
+              "measurement_unit": "%",
+              "assessment_source": "CBC and Differential",
+              "normal_ranges": "35 to 45",
+              "interpretation_notes": "Percentage of blood volume containing red blood cells"
+            },
+            {
+              "metric_name": "Mean Corpuscular Volume",
+              "measurement_unit": "fL",
+              "assessment_source": "Mean Corpuscular Volume Test",
+              "normal_ranges": "80 to 100 (optimal: 90)",
+              "interpretation_notes": "Size of red blood cells; >90 suggests B12/B9 deficiency; <90 suggests iron deficiency"
+            },
+            {
+              "metric_name": "Mean Corpuscular Hemoglobin",
+              "measurement_unit": "pg",
+              "assessment_source": "CBC and Differential",
+              "normal_ranges": "27 to 33",
+              "interpretation_notes": "Average hemoglobin content per red blood cell"
+            },
+            {
+              "metric_name": "Mean Corpuscular Hemoglobin Concentration",
+              "measurement_unit": "g/dL",
+              "assessment_source": "CBC and Differential",
+              "normal_ranges": "32 to 36",
+              "interpretation_notes": "Average concentration of hemoglobin within each red blood cell"
+            },
+            {
+              "metric_name": "Red Cell Distribution Width",
+              "measurement_unit": "%",
+              "assessment_source": "CBC and Differential",
+              "normal_ranges": "11 to 15",
+              "interpretation_notes": "Variation in red blood cell size; abnormal in bleeding disorders, anemia"
+            },
+            {
+              "metric_name": "Platelet Count",
+              "measurement_unit": "cells/\u03bcL",
+              "assessment_source": "CBC and Differential",
+              "normal_ranges": "Variable by lab",
+              "interpretation_notes": "Low count causes easy bruising; high count can cause bleeding"
+            },
+            {
+              "metric_name": "Vitamin B12",
+              "measurement_unit": "pg/mL",
+              "assessment_source": "Vitamin B12 Test",
+              "normal_ranges": "200 to 1100 (optimal >600)",
+              "interpretation_notes": "Critical for DNA synthesis and ATP production; requires 1-week washout before testing"
+            },
+            {
+              "metric_name": "Folate",
+              "measurement_unit": "ng/mL",
+              "assessment_source": "CBC and Differential",
+              "normal_ranges": ">5.4",
+              "interpretation_notes": "Vitamin B9; important for DNA synthesis and cellular turnover"
+            },
+            {
+              "metric_name": "Vitamin D",
+              "measurement_unit": "ng/mL",
+              "assessment_source": "Vitamin D Test",
+              "normal_ranges": "30 to 100 (deficiency <20, insufficiency 20-29, immune protection >60)",
+              "interpretation_notes": "Reference ranges vary by country; requires 1-week washout before testing"
+            },
+            {
+              "metric_name": "Blood Pressure",
+              "measurement_unit": "mmHg",
+              "assessment_source": "Physical Exam",
+              "normal_ranges": "Variable",
+              "interpretation_notes": "Used to test for POTS or orthostatic hypotension"
+            },
+            {
+              "metric_name": "Heart Rate Variability",
+              "measurement_unit": "ms",
+              "assessment_source": "Wearable devices",
+              "normal_ranges": "Variable",
+              "interpretation_notes": "Measured via Whoop, Oura devices"
+            }
+          ]
+        },
+        "goals_constraints": {
+          "client_goals": [
+            {
+              "goal_description": "Optimize immune system function and increase neutrophil count",
+              "goal_type": "health",
+              "target_constructs": [
+                "White Blood Cell Count",
+                "Neutrophil Count",
+                "Neutrophil to Lymphocyte Ratio"
+              ],
+              "success_metrics": [
+                "Neutrophil count >3,000",
+                "Neutrophil to lymphocyte ratio of 2:1",
+                "White blood cell count in upper 50th percentile"
+              ],
+              "timeline": "2-4 weeks for reassessment",
+              "priority_level": "high"
+            },
+            {
+              "goal_description": "Correct vitamin B12 deficiency for optimal cellular function and ATP synthesis",
+              "goal_type": "health",
+              "target_constructs": [
+                "Vitamin B12 Status"
+              ],
+              "success_metrics": [
+                "Vitamin B12 levels >600"
+              ],
+              "timeline": "4 weeks for injection protocol, then retest after 1 week washout",
+              "priority_level": "high"
+            },
+            {
+              "goal_description": "Optimize vitamin D levels for immune protection",
+              "goal_type": "health",
+              "target_constructs": [
+                "Vitamin D Status"
+              ],
+              "success_metrics": [
+                "Vitamin D levels 60+ for immune protection",
+                "30+ for basic optimization"
+              ],
+              "timeline": "3 months for reassessment",
+              "priority_level": "high"
+            },
+            {
+              "goal_description": "Address dehydration status",
+              "goal_type": "health",
+              "target_constructs": [
+                "Hydration Status",
+                "Hemoglobin",
+                "Mean Corpuscular Volume"
+              ],
+              "success_metrics": [
+                "Normalized red blood cell count, hemoglobin, and hematocrit ratios"
+              ],
+              "timeline": "Not specified",
+              "priority_level": "medium"
+            }
+          ],
+          "constraints_preferences": [
+            {
+              "constraint_type": "access",
+              "description": "Remote vs in-person care affects intervention delivery methods",
+              "impact_on_assessment": "No direct impact on blood work assessment",
+              "impact_on_intervention": "Limits ability to provide B12 injections, must rely on sublingual supplements",
+              "workaround_strategies": [
+                "Use sublingual B12 supplements instead of injections",
+                "Refer to local clinics for injection therapy",
+                "Focus on oral/sublingual supplementation protocols"
+              ]
+            },
+            {
+              "constraint_type": "medical",
+              "description": "Naturopathic doctors cannot use ultrasound for diagnosis, only to inform diagnosis",
+              "impact_on_assessment": "Limits diagnostic capabilities with imaging",
+              "impact_on_intervention": "Must work within scope of practice limitations",
+              "workaround_strategies": [
+                "Use ultrasound to inform rather than diagnose",
+                "Collaborate with other healthcare providers for diagnostic imaging"
+              ]
+            },
+            {
+              "constraint_type": "preference",
+              "description": "Patient compliance and supplement adherence challenges",
+              "impact_on_assessment": "May affect follow-up testing accuracy",
+              "impact_on_intervention": "Reduces effectiveness of supplement protocols",
+              "workaround_strategies": [
+                "Consider injection therapy for compliance issues",
+                "Educate on importance of adherence",
+                "Simplify supplement regimens"
+              ]
+            }
+          ],
+          "moderating_factors": [
+            {
+              "factor_name": "Chronic high stress",
+              "description": "High stress is immunosuppressant and can suppress neutrophils",
+              "what_it_affects": "White blood cell count effectiveness and immune system interventions",
+              "management_approach": "Address stress management alongside immune support supplements"
+            },
+            {
+              "factor_name": "Sleep deprivation",
+              "description": "Sleep deprivation can be very stressful and immunosuppressive",
+              "what_it_affects": "Intervention effectiveness for immune system support",
+              "management_approach": "Address sleep quality as part of comprehensive treatment plan"
+            },
+            {
+              "factor_name": "Exercise stress",
+              "description": "Exercise can be very stressful and affect immune markers",
+              "what_it_affects": "Assessment results interpretation and intervention effectiveness",
+              "management_approach": "Consider training load when interpreting blood work and designing interventions"
+            },
+            {
+              "factor_name": "Digestive absorption issues",
+              "description": "Low stomach acid and pH issues affect supplement absorption",
+              "what_it_affects": "Intervention effectiveness, particularly capsule-based supplements",
+              "management_approach": "Use powdered forms when possible, address digestive health, consider injection therapy"
+            },
+            {
+              "factor_name": "Genetic predisposition",
+              "description": "Genetic polymorphisms affect vitamin D synthesis, absorption, and delivery",
+              "what_it_affects": "Vitamin D intervention dosing and effectiveness",
+              "management_approach": "Use supplement and re-evaluate approach, individualized dosing protocols"
+            },
+            {
+              "factor_name": "Hydration status at time of testing",
+              "description": "Dehydration affects blood concentration and marker interpretation",
+              "what_it_affects": "Assessment results accuracy for multiple blood markers",
+              "management_approach": "Consider hydration status when interpreting results, ensure proper hydration before testing"
+            }
+          ],
+          "individual_differences": [
+            {
+              "difference_factor": "Ethnicity (darker skin pigmentation)",
+              "assessment_implications": "Higher melanocyte content reduces vitamin D synthesis from sunlight",
+              "intervention_implications": "May require higher vitamin D supplementation doses and longer treatment periods"
+            },
+            {
+              "difference_factor": "Athletic status",
+              "assessment_implications": "Reference ranges same as general population but interpretation differs (e.g., creatinine levels)",
+              "intervention_implications": "Must account for exercise stress and over-exercising effects on immune system"
+            },
+            {
+              "difference_factor": "Age and sex",
+              "assessment_implications": "Reference ranges differ significantly by age and sex demographics",
+              "intervention_implications": "Dosing and treatment protocols must be adjusted for demographic factors"
+            },
+            {
+              "difference_factor": "Dietary restrictions (vegetarian/vegan)",
+              "assessment_implications": "Higher risk for B12 deficiency due to limited animal protein sources",
+              "intervention_implications": "More aggressive B12 supplementation protocols needed, focus on nutritional yeast education"
+            },
+            {
+              "difference_factor": "Geographic location (northern hemisphere/coastal)",
+              "assessment_implications": "Reduced sun exposure affects vitamin D synthesis",
+              "intervention_implications": "Higher baseline vitamin D supplementation needs (4,000 IU vs standard 1,000-2,000 IU)"
+            },
+            {
+              "difference_factor": "Sport-specific factors (cricket - covered clothing, outdoor play)",
+              "assessment_implications": "Despite outdoor sport, limited skin exposure affects vitamin D synthesis",
+              "intervention_implications": "Cannot rely on sport participation for vitamin D optimization"
+            }
+          ]
+        },
+        "detailed_protocols": {
+          "error": "JSON parsing failed",
+          "raw_response": "```json\n{\n    \"assessment_protocols\": [\n        {\n            \"assessment_name\": \"CBC and Differential\",\n            \"detailed_steps\": [\n                \"Order CBC with differential from laboratory\",\n                \"Analyze white blood cell count (reference range 3.8-10.8)\",\n                \"Examine neutrophil count (optimal >3,000, neutropenia if <1,500-2,000)\",\n                \"Calculate neutrophil to lymphocyte ratio (target 2:1)\",\n                \"Evaluate monocytes for viral infection indicators (200-950 range)\",\n                \"Check eosinophils for parasitic pathogen markers (15-500 range)\",\n                \"Assess basophils for allergy indicators (0-200 range)\",\n                \"Analyze red blood cell count for hydration status (3.8-5.1 range)\",\n                \"Review hemoglobin levels (11.7-15.5 range)\",\n                \"Examine hematocrit percentage (35-45 range)\",\n                \"Calculate red cell distribution width (11-15 range)\",\n                \"Assess platelet count for bleeding disorders\"\n            ],\n            \"preparation_requirements\": [\n                \"Patient should be adequately hydrated for accurate interpretation\",\n                \"No recent supplementation that could affect results\",\n                \"Consider timing relative to exercise and stress levels\"\n            ],\n            \"equipment_setup\": \"Standard laboratory blood collection equipment\",\n            \"data_collection_process\": \"Venous blood draw processed through automated hematology analyzer with manual differential review\",\n            \"quality_assurance\": [\n                \"Verify reference ranges match laboratory standards\",\n                \"Consider patient demographics (age, sex) for interpretation\",\n                \"Cross-reference with clinical presentation\"\n            ],\n            \"troubleshooting\": [\n                \"If dehydration suspected (high RBC, hemoglobin, hematocrit), retest after proper hydration\",\n                \"If neutropenia present, implement immediate infection precautions\",\n                \"If results inconsistent with clinical picture, consider repeat testing\"\n            ]\n        },\n        {\n            \"assessment_name\": \"Vitamin B12 Test\",\n            \"detailed_steps\": [\n                \"Order serum vitamin B12 test (reference range 200-1100)\",\n                \"Ensure patient has 1-week washout from B12 supplementation\",\n                \"Interpret results with optimization target >600\",\n                \"Correlate with mean corpuscular volume (MCV) results\",\n                \"Consider folate levels simultaneously\",\n                \"Evaluate for absorption issues if deficient\"\n            ],\n            \"preparation_requirements\": [\n                \"1-week washout from B12 supplementation to avoid false elevation\",\n                \"Fasting not required\",\n                \"Document dietary patterns (vegetarian/vegan status)\"\n            ],\n            \"equipment_setup\": \"Standard laboratory serum collection\",\n            \"data_collection_process\": \"Serum B12 measured via chemiluminescent immunoassay\",\n            \"quality_assurance\": [\n                \"Confirm washout period compliance\",\n                \"Consider intrinsic factor deficiency in persistently low levels\",\n                \"Correlate with clinical symptoms of deficiency\"\n            ],\n            \"troubleshooting\": [\n                \"If levels remain low despite supplementation, consider pernicious anemia\",\n                \"If falsely elevated, ensure proper washout period\",\n                \"Consider methylmalonic acid testing for functional B12 status\"\n            ]\n        },\n        {\n            \"assessment_name\": \"Vitamin D Test\",\n            \"detailed_steps\": [\n                \"Order 25-hydroxyvitamin D test\",\n                \"Ensure 1-week washout from vitamin D supplementation\",\n                \"Interpret using reference ranges (30-100 American, 75-150 Canadian)\",\n                \"Classify as deficient (<20), insufficient (20-29), or optimal (\u226530)\",\n                \"Target \u226560 for optimal immune protection\",\n                \"Consider genetic predisposition factors\"\n            ],\n            \"preparation_requirements\": [\n                \"1-week washout from vitamin D supplementation\",\n                \"Document sun exposure patterns\",\n                \"Note skin pigmentation and geographic location\"\n            ],\n            \"equipment_setup\": \"Standard laboratory serum collection\",\n            \"data_collection_process\": \"Serum 25(OH)D measured via liquid chromatography-mass spectrometry or immunoassay\",\n            \"quality_assurance\": [\n                \"Verify appropriate reference ranges for geographic location\",\n                \"Consider seasonal variations\",\n                \"Account for ethnic and genetic factors\"\n            ],\n            \"troubleshooting\": [\n                \"If levels don't respond to supplementation, consider genetic polymorphisms\",\n                \"If excessively high, assess for toxicity symptoms\",\n                \"Consider malabsorption if persistently low despite adequate dosing\"\n            ]\n        },\n        {\n            \"assessment_name\": \"Mean Corpuscular Volume Test\",\n            \"detailed_steps\": [\n                \"Analyze MCV as part of CBC (reference range 80-100)\",\n                \"Target optimal value of 90\",\n                \"If >90, investigate B12 and folate deficiency\",\n                \"If <90, investigate iron deficiency and protein deficiency\",\n                \"Correlate with hemoglobin and hematocrit values\",\n                \"Consider DNA synthesis issues if elevated\"\n            ],\n            \"preparation_requirements\": [\n                \"Standard CBC preparation\",\n                \"No specific fasting requirements\",\n                \"Consider recent blood loss or supplementation\"\n            ],\n            \"equipment_setup\": \"Automated hematology analyzer\",\n            \"data_collection_process\": \"Calculated parameter from red blood cell analysis\",\n            \"quality_assurance\": [\n                \"Verify against manual review if abnormal\",\n                \"Consider reticulocyte count if indicated\",\n                \"Correlate with peripheral blood smear\"\n            ],\n            \"troubleshooting\": [\n                \"If persistently abnormal, consider hemoglobinopathies\",\n                \"If discordant with clinical picture, repeat testing\",\n                \"Consider bone marrow evaluation if severe abnormalities\"\n            ]\n        }\n    ],\n    \"intervention_protocols\": [\n        {\n            \"intervention_name\": \"Reishi Mushroom Supplementation for Low Neutrophils\",\n            \"implementation_steps\": [\n                \"Select appropriate reishi mushroom supplement (MRS formula by Pure Encapsulations or NSF certified bioel sport mushroom)\",\n                \"Initiate supplementation when neutrophils <3,000\",\n                \"Monitor for immune system support effects\",\n                \"Continue until neutrophil levels normalize\",\n                \"Reassess blood work in 2-4 weeks\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Standard reishi mushroom supplement dosing per manufacturer guidelines\",\n                \"progression_rules\": \"Continue until neutrophil count >3,000 and neutrophil:lymphocyte ratio approaches 2:1\",\n                \"modification_criteria\": \"Adjust based on tolerance and response\"\n            },\n            \"monitoring_protocols\": [\n                \"CBC with differential every 2-4 weeks\",\n                \"Monitor for signs of infection\",\n                \"Track neutrophil:lymphocyte ratio\",\n                \"Assess overall immune function\"\n            ],\n            \"safety_considerations\": [\n                \"Generally well tolerated\",\n                \"Monitor for allergic reactions\",\n                \"Consider interactions with immunosuppressive medications\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Antiviral Protocol for Elevated Monocytes\",\n            \"implementation_steps\": [\n                \"Implement when monocytes are elevated or in upper reference range\",\n                \"Use echinacea and grapefruit seed extract combination\",\n                \"Continue until monocyte levels normalize\",\n                \"Monitor for viral infection resolution\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Echinacea and grapefruit seed extract as per manufacturer guidelines\",\n                \"progression_rules\": \"Continue until monocytes return to normal range\",\n                \"modification_criteria\": \"Adjust based on clinical response and tolerance\"\n            },\n            \"monitoring_protocols\": [\n                \"CBC with differential every 2-4 weeks\",\n                \"Monitor clinical symptoms of viral infection\",\n                \"Track monocyte levels specifically\"\n            ],\n            \"safety_considerations\": [\n                \"Monitor for allergic reactions to echinacea\",\n                \"Consider drug interactions with grapefruit\",\n                \"Assess for autoimmune conditions\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Antiparasitic Treatment Protocol\",\n            \"implementation_steps\": [\n                \"Implement when eosinophils are elevated (upper 90th percentile)\",\n                \"Use berberine or wormwood initially\",\n                \"Consider stool testing for specific parasites\",\n                \"May require prescription antibiotics like metronidazole for specific pathogens\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Berberine or wormwood per manufacturer guidelines, metronidazole as prescribed\",\n                \"progression_rules\": \"Continue until eosinophils normalize and stool testing clears\",\n                \"modification_criteria\": \"Adjust based on stool test results and clinical response\"\n            },\n            \"monitoring_protocols\": [\n                \"CBC with differential monitoring eosinophil levels\",\n                \"Stool testing for parasites (Blastocystis hominis, Giardia)\",\n                \"Clinical symptom tracking\"\n            ],\n            \"safety_considerations\": [\n                \"Monitor for GI side effects\",\n                \"Consider liver function with prolonged treatment\",\n                \"Ensure proper hydration during treatment\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Allergy Management Protocol\",\n            \"implementation_steps\": [\n                \"Implement when basophils are elevated\",\n                \"Use Designs for Health BioFizz (1 scoop daily)\",\n                \"Add quercetin and nettles combination (2 capsules 3x daily)\",\n                \"Consider IgG/IgE food sensitivity testing via Meridian Valley\",\n                \"Implement sublingual immunotherapy via Quantum Allergy if environmental\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"BioFizz 1 scoop daily, quercetin/nettles 2 capsules 3x daily\",\n                \"progression_rules\": \"Continue until allergen identified and removed or seasonal change\",\n                \"modification_criteria\": \"Adjust based on symptom response and allergen identification\"\n            },\n            \"monitoring_protocols\": [\n                \"CBC monitoring basophil levels\",\n                \"Symptom tracking\",\n                \"Allergy testing results review\"\n            ],\n            \"safety_considerations\": [\n                \"Monitor for allergic reactions to supplements\",\n                \"Consider interactions with antihistamines\",\n                \"Assess for severe allergic reactions\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Hydration Optimization Protocol\",\n            \"implementation_steps\": [\n                \"Implement when RBC count, hemoglobin, and hematocrit are all elevated\",\n                \"Establish baseline hydration status\",\n                \"Implement structured hydration schedule\",\n                \"Monitor electrolyte balance\",\n                \"Retest blood work after hydration optimization\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Individualized fluid intake based on body weight, activity level, and climate\",\n                \"progression_rules\": \"Adjust intake until blood markers normalize\",\n                \"modification_criteria\": \"Modify based on activity level, climate, and individual response\"\n            },\n            \"monitoring_protocols\": [\n                \"CBC monitoring for RBC, hemoglobin, hematocrit normalization\",\n                \"Urine specific gravity monitoring\",\n                \"Clinical hydration assessment\"\n            ],\n            \"safety_considerations\": [\n                \"Avoid overhydration and hyponatremia\",\n                \"Consider kidney function\",\n                \"Monitor for fluid retention\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Vitamin B12 Supplementation Protocol\",\n            \"implementation_steps\": [\n                \"Implement when B12 <600 (optimal) or <200 (deficient)\",\n                \"Use sublingual B12 1000 mcg daily for oral supplementation\",\n                \"Alternative: B12 injections 5000 mcg weekly x 4 weeks, then 1-week washout\",\n                \"Combine with folate (B9) when using injections\",\n                \"Retest after 2-4 weeks of supplementation\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Sublingual 1000 mcg daily OR injection 5000 mcg weekly x 4 weeks\",\n                \"progression_rules\": \"Continue until levels >600, then maintenance dosing\",\n                \"modification_criteria\": \"Adjust based on absorption issues or pernicious anemia\"\n            },\n            \"monitoring_protocols\": [\n                \"B12 levels every 2-4 weeks initially\",\n                \"MCV monitoring for response\",\n                \"Clinical symptom assessment\"\n            ],\n            \"safety_considerations\": [\n                \"Generally very safe\",\n                \"Monitor for masking of folate deficiency\",\n                \"Consider intrinsic factor deficiency in non-responders\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Vitamin D Optimization Protocol\",\n            \"implementation_steps\": [\n                \"Implement when vitamin D <30 (insufficient) or <60 (suboptimal for immunity)\",\n                \"High-dose phase: 10,000 IU daily x 1 month (vitamin D alone)\",\n                \"Maintenance phase: 4,000 IU daily with vitamin K2 (100-200 mcg)\",\n                \"Retest after 3 months of supplementation\",\n                \"Adjust maintenance dose based on results\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Loading: 10,000 IU daily x 1 month, Maintenance: 4,000 IU + K2 100-200 mcg daily\",\n                \"progression_rules\": \"Target levels 60+ for immune optimization, adjust maintenance based on response\",\n                \"modification_criteria\": \"Modify based on genetic factors, absorption, and individual response\"\n            },\n            \"monitoring_protocols\": [\n                \"Vitamin D levels at 3 months\",\n                \"Monitor for toxicity symptoms (nausea, kidney dysfunction)\",\n                \"Calcium levels monitoring with high-dose supplementation\"\n            ],\n            \"safety_considerations\": [\n                \"Risk of toxicity with prolonged high doses\",\n                \"Monitor kidney function\",\n                \"Always use K2 with maintenance dosing to prevent calcium deposition issues\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Platelet Count Enhancement for PRP\",\n            \"implementation_steps\": [\n                \"Implement when platelets are low-normal and PRP is planned\",\n                \"Use reishi mushroom supplementation\",\n                \"Continue for 2 weeks before PRP procedure\",\n                \"Monitor platelet count increase\",\n                \"Time PRP procedure when platelets are optimized\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Reishi mushroom supplement per manufacturer guidelines\",\n                \"progression_rules\": \"Continue for 2 weeks pre-procedure\",\n                \"modification_criteria\": \"Adjust timing based on platelet response\"\n            },\n            \"monitoring_protocols\": [\n                \"Platelet count monitoring every 1-2 weeks\",\n                \"Pre-procedure platelet optimization verification\"\n            ],\n            \"safety_considerations\": [\n                \"Generally well tolerated\",\n                \"Monitor for bleeding risk changes\",\n                \"Consider medication interactions\"\n            ]\n        }\n    ],\n    \"practical_considerations\": [\n        {\n            \"consideration_type\": \"Reassessment Timeline\",\n            \"description\": \"White blood cells have 7-hour half-life and recycle every 1-2 days, allowing for relatively quick reassessment\",\n            \"practical_solutions\": [\n                \"CBC reassessment in 2-4 weeks for immune interventions\",\n                \"Vitamin D reassessment at 3 months due to longer half-life\",\n                \"B12 reassessment at 2-4 weeks with 1-week washout period\"\n            ]\n        },\n        {\n            \"consideration_type\": \"Supplement Washout Requirements\",\n            \"description\": \"Certain supplements can falsely elevate serum levels affecting accurate assessment\",\n            \"practical_solutions\": [\n                \"1-week washout for B12 and vitamin D before testing\",\n                \"Document all supplements before testing\",\n                \"Consider functional testing if serum levels don't correlate with symptoms\"\n            ]\n        },\n        {\n            \"consideration_type\": \"Compliance an"
+        },
+        "validation": {
+          "ontology_coverage_check": {
+            "constructs_identified": 12,
+            "assessments_identified": 4,
+            "interventions_identified": 8,
+            "technologies_identified": 8,
+            "metrics_identified": 19
+          },
+          "potential_missed_entities": [
+            {
+              "entity_type": "assessment",
+              "potential_entity": "Organic Acids Testing",
+              "evidence_in_transcript": "lots of like organic acids testing. So organic acids is a little bit different than what we do in just conventional medicine, but it looks at different metabolites of bacteria or um yeasts and then the metabolites of each of our cells to help us to understand what's going on at the level of the mitochondria",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "assessment",
+              "potential_entity": "24-hour Continuous Glucose Monitoring (CGM)",
+              "evidence_in_transcript": "sleep data and um glucose monitoring. So the 24-hour CGMs",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "assessment",
+              "potential_entity": "Heart Rate Variability Monitoring",
+              "evidence_in_transcript": "anything that comes off of Whooper aura. So we'll look at heart rate variability",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "assessment",
+              "potential_entity": "IGG and IGA Food Sensitivity Testing",
+              "evidence_in_transcript": "Meridian Valley does a IGG and IG food sensitivity test",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "technology",
+              "potential_entity": "Whoop",
+              "evidence_in_transcript": "anything that comes off of Whooper aura",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "technology",
+              "potential_entity": "Oura Ring",
+              "evidence_in_transcript": "anything that comes off of Whooper aura",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Sublingual Immunotherapy",
+              "evidence_in_transcript": "There's also sublingual immunotherapy which is um an amazing type of imunotherapy that helps us to reduce the environmental burden by just um ex having lowd dose exposure once a day to the allergen",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Intramuscular B12 Injections",
+              "evidence_in_transcript": "sometimes a B12 injection is indicated and we would do a 5,000 um, mcgs of vitamin B12 weekly uh, for 4 weeks",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "construct",
+              "potential_entity": "Neutropenia",
+              "evidence_in_transcript": "if the neutrfils are below 1500 um in and then again differences between different labs. So here if it was below 2,000 that would be called neutropenia",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "construct",
+              "potential_entity": "Pernicious Anemia",
+              "evidence_in_transcript": "Pernicious anemia is um B12 deficiency anemia. And so in those individuals, they just have a um a challenge in being able to absorb the vitamin B12",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "construct",
+              "potential_entity": "Intrinsic Factor Deficiency",
+              "evidence_in_transcript": "There are people that have a genetic um predisposition for low B12 and they don't have um I think it's so called um intrinsic factor",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "metric",
+              "potential_entity": "Neutrophil to Lymphocyte Ratio",
+              "evidence_in_transcript": "we want to see a neutrfil to lymphosy ratio of 2:1. So we want our neutrfils to be twice as robust as our lymphosytes",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "metric",
+              "potential_entity": "Red Cell Distribution Width (RDW)",
+              "evidence_in_transcript": "we look at the red cell distribution width, which is the RDW. The RDW is basically telling us um how much of variation in size are the red blood cells",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Reishi Mushroom Supplementation",
+              "evidence_in_transcript": "I would look at using something like a reishi mushroom that's going to work at the level of the bone marrow to help to increase the neutrfils",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Echinacea and Grapefruit Seed Extract",
+              "evidence_in_transcript": "then I would look at using something antiviral. So I'd use like echynasia and graphus",
+              "confidence": "medium"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Berberine Supplementation",
+              "evidence_in_transcript": "we might try bourberine or wormwood",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Wormwood Supplementation",
+              "evidence_in_transcript": "we might try bourberine or wormwood",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Metronidazole Treatment",
+              "evidence_in_transcript": "we might even think about um antibiotics... we might want to use um antibiotics like metroniditool",
+              "confidence": "high"
+            }
+          ],
+          "quality_assessment": {
+            "extraction_completeness": "medium",
+            "terminology_consistency": "high",
+            "relationship_coverage": "medium",
+            "overall_confidence": "medium"
+          },
+          "recommendations": [
+            {
+              "recommendation_type": "entity_expansion",
+              "description": "Add comprehensive wearable technology entities (Whoop, Oura Ring) and their associated metrics (HRV, sleep data, glucose monitoring) as these are frequently referenced assessment tools",
+              "priority": "high"
+            },
+            {
+              "recommendation_type": "assessment_coverage",
+              "description": "Include specialized diagnostic tests mentioned: Organic Acids Testing, IGG/IGA Food Sensitivity Testing, and 24-hour CGM as distinct assessment entities",
+              "priority": "high"
+            },
+            {
+              "recommendation_type": "intervention_detail",
+              "description": "Expand intervention entities to include specific delivery methods (sublingual, intramuscular injections) and specialized treatments (sublingual immunotherapy)",
+              "priority": "high"
+            },
+            {
+              "recommendation_type": "construct_refinement",
+              "description": "Add specific medical conditions mentioned (neutropenia, pernicious anemia, intrinsic factor deficiency) as these inform interpretation and treatment decisions",
+              "priority": "medium"
+            },
+            {
+              "recommendation_type": "metric_relationships",
+              "description": "Capture calculated metrics like Neutrophil to Lymphocyte Ratio and ensure all CBC differential components are properly linked with their interpretive relationships",
+              "priority": "medium"
+            },
+            {
+              "recommendation_type": "dosage_protocols",
+              "description": "Include specific dosage information and treatment protocols as attributes of intervention entities (e.g., B12 5000mcg weekly x4 weeks, Vitamin D 10000 IU daily)",
+              "priority": "medium"
+            },
+            {
+              "recommendation_type": "reassessment_timelines",
+              "description": "Capture follow-up and reassessment timelines as attributes (2-4 weeks for white blood cells, 3 months for vitamin D)",
+              "priority": "low"
+            }
+          ]
+        }
+      }
     }
   ],
   "summary": {
-    "total_files": 8,
-    "successful": 8,
+    "total_files": 9,
+    "successful": 9,
     "failed": 0,
     "extraction_type": "Ontology-Guided (8-pass)",
-    "total_api_calls": 64
+    "total_api_calls": 72
   }
 }

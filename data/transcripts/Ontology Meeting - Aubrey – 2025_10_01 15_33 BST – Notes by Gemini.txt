@@ -1,0 +1,284 @@
+﻿Oct 1, 2025
+Ontology Meeting - Aubrey - Transcript
+00:00:00
+ 
+Dr. Naomi Myhill: This is where I have so many tabs. I've got to find the right one.
+Aubrey Shannon: Yeah, that's okay.
+Dr. Naomi Myhill: Okay, let's see. Here we go.
+Aubrey Shannon: Um, we're going to do Sean's. I can pull Shaun's up. Actually, I should have it here.
+Dr. Naomi Myhill: Okay, if you if you do that, it's probably better than me than me sharing screen.
+Aubrey Shannon: Okay, Sean.
+Dr. Naomi Myhill: Cool.
+Aubrey Shannon: Bear with me. I'm just going to open up his ISD. Julia's done such a great job of um organizing everything. My gosh, I didn't even know there were tabs in Slack.
+Dr. Naomi Myhill: She is very good at that and she has a lot to organize as well.
+Aubrey Shannon: And she's like, "Okay, we're going to open Slack. We're going to go to the tab." I was like, "What?" She's like, "Oh, Aubrey teaching me so many things."
+Dr. Naomi Myhill: Every day is a school day.
+Aubrey Shannon: Okay. So on your list, does it can we just start with like the CBC and diff?
+ 
+ 
+00:01:01
+ 
+Aubrey Shannon: Does that make sense? The CBC and differential.
+Dr. Naomi Myhill: Yeah, that makes sense. I think be just before we get into the the blood work, there's just a couple of questions that we usually ask first.
+Aubrey Shannon: Yeah. Yeah. Sure.
+Dr. Naomi Myhill: Um, so like first question is, it's probably a pretty general question, but what are your primary areas of expertise or focus?
+Aubrey Shannon: Go for it. That's um okay. So I have a primary expertise in treating digestive disturbance and digestive complaints and also um hormones. So, female um male hormones as it relates to energy, health optimization, perry menopause, andropause, um concussion. So, I do a lot of work in the in the hormone world and then sports medicine. So, I have completed a residency program um for regenerative injection therapies and have trained internationally. I am highly specified in ultrasound diagnostics. So as a naturopathic doctor, we can't use ultrasound to um form a diagnosis, but we can use it to inform our diagnosis. And a large subsection of my work is injury management.
+ 
+ 
+00:02:29
+ 
+Aubrey Shannon: So identifying the injury through physical exam and ultrasound when it's applicable and then I do regenerative injection therapies and basically also tailor the fuel for the management of that injury. So supplementation and nutrition
+Dr. Naomi Myhill: Brilliant. Thanks for that. And so the next question which is is quite a general one as well. Um when a health seeker kind of comes to you or presents a concern, what are the typical steps that you take to assess them? So, what are the different types of assessments that you would use? One of them we're assuming is blood work, which we'll go on to talk about specifically in detail, but just interested to know what are the other types of assessments.
+Aubrey Shannon: Mhm. Sure. So, um history and then physical exam. So, physical exam is a big part um of my assessment tool. So doing kind of head to toe um blood pressure either testing them for POTS or orthostatic hypotension. Um I also will look at any type of diagnostic imaging that they have.
+ 
+ 
+00:03:36
+ 
+Aubrey Shannon: So X-ray, ultrasound, MRI and then blood work, stool analysis, any any type of diagnostic that um is either based in serum, based in stool, based in urine. Um lots of like organic acids testing. So organic acids is a little bit different than what we do in just conventional medicine, but it looks at different metabolites of bacteria or um yeasts and then the metabolites of each of our cells to help us to understand what's going on at the level of the mitochondria, what's going on with neurotransmitters, um what could be happening from an infection or a a disbiosis perspective. I think that's probably uh the other diagnostic tools um or other assessments that I look at is like um sleep data and um glucose monitoring. So the 24-hour CGMs um like anything that comes off of Whooper aura. So we'll look at heart rate variability. Um, and yeah, and I think that's kind of most of it.
+Dr. Naomi Myhill: Okay, great. So, we're going to delve into blood work um in a bit more detail. And I think using using the our example athletes, so using Sean's blood work report, um it would be great if you could go through kind of each of those metrics that are reported just um a bit of a
+ 
+ 
+00:05:01
+ 
+Aubrey Shannon: Mhm.
+Dr. Naomi Myhill: explanation as to what it is. um why you measure it, what the reference range is, um is it different for athletes compared to health seekers, um how does the athletes kind of current state affect your interpretation of it? Um hydration status, for example. Um, and then there are a few more questions, but rather than list them all now, I will ask you after each each metric because you're not going to remember them all. There's about 12 we've kind of got to follow up.
+Aubrey Shannon: Mhm.
+Dr. Naomi Myhill: Um, that will help us kind of build in. But there the next kind of set of questions are around the types of interventions that that you might prescribe based off of that metric result, for example. So yeah, if you're happy to to kind of delve in and it's like it can be quite informal. I know I'm asking like set questions, but but please don't worry. Um, and feel free to ask me questions as well if you're not sure exactly what what I want with some of the questions, too.
+ 
+ 
+00:06:20
+ 
+Aubrey Shannon: Okay. All right. So, let's pull up Sean. Where are they? Oh, here he is. Okay. So, I always like to start off with the CBC and differential. Um, even if it's like not at the top of the page, this is always where I go. The CBC and differential is probably the most common blood test that um that we look at for um for clients and patients. And it's because it kind of highlights anything that could be going on with a with our red blood cells and anything that's going on with our white blood cells. The white blood cell count is a volume count. So the reference range um for each lab is different. So the reference ranges are determined by um collecting a subset a subset of samples from the general population. Then we find the mean and then two standard deviations from the average becomes the reference range. So, the reference range for the lab that we're looking at for Shawn, um I think I want to say this lab might base its reference ranges out of Florida is going to be different than a reference range for Life Labs here with me in BC.
+ 
+ 
+00:07:43
+ 
+Aubrey Shannon: However, the reference ranges usually aren't dramatically different. So, the white blood cell count, the reference range here is 3.8 to 10.8. The reference range for life labs is 4 to 12. So they do um differ ever ever ever so slightly. So on the white blood cell count, the white blood cell count is comprised of um adding up the differential. So it's all of our different types of red blood cells. That's all added up together to give us our white blood cell count. When our white blood cell count is low, we look to the differential to try to understand what what components of the white blood cell count is on the low side. When the white blood cell count is high, um we do the same thing. So for Sean, his white blood cell count is at 4.4. This is kind of in the bottom 50th percentile of the reference range. when the white blood cell count is low, it can sometimes be an indication that this person might have um a circulating chronic infection.
+ 
+ 
+00:08:50
+ 
+Aubrey Shannon: So, some pathogens, the way that they evade our immune system is by down reggulating our neutrfils. And our neutrfils are um can be thought of as kind of like our soldiers. They're our white blood cells that are going out and looking for infection. And so when our neutrfill count is low, so in Sean's case here, his neutrfils are 2,398 and the reference range is 1,500 to 7,800. This could be an indicator that there is something that's suppressing his immune system because we're seeing the white blood cell count in the bottom 50th percentile. He if the what if the neutrfils are below 1500 um in and then again differences between different labs. So here if it was below 2,000 that would be called neutropenia and individuals that are neutropenic are very susceptible to infection in the environment and so we have to be very careful with neutropenic patients. So in Shan's case he does not have diagnosible neutropenia. However, his neutrfils are lower than what we would consider optimal. And an optimal neutrfill is something that is greater than 3,000.
+ 
+ 
+00:10:19
+ 
+Aubrey Shannon: We go one step further when we're looking at neutrfils and we want to understand the relationship between the neutrfils and the lymphosytes. And so the lymphosy is the white blood cell that is responsible for neutralizing an infection. um whereas the neutrfil is the one that finds the infection. And so we want to see a neutrfil to lymphosy ratio of 2:1. So we want our neutrfils to be twice as robust as our lymphosytes. And in this instance for Shawn, his neutrfils are 2,398 and his lymphosytes are 1,619. And so he does not have that 2:1 ratio. So that tells us that we might feel curious about supporting this person's immune system and using interventions that will help us to increase his neutrfill count. Um, is it okay that I talk about interventions like as I go because I find like that's okay.
+Dr. Naomi Myhill: Yeah. Yeah. 100%. And that that was going to be like the follow-up question. If you do it per per metric as you go, that's brilliant.
+ 
+ 
+00:11:26
+ 
+Dr. Naomi Myhill: So, yeah, like what intervention would you prescribe for improving it? How do you how do you structure it? And kind of what's the target targeted mechanism, which I'm sure you'll go to explain anyway.
+Aubrey Shannon: Okay. And so then what I what I then do is um I start looking at the other cells um that are of the differential. And so I want to see if there's a reason why like is there a reason for um something like this lower kind of neutrfll count and so then I look at the monocytes the eocinophils and so a monocite will become a little bit more elevated if there is a viral infection. um if there's chronic inflammation, it can become um elevated when in things like a like an autoimmune disease. And so if the monocytes are slightly elevated or in the higher part of the reference range, so for him monocytes are 330 and the reference range is 200 to 950, then I would look at using something antiviral. So I'd use like echynasia and graphus.
+ 
+ 
+00:12:51
+ 
+Aubrey Shannon: Um if the monocytes are not elevated I think about using something like a reishi mushroom that's going to work at the level of the bone marrow to help to increase the neutrfils. So that kind of like helps me to make those decisions. I'll also go and look at eocinophils and eocinophils become upregulated when there is a a parasitic pathogen and that's typically when we see higher eocinophils and so in his instance the eocinophils are at 31 and the reference range is 15 to 500. So I'm not going to try to do something antiparasitic, but if the eocinophils were elevated or in that like upper 90th percentile, we might try bourberine or wormwood or we might even think about um antibiotics. And so doing a stool sample to see if there's um some type of a parasitic pathogen, something like blastoysis homminous or giardia. And then depending on what those results look like, we might want to use um antibiotics like metroniditool. In his instance, his eocinophils are healthy and normal. Um so we're not we're going to test his gut at some point in time because he has a lot of GI complaints, but it's not glaringly obvious that there is something um that there's something going on in the digestive tract.
+ 
+ 
+00:14:20
+ 
+Aubrey Shannon: And then the last one that we look like that we look at is um basoils. And so your basoils are typically going to be upregulated if there's some type of an allergy. And so his basoils are 22. The reference range is 0 to 200. And so we're not thinking that allergy is a part of the story. Um, but if the basoils were elevated, we might look at doing a test from a lab called Meridian Valley and Meridian Valley does a IGG and IG food sensitivity test. And so we'll actually test to see if there is something that could be elevating his white blood cell count um that he's eating every day.
+Dr. Naomi Myhill: Yeah, if you can give specific supplements that that would be ideal.
+Aubrey Shannon: Okay. So, Designs for Health has a product called Biofizz. And so the BOFizz has um the vitamin C and and the bioflavonoids. And we would do like one scoop of BOFizz. And then we would do um they have a queretin and nettles um combination product. And we would do two capsules three times a day.
+ 
+ 
+00:16:04
+ 
+Aubrey Shannon: And we would do that until we were able to either identify the allergen and remove it or we would do that until it was change of season. There's also sublingual immunotherapy which is um an amazing type of imunotherapy that helps us to reduce the environmental burden by just um ex having lowd dose exposure once a day to the allergen and in Canada the um pharmacy that creates the sublingual amunotherapy droplets is called quantum allergy. And so that's another strategy is to use sublingual amunotherapy to help to red reduce reduce allergen burden when it's environmental allergens as opposed to dietary allergens. Um so I think I went over what we would do for monocytes eocinophils and basopils and then what we would do for the low neutrfils and the ratio of neutrfils to lymphocytes. So I think that's pretty complete for the white blood cells.
+Dr. Naomi Myhill: Yeah, the the only question I would have um is what would be the follow-up timeline on assessing whether those supplements or interventions have had a beneficial effect?
+Aubrey Shannon: Okay. So, yeah.
+Dr. Naomi Myhill: And I guess like what's the kind of reassessment or retest interval or cadence that you would use?
+ 
+ 
+00:17:33
+ 
+Aubrey Shannon: So, um, what's really amazing is that the halflife of mature white blood cells is 7 hours. So, and they, um, recycle every couple of days, 1 to two days. So, I will typically do a reassessment in the blood work about 2 weeks later, but you can stretch it out to four weeks as well.
+Dr. Naomi Myhill: Okay, great. And then just with those those supplements, um are there any kind of key factors that would determine or like moderate the effectiveness of those? So just thinking like adherence, like sleep, is there any other additional factors that that would um contribute?
+Aubrey Shannon: Yeah. Yeah. So high stress can also impact our um neutrfil count. Um just one second. So um like chronic high stress is amunosuppressant um which can suppress neutrfils. So, anything that would lead to high stress and sometimes I think people think about 86,000 thoughts in your subconscious brain is high stress, but sleep deprivation can be very stressful. Um, pain can be very stressful. Um, exercise can also be very stressful.
+ 
+ 
+00:19:18
+ 
+Aubrey Shannon: So, yes, compliance is going to affect them. So if people aren't like taking their supplements um as we recommend them to but if they have underlying reasons for their supplements to be um or if they have sorry underlying reasons for um just not being able to to get the most out of their treatment just simply like an absorption problem. So like the vitamin C is powdered, but if somebody has low stomach acid and low um pH in the small intestine, then they're not going to be able to like get through the capsules for like the corsetin or the other or like the echynia and things like that. Um okay.
+Dr. Naomi Myhill: Okay, great.
+Aubrey Shannon: So then let's go on to the red blood cells. Um, okay. Bear with me one second.
+Dr. Naomi Myhill: Is the just while you're looking when when you mentioned the reference ranges are slightly different based on kind of which lab that the test was sent to. Are there any differences or different reference ranges that can be used for different types of demographics?
+ 
+ 
+00:20:40
+ 
+Dr. Naomi Myhill: So like ethnicity.
+Aubrey Shannon: Yeah, totally. Yeah.
+Dr. Naomi Myhill: Yeah.
+Aubrey Shannon: Not necessar I don't really see it with ethnicity, but I definitely see it with age. Like the demographics for age are always different.
+Dr. Naomi Myhill: Okay.
+Aubrey Shannon: And I don't I honestly don't treat a lot of pediatrics, so I don't have to so I don't know exactly what that looks like. Um, but they are they are very different by age and by and by gender.
+Dr. Naomi Myhill: Yeah, that's it's interesting. And would they be would there be any Yeah.
+Aubrey Shannon: or sex by sex.
+Dr. Naomi Myhill: Bisexium. Would there be any difference between athletes and health seekers like in that type of reference range?
+Aubrey Shannon: No, no, no, it wouldn't.
+Dr. Naomi Myhill: No. Yeah. Okay.
+Aubrey Shannon: Um, but the interpretation is different too, right?
+Dr. Naomi Myhill: Cool.
+Aubrey Shannon: Like someone like Shawn where interpreting it knowing that this person's like overex exercising.
+Dr. Naomi Myhill: Yeah.
+Aubrey Shannon: So the interpretation for his hit for him like the um creatinine like that's a huge thing and I think it comes up for athletes all the time.
+ 
+ 
+00:21:41
+ 
+Aubrey Shannon: Um okay so moving on to the red blood cell count. So the red blood cell count is a volume count. So the reference range for red blood cells here is 3.8 to 5.1. And so the first thing that I look at with red blood cells is um is this person hydrated? So when our red blood cell count is quite high, um I start to think about uh this indiv this individual being dehydrated and I go to look for more information about them being dehydrated, which would be um a high hemoglobin and a high hematocrit. So for Shawn, his red blood cell count is 5.04. So he's in the upper 50th percentile for his for his red blood cell count. Um and this is just again like a volume of red blood cells. His hemoglobin is 15.3 and the reference range is 11.7 to 15.5. So again like in the upper um reference ranges and then his hematocrit is 45.8 and the reference range is 35 to 45. So these first three markers are showing us um that there's a high likelihood that this person's dehydrated.
+ 
+ 
+00:22:53
+ 
+Aubrey Shannon: The hemoglobin is the oxygen carrying protein within the red blood cells. And the hematocrit is the percentage of your blood volume that contains red blood cells. So if we see this kind of higher red blood cell count, a high percentage of the blood containing red blood cells and we also see a high concentration of hemoglobin, we can start to think that perhaps this person is dehydrated when they did their um blood work. the hemoglobin and hematocrit when it's low can speak to anemas. And so iron deficiency anemia and megaloblastic anemia which is where we have um low vitamin B12 and low vitamin B9 um can see a low red blood cell count, low hemoglobin and low hematocrit. Um the mean corpuscular volume is the size of each red blood cell. So the mean corpuscular volume, the reference range is 80 to 100. When I'm looking at the volume of the cells, it's kind of like Goldilocks. Like we don't want it them too little and we don't want them too big. And so um in this instance, we're looking for 90. 90 is kind of like the magic number.
+ 
+ 
+00:24:06
+ 
+Aubrey Shannon: When a red blood cell is too high in its volume, it means that the way with which the red blood cell is creating its genetic component. so that it can differentiate into two red blood cells is sluggish and that rate limiting step is DNA synthesis. So a mean corpuscular volume greater than 90 leads us to want to test for vitamin B12 and test for vitamin B9. So B12 and folate. We might want to supplement with it. Um low mean corpuscular volume leads us to think about things like iron deficiency and protein deficiency which we would go and look at the hemoglobin and hematocrit and the feritin. Then we have the mean corpuscular hemoglobin and the mean corpuscular hematocrit. And that's just looking at the averages. And so for Sean um his averages, so the the um MCH, sorry, just flipping back. Uh so the MCH um the mean cropuscular hemoglobin the reference range for that is 27 to 33 and he's coming in at um 30.4. So for him that is perfect. And then the mean corpuscular hemoglobin concentration.
+ 
+ 
+00:25:33
+ 
+Aubrey Shannon: So that's the MCHC. Um this one shows the average concentration of hemoglobin within each red blood cell. and his is 33. The reference is 32 to 36. So, he's very healthy and normal there. So, that also helps us to be like, "Ooh, dehydration." Cuz on average, like he's looking mid-range. Does that make sense? Um, and then we look at the red cell distribution width, which is the RDW. The RDW is basically telling us um how much of variation in size are the red blood cells. And so people that have a bleeding disorder or or who have had acute bleeding or um have anemia or people that have like some form of um like even heart disease or cancer can sometimes have um low variation in their red cell distribution width. And so the reference range is 11 to 15. He's at 12.4. So he's looking um very healthy and normal. So when there's var when the red cell distribution width um is very low then I look to the platelets to see if we've had um a bleeding event.
+ 
+ 
+00:26:49
+ 
+Aubrey Shannon: So in people that are um that are having like uh bowel bleeding or are having other forms of internal bleeding we'll often see a high platelet count because the body's trying to stop the bleeding. Um in spleen splenic pathologies we'll have we can have um lowered platelet counts. And so um the red blood cell distribution width leads us to think about is this person having is are any nutrient problems like low um iron, low B9, low B12 um or is there something that's going on with this individual where there's some form of a bleeding event. And then the next part is is looking at our platelets. And then they kind of mentioned to that um platelets with bleeding um we can either see kind of the high um bleeding as I mentioned um oh sorry maybe I'm wrong on that. I'm just thinking I don't look at platelets all that often because no one really has bleeding problems with me. Um bleeding is associated with low platelet count which is thrombocyopenia because the blood cannot clot properly. Um and so people with easy ble easy easy bruising sometimes have low platelet count.
+ 
+ 
+00:28:12
+ 
+Aubrey Shannon: Um oh bleeding can also occur with high platelet count which is thrombocytosis. So, um maybe don't ask me much about platelets because I really don't platelets aren't like a huge part of um my practice cuz they just typically aren't outside of the reference range.
+Dr. Naomi Myhill: It's not I'm guessing it's not something you'd really look at with athletes kind of coming in. Yeah.
+Aubrey Shannon: Not really. like they just usually aren't there's just usually like nothing um going like there I've never really seen platelets outside of the reference range. Um but for for PRP I want patients to have like as high of platelets as possible and um reishi mushrooms actually increase platelet count and so if um if people do have uh low platelets and they're coming in like low normal platelets and they're coming in for PRP, I'll put them on reishi mushrooms um and and I'll do that for a couple of weeks. weeks and then I can see I do usually see a little bit of an increase in their um in their platelet count.
+Dr. Naomi Myhill: And is that a supplement?
+ 
+ 
+00:29:29
+ 
+Dr. Naomi Myhill: Just to confirm.
+Aubrey Shannon: Yeah, Rishi Mushroom is a supplement.
+Dr. Naomi Myhill: Yeah.
+Aubrey Shannon: Yeah, there um the one that I like is it's um it's in combination with it's MRS formula by um Puring Capsulations, but we actually just put Sabrina on an NSF certified reishi mushroom.
+Dr. Naomi Myhill: Cool.
+Aubrey Shannon: Um I have to look at her chart. It's called bioel sport mushroom because she had um low neutrfils on her last subset of blood work um and then she got sick right afterwards. So okay. So that's kind of the CBC and differential done. Then we look to specific markers for vitamin and mineral. So we look at vitamin B12 and folate which is vitamin B9. So these ones are critically important for um making DNA and cellular turnover and they're also important to turn the crank for ATP synthesis um at the level of the mitochondria. So vitamin B12 the reference range is 200 to 1100. We want someone's vitamin B12 to be greater than 600 from an optimization perspective. If someone's vitamin B12 is low, they might um not be getting good sources of vitamin B12, which are animal proteins, or they might have digestive problems.
+ 
+ 
+00:30:54
+ 
+Aubrey Shannon: So, a non-siliac, gluten interopathy, ciliacs disease, um being vegetarian or vegan. The only non-animal um source of vitamin B12 is nutritional yeast. And they actually make the vitamin B12 out of um E.coli bacteria, I think. So Sean's vitamin B12 is 291. So we're not optimized in vitamin B12. His um folate is 16. The reference range for folate is greater than 5.4. So his vitamin B9 is okay. Um in this instance, we would look at supplementing with vitamin B12. And we want to use about a,000 mcgs per day. And we want to do something that is like sublingual for B12. Um, and then we could also look if it was someone that was, you know, we're seeing an office, um, sometimes a B12 injection is indicated and we would do a 5,000 um, mcgs of vitamin B12 weekly uh, for 4 weeks and then we'd have a oneweek wash out period and we would retest. It's important when you're testing vitamin B12 and vitamin B9 that the patient hasn't had um any that the patient hasn't had any um supplementation for one week because vitamin B12 can be falsely elevated in the serum um due to supplementation.
+ 
+ 
+00:32:21
+ 
+Aubrey Shannon: Um yeah.
+Dr. Naomi Myhill: What's your um ju just following up on the um infusion versus the the tablet form of supplementation? What what's the the difference between the two? And I suppose in we have remote and then in person like what's your ideal go to and and kind of the difference because it would be good for us to be able to speak to that in the ontology
+Aubrey Shannon: Yeah.
+Dr. Naomi Myhill: of okay well this health seeker or this athlete is remote not going to be able to get anywhere or perhaps this one is remote but we could refer them to a a clinic for example.
+Aubrey Shannon: Yeah.
+Dr. Naomi Myhill: Would that be beneficial to try and do that with the cost of like them getting there versus taking that tablet? So yeah, just having a bit of context the difference would be great.
+Aubrey Shannon: Yeah. So, sublingual um does have like great absorption potential because we have so many blood vessels right underneath of the tongue. Um, I think if it's like compliance is an issue, so people just forget to take their supplements, then intramuscular injections are great because you're just like going somewhere and getting it done.
+ 
+ 
+00:33:31
+ 
+Aubrey Shannon: There is definitely a placebo effect to having an intramuscular injection. Like people really do think that they're like doing something quite remarkable. Um there are people that have a genetic um predisposition for low B12 and they don't have um I think it's so called um intrinsic factor. So intrinsic factor deficiency is a congenital um anemia. Pernicious anemia is um B12 deficiency anemia. And so in those individuals, they just have a um a challenge in being able to absorb the vitamin B12. And so um doing the B12 injections for people with um true init um pernicious anemia like can be much more beneficial as well. But honestly like sublingual tends to work great for patients. But the challenge is that sometimes you can't find a sublingual that also has vitamin B9 in it. And so if you're doing an interuscular injection, we always couple B9 with B12 because oftent times a B12 deficiency can be masked by a B9 deficiency as well. So you kind of want to give them handinand. Um, does that make sense?
+ 
+ 
+00:34:57
+ 
+Aubrey Shannon: And then in oral, I don't love like oral B12 because most people have a B12 deficiency because they don't absorb things very well or like they're vegan um or vegetarian.
+Dr. Naomi Myhill: Yeah.
+Aubrey Shannon: And so I don't see as much change happen with oral um B12 vitamins as opposed to the loenge that you can do underneath your tongue.
+Dr. Naomi Myhill: And with the the laws under the tongue, is that one daily? What's the kind of dosage for that?
+Aubrey Shannon: Yeah, it's one daily. Yeah, a thousand mcgs once per day.
+Dr. Naomi Myhill: Yeah. Okay. Great. I think that explains it nicely.
+Aubrey Shannon: Okay. Um then the next thing that we look at is vitamin D. So like vitamin B12, um we do want to have like a wash out period of one week of vitamin D when we do vitamin D testing. The reference ranges for vitamin D have are changing a lot. um they used to be in Canada 75 to 250 and now it's um 75 to 150. This reference range is 30 to 100. So this is an American reference range.
+ 
+ 
+00:36:05
+ 
+Aubrey Shannon: So it's using different units. Um Sean's coming in at 30. So he is just on the precipice of the of the reference range. Deficiency is considered less than 20. Insufficiency is 20 to 29. Optimal is 30 or greater. For like really good immune protection, we want 60 or greater. And so there are um usually one of three reasons why people have a vitamin D deficiency. Um there's a gen of oftentimes we have genetic um polymorphisms or snips. So changes in our on in our genetic code that either prevent great synthesis, absorption or delivery of vitamin D to our cells. And so dosing of vitamin D is quite controversial. Um if we're taking a high dose of vitamin D where we just want to increase our vitamin D very quickly, we will take vitamin D without vitamin K and then we would do a maintenance dose of vitamin D with vitamin K. But because of this like genetic predisposition, it's really a supplement and then re-evaluate um scenario because sometimes you give someone a 10,000 units of vitamin D every day for a month and it barely changes the their result and then sometimes you do that and it puts the person way outside of the reference range.
+ 
+ 
+00:37:32
+ 
+Aubrey Shannon: So, the recommended um daily dose for vitamin D is usually a th00and to 2,000 IUs. Um in Canada, we actually dose at about 4,000 IUs. We just being in the northern hemisphere um and not getting as much sunshine, we're and especially being coastal. So, for Sean um in this individual in particular, we're dosing at 10,000 IUs because he has always had low vitamin D. And we're going to do that for a month. Um, and then we're going to do a maintenance dose of vitamin D with pay for him at about 4,000 IUs. And then we are going to do a retest after he's been doing this protocol for 3 months and see where he lands. So, vitamin D dosing is going to be really challenging. Um, and we want to dose the maintenance dose of vitamin D with vitamin K because vitamin K helps with calcium um deposition. And when we increase vitamin D in the serum, we're going to increase our absorption of calcium. And if we don't have the vitamin K, the calcium can deposit any um anywhere.
+ 
+ 
+00:38:45
+ 
+Aubrey Shannon: Whereas vitamin K helps to drive calcium deposits into the bone. And so um Just have to look up the dosing.
+Dr. Naomi Myhill: with the the reassessment, sorry, with the reassessment timeline of like of three months, is that on a kind of case by case basis or is there general um time frames?
+Aubrey Shannon: So if Yeah. Mhm. It's it's pretty general um to do to like supplement and then to like re-evaluate at 3 months.
+Dr. Naomi Myhill: Yeah.
+Aubrey Shannon: You just like do not want to have someone on too much vitamin D long term because it can have impacts on on the kidney.
+Dr. Naomi Myhill: Okay, cool.
+Aubrey Shannon: We don't really like worry too much about high vitamin K. like there isn't really any good documented side effects of having too high a vitamin K. Um but with vitamin D, you have like nausea, we can have um renal dysfunction. Like we want to be really careful with too high of vitamin D long term. And there, if you look online, like there's so much variation in dosing.
+ 
+ 
+00:40:06
+ 
+Aubrey Shannon: Like some functional med medicine doctors are dosing like 50,000 units of vitamin D. um trying to get those levels nice and high. And we saw a lot of this come out of um research during COVID because of vitamin D's like very strong antiviral um impacts or effects. And so, um, just kind of a rule of thumb for typical vitamin D supplementation, we want to do any, um, for doses in between a,000 to 5,000 IUs daily, we're looking at 100 to 200 micrograms mcgs of K2. And most supplement companies like have the ratio dialed. Like you'll find the vitamin D with the vitamin K. Um, and then they'll do the vitamin D on its own so that we can do that like quick uptick of like 10,000 units per day um to get us to within the reference range or to build us up in the reference range. And then the D with K for the maintenance dosing. Um, okay. And then I'll just be Mhm.
+Dr. Naomi Myhill: Is there an effect of um does ethnicity affect vitamin D levels for for certain ethnic groups?
+ 
+ 
+00:41:24
+ 
+Aubrey Shannon: Yes. So um the melanocy is the cell uh that makes that helps to pigment helps with skin pigmentation. And there is and the more um mel melanocytes you have within the cell um it reduces sunlight absorption for vitamin D synthesis. So the people with um darker uh skinned populations can have a reduction in vitamin D synthesis because of their um increased melanocytes. The other thing that's kind of interesting too is that um things like having like um wearing sunglasses or having like UV protectant contacts can also um change the way with which we synthesize vitamin D. Like there's some there's like a connection there. If we don't get the UV um exposure in our eyes, it impacts um some type of like a pathway that influences the way with which we can synthesize vitamin D in our skin. Um and it's like escaping me like the exact biochemistry in and around that. But that's something that we can like look up and talk and discuss further. But I do think that's like an important thing to think about too.
+ 
+ 
+00:43:03
+ 
+Aubrey Shannon: Yeah. So maybe for someone like Sean with like his darker his um darker skin pigmentation. Um and then maybe he also has some genetic predisposition too which he's I don't think he's ever had he's he mentioned that he he doesn't think he's ever really had good vitamin D levels.
+Dr. Naomi Myhill: Yeah, it's it's an interesting one because obviously playing cricket you're you're playing outside quite a lot. like the games will be going on for the type of the format of cricket that that Sean plays is like four to five days, but you are very covered up playing cricket as well.
+Aubrey Shannon: Yeah.
+Dr. Naomi Myhill: So often there really isn't much skin on show.
+Aubrey Shannon: Yeah.
+Dr. Naomi Myhill: Um and they're wearing hats or helmets and long sleeve shirts and long sleeve shorts as well. Um so it's interesting the kind of different sports as well as kind of ethnicities mixed into it.
+Aubrey Shannon: Yes.
+Dr. Naomi Myhill: Um, I've just noticed the time already and it's it's getting to half half past the hour.
+Aubrey Shannon: Yes.
+ 
+ 
+00:44:01
+ 
+Dr. Naomi Myhill: Do you have a hard stop?
+Aubrey Shannon: And I think um I should actually um jump, but um I think the rest of it is going to be a bit faster. Like these are just the ones that are like have a lot of nuances um and some of the kind of like nitty-gritty. So I think yeah, we'll definitely um speak to the rest of it, but these are the kind of more Yeah. more complicated um biomarkers, if that makes sense.
+Dr. Naomi Myhill: Yeah, it's been super interesting. I think we've gathered a lot of information already um which we'll be able to review. So we can we can arrange a a kind of part two to go through kind of the rest of them um on those markers and we'll probably then follow up with more specifics around different types of um interventions and then going into perhaps like the GI map and other areas of your expertise as well.
+Aubrey Shannon: Yeah.
+Dr. Naomi Myhill: Um because I think that's really we'd love to have you as like a thought partner on on our ontology and help build that out really because that's definitely not my expertise or Johan's.
+ 
+ 
+00:45:14
+ 
+Aubrey Shannon: Yeah.
+Dr. Naomi Myhill: So for sure um that would be really good and it's been a great this has been a great start and a great taste. Um I've obviously sat on a lot of these ISTD calls Aubry and obviously our call with Sean and yeah I'm fascinated. I did not realize like the amount of different blood biomarkers there were and how they can affect just how you feel kind of dayto-day. Um so it's been really really cool for me to just sit here and dig into it in a bit more detail.
+Aubrey Shannon: Yeah.
+Dr. Naomi Myhill: Um so yeah, I really appreciate that.
+Aubrey Shannon: Yes. Sure.
+Dr. Naomi Myhill: Um did you want to schedule in the next call now or should we decide over Slack leave ASAP?
+Aubrey Shannon: No, we can schedule now. Um cuz where are you timing wise?
+Dr. Naomi Myhill: Okay, cool.
+Aubrey Shannon: You're okay.
+Dr. Naomi Myhill: Um, so UK it's 4:30 p.m. now. So I think I'm 8 hours in front of you. So I normally go to about 7 p.m.
+Aubrey Shannon: Okay.
+Dr. Naomi Myhill: So norm like 11:00 a.m. your time. I I work up until basically if that helps.
+Aubrey Shannon: Okay. Okay. Yeah, it does because I usually do my Cascade stuff on Thursdays.
+Dr. Naomi Myhill: But yeah.
+Aubrey Shannon: Um, and so I can like borrow time.
+Dr. Naomi Myhill: Okay, cool.
+Aubrey Shannon: So I have 12 to two on Thursdays.
+ 
+ 
+Transcription ended after 00:46:35
+
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
