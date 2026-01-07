@@ -1,0 +1,230 @@
+﻿Nov 20, 2025
+Ontology Knowledge Gathering - Stephanie - Transcript
+00:00:00
+ 
+Stephanie Miezen: This call is now being recorded.
+Dr. Naomi Myhill: Okay, fab. So I think today we'll go through energy balance. Um, so initial question, what how would you define energy balance as a construct?
+Stephanie Miezen: I think specifically energy balance is when you are consistently over time consuming just about the number of calories that you are expending. Um that would be imbalance. Um, I think if if if we kind of zoom out and think about this as a little bit more of a broad idea, it's the idea of looking at energy intake, energy expenditure, and trying to bring those closer together generally for the for the general goal of fueling performance or if it's an a general health seeker, um, just meeting your energy and nutrition needs for good health and good energy. Um, you can have branches off of that. people have different goals like weight loss for example or muscle gain then we're going to need um a positive energy balance for the muscle gain for example and a negative energy balance or deficit for the weight loss but matching is the in between balance.
+ 
+ 
+00:01:15
+ 
+Stephanie Miezen: Yeah.
+Dr. Naomi Myhill: Okay, great. So, for energy balance as a as a construct, what assessments would you use to assess someone's energy balance? Um, and can you distinguish between assessments with unlimited resource and assessments with kind of moderate resource?
+Stephanie Miezen: Yes, for sure. So, there's two sides of this. Um, and both are not great. So, both both are difficult. So, on one side we are assessing energy expenditure and on the other side we're assessing energy intake. Both sides of the equation. Um, you could argue that the expenditure is a lot harder to actually measure accurately. There are a lot of wearables, a lot of devices we can use to get a range of of energy expenditure. Um, even some of the best ones are not very accurate. Um so for example Apple watch like you can measure your energy expenditure across activity or across the day but that has been shown to be up to 50% uh incorrect. So there's there's a lot of uh space for improvement here.
+ 
+ 
+00:02:28
+ 
+Stephanie Miezen: Um so wearables is one thing that we can look at with a big grain of salt and we can look at um trends within the individual when we're thinking about wearables. I think that's one way where they could be more helpful or it's not the exact number but we can understand trends for that person if they're wearing if they're using the same technology. Um for for people who have resources um or connections um you can do RMR testing which is measuring your resting metabolic rate. Um, the best way to do that is with this thing called a metabolic cart. And you basically just lay down. You put the hood over your head and it measures gas exchanges over a period of time. I think it's 30 to 60 minutes. Um, and that will give you your resting metabolic rate, which is if you were to basically lay in bed all day and do nothing, that's how many calories you're burning. On top of that, we can use um some activity factors, if you will, to multiply against your resting metabolic rate to understand what your overall energy expenditure would be depending on the kind of activity that that you're doing.
+ 
+ 
+00:03:39
+ 
+Stephanie Miezen: Whether you are someone who has an office job and goes to the gym, you know, most days or you're a professional athlete there, we can do different kinds of multiplication against a resting metabolic, right? to get a decent idea of energy expenditure. Um, if we don't have the resting metabolic rate measured, there are many equations out there that can be used um to to estimate what that is and that generally takes into account um your age, your sex, your height, your weight. There are a lot of different equations that have tried to be developed for different types of athlete populations if we're talking about athletes. Um I don't have all of those off the top of my head, but I'm happy to create a list um for you if needed. Um so that's one way if we do not we're not able to measure it, we can use a formula, get baseline needs essentially multiply but from there um based on the type of activity that's happening. Um or we can use wearables to get to get some data although we know it won't be super accurate.
+ 
+ 
+00:04:44
+ 
+Stephanie Miezen: It can give us some information. So those are some ways that we would look at the energy expenditure side. Um also really interestingly if we are talking about resources there's this thing called doubly labeled water. Um and that is a really cool way to to track energy expenditure and it's pretty non-invasive. It's pretty easy for the person to do like you just drink this special water this small amount of special water and then go about your days. do your do your thing. Um urine samples can be collected along the way and then at the end we get a really accurate picture of energy expenditure um across that time frame. Uh there are some downsides to it where you know if you do it over the course of a week let's say and you are an athlete and you have a game and four practices within that time frame the end number of energy expenditure is giving you the average across those days. So, we don't know what you're burning in a game day versus an off day, but it does give us some actual real information to work with for for an average of energy expenditure.
+ 
+ 
+00:05:55
+ 
+Stephanie Miezen: So does have some limitations but that is super valuable I think to get um objective data but also this is really useful in helping the individual understand what they're actually burning because many times especially if it's a really active person or athlete they just don't understand how high their energy needs are and so this can be a useful way to to show them. So there is a this is typically only available in research but there's a company that has brought this to uh like regular people I suppose um called calorify and um we use them recently with the team that I'm with right now um and I think it's about actually I don't want to give you any numbers but it's like a few hundred for one of these tests um and I think they do some discounts for bulk orders and stuff so that could be something that's really cool and they just mail you the kit and it's like it's pretty easy. You can do it at home. So for anyone who really wants to know or situations where this information is really uh important then that's a good uh technology to be aware of.
+ 
+ 
+00:07:00
+ 
+Stephanie Miezen: So those are some ways that I would think about measuring energy expenditure. There's a lot there's like a lot more technology and stuff out there, but overall I think there's just there's a lot of inaccuracy in in how the data is reported and how they calculate. So it all has to be taken with a grain of salt depending on the type of uh technology that's being used. Um do you want to ask any questions about that the energy expenditure side?
+Dr. Naomi Myhill: Yeah, just before you you move on, that would be great. Um, so you mentioned like a number of different assessments there and I think I know the answer, but can you just um almost rank them in terms of your preference and kind of validity that you would you would recommend? So maybe like where you'd put doubly labeled water, where you'd put the RMR test in with the metabolic car versus the wearables. So we have an idea of kind of rank
+Stephanie Miezen: Yeah, that's a good question. I think the R the the RMR testing and the doubly labelled water I would I would almost tie them because they kind of do different things.
+ 
+ 
+00:08:06
+ 
+Stephanie Miezen: They're both extremely accurate in what they do, but the the the doubly labeled water is really helpful when we want to get a picture of what typical expenditure is like over a specific period of time that we can identify as a normal schedule or of a a schedule of importance if you will. Um so that is really useful there. But if we are talking about just understanding someone's baseline needs and that and then we can use that baseline to apply to different kinds of situations that they might be in. Um then that is where the um RMR testing becomes really helpful. Like I think a good example here is if if I can get an RMR test on a person, I understand their their baseline needs and then if they are going into if they're an athlete, if they're going into the offseason, I can multiply from that RMR. If they get an injury, I can multiply from that. If they have a really high training period, I can multiply from that. So that gives me a different kind of data point to work with that helps me be more flexible.
+ 
+ 
+00:09:16
+ 
+Stephanie Miezen: Although I still need to do some estimations on top of that with that activity factor multiplication. Um it allows me more flexibility to help them in different kinds of situations. While the calorify the doubly labeled water is for a more specific kind of time frame and we really want to know what is energy expenditure in this specific kind of schedule or time frame for you. So I would say they're both excellent but they're getting both is like amazing. Um so that would be the ideal scenario to have both of those done if it makes sense for the individual and what they're looking to do. Um but otherwise it kind of it depends on what we want for that person. So I would put those two at the top. Um after that I think the I think using the most accurate or relevant um equation to estimate rest and metabolic rate and then from there applying an activity factor to estimate um energy expenditure based on the kind of day kind of training kind of needs. that is probably going to be my second choice.
+ 
+ 
+00:10:28
+ 
+Stephanie Miezen: Um, and then from there down, I would utilize the data that wearables are giving to get an idea of trends in energy expenditure based on kinds of training days or off days um or or that kind of thing. Like I don't like if if I am looking at data from a wearable I'm not saying oh it's you burned it says you burn 500 calories that's how many you burned like no I need to look at the research for that kind of technology what you know is it relevant for females is it relevant for endurance athletes is it relevant for general population for the kind of activity like there's there's so many factors there that's why like I don't love that but it is something so I would unfortunately like that's kind of at the bottom of the list for me. Um, I wish it was higher. I wish we had better, more accurate wearables. That that would be incredible. Um, that's how I would rank them, I think.
+Dr. Naomi Myhill: Yeah, that's great. That that makes sense.
+ 
+ 
+00:11:30
+ 
+Dr. Naomi Myhill: And one of my follow-up questions you actually answered would be, would it be optimal to use both the RMR tested and the doubly labeled water in in that type of scenario? You're getting kind of that baseline. And then if you want to look at maybe like a pre-season week period or like a a week where there's multiple matches, what does that look like? You might use the doubly labeled water to give you that kind of information of how to fuel for that type of typical week. Um so for the RMR testing with the metabolic cart um can you walk me through the steps that you take to kind of perform that test and what type of um technology you've used? So would it be like a just like your standard like cortex metallizer like metabolic car or things like that? Um, that's just one example of a type of metabolic car. And I'm I'm just wondering if it is the same as the metabolic car that you'd use for like a V2 max test, for example.
+ 
+ 
+00:12:30
+ 
+Dr. Naomi Myhill: Would you just get a separate attachment that kind of goes over the head for that?
+Stephanie Miezen: That's a really good question. I don't I don't believe it's the same.
+Dr. Naomi Myhill: Okay.
+Stephanie Miezen: And off the top of my head, I cannot remember brand names or I can look that up, but you might know better than me. Like I I do not remember to be honest with you.
+Dr. Naomi Myhill: Yeah, I I'll look it up. I was just interested because I'm just thinking if we for our kiosk assessments, let's say as an example, if we're already going to have like a metabolic cart in there for V2 max testing, would we also be able to use it with a different attachment for the RMR testing? So, I'll have I'll look that up to see if it's um different, but yeah, I just wondering if you if you knew.
+Stephanie Miezen: Yeah.
+Dr. Naomi Myhill: So, in terms of the RMR testing with that metabolic cart, like what's what's the steps? What does the health seeker need to do before they come in, as they come in, and kind of afterwards, right?
+ 
+ 
+00:13:25
+ 
+Stephanie Miezen: Yeah. The good thing is they have to do like nothing. Um it's it's super easy. Um the idea is that you arrive in your most rested state. So this is done in the morning. Um you're not really you're not supposed to eat beforehand. You can have water but it should be fasted. You shouldn't do any sort of physical activity in the morning before this. So the idea is you wake up, you're taking it easy. You can drink some water, make your way to the clinic or test site, and then once you get there, really all you're doing is laying down and completely relaxing. Um, the idea is that you are as still as possible. We're not getting heart rate up. So, we're just measuring if you're just being, what is your resting basal metabolic rate? These are not exactly the same, but this is generally testing resting metabolic rate. That's what we're looking at. Um they like ideally you don't do any hard activity the day before because we know that challenging physical activity can affect resting metabolic rate.
+ 
+ 
+00:14:39
+ 
+Stephanie Miezen: It can go up a little bit in the dayish afterwards as your body responds to that and repairs. Um so that is an ideal situation where the day before there's not really hard physical activity and then um fasting from the from your dinner time. I think it's like a 12-h hour fast is what they're typically looking for. Um but I can look that up. Um and then don't do anything before you get there and just relax. That's it.
+Dr. Naomi Myhill: Great. Um, we'll ask the same question for the doubly labeled water. What's required? What steps that you would take for that?
+Stephanie Miezen: So, that one is cool because you just live your life normally, totally normally, but you take this little special water shot and um there there are urine collections that are done every few days um to measure the the output, right? Like how much or how much how is the subly labeled water moving throughout your body. Um, and then at the end there's also a a urine collection.
+ 
+ 
+00:15:43
+ 
+Stephanie Miezen: And that is all you need to do. Like you don't need to change anything about your physical activity, like nothing because the idea is that you're doing all that normal stuff and this is just in the background collecting the data and then at the end it gives you a picture of what happened during that time. So you live your life normally, train as normal or whatever. And it's really just drinking the water at first, doing some urine collections, and then we get the data after that.
+Dr. Naomi Myhill: Okay, great. Um, so for for both of those different assessments, what metrics are you looking at that come out from those assessments? And how would you interpret them? Would you interpret them comparatively to a reference range or kind of within to a previous score or metric value from that health seeker or that athlete? or if it's the first time you're seeing them, how do you put those metric values in the context of what you would do to interpret them?
+Stephanie Miezen: Yeah.
+ 
+ 
+00:16:43
+ 
+Stephanie Miezen: So in most scenarios, I mean it depends, but I will say a common scenario is that before you do these testing these tests, you are already using some sort of um equation to estimate your needs, your energy needs overall or resting metabolic needs. So you're you're going to have some numbers probably to work with if you're calculating that ahead of time. So you can compare the RMR test um or the the double labelled water test to what you've estimated before using equations. Um I think in either case we know that these tests are 100% more accurate than using the equations. So they're always going to override what the equations gave us. I think it the one scenario that comes to mind where comparing to un to to to get more insight from this would be in a situation where um we have low energy availability suspected and um typically if it's like the resting metabolic rate is measured at 10 there's a it's 10% less than the estimation that we're getting from an equation then that is typically a marker that we are in an energy low energy availability state and your body is pulling back on your metabolic rate to conserve energy as an adaptation to low energy availability.
+ 
+ 
+00:18:17
+ 
+Stephanie Miezen: Um that's one scenario where we can use that that data comparatively. Um, otherwise it's just kind of interesting from a practitioner point of view to understand how these equations do or don't measure up to the actual measurements themselves.
+Dr. Naomi Myhill: Great. Yeah, that makes sense. I think it would be good after this to just collect the equations that you have maybe reference to as well so we can we can store those which would be super helpful.
+Stephanie Miezen: Yeah.
+Dr. Naomi Myhill: Um, with these assessments, you kind of alluded to it already, but just kind of more explicitly, how does the health seekers state or the athletes state influence the interpretation of the assessments?
+Stephanie Miezen: Um, do you mean like what do you mean by state?
+Dr. Naomi Myhill: So, are they unwell? Are they well-rested?
+Stephanie Miezen: Uh, yeah.
+Dr. Naomi Myhill: Are they going through fasting? Kind of that that type of thing.
+Stephanie Miezen: I would say if someone is if someone is sick like ill like a not chronic illness necessarily but acute illness then it's not an ideal time to do this.
+ 
+ 
+00:19:29
+ 
+Stephanie Miezen: So I would say if that's the case let's wait. Um ideally in the case of the double leveled water in particular we want that to be them in a situation that's really typical. That's that is the best way to use that data. Um especially because it you're doing it over a course of multiple days. It's not cheap. Like we want to be really intentional because doing that again is a whole another lift. So that should really be representative of a typical period of time that we want to understand energy expenditure of. The RMR you could argue is very similar like we want to measure that in a state where they are normal if you will. So no acute illness ideally again not doing crazy physical activity the day before um that is how we want to capture that I think otherwise I don't think there's like real contra indications that we are currently aware of that that should really be um different here I'm sure there are we just don't know yet like menstrual cycle comes to mind like does it matter where you're at with that when we're doing these tests.
+ 
+ 
+00:20:41
+ 
+Dr. Naomi Myhill: Yeah.
+Stephanie Miezen: I don't know if we really know yet.
+Dr. Naomi Myhill: Yeah, that makes sense. Totally. Um, and I feel like we should probably have a hormonal fluctuation, menstrual cycle, ontology deep dive for sure. um that needs more than 15 minutes of this call. So we'll we'll do that another time. Um so that's energy expenditure. Do you think it's worth going through the interventions for that or moving on to the assessments for uh energy deficit? What would make more sense to you right now?
+Stephanie Miezen: Well, the so in order to have an intervention for energy expenditure, you have to understand energy intake because you have to understand what the differences like what what is the gap that we're trying to address
+Dr. Naomi Myhill: Let's do the assessments for that then next. Yeah.
+Stephanie Miezen: whether it's too much or too little or where is that gap coming from in terms of foods or macronutrients so I would say yeah the assessment would be helpful so um this is another area where it is really difficult to get accurate numbers there's a lot of estimation going on um typically though um I think especially in a low resource model although things are changing but on on a low resource um situation you would have a
+ 
+ 
+00:22:07
+ 
+Stephanie Miezen: conversation with the individual. You being a registered dietitian, ideally someone who is trained to do a dietary assessment to ask the right kinds of questions. Um, and we're really diving in deep like we want to go, typically this is done with a 24-hour recall, and I think we had talked about this before with dietary quality where we want to go throughout the day from waking to going to sleep, everything that they're intaking. We want to understand portions, brands of foods if if necessary, um fluctuations depending on the kind of day. So all those things if it's if we can reference that other video that might be easy so I don't need to you don't need to listen to me say it all again. Um but we are really diving deep to understand what are you eating and from there um the dietitian can estimate energy intake. Um from that we need to know that t people are typically generally people under report and I think it's about 20% that they under report is that the typical um metric used in research that we find um and we find that by comparing to studies where they are providing them food that's been measured in terms of energy density macronutrient composition They provide this to the people.
+ 
+ 
+00:23:32
+ 
+Stephanie Miezen: They they they're measuring what they're consuming or they're measuring what's not consumed on the back end to understand the difference um between what was provided and and what wasn't eaten. So that is not realistic to do I think in the scenario that we're talking about with athletes or health seekers unless we're doing a research study. So that's not going to be happening. But another way that we can look at this is through through photos. So having the the person send photos of everything that they're eating to the dietitian. Um that is really helpful. I think I think a great model is when you can do a full dietary recall with someone to get their story and them and them giving you context outside of just a picture so you understand how their how their life fluctuates around their intake. Um, and then having pictures as well to compare to maybe what they're saying about portions or preparation styles or things like that. So, I really like the the dual model where you do a good deep dive 24-hour recall and then you also have um pictures of meals and snacks and beverages sent over a day or two or three days even if the person is able to.
+ 
+ 
+00:24:42
+ 
+Stephanie Miezen: Um, outside of that, like the other methods that we're looking at again are really more in a research setting and not in a free living relevant setting. So, those wouldn't be something that I would recommend for us to like go into, I think, because I just don't think that would it's just not realistic for these kinds of populations. Um, there are some apps out there. I haven't used them myself in practice, but I've seen them where you can take a picture of your food and the app tells you what how many calories are in it and and all of that. I think that's interesting, but I don't know. I would have to look into like how accurate that truly is. Um, that's a lot of estimation, but perhaps it's it's getting a lot better. I'm not sure.
+Dr. Naomi Myhill: Yeah, definitely that would be something we'd have to review, wouldn't we, in terms of like the literature around it, how many clinical studies have been done.
+Stephanie Miezen: Yeah.
+Dr. Naomi Myhill: But an interesting long-term direction, I think, for that type of assessment.
+ 
+ 
+00:25:46
+ 
+Dr. Naomi Myhill: So, for these assessment types, the 24-hour recall, the consultation, the the review of the photos, how would you what would be the next step to derive what the the intake was?
+Stephanie Miezen: Heat.
+Dr. Naomi Myhill: So if you're comparing it to the deficit, like how do you get to that point?
+Stephanie Miezen: Yeah. So, let's say we have a situation where have someone who did the 24-hour recall. We also get some photos maybe to kind of confirm or adjust ideas of what that recall really is, what typical dietary intake really is. From there, the dietitian can literally calculate out from those portions and types of foods what is the typical calorie intake, what is the typ typical macronutrient intake, like where is that coming from? Um, and then we compare that to the energy expenditure with something like doubly labeled water or the RMR with an activity factor applied based on the kind of day. Um, and we can see what those what those differences are. So a typical situation would be like a typical training day if it's an athlete or just an individual, right?
+ 
+ 
+00:26:54
+ 
+Stephanie Miezen: And perhaps again they go to the gym for an hour on a typical day. So we can compare what's your normal intake on that kind of day that we just collected. And this is more relevant specifically to again having the RMR versus the double labeled water. But we're using your RMR estimation or your measured RMR with an activity factor. What is the difference there? Right? Let's say you're eating 2,000 calories, but your RMR and activity factor is telling you that you probably need 2500 calories. So then we're identifying what that gap is. And on top of that, depending on the individual, the kind of activity they're doing, and their goals, we can look at the macronutrient intake and see is that is the ratio of that serving the goals or are the absolute amounts of those macronutrients do those need to be adjusted within the context of what that gap is? So, for example, if someone has a goal of just having more energy across the day, but also throughout their training, let's say they're into endurance in particular, they might have, and we've did their dietary recall, they might have a high protein intake, which could be helpful to some extent for muscle recovery, but when we're looking at that gap, we really need to be focusing on carbohydrate because they weren't having enough of that, and that's what's going
+ 
+ 
+00:28:15
+ 
+Stephanie Miezen: to help them specifically with their goal. So that's how I would look at those things together if that's answering that question.
+Dr. Naomi Myhill: Yep, absolutely. Um, are there any other assessments?
+Stephanie Miezen: Um there are there are assessments like we talked about last time that measure dietary quality, but to be honest with you, I don't know if those are trained for energy intake, like total calorie intake. I think those are more of like are you meeting micronutrient um needs, but I could be wrong. I could look into that for you if that's helpful. I'm sorry.
+Dr. Naomi Myhill: No, no, that's No, no, that's good.
+Stephanie Miezen: There's a lot of things I don't know. I don't have for you. I'm sorry.
+Dr. Naomi Myhill: I don't don't expect you to know everything. Um especially when it's on the spot like this as well. Um okay, let's move on to the interventions. So based off of each of those assessments and the combination um to get to energy balance, how do you design interventions from those results?
+ 
+ 
+00:29:22
+ 
+Dr. Naomi Myhill: So how do they inform the choice of intervention? Um how much user input is there in that? Like what constructs are you specifically looking at? Um so like what are your go-to interventions, I guess, and how do you structure those? Are they long-term programs? Do you structure them in blocks? Um, number of days, number of weeks, um, that type of thing.
+Stephanie Miezen: Yeah, that is a great question and there is no one answer so sorry here I go. Um, it really really depends on the individual, their goals, their willingness and aleness to to make these changes. I think the intervention starts with you presenting them the data on what their what their intake is, what their expenditure is, so they can understand what that difference is. I think that is a really important starting point for them, especially if someone is not the most willing to make those changes. is like we need to have them fully understand and be bought in. So that objective data I think is helpful to present um I think both like showing them
+ 
+ 
+00:30:30
+ 
+Dr. Naomi Myhill: Just before you an interesting question about that, how would you present that? Would you present that via like a visual or would it be a discussion when you present that information?
+Stephanie Miezen: actual numbers on a screen on a piece of paper whatever it is the visual of that I think is important. Um, but there needs to be discussion around that.
+Dr. Naomi Myhill: Yeah.
+Stephanie Miezen: So, for example, calorify, they give you this little PDF report. Um, and that has a number on there. So, like I've used that, you can do that. Um, I can also, if I'm working with an athlete, what I really do like to do or with anybody is to show them how I use the calculations to get to the number so they see how that's happening. So perhaps there's a way where it can be streamlined where we are showing them you know we did step ABC simple on both sides and here's how we're getting to these numbers and here is the difference between them. Um so yes to answer your question.
+ 
+ 
+00:31:33
+ 
+Dr. Naomi Myhill: Yeah, that's great.
+Stephanie Miezen: Okay. Um so from there this is where it becomes really really individual where um we need to take into account factors like what is the timeline that we want to have these changes achieved within um and that could be like situations where that is most relevant I think is when we're talking about injury recovery for example where that is a that's a pretty sped up timeline where we need to have these changes made pretty immediately if possible. because that recovery is not dependent but there is some dependency on those changes happening more quickly. Um I think if someone has goals like running a marathon we we want to put some priority and some speed on making those changes as well. But if they have a goal where it is uh let's just say general weight loss um specific to losing fat for the most part. That's probably the most typical way that we're thinking about weight loss. then I don't think that that that uh timeline is needs to be as sped up, but it depends on the goals of the person if they want it to be.
+ 
+ 
+00:32:43
+ 
+Stephanie Miezen: So that's what we need to take into account what is the goal that we're working on and what kind of timeline needs to be applied to best serve that goal and that depends on the person. Um from there like I had written probably annoyingly too many times in the um construct intervention uh document or the sheet. I think it is generally best to choose about one to threeish places identified within that gap that we can address for that person. So that might look like total energy expenditure and if that gap isn't so big maybe we can take care of that entire energy expenditure gap within the first block or or of steps if you will the first step of the intervention overall which might include a couple different substeps right I don't know how you want to what language to use around this but I think you understand what I mean what I'm saying here okay um so
+Dr. Naomi Myhill: Yeah, hold it.
+Stephanie Miezen: let's say for example example, the difference is only 300 calories that we're trying to make up. That is a snack.
+ 
+ 
+00:33:53
+ 
+Stephanie Miezen: That is a little bit more added to each meal. So, that's not huge. But if we're talking about a,000 calorie difference, which sounds crazy, but that can happen, then we might need to look at doing that within one within maybe two or three steps of them building on habits, on strategies to make that happen consistently in their life and then build those habits. So the um the severity of that gap, the the bigness of the gap does really influence how many steps we need to take to get there. Um which I think makes sense. Um then we can look at like where is that energy coming from? So that's the macronutrient side. So we can see okay because all of our calories are coming from macronutrients. So what are the macronutrients that we're really specifically not getting enough of relevant to or relative to the goal that we're trying to achieve? So this is dependent again on like ABCDE EF types of goals, but if someone is trying to I'm just going to throw out a couple if it's helpful.
+ 
+ 
+00:35:02
+ 
+Stephanie Miezen: Like if someone is trying to lose body fat, maintain muscle, we need to make sure we're hitting a certain threshold for protein. we are meeting their energy needs but then probably building in an energy deficit and that amount is also relative to the individual. Um 2 to 500ish calories is a decent energy deficit from anyone from a general health seeker to an athlete. I would think about that range applying. Um and that we need to make sure we're having enough carbohydrate relative to the kind of activity that activity that they're doing. And then fat typically I do at the end where we want that to be between 20 and 35% of total calories. So I'll calculate out the protein, calculate out the carbohydrate for their needs. Um, and then fit in the fats as a kind of third step to make sure we're getting enough, but it's not the priority over really those more functional macronutrients of protein and carbohydrate. So from there, let's say someone has a gap where we need them to be having 150 grams of protein, but they're only having 80. Well, that's a pretty big difference in daily intake.
+ 
+ 
+00:36:13
+ 
+Stephanie Miezen: That's almost twice as much. So, we might need to do two steps of that, two intervention steps where the first one we are adding in um an additional 2 ounces, 3 ounces, whatever, of protein at each of their meals. And once they feel like they got that down, then we can add in a protein source at a snack, for example. For some people, they can do all they can work on all this at one time. But this is where we have to identify like what do we need to do and then what are you able to do and let's prioritize maybe the heav he heavy hitters first, those things that are really make the biggest impact. Let's work on those. Make those habits. Make those sticky in your life, in your life. And then from there, let's build on those smaller impact things that are that are additionally adding to to help you get to to the goal. Um, the more that they can do at one time reasonably, great. We're just working towards achieving that goal faster.
+ 
+ 
+00:37:06
+ 
+Stephanie Miezen: This is where it depends on what the goal is and if we do need to make that happen or we can take a step back and let them work on it at a more slow rate. That was a lot.
+Dr. Naomi Myhill: Yeah, that that was great. And you answered a lot of my follow-up questions all in one go, which is perfect. Um, I see we've just come up to half past now. So, we are we are at the time. So, I will just finish the recording there. Did you have any other interventions or anything else you wanted to add um to energy balance?
+Stephanie Miezen: I don't think so. I think just in one thing that comes to mind is in making this happen for most people, we need some sort of follow-up accountability, maybe tracking of intake for somebody um to make sure that they're actually doing these things.
+Dr. Naomi Myhill: Yeah. Yeah, that's a good point. One thing I've just thought of is if we are let's say like prescribing these interventions and it might be um coinciding with another intervention like a physical activity intervention then I would imagine we would need to understand what that looks like in terms of energy expenditure change if they are increasing the amount of exercise they doing if it is cardiobased or resistancebased.
+ 
+ 
+00:38:30
+ 
+Stephanie Miezen: Yeah.
+Dr. Naomi Myhill: So maybe what's the best way? I don't know if we have the answer right now, but what's the best way to do that? Because we probably need to make sure that we're working in tandem with that type of thing. And there might be another. So exercise is one example. Are there any other I suppose like contra indications or things that we should be aware of when prescribing these types of nutrition interventions?
+Stephanie Miezen: Yeah, excellent point. So, the way that I would approach answering this is saying that nutrition always comes last. Nutrition is serving all of these other things that are going on. So to your point, in order to really make a plan that is relevant, we need to understand all the other recommendations that are in place and then build on those and around those. So truly like we need we need to have the exercise intervention understood. We need to have scheduling intervention or sleep intervention understood for example. we need to have stress management interventions understood to some degree or in place or at least flagged for that person. Um all of those things ideally are in place and then any medical interventions as well. All those things are in place and the nutrition can build around that because otherwise there it's just not going to work. It's it's like logistically it's not going to work and we're going to be missing something where we could serve it better if we knew that it existed with nutrition.
+Dr. Naomi Myhill: Yeah, that's that's great insight and that help that really helps us structure these interventions in terms of the order of these as well. Um, and how we come back to okay, if we have a goal of get stronger or look better, then an exercise intervention needs to be put into place. then have to have a conversation with nutrition to understand what that looks like. So that's a really important point. Um so thanks for that. Okay, I think we will stop the recording there
+ 
+ 
+Transcription ended after 00:40:31
+
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

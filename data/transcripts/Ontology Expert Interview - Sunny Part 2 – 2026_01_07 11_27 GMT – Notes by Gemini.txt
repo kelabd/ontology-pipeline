@@ -1,0 +1,319 @@
+﻿Jan 7, 2026
+Ontology Expert Interview - Sunny Part 2 - Transcript
+00:00:00
+ 
+Dr. Naomi Myhill: Okay, we are good to go with the recording. And so maybe just a quick recap if you can of the different classes of peptides first would probably be good just to link the two interview transcripts together. So, if you could just give a high level of the different classes of peptides um and then we'll follow on from there in terms of the monitoring of those
+Vivek Chander: Okay. So, I mean,
+Dr. Naomi Myhill: interventions.
+Vivek Chander: just in terms of kind of the ones that we're going to really be focusing in on, the ones with the best kind of um uh like FDA and data purposes. I think the the like the strong one would be like the tessarellin. Um because you know again of its safety and efficacy. Um I think the second tier would be like the growth hormone secrets uh like smearelin, cjc1295, vram morarellin um and then you know the third layer which you know people are very excited about but like there just isn't a lot of data and there is a lot of regulatory concern would be things the regenerative peptides like BPC57 seven.
+ 
+ 
+00:01:32
+ 
+Vivek Chander: Um, and then like the last thing to layer in would be like the mitochondrial peptides. Um, things like Matsi. Um, although SS31 was recently approved for Bart syndrome. So, we may need to look at that one a little. That may move up a little bit in like how we approach that one. Um, but that would be like the four tiers of of peptides that we would be prescribing. I think
+Dr. Naomi Myhill: Okay, great. So, starting with the with the first here, um, how would you design that kind of intervention? So, what's the structure? I know you mentioned previously there's cycles um, with the peptides as well. So, for that first tier, what does the cycle look like? And then how are you monitoring the progress of the house seeker during that time period?
+Vivek Chander: Yeah. No, I think that so we have to take like a N of one approach here because they're just really isn't a lot of human data out there for any of these peptides, right?
+ 
+ 
+00:02:47
+ 
+Vivek Chander: So I think coming up with a subjective um uh analysis or maybe through like a um uh a like a pre-treatment you know questionnaire um coming up with like you know 10 to 15 questions I mean something like sleep would be like a very easy thing to like measure in a way. So there is a specific peptide DSIP that you know we can actually you know have a questionnaire in regards to sleep and then maybe that would be a good one to have like some objective uh you you know with one of these kind of devices that monitor your sleep to see if it has in fact
+Dr. Naomi Myhill: like a wearable just like a watch.
+Vivek Chander: yeah uh I think even better than that there's a um
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: a company called empower power that they have like an FDA approved like sleep. In fact, I have it here. I don't know. Let me see. I've been using it every once in a while. Can you see this or not?
+ 
+ 
+00:04:02
+ 
+Dr. Naomi Myhill: Yeah. Is it like a little sensor?
+Vivek Chander: It's a little sensor and it's much much better than like a Whoop or like an Aura Ring or
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: an Ultrauman or whatever. Um, and it gets really into the like the nitty-gritty of the like the sleep data.
+Dr. Naomi Myhill: Okay.
+Vivek Chander: So that that would be like something interesting to in regards to sleep to like actually get some objective data as to how the DSIP is working or not working. Um, I think that
+Dr. Naomi Myhill: So that was called sorry sun sorry was that so that was called empower that little device that you
+Vivek Chander: that that company uh it's actually called what is it called in Power Sleep? What the device is actually called? The company that uses it is Empower Sleep. Uh but it is like a sleep monitoring um FDA approved
+Dr. Naomi Myhill: Mhm.
+Vivek Chander: device. Um it's available in all 50 states and
+Dr. Naomi Myhill: Okay.
+Vivek Chander: um when you actually see the data from it, you can actually see it really drills down on not just like how much deep sleep, how much um our REM sleep, but it actually like dives into the quality of the sleep as well.
+ 
+ 
+00:05:30
+ 
+Dr. Naomi Myhill: Okay, that's interesting. Um, yeah, we've been looking at a lot of um, obviously Aura Ring and different wearables that we're integrating and of those
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: the sleep metrics and what the validity is of those sleep metrics across those different devices. So, I've not heard of that one. So that's that's one that I'll look into particularly if it's FDA approved and something you think should be recommended kind of if we are recommending certain type of peptide for example for someone they should be monitoring their sleep with this that would be something that potentially we put in that recommendation. Um so yeah we'll we'll kind of get more details on that but in terms of
+Vivek Chander: Yes.
+Dr. Naomi Myhill: I'm just going to dig into it a little bit more Sunny if you don't mind because I think that's that's quite interesting. Um, is it just sit on your finger while you sleep? Do you have to wear it all night? I would assume.
+ 
+ 
+00:06:23
+ 
+Dr. Naomi Myhill: How do you know how many nights in a row you have to wear it, for example? Or is that a level of detail that you don't have at the minute? We can kind of
+Vivek Chander: No, no, no.
+Dr. Naomi Myhill: explore.
+Vivek Chander: I I I do like So again, like I I'm really like talking about sleep actually. I think sleep is one of those those things that is underrated in most people's brains,
+Dr. Naomi Myhill: Mhm.
+Vivek Chander: right? And in regards to how important it is to our health. So the yes, it's something that you wear on a daily basis. It is analogous if you get on one of these like um uh scales and you get like the body composition data off of one of these scales like a whbing scale and then you go to a DEXA scan the the uh precision of data is just that much greater with a a DEXA scan. Right?
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: So if you compare this Whoop and Aura to one of these devices, the precision of data is that like a lot better with these devices.
+ 
+ 
+00:07:27
+ 
+Vivek Chander: Typically to come up with insights, um you should be wearing it for about two weeks. Um, the reason why this is much better to be honest with you is that you can actually then figure out what your intervention is going to be and then repeat like another two weeks to see if it's actually had an effect. Come up with another intervention, see if it's had an effect. So, we're specifically talking about like peptides. So the sleep inducing peptide that's being used is like the delta sleep inducing peptide. That's the name of it. So this would be something where somebody would wear it for two weeks and then they would institute they would come up with like a baseline uh sleep um uh score or quality of their sleep and then they would do this specific intervention and then repeat the test and then see if there's been an improvement and then really microtarget the different things that would help it. So for cascade patients, I think this is like a total like like a yes 100% yes.
+ 
+ 
+00:08:43
+ 
+Vivek Chander: I can make the introduction, you know, to Res to the company and I think that's this is like a really good thing. Um so but it's it's even stuff like like I tried personally I tried mouth
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: taping. I hated it, right? I've tried um you know the yoga nidra. It in fact works. Yoga nidra works. We could talk about sleep some other time, but like just the concept of this being easy to use, readily available and doing targeted interventions and seeing if there's an improvement real time um is like a unique thing in all of functional medicine.
+Dr. Naomi Myhill: Yeah, that sounds it sounds like something that we would would be really interesting for us and and good for us to use. So, we I don't know if you know, Sunny, but we have a technology quality assessment framework um at Cascade that we've built. So, we are retrospectively going through technology we already use, but any new technology that like one of our subject matter experts recommends, we we take it through that framework.
+ 
+ 
+00:09:55
+ 
+Dr. Naomi Myhill: So it assesses different qualities. Um so you'd have like validity, reliability, usability, feasibility, then data interoperability. Can we connect to an API? Those sorts of things. Um is it practical in terms of usability for the health seeker or the practitioner themselves? Um and then we have kind of ethics and safety pillar as well. So there there's 25 different features of evaluation that kind of all these technologies go through. So this one would be really good to take through that framework and especially if you have an introduction and you've used it as well um to get your input on that would be really useful and then once it's through you get kind of it will be either approved kind of straight away um or the other condition is like re-review. to review maybe in six months time or 12 months time because some technology companies just need more time to develop something that we need to hit hit a a goal within the framework or um we won't be using it.
+ 
+ 
+00:10:58
+ 
+Dr. Naomi Myhill: So those are kind of the the three outcomes and each of them we get kind of a rationale behind it. So, um I don't know if you have Have you been on the Cascade Commons site?
+Vivek Chander: I was having trouble getting on. Um, but you know, that was right before I left. So, I'm going to try again and see if I can come on.
+Dr. Naomi Myhill: No, that's fine. If you if you're struggling, just ping me. I can always kind of help you out with that because I was just going to say the technology framework is on there if you did want to have a um a look at it just to get some context onto what I'm saying. But if you go on to the Cascade Commons site, you would click onto the ontology and then click onto tech framework and you'd see it in there. So, we've just got a little there's a little deck and a dashboard of all the technologies we've assessed and are currently assessing. You'll be able to see what the status of of those is as well.
+ 
+ 
+00:11:52
+ 
+Dr. Naomi Myhill: Um, but yeah, something like this would be great to go through that that framework. Um, and we get different stages of it. So initial stage would be like a pre-review, then we bring the subject matter expert in to confirm some of the features like it does do what it says it does. Um for example, so yeah, we can get into that in a bit more detail, but um that's great. I can see you've sent the link over as well, which is fab. So I'll take a look at that. Um but yes, let's dive into sleep on another call because it's a really interesting area and I'm sure you've got a lot a lot of knowledge um to share with us. So we'll keep that as a separate call and make sure we have enough time for it. Um, all right.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: I really derailed that your answer to your question
+Vivek Chander: No, no, no. Okay. So, so I mean I think that's like the question is a really good one.
+ 
+ 
+00:12:38
+ 
+Dr. Naomi Myhill: there.
+Vivek Chander: What objective data can we use? And I think again body comp data is really like pre and post is like a good idea. something like this device for sleep would be a good idea. Uh but like when you start thinking about like peptides like thyosin like so that's like a you know immune booster right so how do you know that's being effective right do you know how many colds you had last year like was it four to five this year you've been using is it two to three people don't remember that sort of stuff right like so I don't know how you'll be able to like monitor stuff like that. Um but like for metabolic stuff it's the same things that we would you know we would be measuring blood pressure uh CGM data um uh liver enzymes like you know somebody comes in with um you know non-alcoholic or you know metabolic induced liver disease right um you can see like not only the body comp data but you can also see uh if you use something like testom by shifting the fat from the liver to the subcutaneous area is is is are your liver enzymes improving over time.
+ 
+ 
+00:14:12
+ 
+Vivek Chander: Right? So that would be like another objective measure.
+Dr. Naomi Myhill: Just thinking thinking out loud there, Sunny, in terms of um not being able to remember kind of how many colds you've had in the
+Vivek Chander: Um,
+Dr. Naomi Myhill: year, I wonder if there is a way we could use kind of just just wearable data in terms of breathing rate, resting heart rate, heart rate variability, and maybe skin temperature. I know some wearables do that because we're kind of looking into that at the minute is what's what would be like the threshold to indicate to a practitioner or your health seeker might be starting to get ill like is it two standard deviations outside of their norm for resting heart rate three consecutive days in a row or something like that in combination with an increase in skin temperature by one degree um for example. So I wonder we we're trying to build that at the same time. So um that might feed into potentially a monitoring um intervention for that peptide if we get to that point.
+ 
+ 
+00:15:17
+ 
+Dr. Naomi Myhill: So yeah, I just wanted to let you know that's kind of something we're working on and don't know if you have any thoughts on that as well, but yeah,
+Vivek Chander: I
+Dr. Naomi Myhill: we've kind of identified those maybe metrics that might indicate
+Vivek Chander: think I think that's a great idea.
+Dr. Naomi Myhill: something.
+Vivek Chander: I I also wonder if this is more like how do you how do you create objective data from subjective patient experience, right? And like I think that if you you know I've done a lot of these interventions, right? And uh I'll tell you for instance that like when it comes to creatine, do I know that it's kind of helped my uh my my precision of thinking? I think it has, you know, but like I'm not sure. I don't know how to measure it, right?
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: So like I noticed a difference.
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: I just don't know what that difference is. in fact right um and is that my brain saying uh you know I'm I'm using it for this purpose it must be working or is it actually working right so is it placebo or is it not I don't I don't
+ 
+ 
+00:16:42
+ 
+Dr. Naomi Myhill: Mhm.
+Vivek Chander: know you know some of this some of the peptides it's easy to know like
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: if you uh like again if you take tessamarellin as an example and Um uh you can measure your visceral fat, right? You can measure uh your visceral fat uh with body comp stuff and then you can measure it after you use it and you can see very clearly if it's gone down or not, right? Um but some of these things are just going to be based on I think interviews with the patient or subjective questionnaires with good scoring systems. Uh and then it is what it is.
+Dr. Naomi Myhill: Yeah, I think that would be good to build out like which which class of peptides we're kind of more confident in being able to monitor objective data like body composition and then which ones would be more based off of the effectiveness would be more based off subjective data, subjective feedback from the health seeker. Um it would be good to then kind of plan or pin down like which questionnaires or surveys would be most useful during that period of time because we have a a bank of um intake surveys that health seekers will based off of their goals and their kind of initial diagnostics will fill in. So some of those are medical history, some of those are um like sleep questionnaires, activity questionnaires as like a base, but then there are add-ons as well that if a health seeker kind of fits a certain
+ 
+ 
+00:18:27
+ 
+Dr. Naomi Myhill: demographic or the practitioner um decides that they want to push that through, there are additional two. So that's just we've only thought about that at the intake. So I'm wondering now, do we also need to plan for some of these surveys during the interventions as well? Um, so it'd be good, I don't know if you'd have experience with any surveys that would be particularly useful for some of these um, peptide interventions to get that subjective feedback, but it'd be good to try and understand what they would be from your point of
+Vivek Chander: Yeah. Yeah. No, I I I should think about that.
+Dr. Naomi Myhill: view.
+Vivek Chander: I don't know. Um, I think I would start I would start with all the objective stuff and then I would uh yeah, I mean I think that we would have to um you know talk about general mood and we would have to talk about energy and brain fog and um just general well-being and happy like a lot of it would be like that stuff, right?
+ 
+ 
+00:19:31
+ 
+Vivek Chander: Um um but oh just a a quick thought from a performance standpoint. I think that would be something that especially in view of cascade would be like a really important thing to to like monitor, right? Like things like step count and resting heart rate. You mentioned heart rate variability, right? Weekly averages. I think that would also be like a really good thing to monitor with this sort of stuff, right?
+Dr. Naomi Myhill: Yeah. Yeah, for sure. Those are the types of things. So, we'll be monitoring them for different things, but what we need to do is link them to different interventions. So, this is exactly kind of what we need to be discussing. It helps us make that link, if that makes sense. Like the the data is going to be there if we have linked their wearable. um we just need to be able to call it and make that link because they're on a pepone intervention or they want to get they're on a intervention they want to get stronger or live a healthier lifestyle then that will then trigger essentially certain types of interventions available like resistance training specific nutrition intervention recovery intervention behavioral those types of interventions are triggered based off of like the goal and the initial diagnostics
+ 
+ 
+00:20:46
+ 
+Dr. Naomi Myhill: um of that health seeker but within those then triggered interventions we also need to make sure that we are capturing the right data for that. So yeah all of that stuff kind of makes sense and that's the kind of information that we want to try and gather as well um within this interview. So yeah, if if you're general monitoring data like heart rate, um breathing rate, number of steps per day, activity minutes, that sort of thing. We could almost like class that as universally helpful for a lot
+Vivek Chander: Yeah,
+Dr. Naomi Myhill: of interventions.
+Vivek Chander: 100%. Yeah. Yeah. I mean, the trick is going to be also making one intervention at a time, which is we're trying to make all these interventions, right, to actually I don't know if we should be doing that though because if we really want to improve people's general well-being, we're we will be talking to them about nutrition. We will be talking to them about exercise and peptides. And it's just going to be this general this is what you need to do, let's do it.
+ 
+ 
+00:21:56
+ 
+Vivek Chander: And then we're going to be trending them over time and it's going to be hard to know uh what effect they're getting from what intervention.
+Dr. Naomi Myhill: Yeah, I think that's going to be the issue for us is is actually isolating which intervention is causing the effect or is it a combination of all of them of two of them or three of them? I don't know if we'll actually be able to pinpoint which one, but I think the end goal is to improve the health seekers or meet the health seekers goal. Um, so yeah, I think it's a good point. It's we wouldn't be doing anything in isolation because then you'd be neglecting something else. So yeah, we we need to figure that out.
+Vivek Chander: So maybe we think about from A you measure the objective stuff that you can measure. Um and then the rest of it is just more um like general improvement of one's well-being. So I mean we again like DEXA is a yes. Uh sleep is a yes.
+ 
+ 
+00:23:15
+ 
+Vivek Chander: Uh but like when you talk about performance and metabolic all that is just general. Everything else is general. Everything else is general. Like we're making all these interventions. It's working. We don't know what effect to ascribe it to. But keep on doing what you're doing. And here you can make modifications here, here, and here.
+Dr. Naomi Myhill: Would there be a point in an intervention, let's say peptides haven't been recommended yet, would there be a certain point, let's say there is a health seeker whose goal is to lose weight, so improve their body composition, let's say. So would there be a point where you would then bring that in or whether it's improve body composition by building muscle? Let's go with that example. And initially their intervention is they didn't want to they didn't want to go um for the medical route. They wanted focus on physical activity. So, we've prescribed a resistance training program, um, let's say a nutrition and supplementation program as well, but they're not seeing improvements or they have a conversation with their health coach and actually someone's told them about peptides and then this comes up.
+ 
+ 
+00:24:43
+ 
+Dr. Naomi Myhill: So what at what point there would you then say okay let's let's try this peptide or we recommend this because you brought that to us. Is that something that you would um do within that 90day program or would you say let's wait till this 90 days is over and then in the next 90day program. So just trying to get an understanding of like time windows and just kind of going back to what you said before around the cycles of different peptides as well. When's the best time in a health seekers's journey to begin that
+Vivek Chander: Yeah. No,
+Dr. Naomi Myhill: process?
+Vivek Chander: I mean I think that doing the lifestyle interventions first and kind of viewing this as a pyramid is like a good is a good way to do it, right? And I think that was one of the things I had sent you kind of documentation wise, right? So I think that the the initial base layer uh is obviously going to be diet, exercise, um and sleep, right? That's going to be just the first intervention.
+ 
+ 
+00:25:48
+ 
+Vivek Chander: Um I think that uh giving those interventions three months is a reasonable approach and then starting to stack things like creating good habits. you know the 27 do something for 27 days. Creating a good habit for 3 months, seeing if there's actually a change by doing those initial interventions is smart and then going on to the next one, right? And the next one can also happen concurrently, but it's also it's like the the the medical stuff that may not be happening because of like poor care, but uh you you know the cholesterol, the diabetes, uh you know, maybe uh incorporating like CGM data, uh you know, cleaning up the medical stuff, right? That would be maybe another that could be like six months, right? three months of this, six months to clean up all the medical stuff and then at that point you stack on peptides. I think the way to do it would be to try to optimize everything that is standard traditional medical care on top of all this like the evolving functional lifestyle. um ethos.
+ 
+ 
+00:27:19
+ 
+Vivek Chander: Um and then at that point once you optimize that then you kind of layer in these um the gray area FDA unapproved. We know it works but like people may look at us weird, you know, that sort of stuff. And then you can even go take it one step further and start talking about like you know uh PRP injections and um stem cell therapies and that would be like the like the pinnacle of like what we would potentially offer our patients. But that's how does that line seem like a reasonable way to think about
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: it?
+Dr. Naomi Myhill: Yeah, that makes sense. Um, and I think that helps in how we're kind of planning those types of interventions when they come in. So I think it's important because peptides is is a is a kind of hot topic at the minute and it it it's being brought up quite a lot in um like our IST meetings and things like that. So I think it's really useful to get an understanding of when they should be recommended after you've gone through the base of the pyramid.
+ 
+ 
+00:28:39
+ 
+Dr. Naomi Myhill: So they're not the first thing that's recommended and you review the base of the pyramid first. Um, so I think that's just important to capture just because it keeps kind of coming up.
+Vivek Chander: I think end of one approach is important too because this is just general timeline
+Dr. Naomi Myhill: Um,
+Vivek Chander: but like imagine that I come into your program and I've done all these things already like I've cleaned up. So then I'm good to go right so so I could say yeah I've done that I've done that I've done that. Here's my body comp data. Here's my sleep. I've done this all. Um, can I get peptides? Right. So, I think everyone's going to be on their own separate journey.
+Dr. Naomi Myhill: Mhm.
+Vivek Chander: So, seeing what that journey is and then kind of meeting them where they are in their journey is probably the smartest way to do this.
+Dr. Naomi Myhill: Yeah. Yeah, that makes sense. Um, so I think just the followup questions would be in terms of those peptide classes.
+ 
+ 
+00:29:56
+ 
+Dr. Naomi Myhill: Can you just link those to like the key constructs they would improve and then we just have that loop closed up? So you've mentioned the different classes of peptides and if you can just again just explain don't have to go into too much detail but just so we have the link kind of on the transcript of which constructs they improve um that would be really
+Vivek Chander: So for like the tier one uh peptide tessorin which was approved for
+Dr. Naomi Myhill: useful.
+Vivek Chander: HIV associated lipodistrophe right so the big thing that you're going to see the big observed effect is going to be in regards to visceral atyposity right um and by doing by changing that body comp you're also going to be uh improving their cardiometabolic status as well. Um so that that would be like the big thing for tesarellin for the growth hormone secrets. Um you know they are prepared to you know stimulate growth hormone release, improve sleep, help with recovery uh and enhance body composition. um all of them are unapproved for any of these these things but they work right.
+ 
+ 
+00:31:22
+ 
+Vivek Chander: So it's one of these things where where uh uh if we use it we just have to document things very clearly. the regenerative stuff. There's only one um human study currently under uh going through um uh for BBC57 right now and it's for injection and knees. That's the only thing that's like in action. So there's nothing out there data wise, right? But again, it's supposed to help for gut healing. If you take it orally, somebody with inflammatory bowel disease, um, it's supposed to help for that. Um, it's supposed to be a potent anti-inflammatory medication. Um, it's supposed to be great for recovery post-workout. Um, I've been using it for for that and I I definitely see a difference. Um uh so but there there's this is the one where like 15 states have like senties like cease synthesis letters. So it's going to be like we should use it. It's got low down like not a lot of downside but like we just have to do it in the right kind of legal framework.
+ 
+ 
+00:32:39
+ 
+Vivek Chander: Um and then the mitochondrial peptides just kind of uh they're enhancing health, they're enhancing energy utilization in the body. Uh they're increasing um you know glucose metabolism, they're decreasing inflammatory markers. Um that I mean that's generally how they work. Um and and improving like just general well-being is the way uh I would think about it.
+Dr. Naomi Myhill: Okay, great. I do have a another follow-up question. Um I think you mentioned it in the last um interview, but you can stack the the the different peptides. So, and it's been mentioned a couple of times and I know that I think um Matt Jordan's mentioned it a couple of times. It' be quite interesting to get your opinion on what's what's the Wolverine stack and what's the what's the elements to that and again there's probably not much research as you've mentioned not many human subjects but what's your kind of point of view on the Wolverine stack what is it and what how would it benefit our health seekers let's
+ 
+ 
+00:34:02
+ 
+Vivek Chander: So there when talking about stacks I it's actually very interesting because okay so one we don't have data on just what one thing is doing and now we're like combining a couple of different things. So, it's tricky, right? The the best lecture on stacking, one of those kind of moments for me was uh at the peptide mastermind and I think I sent you, let me see if I can pull it up. I sent you the peptide mastermind was a woman by the name of Elizabeth.
+Dr. Naomi Myhill: Yes.
+Vivek Chander: Uh she is um uh like I think one of the principles at Boulder Longevity Institute and she was talking about how we should think about stacking peptides from a seasonal perspective which I I found like fascinating. So um for instance if we're talking about immune uh modulators like alpha thymusin right that should be something that's used right before you have your vaccines in October because it actually improves the effectiveness of vaccines. This is when you're going to be exposed to all your colds. This is when you need to have um um have your strongest immune system.
+ 
+ 
+00:35:36
+ 
+Vivek Chander: Um in the wintertime, everything goes to sleep, bears hibernate. Our bodies are actually built the same way where we power down in general. So this is not a time we should be using like growth hormone secrets because the body is not it's like hunkering down it's not building right so this is a time for like mitochondrial optimization right so this is a time you would use like SS31 and Matsi and um you know make sure you're taking your co-enzyme Q stuff like that that's like in the winter time in the springtime That's when things are coming alive. Our bodies are starting to go outside. So this is the time for growth hormone secrets, right? So and throughout all this you can kind of layer in like things like BPC 157 and TB500 which is the Wolverine stock uh for repair and uh you know for post exercise recovery and things like that. But like she really had like this kind of thinking of this our bodies naturally evolve through the seasons and we should be stacking the peptides aligning to those seasons.
+ 
+ 
+00:36:59
+ 
+Vivek Chander: Um does that did that answer your question?
+Dr. Naomi Myhill: Yeah, it gives some great context. Um I'll I'm just going to share my screen just so you can see because um Matt was playing around with um building infographics on notebook LM and he just put a bunch of papers in and it built this infographic um he's just posted it in this morning. So um let's share let's see because it because it's AI built you don't know how it's taking information from the papers but you also don't know how accurate it is as well. So it just be interesting um for you to see it. Let's I got the light on. Yeah. Um there you go. Yeah. So he just pinged this in the chat like firstly this call that notebook LM made an infographic like this but secondly um I think he was talking about the copper the copper peptide not hearing about it before and and things like that.
+Vivek Chander: Yeah,
+Dr. Naomi Myhill: So, um,
+ 
+ 
+00:38:01
+ 
+Vivek Chander: that's a Hollywood stack, I believe.
+Dr. Naomi Myhill: the Hollywood stack. What does that mean?
+Vivek Chander: Yeah,
+Dr. Naomi Myhill: It's an interesting
+Vivek Chander: it's for it's for um skin and looking
+Dr. Naomi Myhill: name.
+Vivek Chander: good. It's tricky. I I haven't.
+Dr. Naomi Myhill: Uhhuh.
+Vivek Chander: So, a lot of these peptides like they're creating these stacks and they're making it like sexy, right? But like I don't know if they're actually compatible to use in one injection. Like each one has their different phocinetics. I'm I haven't like I feel like if you're using these things, it should be one separate injection for each thing you're using for the purpose for what you're using it. I'm not I don't know how I feel about like combining a whole bunch of things because it's harder to measure the effect and I don't know if phmicinetically it makes sense.
+Dr. Naomi Myhill: So in these stacks, are they just putting them all in the same kind of syringe and and injecting it? Okay. Without really any kind of knowledge of whether one cancels out the other or one mechanism doesn't work if it's combined with another peptide.
+ 
+ 
+00:39:27
+ 
+Vivek Chander: So, I I recently ordered I have I have like a uh TB500 and BPC 157 and I want to use it to see if there's in fact a difference between how I feel using that versus BPC 157. But like pharmarmacinetically I don't understand how all these different stacks are getting created without even having data on one specific component of the stack.
+Dr. Naomi Myhill: Is are peptides like the peptide market are they kind of at the mercy of people trying to sell them in terms of putting them together and publicizing these stacks? Is it is it more of an unregulated kind of aspect? Okay.
+Vivek Chander: It's very unregulated and I feel like sometimes like I would
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: not I would say don't offer the Hollywood stack because I think that that it's there's a responsible way of doing this. One of the things that I would love to do in fact is that you know this is an N of one. There are people who do studies on N of one, right? So basically you can I can we can create like a study where everyone who gets a peptide is actually as part incorporated into a study to see if in fact it's improving their long-term care.
+ 
+ 
+00:40:55
+ 
+Vivek Chander: Right? We could do that and I think that would be a responsible way of
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: advancing medicine forward through all these functional health clinics, right? As opposed to having some Jim bro in California saying, "Oo, these three things look good together. Let's create this." And then sell it as a, you know, branded Hollywood stack or whatever it is.
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: Um because it is like I really do view this as pushing medicine forward but like in pushing medicine forward people are taking advantage of patients and bringing medicine down right so it's like a it's a pushpull sort of how do we how do we do this in the most responsible ethical uh regulatory legal framework right how do we do it keeping all That's central and patient safety. Patient safety.
+Dr. Naomi Myhill: Mhm.
+Vivek Chander: Patient safety. Patient safety.
+Dr. Naomi Myhill: Yeah. 100%. I think with the with this example,
+Vivek Chander: Right.
+Dr. Naomi Myhill: but even other kind of interventions that we'll we'll be doing, we're going to have so much data if we have consent to use it.
+ 
+ 
+00:42:12
+ 
+Dr. Naomi Myhill: Then we can start to build those studies and um start to plan those as well. like we have a a bit of a research study list of like prospective studies that we' we'd like to do if we get consent to do and a lot of them at the minute are more kind of um some of them are performance focused and there's some health focused ones on there but again that's something I've shared on the ontology page on commons where anyone can kind of add what their study ideas would be because we're going to be collecting a lot of wearable data firstly from a lot of different hopefully a lot of different demographics and then alongside training programs for example from an exercise point of view that we'll be prescribing but then you also have other things that we'll be prescribing or recommending for them as well um in terms of interventions like an example might be um blood flow restriction training actually looking at blood biomarkers kind of pre and post there's not really a lot of research out there at the minute on that as a specific um point.
+ 
+ 
+00:43:18
+ 
+Dr. Naomi Myhill: So that's something that we could look at as well. So yeah, any ideas that you have or any type of research that you want to do and look into, Sunny, that's heavily welcomed as I'm sure you'll know anyway. But yeah, we have that that list on there. So feel free to kind of add any of your ideas on there or um yeah, we can kind of jump on a call and discuss in a bit more detail once once we get a bit further along when we start to prescribe um or think about prescribing pep recommending peptides and things like that. So yeah, for sure. Um yeah, that's the Hollywood stack is an interesting one. I'd not heard of that before. Um I do have a follow-up question based off of the cycles um the different seasonal cycles if we are obviously from from a health seeker perspective um there's probably there might be less restrictions than from an athlete perspective. So I know you mentioned last time that some athletes will take peptides in the offseason because it's flushed out after 3 weeks.
+ 
+ 
+00:44:21
+ 
+Dr. Naomi Myhill: So, how does that fit with the seasonal cycles that you just mentioned? If there's only a certain period of time where an athlete would feasibly be able to take a
+Vivek Chander: Yeah. No,
+Dr. Naomi Myhill: peptide
+Vivek Chander: 100%. Like I I mean obviously if if the peptide is on a banned list, like they would not be able to use it. That's just like the the long and short of it, right? Um but that's only a certain segment or demographic of the population that Cascade is serving. Correct.
+Dr. Naomi Myhill: Mhm.
+Vivek Chander: Um,
+Dr. Naomi Myhill: Yes.
+Vivek Chander: so and then pharmacinetically each one of them is different. Each one of them breaks down. I think 3 weeks is the probably the safest time period from what I understand. Uh, but some of the stuff is gone in 48 hours. So it's like the the halflife of some of these things are really really fast.
+Dr. Naomi Myhill: Wow.
+Vivek Chander: So we could drill down or figure that out as if people really wanted to use certain
+ 
+ 
+00:45:19
+ 
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: things. Uh but again like FDA,
+Dr. Naomi Myhill: Mhm.
+Vivek Chander: legal, regulatory, compliance, like we probably don't want to be necessarily pushing the envelope for them because if they get in trouble, it's their livelihood.
+Dr. Naomi Myhill: Yeah. Yeah, exactly. Um, cool. Okay, I'm just seeing the time. We've got about seven minutes left. Was there anything else that you wanted to cover on peptides that you think we've missed or would be good to cover over?
+Vivek Chander: So, I mean, again, the the the big thing would be consent forms when we actually get into it. Uh,
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: and consent forms that we create, but also consent forms that are validated by a lawyer. uh because this is again a very kind of tricky area in medicine right now.
+Dr. Naomi Myhill: Mhm.
+Vivek Chander: So to prescribe it, it would have to be done in exactly the correct way. Um there are a couple of peptide lawyers out there. I think I may have introduced Rakkesh to one of them already, but like I I really feel like that's where when the FDA comes down on this, if they come down on this, like just protecting the company by uh the consent forms is going to be key key.
+Dr. Naomi Myhill: Yeah. Yeah, that makes sense. In terms of kind of this information that will go into the ontology, then we'll have like a little flag around it before any of this is recommended or discussed with Health Seeker. We need to make sure we have those consent forms in place and ready to roll. So, um, yeah, that's definitely key. Um, okay, cool. So, I think we will stop the recording on this. Um, I think we've done a a good deep dive and like I said, I've got those uh docs that you emailed over before Christmas, which is great. So, we can integrate that in as well. Um, so what we'll
+ 
+ 
+Transcription ended after 00:47:28
+
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
