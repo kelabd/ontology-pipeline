@@ -1,0 +1,528 @@
+﻿Jan 27, 2026
+Ontology Interview - Sunny Sleep Part 2 - Transcript
+00:00:00
+ 
+Dr. Naomi Myhill: Okay, great. I think we are good to go there. So, for the benefit of the transcript, we're still talking about sleep as our domain area in our construct. So um last week we spoke about how sleep affects your cardiovascular health um metabolic health cognitive um your endocrine system for example. So today we want to focus on how do we design interventions to improve sleep based off of assessment results. for example. So, Sunny, what are your go-to interventions for improving sleep and how do you break that
+Vivek Chander: Um,
+Dr. Naomi Myhill: up?
+Vivek Chander: let me just I'm fixing your your screen my screen here. Okay.
+Dr. Naomi Myhill: I did that as well. Trying to fit someone in a certain corner of the screen.
+Vivek Chander: Yeah. Um, all right. Hold on one second. Okay. All right. So, there I mean, it's it's a it's a very large question. I don't know if we're going to be able to get to everything today.
+ 
+ 
+00:01:29
+ 
+Vivek Chander: We might need a sleep part three. Uh but I think that uh a good place to start and probably the most important kind of way to frame this is um something that Matt Walker who's like a sleep expert uh came up with which is something called the QQRT framework. Um basically the Q1 Q stands for quality. Uh so that's the quality of sleep is you know how how much uh REM sleep are you having deep um nonREM sleep are you having uh the quantity which is important regularity and then the timing. So of those four things that that uh we focus on, the regularity is the single most important thing to focus on in terms of like a protocol intervention. And that's simply you're going to bed roughly at the same time every night and you're waking up at the same time every night. And the reason why that is the most important thing is that it almost it trains your master clock, your super kaismatic nucleus uh in terms of like initiating your cortisol rhythms. It optimizes your melatonin timing.
+ 
+ 
+00:02:59
+ 
+Vivek Chander: Um it forces you to like increase your sleep pressure over the course of the day. Um and then it actually because there's that regularity that cycling that happens between your uh your non-REM sleep and your REM sleep becomes regular. So for me like as an ER doctor like this is the mechanism that was completely messed up for 25 years for me. uh because I I I don't think I slept at the same time or woke up at the same time on any two days in a row. So intervention number one would be to like look at that framework and then concentrate on the regularity. Questions about that?
+Dr. Naomi Myhill: Yeah, let's let's go with that breakdown. So, if we focus on um sleep regularity, how would you structure those interventions to help a health seeker improve their regularity? Um do you use standardized protocols for those interventions? Is there a progression plan in terms of improving that regularity?
+Vivek Chander: So the regularity uh can happen in two ways. I don't think that there is a specific protocol as much.
+ 
+ 
+00:04:30
+ 
+Vivek Chander: This is more of a like strong strong recommendation is that there are two ways you can go about this. One is that you can just say you're going to go to bed at 10:30 every night and you're going to wake up at 6:00 or 6:30 every morning, right? Um the the other way to do this is uh some of the trackers will have sleep recommendations. So, I know like the Whoop tracker will based on the amount of sleep you had, the amount of strain uh that you had during the day, uh what your heart rate variability is, it's going to make a recommendation every morning saying uh you know, tonight you should go to bed at 10:15, tomorrow I wake up and it'll have a recommendation. Tonight you should go to bed at 10:25. So, you could do either one of those things. Um, I think that probably looking at all the different metrics, if you do have a a wearable, it may makes more sense to I I think that would be the better way to do it is to follow kind of like a network a the metrics that are being followed by like a wearable
+ 
+ 
+00:05:50
+ 
+Dr. Naomi Myhill: Yeah, that makes sense. And so just on those, I suppose the wearables, we touched on it last week with different types of technologies, but would you recommend any specific wearable um in addition to to the empower sleep last week or is it a case of whatever the health seeker has, we find a way to use that to help them improve their sleep regular
+Vivek Chander: So this may be something that you know more than me is I don't know so I don't know if you would
+Dr. Naomi Myhill: ity.
+Vivek Chander: be able to use the empower sleep for this specific use case right I think this would be like aura whoop ultrauman and I don't Know which one of those is the best when it comes to
+Dr. Naomi Myhill: Yeah, we um we actually have built out a kind of a wearable
+Vivek Chander: sleep?
+Dr. Naomi Myhill: ontology. So we have got kind of the information around like aura um mainly Fitbit, we have some around Garmin and ultraum in terms of those metrics. So um we know that aura is better for sleep than the other risk based wearables but he's aura is not as good for activity based metrics compared to the riskbased wearables.
+ 
+ 
+00:07:19
+ 
+Dr. Naomi Myhill: So um yeah we have that information stored in and and kind of that's what we're building off our wearable kind of alert trigger conditions off of as well for sleep. So yeah, just interested if you had a um perspective on that, but um that's fine. We can move on. So in terms of still focusing on sleep regularity, how would the health seekers kind of constraints or preferences impact that? Because you might have health seekers that you know they have activities in the evening or they have an earlier start one day or another. So they can't necessarily follow, you know, what their watch or their ring is telling them to do. So how do you kind of account for that?
+Vivek Chander: Yeah. No. So, part of this conversation also has to do with what type of sleeper you are or what type of chronotype you have. Um because some people I mean I we all have friends who wake up really early and then we have friends who wake up really late because they're going to bed late.
+ 
+ 
+00:08:28
+ 
+Vivek Chander: So you have to figure out what type of chronotype you have. Um because we don't want to like institute some sort of formal like thing that doesn't make sense with your sleep biology. I'm going to drop something in the chat here. Um, so this is actually a quiz that you can take to figure out like if you're a um early riser, late riser, and that kind of sets like sets a little bit of the framework, right? Um I think if you look at who I listened to an interview with um the the woman's tennis player who's amazing. Uh, she's number one. She's from Eastern Europe. Why am I Yes.
+Dr. Naomi Myhill: Sabalanka.
+Vivek Chander: Oh my gosh. She is. So, she she really swears by like the sleep regularity. And of course, she goes out and she drinks and all this stuff, but she actually when you listen to her, it's a rare thing. Like it's a it's a cheat as opposed to the norm, right? Um, so she has a wearable and like if it tells her that she has to go to bed at a certain time, that's when she goes to bed and she's like 95% strict about it, right?
+ 
+ 
+00:09:52
+ 
+Vivek Chander: And the other thing about like all these athletes, when you look, I think I I saw this someplace where if you look at where the world records were broken in terms of what time of the day they were broken, they're broken between 11:00 a.m. and 100 p.m. because that is the optimal time in your body with your circadian rhythm where like all your hormones are firing, everything's stable, you're like at like that mean concentration of melatonin, adenosine, all this stuff, right? So like our athletes, if they're Olympians, like that's when you want to have them target their races and whatnot, right? Because that's the where they're going to be optimally performing. um setting your circadian rhythm like for these athletes if they're traveling abroad like you don't go the day before you go three or four or five and make sure your circadian rhythm is like fully optimized at that time before you're kind of performing right so it's you ask the question like what do what do they do if they're not if they are going out for a party or you know they have 17 different commitments and they're meeting this person.
+ 
+ 
+00:11:12
+ 
+Vivek Chander: Like this has to be a priority. This is only going to impact their their uh performance. Like if they if they're bouncing around too much. Of course, we all bounce around a little bit here and there, but like the more you're able to regularize it, the better it is.
+Dr. Naomi Myhill: That's really interesting. If if between 11 and 1 is kind of the optimal time, you know, where most world records have been broken, that often like if you think about track and field, the evening sessions are tend to be the finals. And so that's actually really in it's probably more to do with kind of spectators and TV audiences as to when they schedule.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: So it's not really in the best interest of the athletes at all.
+Vivek Chander: No.
+Dr. Naomi Myhill: in that that evening slot.
+Vivek Chander: Are you surprised about
+Dr. Naomi Myhill: I'm not No. No. But I I wonder how many people actually realize that you know the optimal time outside of the I suppose outside of the coaches and the the performance scientists around the athletes like the wider population.
+ 
+ 
+00:12:22
+ 
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: I wonder um No,
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: that's that's interesting.
+Vivek Chander: The athletes would be like trying to request that time slot.
+Dr. Naomi Myhill: Yeah. Yeah. Because there are some sports, right, where if we look at cycling for example, so like a time road time trial, you know, they are they do have time slots where they go out. Um I wonder that's interesting. Uh yeah, and we've I don't know if you saw recently um I think it might have been yesterday, the day before, obviously the Australian Open is on at the minute, tennis and I think it was both Sabalanka and um SA they got told to take their their whoops off during the the matches which is interesting. They're not actually banned by the ITF, but the Australian Open have said you can't wear them. So yeah,
+Vivek Chander: Oh,
+Dr. Naomi Myhill: that's going to be an interesting battle kind of going forwards.
+Vivek Chander: wow.
+Dr. Naomi Myhill: Um I think they had them under their sweatb bands as well and so yeah, they were told to take them
+ 
+ 
+00:13:25
+ 
+Vivek Chander: You can wear them in your underwear.
+Dr. Naomi Myhill: off.
+Vivek Chander: You can wear them on your arm. You can wear them There's another way you can wear them, too. Uh, they might get around it by just doing the earrings, too, because they don't say anything about the earrings, right?
+Dr. Naomi Myhill: Yeah, I saw that there's a new there's a like a new earring sensor. I can't remember what it's called. Someone posted it on the Slack um this week. Yeah,
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: that that will be interesting because at some point there's just going to be there has to be an acceptance like they're they're going to be wearing them. So, you know,
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: and it's not like it's a contact sport tennis. So yeah, I just thought that was interesting and quite quite relevant. Um, you mentioned Sabalinka, obviously she relies on her her wearable um obviously during matches as well. So
+Vivek Chander: She has a um so the podcast I listen to well I I think you probably know that
+ 
+ 
+00:14:16
+ 
+Dr. Naomi Myhill: yeah.
+Vivek Chander: she's one of the sponsors for Whoop actually. So I think Whoop has a podcast and she was interviewed on that. Um that was probably about six months ago.
+Dr. Naomi Myhill: Yeah. Yeah. I saw a lot of noise from the CEO of Whoop yesterday uh because they got taken off them in the Australian Open. So, I think he's Yeah,
+Vivek Chander: Yes.
+Dr. Naomi Myhill: he's he's making a lot of noise about it. Um it'll be interesting to see if there are any other wearables that are removed from athletes in the next couple of days during that competition.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: But um yeah, that's um an interesting point. I know you you I've just clicked on the the quiz that you've sent me.
+Vivek Chander: So
+Dr. Naomi Myhill: Can you explain a bit more about this and what what it what's the aim of the it assesses your chronotype, I imagine.
+Vivek Chander: yeah, it so basically we so from a kind of a cascade perspective like we do not believe in making blanket statements.
+ 
+ 
+00:15:26
+ 
+Vivek Chander: We believe in trying to meet every health seeker where they are, right? And and like I think I mentioned last time that like um high school uh folks their their their whole circadium uh clock shifts and they their melatonin actually the timing of the day where their melatonin actually releases is later on in the day. So they don't have that sleep pressure. And meanwhile, parents across the world are saying at nine or 10 o'clock, go to bed, go to bed, go to bed, and none of them can go to bed. Right? So instead of doing blanket statements like that, by calculating what type of pattern you naturally are, um that will inform you in terms of like what time is a reasonable time for you to go to bed. And there are folks that go to bed at 1:00 in the morning and that's just when their body is telling them to go to bed. And that's completely fine as long as they're getting their 7 to n hours sleep, right? But if you're one of those people and you're going to bed at 1:00 in the morning and you need 8 hours of sleep, that means you're getting up at 9, which means that you can't start your workday until 9:30 or 10, right?
+ 
+ 
+00:16:54
+ 
+Vivek Chander: So there is all these kind of societal kind of norms that get in the way for a lot of people getting adequate sleep um unless you have like a flexible work schedule uh because of like the standard day being you know 9 to5 or or something like that right but this is an important thing to recognize so that you don't fall into uh like a societal predetermined like uh schedule. What's interesting about this is like all the fact that we're all different and we have all these different chronotypes is super important from like a evolutionary standpoint, right? Because if you had uh you know 8,000 years ago, everyone was going to bed at the same time and waking up at the same time, who's protecting you from all the animals or the or you know your neighbors at nighttime. So the fact that people sleep at different times actually protects the whole community because people are up like on watch, right? So it's Does that make sense?
+Dr. Naomi Myhill: Yeah, and that's that probably leads into one I had a couple of questions while you were were were talking about that.
+ 
+ 
+00:18:19
+ 
+Dr. Naomi Myhill: The first one is are you born with your chronotype or is it the environment that determines it? So, yeah. And then the second is can you change your chronotype?
+Vivek Chander: No,
+Dr. Naomi Myhill: Interesting.
+Vivek Chander: it is what it is.
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: But like this,
+Dr. Naomi Myhill: Because I'm just
+Vivek Chander: you fight your biology, right? So people like a third of the people I that I'm pulling that number out of anywhere but there's a large number of people who are fighting their biology on a daily
+Dr. Naomi Myhill: Yeah,
+Vivek Chander: basis.
+Dr. Naomi Myhill: I'm just thinking if there if you know you've got a chronotype where you you're more kind of more of an evening person and let's say you do go go go to bed later at like 1:00 and get up later. That's what your natural routine would be. but you can't because you have to start work at 8:00 a.m. Are you going to be in a constant state of like tired and just not performing to your best?
+ 
+ 
+00:19:20
+ 
+Dr. Naomi Myhill: And I feel like we might have quite a big proportion of those types of people as health seekers. So, what do we do to try and help them in that situation?
+Vivek Chander: So I mean I think information is power and again I like speaking from a person who's a physician who again didn't know any of this information until 2 years ago, right? So, when I talk to my children now, like I have science behind me about like how their sleep is all over the place. They're going to I mean, again, they're teenagers and they're in college. This is not the time to like capture them because they have their own brains right now that they're trying to figure out. But like I think education is power and I think that we can potentially um you know create little messages without being preachy with being more scienceheavy and focused and how it affects their performance to get adequate sleep. I mean that's kind of where we're going to be going I think.
+Dr. Naomi Myhill: Yeah, I think ju I'm just thinking ahead as in terms of how we would like let's say during the integrated plan how we would educate the health seeker to maybe improve their sleep habits and so would that be like you said there some different assets like infographics and resources that we can share with them alongside some recommendations in terms of, you know, reduce your screen time two to three hours before you go to bed.
+ 
+ 
+00:21:16
+ 
+Dr. Naomi Myhill: Um, but then also do you think I don't know what your thoughts are on specific types of educational content like webinars or like consults and and things like that that we could potentially offer at Cascade. It's something that we've we've kind of briefly spoken about in different domain areas around, you know, if you want to have a let's say you you're returning from injury, you want to have a one-to-one consult with Damian Moroni and you can have you can pay for that as an add-on. That's something that we potentially would offer. Would there be any benefit in doing that from a sleep perspective at Cascade or is that too I suppose specific? I mean it might also link to this the empower sleep study wearable that we were speaking about last week. So just trying to get your thoughts on you know how you think we could make sure that education is is received in as best
+Vivek Chander: that I
+Dr. Naomi Myhill: way as possible. And I know like sometimes there could be information overload for for certain health seekers as well.
+ 
+ 
+00:22:30
+ 
+Vivek Chander: Yeah. Uh I was talking to Tram yesterday about um about the intake forms which is like one of the other projects happening, right? So the problem with the intake forms is that people get bored and they end up like getting frustrated and they end up leaving the intake and just just going on to their ne next task, right? Um so one of the ideas I had is that as folks are going through their intake forms uh you know you can utilize AI and come up with very quick little like nuggets of information like uh you know if one of the questions were to be uh what is the range of time you go to bed and their answer is between 10 and 1 in the morning uh before they go on to the next intake, there's like a little kind of like a star nugget that comes up and says, "Oh, you know, one of the things we've already identified is you can improve your sleep by uh trying to get to bed within a half an hour of uh of each other every single day.
+ 
+ 
+00:23:49
+ 
+Vivek Chander: Um, and if you do this, it, you know, it stabilizes your hormones and your, you know, whatever it is, the two sentences and then you you move on. But, so, so that would be one idea, but the other I mean really the answer is we're all different types of learners. So, it really is got to be multi-dimensional, right? So, it could very well be if you have concerns about your sleep, this is an add-on. Let's have you talk to one of our sleep physicians, right? If you uh want to watch a video on sleep, here's a video of an expert talking about it. Here's a video in cartoon form. here's you you know or uh or it can be like here's our blog post on sleep and this is why you need to do this and if you want daily insights on your sleep we can send you via our app a recommendation every morning. Um so I I think that you have to again meet the health seeker where they are and kind of target the way they learn.
+ 
+ 
+00:25:00
+ 
+Vivek Chander: I think
+Dr. Naomi Myhill: Yeah, almost allowing them to make the choice as to how they want to receive the information. That makes
+Vivek Chander: and and then the other point would be that all these things are
+Dr. Naomi Myhill: sense.
+Vivek Chander: not in a vacuum, right? Because all of this stuff is interconnected. If you, for instance, like if you exercise at 8:00 PM, then you're you're gonna have a cortisol boost. It's going to be harder for you to get to sleep. If you do have that ice cream 20 minutes before you go to sleep, it's going to disrupt your your deep REM sleep, right? So if uh if you are super anxious uh and um you know you need you know cognitive behavioral therapy because you have insomnia because of your your anxiety you know it's all interwoven and interconnected. So, you know, we're talking about domains and this is sleep's domain, right? But like if all of these interventions can come like unexpectedly as you're talking about something else, right? It's almost got to be like a, you know, this is you can talk to nutrition.
+ 
+ 
+00:26:27
+ 
+Vivek Chander: You you can put in a nutritional nugget when you're talking about sleep, but you can also put in a sleep nugget when you're talking about nutrition,
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: right?
+Dr. Naomi Myhill: So we we almost we need to map these messages between domains and constructs so that we we can reinforce that they are
+Vivek Chander: Yes.
+Dr. Naomi Myhill: linked as well.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: Um yeah that's that's useful with I think that's probably a step further than we are at the minute. We've you know like for a healthy project be a goal like we have different types of intervention that will cover like sleep nutrition exercise that will be prescribed or recommended as one and that might be all of them it might be two of them might be three of them the coach can decide but they're inter interrelated but I don't think we've yet really thought about what you've just said there in terms of you know if we can if they answer a question that says that they eat an ice cream 20 minutes before they go to bed.
+ 
+ 
+00:27:35
+ 
+Dr. Naomi Myhill: And then we could actually rather than just have a sleep message, have a nutrition message in there. And that's the crossover, I think. Um that's a great a great little nugget from you, Sunny, as an add-on that maybe we haven't thought about yet. So yeah, I'd love to deep dive on those um at some point when we can build these messages out which I think will align really well with um what we're doing in terms of the survey intake surveys um as well. So yeah, that's um that's one to press forward on when we discuss those. I'm just looking at this uh morningness eveningness questionnaire. Um would where would you deploy this? Would you deploy this as an intake survey type for the health
+Vivek Chander: Um well,
+Dr. Naomi Myhill: seeker?
+Vivek Chander: I think I think that uh the the way I I think about the intakes um is that I think that uh yesterday I was asked to review like past medical history, history, allergies, that sort of thing, right?
+ 
+ 
+00:28:47
+ 
+Vivek Chander: I think that would be the first thing, right? And then you know as we've talked about before in the lifestyle kind of space I would have a dedicated intake for nutrition a dedicated intake for exercise a dedicated inter um intake for sleep a dedicated intake for the gut microbiome and a dedicated intake for anxiety and social connectedness. Right? So those would be like I would start off like with medical medical then go to lifestyle and then potentially uh like start talking about hormonal things like TRT and HRT and I know I think Candace is the OB/GYN physician who could kind of help us through those intakes. So yes, I think sleep should have its own dedicated intake. I don't know I would go through this questionnaire as an intake but I might ask a question in the sleep dedicated intake about do you sleep what time do you typically sleep like something as simple as that just to kind of get an idea of like where they lie.
+Dr. Naomi Myhill: Yeah. So, you don't necessarily need to go through every question of this questionnaire to get an indication of what their chronotype is.
+ 
+ 
+00:30:14
+ 
+Vivek Chander: I don't but if depending on how the system evolves and how like you you know you have the three different uh right categories of folks right you have like the the high income folks that want like a huge premium product right and then you have like a uh everything's premium so low premium medium premium high premium Right. Um, so like for the high premiums, you're sitting down with them, I presume, and you're going through all of this stuff.
+Dr. Naomi Myhill: Yeah, that makes sense.
+Vivek Chander: But when low Yeah.
+Dr. Naomi Myhill: So, it's almost a
+Vivek Chander: And like with the low premiums,
+Dr. Naomi Myhill: graduated.
+Vivek Chander: you can offer it as a like if they want to do it, they can do it, right? But maybe they're not being their hand is not being held as much.
+Dr. Naomi Myhill: Okay. Yeah, that makes sense. Um, cool. I think I'll go through this later and see what it comes out for me as well. It' be good to see this.
+ 
+ 
+00:31:16
+ 
+Dr. Naomi Myhill: Right. So,
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: that's sleep regularity. Before we move on um as the most important one is was there anything else you wanted to mention around sleep regularity that we haven't mentioned in terms of improving Oh.
+Vivek Chander: So this all has like the next thing that like we're going to talk about is light, right? And it's all about setting the circadian clock, right? So sleep regularity is the first one. The second thing that we're going to be talking about is light. Um and light is not just light, right? Light is light it like starts triggering hormonal releases, right? So within a half an hour of wakening, you know, and again this like if you go to bed early and wake up early, you can't do this, right? But as a best practice, like within like half an hour wake, you should get 5 to 10 minutes of light. And that light is not through a car window. It's not through sunglasses.
+ 
+ 
+00:32:24
+ 
+Vivek Chander: It's not through me staring outside from my window. It's actually direct sunlight. Um, and if it's cloudy, that 5 to 10 minutes is actually half an hour. Um, and by doing that, you know, basically, I forget it. It's really interesting. There's um there's these cells in your eye and they're only I think they're on the upper part of your cornea, not the lower part. And I fig forget the reason why, but basically there are these retinal um cells that when you see that direct sunlight, it actually suppresses your melatonin from releasing. Um, and not only does it kind of prevent the melatonin from releasing, but actually uh increases your cortisol level. And in terms of your circadian clock, when the body sees both of these things happening, right, it sees like the melatonin uh going down and the cortisol going up. From that point, it sets a circadian clock that you will be going to bed in 14 to or you'll start to feel like sleep pressure 14 to 16 hours later. So, you know, uh you I think the best thing is direct sunlight.
+ 
+ 
+00:33:46
+ 
+Vivek Chander: Uh but like if again you are a early to bed, early to rise or unable to get outside or live in Alaska, uh then they have those um light uh you know those 10,000 lu light machines that you can put behind you which essentially um is the same thing as being outside. that might be like a really good technology to actually offer to those folks. Like figuring out which one of those things is like the like the best machine. Um I'm forgetting the name of those. I think they're uh they're like uh daylight lamps maybe is is I think that's what they what they might be called. But it's the lux like 10,000 lux um uh or lumens that like that essentially like tricks the brain to actually that you're looking at
+Dr. Naomi Myhill: Yeah,
+Vivek Chander: sunlight.
+Dr. Naomi Myhill: that's definitely a a technology that we should we should look at as something that we could offer on marketplace, for example, as a recommendation for people who are maybe in environments where they can't get that much sunlight.
+ 
+ 
+00:35:11
+ 
+Dr. Naomi Myhill: That was probably my question and you answered it there around if it is cloudy or overcast, you need half an hour rather than 5 to 10 minutes. Um, and is that is that the same in terms of when it's getting dark? Right. So, in the winter obviously it gets dark a lot earlier. So, that's then easier, but in the summer sometimes it could be light till 10:30 p.m. So, it might actually be harder to get to sleep.
+Vivek Chander: Yeah. No, and and that's exactly right. So there is so that's a daytime like protocol that you can talk about, right? just getting out there within half an hour and exposing your eyes to sunlight. But the evening is also really important what you do with light. And I'm like really bad at this, but um your eyes are 10 times more sensitive to light in the evening um than they are in the morning. So, uh, for the for the nighttime, you should dim your lights.
+ 
+ 
+00:36:21
+ 
+Vivek Chander: Um, you should use the blue light glasses, right? If you're on a computer, um, you should purposely avoid bright lights, right? And that's that should be done uh, you know, probably within 90 minutes of sleep. Um, because guess what? If you are, let's say, next to that 10,000 lux lamp at nighttime, what's happening in your brain? You're stimulating a a like it's trying to reset your circadium clock, right? It's it's reducing your melatonin. It's increasing your cortisol. It's going to make it harder for you to go to sleep. So, blackout shades,
+Dr. Naomi Myhill: Yeah, that makes
+Vivek Chander: blackout shades are important like in like in an environment where it's uh sunny,
+Dr. Naomi Myhill: sense.
+Vivek Chander: you know, until 10:00 at night or something like
+Dr. Naomi Myhill: Yeah, we have some lights,
+Vivek Chander: that.
+Dr. Naomi Myhill: sunglasses, I think they're called RA optics that are on our marketplace. I think we um have a partnership with I put them through the tech framework recently, like retrospectively.
+ 
+ 
+00:37:33
+ 
+Dr. Naomi Myhill: um after we built the tech framework. Um I'm just trying to get them up. See if I can I think they do that.
+Vivek Chander: All right. All
+Dr. Naomi Myhill: Yeah, they're called RA Optics.
+Vivek Chander: right.
+Dr. Naomi Myhill: Um I think they might be I think they might be a Canadian company at Dave. I know Dave has got some and so did like a retrospective because we already had a partnership with them. Yeah. So they Yeah. That's light protective eyewear designed to optimize circadian rhythm mitochondrial function. They've got daylight lenses and sunset lenses. Uh,
+Vivek Chander: Oh,
+Dr. Naomi Myhill: see if I can get them up cuz
+Vivek Chander: there's sunset, daylight, blue sink.
+Dr. Naomi Myhill: yeah, I've not used them personally. Um, but I've seen Dave Dave on calls with them on early in the morning.
+Vivek Chander: Yeah, the sunset lenses. Uh oh. Do you have a uh so these went through?
+ 
+ 
+00:38:43
+ 
+Dr. Naomi Myhill: So they let me share my screen. They've gone through initial stage um to implement as a recovery tool. So if I get Here we go. So this like this is like the breakdown um of the different elements.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: So, those are I mean they're they're on the marketplace already whenever the marketplace site actually gets built. Um there's already a partnership with these. That's not to say that we can't have others on there, but these are kind of like the first ones that are on there at the minute.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: I think we've got like a 10% if I see what it says on here.
+Vivek Chander: Yeah. This
+Dr. Naomi Myhill: Yeah, I think we have a 10% discount on those as well. But yeah, so that's that's just an example of um one I suppose one technology we could put into like almost a sleep package or a circadian rhythm package or some something along those lines.
+ 
+ 
+00:40:43
+ 
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: I'm just thinking of um we're already talking about like supplement stacks. Um, so it would also be great to have like a stack for improving your sleep and maybe these glasses are part of it. Maybe the empower sleep isn't is also part of that stack. Maybe we find one of these lumen lamps as well. Um, so yeah, there's a few things.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: Have you got any any that you've kind of read and seen specific in terms of those lamps? Any examples of
+Vivek Chander: Uh yeah, let me let me just as an example,
+Dr. Naomi Myhill: those?
+Vivek Chander: I don't know. I can I can do two things. I can just show you exactly what I'm talking about. Sleep lumin lab as an example. Um, stability. Yeah. So they so they look very different than they used to. Um let me just see here if I can. If you look at Verilux happy very happy.
+ 
+ 
+00:42:36
+ 
+Vivek Chander: Yeah. This is kind of what they look like. I'll drop it in the chat here. So, that's kind of what they look like. And the idea is that you're not staring at it, but it's kind of off at an angle. Um
+Dr. Naomi Myhill: Okay. Kind of looks like an iPad in a way.
+Vivek Chander: yeah,
+Dr. Naomi Myhill: It's like a flat.
+Vivek Chander: they used to be bigger. So when I when I uh because I this is something that I kind of read about years ago too.
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: So I think that this kind of concept was there 20 years ago and I did buy one that I never used.
+Dr. Naomi Myhill: Is it still knocking around?
+Vivek Chander: No, no, I think I got rid of it. I think it was So, we've been in our place since 2004. I think we got rid of it before we moved.
+Dr. Naomi Myhill: Wow. Oh, okay. So,
+Vivek Chander: Yes.
+Dr. Naomi Myhill: they re they really were about a long time ago.
+ 
+ 
+00:43:44
+ 
+Vivek Chander: And they were bigger. They were about five times the size of
+Dr. Naomi Myhill: Yeah. Yeah.
+Vivek Chander: that.
+Dr. Naomi Myhill: These ones look a bit more um palatable for putting in your bedroom rather than a massive a massive lamp if you've not got a massive amount of
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: room.
+Vivek Chander: Yeah. Um,
+Dr. Naomi Myhill: Okay,
+Vivek Chander: but that's I like I could if you wanted me to poke around just to see what the best
+Dr. Naomi Myhill: cool.
+Vivek Chander: product was or you know I could certainly do some sort of search and figure that
+Dr. Naomi Myhill: Yeah, if you if you're happy to do that,
+Vivek Chander: out.
+Dr. Naomi Myhill: Sunny, that would be great. And then it just means that it kind of narrows down the options for us to put through that framework. So, if you've got like a a top one or top two of these lamps and then you just let me know and I can run that through the framework and then we
+ 
+ 
+00:44:28
+ 
+Vivek Chander: Okay.
+Dr. Naomi Myhill: can we can build try and build that
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: in.
+Vivek Chander: Um, so on light, any other questions about
+Dr. Naomi Myhill: Okay. Okay. So,
+Vivek Chander: light?
+Dr. Naomi Myhill: we've spoken about um getting direct sunlight or if it's cloudy in the morning, which is getting getting up and out 5 to 10 minutes or half an hour if it's cloudy. Um is it important to get light at any other points of the day or is it just most important in that morning?
+Vivek Chander: Um, I think it is. I I seem to remember that you're supposed to go back out in the late afternoon and like we should talk talk about naps at some point. But the idea is that if you do take like a short nap, and it should be a short nap, that as soon as you wake up from a nap, you kind of splash some cold water in your face and you expose yourself to sunlight and that's kind of what uh kind of resets you for the rest of the day.
+ 
+ 
+00:45:47
+ 
+Vivek Chander: Um, but there is there is there is something I seem to be recalling that there's a reason why that late afternoon going to your going outside and exposing yourself sunlight is a good thing. I can't remember why though.
+Dr. Naomi Myhill: Yeah, I I wonder if it's um if it's linked, but there's a lot of research around green exercise and how exercising in really green environments like in a wooded area or in kind of parklands is actually supposed to be really good for you as well. So, I don't know if there's a connection there with with just being outside um within nature and um what that does kind of internally, but I know there's a bit of research that's sort of starting to take hold in that fact.
+Vivek Chander: So there are two one thing is that if you do exercise I think it's pretty clear that if you have a choice between inside or outside is better. Um the second thing with the green exercise is that there's actually um a a something that for there's a chemical in forests um that are good for exercise.
+ 
+ 
+00:47:07
+ 
+Vivek Chander: I'll put I'll try to figure it out here. But like Oregon, um, Oregon prescribes hikes as a medical intervention. And it's because when I looked into it, there is a specific compound that when you breathe it in, it's like really good for your health. Um, yeah, force bathing, force bathing is the concept. And it like started in Asia. I'm I'm not seeing the Oh, phyon sides, the science behind forest baiting benefits. Yeah, I'll drop this in. Um,
+Dr. Naomi Myhill: Oh,
+Vivek Chander: yeah,
+Dr. Naomi Myhill: interesting.
+Vivek Chander: it's it's uh I found it. So when I went to Portland last year, this kind of came up and I was like fascinated with the concept that you could go to your physician and they could actually prescribe a hike uh from a medical standpoint.
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: This is not sleep but this is linked to what you said and yeah out outdoor outdoor
+Dr. Naomi Myhill: Yeah. Yeah.
+Vivek Chander: is always better than indoor I think in general for multiple reasons
+ 
+ 
+00:48:24
+ 
+Dr. Naomi Myhill: Yeah. I mean that definitely makes sense.
+Vivek Chander: right
+Dr. Naomi Myhill: I think there was um and this was a while ago now was maybe five five 10 years ago. Um there was a research group at the university I was at. They were focusing on green exercise and they were they were kind of comparing that type of green exercise to exercise outdoors but in more urban environments. Um and I forget the details now but there was definitely more positive effect of the green exercise compared to kind of urban environments. So I wonder yeah this is interesting
+Vivek Chander: Some of this stuff happens naturally though.
+Dr. Naomi Myhill: exercise.
+Vivek Chander: Like I'll tell you like you know I used to train for like it's been years but like I ran a couple of marathons and I I bike now pretty regularly.
+Dr. Naomi Myhill: Oh,
+Vivek Chander: I'm always water.
+Dr. Naomi Myhill: nice.
+Vivek Chander: Like I just love for whatever reason it has a calming effect on me, right? So like I there's a you know like a 20 mile loop around like the Charles
+ 
+ 
+00:49:18
+ 
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: River and it's unfortunately there are a bunch of cross streets that you end up getting stuck at. But I don't mind that because like I'm like I love seeing the sunlight in the water. It's just great. It's like you know anxiety relieving for me. So people figure this stuff,
+Dr. Naomi Myhill: there. No, that makes sense.
+Vivek Chander: right?
+Dr. Naomi Myhill: I I think I feel very similar about going for hikes around areas that have lakes and water and and you kind of have the lake on one side and the forest on the other side. It does make you feel good. Um,
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: what type of cycling do you do? Is it gravel? Gravel riding, mountain biking,
+Vivek Chander: It's It says road biking.
+Dr. Naomi Myhill: road biking.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: Nice.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: Yeah. Oh,
+Vivek Chander: But that's why I and I like I unfortunately had an injury.
+ 
+ 
+00:50:09
+ 
+Dr. Naomi Myhill: cool.
+Vivek Chander: I have ilot tibial band uh injury from from running. So I can't run. But like the thing about exercise I love is actually going through like different environments and look like you're in you're in nature. You're in the environment and you're looking at different things as opposed to being on the stairm like CNN and you know Sports Center.
+Dr. Naomi Myhill: Oh yeah, I feel that I did um I had to go on the treadmill yesterday to try to do a little bit of running on my ankle. Um so I was just doing just for 10 minutes, 30 seconds light jog, 2 minutes walk, but just even for that short period of time, the treadmill just facing a wall, you're just like this is that's so uninspiring. But no, it it's um I think that that most people would say the same about exercising outdoors. So I think that's important to get within our recommendations around, you know, try and get outdoors if possible for exercising. Um
+Vivek Chander: Do you have a little bit more?
+ 
+ 
+00:51:17
+ 
+Vivek Chander: Should we get through another one or two of these things or what do you
+Dr. Naomi Myhill: wow.
+Vivek Chander: think?
+Dr. Naomi Myhill: I have got probably another 15 minutes. So, if we can get get through try and get through another one, that would be great.
+Vivek Chander: All right, let's talk about temperature.
+Dr. Naomi Myhill: Let's do it.
+Vivek Chander: Um so temperature is something that is kind of really important. Um for you to actually go to sleep effectively, you need to drop your core temperature down 1 to two degrees. And as an as a correlary when you wake up your core temperature has to go up one to two degrees. Um so the ideal temperature for sleep is actually uh 65 to 68 degrees Fahrenheit. Um the idea like they are and this might be another technology that we can offer like they do have things like the sleep 8 mattress where I believe uh there's like a cooling technology to it and a warming technology to it. I'm not 100% certain on that. Um but uh the idea is that if you're dropping your core temperature then you really have to move that blood from your core to your periphery.
+ 
+ 
+00:52:50
+ 
+Vivek Chander: So you want to actually vasoddilate. So one of the other things that they recommend is a warm shower like an hour or two before bed. Um, and I don't know if you've seen this personally, but I do see this personally that you will have a hard time going to sleep if your feet are cold. And if they're warm, like they have to be warm before you go to bed. And like, if you actually pinpoint this on yourself, I think you'll see that there's a a big pattern there. Again, one of those things I never realized and it's just done naturally. But like if you if you um uh like think about it, you're like, "Oh yeah, like my feet are cold. I'm not I'm not sleeping." And then the minute you kind of get comfortable with your feet, you go to bed. And it's primarily because that is a signal that your core temperature has dropped down the one to two degrees. Um people and this does not exist but like it has been like an idea that like people uh like there would be like a sock um like a tech sock where like it actually kind of warms up your feet and then it actually uh cools your feet as you wake up like like one of these things that that happens naturally over the like when you go to bed and and wake up depending on like what your your sleep quantity is um but a sleep eight mattress I don't know
+ 
+ 
+00:54:24
+ 
+Vivek Chander: if it does that we can check later um one of the other things you know I I said a warm shower but there's also uh I believe the same effect could be if you go into a sauna and you would get that added uh benefit by doing like a a sauna um at night time as
+Dr. Naomi Myhill: Okay.
+Vivek Chander: well.
+Dr. Naomi Myhill: Interesting. I um I know with this with the sleep mattresses and I can't remember if it was sleep eight or a different mattress, but we we actually used those at at Manchester City. So, the first team the men's first team players um they had the option of getting one of these mattresses installed in their home. Um but that is obviously very bespoke high elite level um setting. But we definitely saw that there was a a potential benefit of having those. So that's a that's it was on my list to actually review, but couldn't remember the name. I needed to look back and see which one it was, but it might even be sleep.
+ 
+ 
+00:55:37
+ 
+Dr. Naomi Myhill: So that might be something that we have a little look at as a technology to
+Vivek Chander: I there are other ones coming out,
+Dr. Naomi Myhill: add.
+Vivek Chander: but I think that's the one right now. That's the bespoke one, right? But I think that there there are a lot of different products kind of entering the
+Dr. Naomi Myhill: Yeah, there was the idea was that the the players would have this at their home,
+Vivek Chander: space.
+Dr. Naomi Myhill: but there was also I think like a a portable version of these mattresses that could be taken so when they're staying in the hotel for away mattresses, they're sleeping on essentially there the same mattress doing the same thing. Uh and and that that part of it was kind of canned because it like the logistics of taking those mattresses all around the country just was wasn't feasible for the benefit.
+Vivek Chander: Yeah,
+Dr. Naomi Myhill: But that might be very different in America.
+Vivek Chander: I I think that people do it like I think um Yubberman does that um or he
+ 
+ 
+00:56:30
+ 
+Dr. Naomi Myhill: So,
+Vivek Chander: says he does that. Uh I like the idea of it. Um, but you know, I guess so if you're if you're traveling as a if you think about this being like an elite athlete, right? If you're traveling for just a normal thing, I don't I think that's not really necessary. But let's say you're an Olympian and tomorrow is your race. Why not? Like again, you're you're you every tenth of a second matters, right? So why wouldn't you do something like this? Because it's just another way to optimize your
+Dr. Naomi Myhill: Yeah, for sure. Like at that at that elite level.
+Vivek Chander: performance.
+Dr. Naomi Myhill: And I was even thinking like if you're an Olympian going to an Olympic village and you're staying there, could you potentially some some NGBs might provide those for their for their athletes? But yeah,
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: it depends what kind of bed they're underneath. I know some of these Olympic villages have like pyroto py pyroine beds the mattresses on top.
+ 
+ 
+00:57:47
+ 
+Dr. Naomi Myhill: But yeah,
+Vivek Chander: bottoms.
+Dr. Naomi Myhill: it's it's interesting. I know like obviously the Winter Olympics is starting soon.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: Um and that the Have you seen the athlete villages there? They're in um they're kind of like uh trailers,
+Vivek Chander: Mhm.
+Dr. Naomi Myhill: so they they've set them out in that way. It's going to be pretty cold when they kind of step outside. But yeah, it's this will be interesting. But you mentioned the like the idea of um
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: socks that could cool or warm your feet. Is that an idea or is that actually are there socks that do that out
+Vivek Chander: No, no,
+Dr. Naomi Myhill: there?
+Vivek Chander: that's
+Dr. Naomi Myhill: Or that that could be a cascade side quest? You never know.
+Vivek Chander: There you go.
+Dr. Naomi Myhill: So it was said here. Um so optimizing temperature then is important or understanding temperature is important. Um temperature needs to drop to sleep.
+ 
+ 
+00:58:47
+ 
+Dr. Naomi Myhill: So if you're let's say you are in a hotel room what can you do in that hotel room to reduce the temperature like what would be the the kind of key tips? So you you'd have a a shower available you'd maybe be able to control the heating in the room.
+Vivek Chander: I think that would be the key thing is to have uh and this is not something that most people think about but the ability to control the heat uh would be a big thing uh because you know that range is 65 to 68 and there's a little bit of like um trial and error to figure out which one, maybe 65 is too cold, right? Maybe it's 66. So, like having that ability to set the temperature to exactly what's most optimal to you would be like a big thing as you're traveling. Um, and then if you don't like a lot of this is routine, right? Like having that routine about taking your shower like so keeping up with the routine as you travel. One of the things that I think we'll talk about uh and I should have already mentioned it is that there is a app in fact I'll let me just share it now before I forget.
+ 
+ 
+01:00:03
+ 
+Vivek Chander: There's something called the time shifter app. This is one of the things that um is utilized for jetlag time shifter app. This is an app. Um, so this would be something in terms of like uh how do you like if you're traveling, how many days do you need to reset your circadian clock? Uh, this would inform somebody about like if you're able to like set your circadium clock quickly, then you go there two days in advance. But if you're slower, you go there a week in advance before like a competition, right? Um if again it's about optimizing your performance. Um like sleep being a big part of optimizing your performance.
+Dr. Naomi Myhill: That makes sense.
+Vivek Chander: Um
+Dr. Naomi Myhill: We have um I'll just share my screen quickly. So Peter Tin developed a couple of infographics for us. He's been working on some of the wearable data and one of them is around sleep while traveling. So we do have um some of these kind of recommendations on here.
+ 
+ 
+01:01:17
+ 
+Dr. Naomi Myhill: If you can see that that well, but it's sort of an example.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: This would be like a health seeker facing infographic. If we know if it's an athlete or a health seeker, we know they're traveling, send them this ahead of time. And it's just some some general kind of recommendations for that depending on the direction of travel and um things like that. So yeah,
+Vivek Chander: Yeah. And what we what we talked about,
+Dr. Naomi Myhill: if if the
+Vivek Chander: right, which is that expose your your eyes to sunlight,
+Dr. Naomi Myhill: Mhm.
+Vivek Chander: like that's the quickest way of resetting your circadian clock, exercising outside, all the same things apply.
+Dr. Naomi Myhill: It's great when things uh things very similar that we've all made. So it just means we're doing the right thing. Um, so the the I guess the app that you just mentioned there, would that be what that app does, would that be something that we could replicate like in our My Cascade app is is what I'm thinking or we could do similar things if it's saying it knows where you are like kind of going into your location compared to your home time zone.
+ 
+ 
+01:02:35
+ 
+Dr. Naomi Myhill: It could give some messages and prompts to okay, you should be going to bed in the next hour and things like that.
+Vivek Chander: Yes,
+Dr. Naomi Myhill: Fantastic.
+Vivek Chander: you could replicate could use it,
+Dr. Naomi Myhill: Okay.
+Vivek Chander: right? But if your idea is to brand
+Dr. Naomi Myhill: Yeah. Yeah.
+Vivek Chander: it,
+Dr. Naomi Myhill: I'm thinking we want to probably minimize the amount of external kind of apps that we that the health seeker has to have on their phone. So if we can have it all in one place, we probably won't be able to have everything in one place,
+Vivek Chander: Yep.
+Dr. Naomi Myhill: but it just makes it easier for the Health Seeker.
+Vivek Chander: Yep.
+Dr. Naomi Myhill: They only have to go to one spot. So things like that would be cool to like explore and see and we'd have to do that with our product team. They would know far more than me about whether it's possible to integrate those sorts of things um into the the My Cascade app.
+ 
+ 
+01:03:30
+ 
+Dr. Naomi Myhill: But this seems like quite an important um feature to have if we're trying to improve sleep.
+Vivek Chander: for athletes who are traveling from one place to the other to compete constantly. I would agree.
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: I would agree.
+Dr. Naomi Myhill: Okay.
+Vivek Chander: And and like pre and like if they know that optimal performance is between 11 and 1 like they may know they may understand that like optimizing this piece of things is really important
+Dr. Naomi Myhill: Yeah,
+Vivek Chander: too.
+Dr. Naomi Myhill: I think that's a I I really don't know if a lot if how how many people know that between 11 and 1 is kind of the optimal time because you know like as we mentioned earlier events aren't often scheduled between 11 and 1. So, um,
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: that could also be an education piece. All right. Was there anything else on temperature?
+Vivek Chander: I think uh no just you know again like uh in talking about this like is one of those co-branded type things. So when you're talking about sauna, right, there's an optimal time to do the sauna, right?
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: So that's again like another example of how like things intersect and are connected and you
+Dr. Naomi Myhill: Yeah, that makes sense. The I guess they're all things that we need to build in. When we're building one thing, we also need to be aware of what's being built over here and make sure everything aligns and and kind of meshes together. So, all right.
+Vivek Chander: Yeah,
+Dr. Naomi Myhill: Awesome. I'm going to have to jump now, Sunny.
+Vivek Chander: we'll need this part
+ 
+ 
+Transcription ended after 01:05:20
+
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

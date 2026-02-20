@@ -1,0 +1,273 @@
+﻿Jan 21, 2026
+Ontology Interview - Sunny - Transcript
+00:00:00
+ 
+Dr. Naomi Myhill: All right. So, let's talk about sleep today and we can get into the constructs related to sleep, how you would assess it and if we have time get on to interventions for improving sleep as well. So if we start off with um can you explain I suppose what is what is sleep and the importance of sleep um and how you utilize that in kind of assessments of health seekers. At the first instance,
+Vivek Chander: Yeah. note sleep is like amazingly important and like as a ER doctor that has had like years of disrupted sleep like I didn't I don't think I understood how important and how it was affecting my own personal health. Um, and like over the past several years have like come to like understand what a ding-dong I've been. So, so uh I mean it it essentially affects everything. It will uh you know like I I can just tell you my personal journey in that uh the fact that I've had disrupted sleep resulted every time you have a poor night of sleep it uh essentially lowers your body's ability to uh process glucose.
+ 
+ 
+00:01:47
+ 
+Vivek Chander: uh you end up developing uh you know insulin resistance. Uh and like when I did my longevity journal journey, I kind of uh noted that I had increased uh uh visceral fat on my body composition data and uh and you know had metabolic uh kind of induced um uh liver disease. So I don't drink that much. So this is all on the basis of poor sleep over 25 years, right? So the fact that it kind of reduces insulin sensitivity uh hormonally, it also kind of reduces uh growth hormone um secretion. So, you know, with your uh your ankle procedure, like if you had like a bunch of bad sleep, like two or three or four nights after that, it's going to affect how you heal because your growth hormone levels are going to be down from what they should be. So, I I mean, I think that like the endocrine piece is is pretty big. uh immunity. Like I think that all of us can kind of attest to the aneata that like when uh we've had a series of bad nights sleeping, we're more prone to getting, you know, upper respiratory infections, we're more prone to getting sick, less able to recover from those sicknesses.
+ 
+ 
+00:03:21
+ 
+Vivek Chander: And a lot of that has to do with the fact that uh our natural killer cells kind of uh we stop making them dur you know during these periods of poor sleep. Um it affects cardiovascular health. Um you know there's a nighttime dip in blood pressure when you're having normal architecture sleep. Um, but like if you're not having that, you have an ele like an elevated higher mean blood pressure during the day, which ends up, you know, long term leading to like cardiovascular events. Um metabolically um there there is the whole pathway between leptin and ghrein uh where leptin is the hormone that signals the fact that you're full after eating and ghrein kind of is your uh hormone that drives hunger. Um, so when you have poor sleep, the leptin is not likely to work. So that signal to turn off eating doesn't actually happen. And uh the ghrelin you produce more of it. So your signal for eating more actually happens. So you know this is again when you have a bad night of sleep, you're more prone to like eating junk food.
+ 
+ 
+00:04:50
+ 
+Vivek Chander: like there's actually a hormonal reason for that which is like super interesting. Um and then you know this whole thing about like college kids you know they're they they uh they have a test tomorrow and they do they pull allnighters. It's the most stupid thing because they're not able to encode their memories. They're not able to consolidate the information without the sleep. So it's you know from a like a cognitive perspective uh it it can affect uh your cognition and your ability to form new memories and to um to operate well in the world. Um and then from a psychiatric perspective, you know, you know, everything, anxiety, depression, PTSD, emotional dysregulation, like all that, uh if you don't sleep, all of that goes offkilter. So it really is like the underpinning of a lot of the biological processes and like for athletes, for you, for me, for our families, like I think this is like one of the most important things to focus on.
+Dr. Naomi Myhill: Wow. Yeah, that sleep definitely has an impact on a lot of things, doesn't it?
+ 
+ 
+00:06:12
+ 
+Dr. Naomi Myhill: That's that's crazy. I think we might need a lot of parts.
+Vivek Chander: skin like you have poorer skin care when you have bad sleep. You're more prone to like developing acne when you have poor sleep. It's like crazy.
+Dr. Naomi Myhill: I wish I'd have known that in my teenage years.
+Vivek Chander: Yeah,
+Dr. Naomi Myhill: Wow.
+Vivek Chander: it's it's it's pretty wild.
+Dr. Naomi Myhill: So,
+Vivek Chander: And it's also something Naomi that's not taught in medical school. Like this is all information I've come to on my own. Like this is not something that physicians are taught,
+Dr. Naomi Myhill: wow.
+Vivek Chander: nor are they taught nutrition, nor are they taught taught, you know, like uh you know, like all the stuff on the commons, uh page, all those all those articles, we're not
+Dr. Naomi Myhill: That's crazy.
+Vivek Chander: that
+Dr. Naomi Myhill: So essentially sleep if we think about the goals that our health seekers might have coming in quite a vast majority of those will be improved or moderated by sleep is my understanding.
+ 
+ 
+00:07:20
+ 
+Dr. Naomi Myhill: So, you know, recover from injury like you just mentioned there. Um, reduce cardiovascular risk, um, improve blood glucose management as one example. Um, and then you mentioned some cognitive and and psychiatric um, effects as well. So, yeah, sleep sleep is very important as a as a a kind of a recommendation intervention for us as
+Vivek Chander: Thank
+Dr. Naomi Myhill: well. Just thinking on that that side of things. So definitely something that we need to delve a lot deeper in um which we're doing on this
+Vivek Chander: you.
+Dr. Naomi Myhill: interview today. But it would be great and I don't know if you have this to hand but just to understand a bit deeper the mechanisms behind how sleep can positively or negatively affect each of those areas you've mentioned before we get into the assessments for sleep because I actually think that's like really interesting. And then maybe we can link that to the interventions. I think assessments for sleep, we could probably touch base on that.
+ 
+ 
+00:08:30
+ 
+Dr. Naomi Myhill: But I think if we start with the mechanisms and then maybe how we can improve sleep and what then that would downstream affect would probably be a good way. I don't know if you agree.
+Vivek Chander: Yeah, sure. Yeah. And anything like I will tell you what I know and and if I don't know it, I'll tell you that too.
+Dr. Naomi Myhill: Brilliant. So yeah,
+Vivek Chander: So
+Dr. Naomi Myhill: let's let's get started. I think the first the the first kind of mechanism you mentioned was around the kind of the the endocrine uh system. So yeah, how does how does sleep positively or negatively affect that system and what are the mechanisms behind that?
+Vivek Chander: So like I I think like as a backdrop of that question um like we need to talk about like the different phases of sleep, Right. So, we have light nonREM sleep, which is the the time of sleep where like as we're going to bed, we're starting to like disengage with like our environment. Uh, you know, that's kind of that feeling when you kind of wake up and you're kind of not there and but you're there and you you know, it takes like 5 seconds to actually like fully arouse it.
+ 
+ 
+00:09:53
+ 
+Vivek Chander: That same thing happens when you're going down to sleep. So that's like like your light nonrem sleep. Um and then you know biologically the two most uh important phases of sleep would be your deep non-REM sleep which is when a lot of the physical repair action happens where your immune regulation happens and when your metabolic stuff happens right so in those individuals that are having poor deep non-REM sleep which is something that actually gets worse as we age that's when all of a sudden you have immune dysregulation, you're not repairing as much and uh your metabolism is not resetting. It's a primary driver for aging actually, right? So, as you age, like the the um focus should be on like improving your deep non-REM sleep, whatever that means. And we can get into that. And then of course you have your rapid eye movement sleep, right? And that's when uh you know your emotional processing happens. It's when your memory integration happens. It's actually when your brain can start kind of making connections and your creativity uh your ability to create is improved with the if you have like better REM sleep, right?
+ 
+ 
+00:11:21
+ 
+Vivek Chander: Um when uh what what's interesting and we can kind of get into this as uh as we talk a little bit more but the REM sleep typically happens on the second half of the night whereas your your deep non-REM sleep happens in the first half of your night. So for those folks and those patients and those health seekers that like they go to bed really great and then they wake up at 3 in the morning and they're have that sleep deficit for two or three hours, what's actually being lost is the majority of their REM sleep. So that is, you know, something that like an intervention that could potentially be targeted is how do we how do we get to that second half of the night to increase your your REM sleep. One of the things that happens with alcohol intake is that it completely destroys your late night REM sleep. So you get that first part of your sleep in um but that second half you typically get up and uh you know you you have not had REM sleep that day and that's why uh you know the following day you know you have brain fog the emotional processing uh it's harder to remember things um you're kind of in that dulled state when you're hung over you can't be creative right so that's all because you've lost your REM sleep.
+ 
+ 
+00:12:58
+ 
+Vivek Chander: Um, where should I go from there?
+Dr. Naomi Myhill: That was a a really nice um context backdrop and I'd love to loop back onto how you improve the different phases of sleep when when we get to that point. But yeah, maybe we can jump to understanding the mechanisms of how sleep kind of moderates those different areas you mentioned earlier, those different domains. So um the effect on the endocrine system, the cardiovascular system, metabolic um aspects. So yeah, if you're happy to kind of go through what the effects are kind of positive or negative of sleep on those areas. Um and then I can kind of jump in and and and direct you if there's a specific question I have.
+Vivek Chander: Okay. Um so so in in the endocrine system like very clearly the literature show literature shows that your growth hormone um uh release goes down in sleep. Um, and I believe that the number for insulin sensitivity, you're 50% less able to process your glucose even after one night of poor sleep on the following day.
+ 
+ 
+00:14:32
+ 
+Vivek Chander: So if you do that time after time after time after time that's what leads to um insulin resistance and that will lead you to have pre-diabetes and diabetes and uh like metabolic induced um liver disease. So in terms of the mechanism of why the growth hormone and like goes on I don't know if I can necessarily speak to that and why uh why you're not able like what that mechanism is in terms of not being able to process sugars I can't necessarily speak to that but that's kind of what happens those are the hormonal fluctuation changes that happen in terms of the endocrine
+Dr. Naomi Myhill: Yeah, that's great.
+Vivek Chander: system.
+Dr. Naomi Myhill: And that's something that we can always kind of follow up on in terms of if we need to know the mechanism to underly parts of the the kind of ontology, we can follow up on that. Um, you don't need to know everything on the call, which is great. Uh, so that's the endocrine system. Um, and so how does sleep affect the cardiovascular system?
+ 
+ 
+00:15:47
+ 
+Vivek Chander: Oh, so cardiovascularly like especially I think it is the deep um non-REM sleep where your blood pressure kind of tends to kind of dip a little bit and that actually obviously will increase or it'll relax your
+Dr. Naomi Myhill: Would
+Vivek Chander: heart right because it increases your your afterload. So um uh it just puts less stress on the heart. But if you're not getting that deep non-REM sleep in, you stay at an elevated blood pressure so that your mean daytime blood pressure is higher than it would be if you were having better sleep. Right? So heart's a muscle. It's if if you're not getting that that adequate sleep and that right time to sleep, it's it's working harder, which is going to lead to problems down the line.
+Dr. Naomi Myhill: that be indicated on on a blood test, for example, some of those biomarkers might be elevated? Would that then indicate that maybe sleep is an issue or would you need other assessments to kind of gather that information?
+Vivek Chander: for the cardiovascular that would be a blood pressure monitor, right?
+ 
+ 
+00:17:05
+ 
+Vivek Chander: So, as these wearable devices get better and better, I'm sure we're going to get to the point where um where we're going to be able to kind of potentially assess kind of blood pressure um like on a on a very kind of real time basis, right? Um I would let me just think about that a little bit. Um it would not affect your inflammatory markers per se. Okay. Uh there's something called the beta naturic peptide BNP. I don't think it would affect that but essentially BNP is a measure for uh like myocardial stretch. Um it's very useful to assess for patients um who are in congestive heart failure. Um, I don't think it would necessarily bump that. I think the the continuous blood pressure monitor would be like the best way to see that because then you would actually see real time whether your blood pressure is staying level or if it's going down over over the course of the
+Dr. Naomi Myhill: Yeah,
+Vivek Chander: night.
+Dr. Naomi Myhill: I'm sure in the next couple of years uh some technology company will have developed that.
+ 
+ 
+00:18:24
+ 
+Dr. Naomi Myhill: Um uh so I think the other the other
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: areas you mentioned were metabolic um cognitive and and psychiatric. So if you can kind of explain the links between sleep and those two those three areas in a bit more detail that would be fab.
+Vivek Chander: Yeah. So, so once again it's it's um the leptin and ghrein balance that happens or that needs to uh occur in the body. So, if I'm eating something right now, uh my leptin will go up. My leptin levels will go up and essentially it's a signal uh to my brain that I am full, that I should stop eating. Um that leptin does not get released because of poor sleep. So, my off signal uh won't happen. So, I will continue to eat. So, again, classically, you know, from personal experience, you come home from a like a late night shift and there's like cold pizza, you'll have that extra slice of pizza when it's not necessary from the night before because you're that signal, that off signal is not happening, right?
+ 
+ 
+00:19:50
+ 
+Vivek Chander: Um, and then the on signal, which is the ghrein, right? that is uh uh also you get release of more ghrein when you've had disordered sleep. So it's like it's like a double jeopardy thing, right? So the off signal, you don't have the off signal and you have more on signal. So poor sleep will lead to you eating more, you not feeling as well, you gaining weight. um over time and that's going to affect you metabolically.
+Dr. Naomi Myhill: Is there a threshold of sleep hours where this kind of exponentially rises in terms of the effect or is it just generally kind of poor sleep and having shorter sleep duration? Is there any threshold values on that?
+Vivek Chander: So for sleep um you know it's not just about number of hours it's also about the type of sleep that's occurring right so in general most adults need between seven and nine hours of sleep right Um, if you are consistently getting less than 6 hours of sleep, that's when this is going to happen. Um, but but like that like that's the time threshold.
+ 
+ 
+00:21:22
+ 
+Vivek Chander: But then you have to kind of get really deep into the what type of sleep are you having? Are you having roughly two hours of REM sleep? Are you having roughly two hours of, you know, non deep REM sleep? Um, and if you're not getting those, you're going to, even though you might be having a longer sleep duration, if you're not getting the right type of sleep, that's going to also cause some of these changes to happen.
+Dr. Naomi Myhill: How I'm just thinking how you measure this. How sensitive do you think some of these wearables are in measuring the
+Vivek Chander: You think the
+Dr. Naomi Myhill: different sleep stages? Because if there's such an importance on getting like that the
+Vivek Chander: pumpkins?
+Dr. Naomi Myhill: different stages of sleep. So, your deep sleep and your REM sleep. It would then be important to know the accuracy of like wearables to tell us what phase of sleep they're in. Um, I know you sent you said the uh the the kind of overnight sleep assessment.
+ 
+ 
+00:22:21
+ 
+Vivek Chander: Yes.
+Dr. Naomi Myhill: I can't remember what it was called now.
+Vivek Chander: Empower
+Dr. Naomi Myhill: Um, from last time, was it empower sleep?
+Vivek Chander: empower sleep. Yeah. No, I think those are excellent and I will I I think that there's a place on commons where you can suggest like collaborations with other companies.
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: Is that right?
+Dr. Naomi Myhill: So that that would be on marketplace. Um but yeah, that's definitely something I was thinking as I looked through it because that's from my understanding it's it's kind of a home version of a sleep study. So you you wouldn't you would wear it maybe for a few days, but you wouldn't be wearing it consistently over the year. Is that correct?
+Vivek Chander: So, uh, if you look at the standard wearables out there, if you look at like Whoop and Aura, I think they do a reasonably good job at it. And I think that they are definitely good for trend lines for sure. Um, but the the device um the it's it's looks like a pulse oximter.
+ 
+ 
+00:23:31
+ 
+Vivek Chander: I think I showed it to you. It's I have it right here too. It's kind of this is what it looks like.
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: Um, and you kind of just put it on like that. And that's how you wear it at night time, right? Um, so this is really sensitive. It's not as sensitive as like a home like a in-person sleep study, but it is very sensitive in terms of getting like uh the minute-to-minute variations that the type of sleep you're having and certainly the level of data can impact um uh recommendations for behavior change, right? Um, the way to utilize this would be to set a baseline over the course of like a week or two. So, you wear it every day for a week or two. At that point, you uh this company uh typically will kind of sit down with you and go over the data and then make recommendations. Um, one of the things, uh, again, I'll I'll just use me as like context. Like what one of the things I found was that I was waking up something like 17 times an hour, like completely unrecognized.
+ 
+ 
+00:24:51
+ 
+Vivek Chander: But I had such a degree of sleep fragmentation that like I was getting to that aroused state and then going back down. getting to the Rous state and going back down. So, never like really reaching like uh and getting the amount of sustained deep um non-REM sleep that I needed, right? Um that is not information that a whoop or anora is going to give you. So, I had undiagnosed sleep apnnea. Um and I'm still trying to kind of figure that out to be honest with you. But like obviously some of the interesting interventions that can happen from uh like in regards to sleep apnea is that um uh side sleeping is like really important to prevent that. Um so you know I don't know if you've seen like pictures of animals are always sleeping on their side. That's us. We need to be sleeping on our side, right? Uh it's typically the cat's like spllayed out like that, but most animals you see they're kind of curled up. Um so side sleeping is is like really important.
+ 
+ 
+00:26:00
+ 
+Vivek Chander: The other thing that I've personally tried based on the recommendations was mouth taping. Um so just breathe through your nose uh as opposed to breathing through your mouth. And I hated that feeling, but that that was like an intervention that was tried. Um and when you institute these interventions that's when you need to be doing this uh using utilizing this to see if there's an improvement right so you can make a change and see if it works you can uh you know
+Dr. Naomi Myhill: Mhm.
+Vivek Chander: they have like the next step that I might consider is a mandibular advancement device it's like a um it's a mouthguard essentially and it kind of uh roots the the air in a certain ction. So, it prevents like sleep apnnea, right? If I were to try that again, this would be something I made a change. Let's see if it improves my sleep, but am I getting the right type of sleep? Am I getting enough sleep? Um, we talked about DEIP, the delta sleep inducing peptide. Again, like another whatever change we make, it could even be as simple as uh getting room darkening shades or um or changing the temperature in the bedroom or uh using white noise um whatever it is, you can actually real time over a week or two understand whether it's made a change and then kind of you move on to the next intervention.
+ 
+ 
+00:27:28
+ 
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: It's almost like a CGM but for sleep.
+Dr. Naomi Myhill: No, that that sounds very useful and I think with with just kind of what you've said around how important sleep is for all of these different areas, it's going to be something that we come across and we need to be providing recommendations for um at Cascade and so we need to have a true understanding of what those sleep stages are. So, I think definitely um with this company, we should be having a conversation. So, um I'll loop you in with Dave after this and and just um Do you use Slack or Cascade Slack, Sunny? Is or is it best to email?
+Vivek Chander: Uh, I do I have Slack up. Yes, I can I can make it a habit of of starting to use
+Dr. Naomi Myhill: Yeah, because I will loop you uh in with Dave.
+Vivek Chander: that.
+Dr. Naomi Myhill: Um so what we've done just for context previously um on technology partnerships is usually like a a subject matter expert will make a request for a technology uh to be uh kind of put through the quality assessment framework.
+ 
+ 
+00:28:36
+ 
+Dr. Naomi Myhill: So it's just put through the framework. So we assess on the different pillars and then before we probably get to the end we decide if we need to have a meeting with the company to get more information. So in this example, um it would probably be that where we would have a meeting with the company to get more information and um obviously the importance of having this kind of pre and post an intervention that we do, we'd probably want to have that conversation. So yeah, it would probably be good to get you linked in with Dave because he leads the marketplace element um at Cascade and so or he does currently. So, we've built existing partnerships with um a compression stocking company called Isobar and also with a blood flow restriction shorts and t-shirt inbuilt garments called Hyro. And so yeah, that's a similar situation where we kind of will be recommending those based off of um certain goals and diagnostics and then they would then be able to kind of purchase that product at a discounted rate through Cascade.
+ 
+ 
+00:29:44
+ 
+Dr. Naomi Myhill: Um this one might be slightly different in that I know you mentioned that they give recommendations. So that's something that we'd have to figure out how to blend the two or whether we kind of directly get the the results and we then result that to the health seeker. So those would be conversations that would need to be had. So definitely would need a meeting. So, uh, yeah, after this, Sunny, I'll link you in with Dave and then let's let's see where we get to with this because it sounds like, um, it's better than an aura or a kind of wristwatch in terms of those sleep
+Vivek Chander: How is it?
+Dr. Naomi Myhill: stages. So, yeah, for sure.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: Um the other question I was going to ask is if you are you're kind of getting the baseline with uh with with this and then how long would you wait before you have the followup? So you've got the baseline information and you provide a recommendation for the health seeker um in terms of an intervention.
+ 
+ 
+00:30:47
+ 
+Dr. Naomi Myhill: What would the time frame be for the followup in terms of that that um retest? Because obviously in our model we have the 90-day plan. So would it fit within those 90 days? Would it be after 30 days for example?
+Vivek Chander: Honestly,
+Dr. Naomi Myhill: Just so we have an idea of time frames for changes to be made.
+Vivek Chander: I think that you can get real you will know if something is working within a week.
+Dr. Naomi Myhill: Wow. Okay.
+Vivek Chander: So, uh and and that's the beauty of this, right? Because you don't have to wait the 90 days. like sleep is so important that again this is not something that primary care physicians talk about in any way. But like uh just like you were to do a CGM and you saw that when you had your your you know ice cream that your glucose spiked and maybe you should avoid ice cream. Like it's it's really that quick. It's I I tape my mouth. I didn't like the feeling but it actually helped.
+ 
+ 
+00:31:49
+ 
+Vivek Chander: I had the two days of data when I did it where I'm like, "Oh, I'm actually it's working. I just like I'm feeling a little claustrophobic when I wake up with it and I don't like it." Right. Um but I saw that it actually helped. Right. Um I haven't done I so I used dip for the first time last week and it helped. I wasn't using this, but like next time I want to like trial it out, I got to see like exactly kind of how it compares with my baseline. Uh, but if the idea is to make meaningful change slowly to get to a place where you have great sleep, there's no reason to wait 90 days. You do an intervention,
+Dr. Naomi Myhill: Mhm.
+Vivek Chander: you wait a week, it's working, it's not working. Let's add on a next layer. Let's see how you do that. Okay, is it working? Is it not working? Okay, let's do it again. Let's make another change. Right?
+ 
+ 
+00:32:43
+ 
+Vivek Chander: So within 3 months, you can make you can make like six changes
+Dr. Naomi Myhill: So it's almost almost not quite but like a continuous monitoring.
+Vivek Chander: easily.
+Dr. Naomi Myhill: You're almost monitoring at multiple time periods throughout those 90 days. So the health seeker would have this piece of kit with them for that.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: I don't know what the package is with with the company, but let's just say in this example, they have that with them for the full 90 days. And so we'd be able to monitor if th those I suppose those interventions are having an effect. The only thing to consider would be sleep might not be the only intervention that the health seeker might be recommended. might be nutrition, exercise, interventions. So, I suppose the end goal is improving their sleep, but we might not know how how what the mechanism was for them to get there because we won't necessarily be able to isolate those, but I suppose that doesn't really matter for us because we just want them to improve.
+ 
+ 
+00:33:46
+ 
+Dr. Naomi Myhill: Um, cool. Okay.
+Vivek Chander: I I think that um I mean it's a good point because obviously if you're going to lose weight, you're going to get better sleep, right? Or if you are going for like you have a good exercise session, you're going to just sleep better. That's like we all know that this happens, right? The the objective measures are going to be there though. You're going to see like the quantity of what type of sleeps uh sleep you're having, the duration of sleep, as well as whether if you're having any apnea
+Dr. Naomi Myhill: Yeah, that makes sense. I think one of the things we'd have to look at is um and it's one of the pillars is the the data
+Vivek Chander: events.
+Dr. Naomi Myhill: interoperability. So, can we would be able to integrate that tech into our system so we can pull that information in. But that's a conversation that we can have. Um because I'm just thinking if we're going to have that kind of consistent flow, we don't necessarily want to rely on the health seeker to tell us that information kind of each time.
+ 
+ 
+00:34:47
+ 
+Dr. Naomi Myhill: If we can see that automatically coming in, um that would be a bit more intuitive. But yeah, sorry, back to um back to what back to the interview what we were talking about. Um
+Vivek Chander: Oh,
+Dr. Naomi Myhill: so
+Vivek Chander: I was going to say that you wanted to talk about like I don't think we ever got to anxiety, right? Did we talk about anxiety?
+Dr. Naomi Myhill: yes yeah that was the next just before we get on to that I was just going to say that um the sleep would links to a lot of the goals that we have like one of them being improved body composition um how would how would you prioritize that sleep as a recommendation in terms of if you zoom out and think of the other recommendations and interventions that could be used to improve body composition. Let's say like exercise, um aerobic exercise, it might be having a balanced diet and reducing the amount of sugars you eat in your diet. And then you have sleep as well as an example.
+ 
+ 
+00:35:51
+ 
+Dr. Naomi Myhill: There might be others. is does sleep under underpin all of the the success of those other interventions is probably the question. So which I'm just thinking how we
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: prioritize
+Vivek Chander: Um, so with with the longev longevity framework, we've already talked about about like there's a pyramid, right? And like where do all these kind of interventions stack on top of each other? Like I don't know. I think when you talk about sleep, exercise, nutrition, and gut microbiome, like I think those are all I don't want to say they're equally important, but they're all interlin with each other in a way where like each one of them should be considered a priority. understanding that they all work together to like kind of get to that second level, right? So with body composition in in particular, so there is a negative consequence of having poor sleep, which is kind of what I opened up with this interview with, which is over years like insulin uh sensitivity developed because of my poor sleep and that led to metabolic induced liver disease, right?
+ 
+ 
+00:37:21
+ 
+Vivek Chander: And that uh meant that I had like two two and a half pounds of visceral fat, right? Which by the way is down to 0.9.
+Dr. Naomi Myhill: Awesome.
+Vivek Chander: So So the um there's a poor consequence for having poor sleep in terms of body composition, right? And then on the other hand, guess what? If you have all your endocrine system working correctly and you have the adequate amounts of growth hormone being released, you're able to build muscle, right? And you're be able to increase your lean muscle mass uh just by the fact of having good sleep, right? So you have the negative and then you have the positive. So again, it's like double jeopardy. Like if you have bad sleep, it affects you in two ways, right? And if you have good sleep, it affects you in two ways.
+Dr. Naomi Myhill: Um, yeah, if you if we can move on to the cognitive and psychiatric um elements that sleep might have an effect on. I realize we're coming up to the to the hour.
+ 
+ 
+00:38:28
+ 
+Dr. Naomi Myhill: Do you have time to stay on for 10 minutes or do you need to go? Okay, fab.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: It'd be great if you can if we can finish with you just explaining how sleep affects those two and then we can wrap it up from there. Fab.
+Vivek Chander: So uh cognitively you know I think that there are two elements of learning right? So you like or how should I say this? So sleep is important before you learn and sleep is important after you learn right. So, if you get a good night of sleep, you're able to retain information more. And if you get a good night of sleep after you learn, you're able to like really kind of process those those um uh learnings into like your deep memory, right? Sleep loss uh reduces encoding by up to 40%. So that's again like this is something I talk to the kids all the time like you need to like when instead of like doing this like party party party and then study study study you got to like really even out things right um because otherwise like you're just it's you're not learning in the most effective way.
+ 
+ 
+00:39:49
+ 
+Vivek Chander: Um nonREM sleep stabilizes your memories. uh REM sleep tends to integrate them. So that's again REM sleep is the important thing about uh is what you need for kind of integrating your memories into your long-term memory. Um and then uh as mentioned before REM sleep, good REM sleep incre increases your creativity uh and allows you to like um uh just like put things together a little bit easier. Um in regards to like uh the emotionality of things uh with loss of sleep you get amygdala hyperreactivity and your preffrontal cortex does not work as well. So sleep deprivation kind of will cause you know uh you not to have the same degree of emotional regulation because your amydala is hyperreactive. Um, do you have we we haven't talked about cortisol, but we can talk about cortisol, but that that's kind of the emotional as well as the cognitive piece. I think that depending on the type of loss too like I know that uh people who have anxiety tend to have less deep sleep. People who have less or REM sleep tend to have more PTSD and depression.
+ 
+ 
+00:41:28
+ 
+Vivek Chander: Um, so there is actually and and I I don't have the the I don't have the exact kind of thing, but there are ways to diagnose or put together uh what type of sleep disturbance is causing what type of psychiatric disturbance. Um, and this is kind of one of those interesting things that we don't do that like is totally up Cascad's alley, which is the we don't want we want to kind of deal with things holistically. So, we don't want to give anxiety a pill and completely avoid the fact that the reason why the person's anxious is because not only are they having poor sleep, but we're able to identify they have less deep REM sleep than they should be having. So sure you can treat the anxiety but like what is the underpinning? It might really come down to poor sleep, right? So it it really does follow that model of of like trying to uh treat each health seeker, you know, uh holistically.
+Dr. Naomi Myhill: Yeah, perfect. Um, you mentioned causal. Do you want to speak to that that quickly for the next kind of five minutes
+ 
+ 
+00:42:50
+ 
+Vivek Chander: Yeah. Yeah. So cortisol um cortisol. So there are a couple things like so right now the sun's coming up in Boston, right? So the way what I should do for a good and we can talk about sleep protocols next time, but like I should go outside and get like that direct sunlight, not through the window, but actually direct sunlight. What that will do is that'll actually affect or initiate my it'll reset my circadian rhythm, but it'll also initiate like a cortisol release, which will kind of start going up over the course of the day and then as we get closer to nighttime, we want to have our cortisol levels diminish, right? So that we can go to bed effectively. So, the I don't know why this came came to my brain, but just the whole idea of reducing stress at night time, like anything after 8:00, anything that would be stressful, you want to like reduce that so that you can kind of blunt any additional cortisol release, right? And that will put you into the right uh phase of kind of getting into sleep. So, you know, not not reading politically charged news, not, you know, getting into an argument, like anything, not exercising, to be honest with you. Anything that's going to release cortisol after eight is going to end up affecting your sleep negatively.
+ 
+ 
+Transcription ended after 00:44:34
+
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
