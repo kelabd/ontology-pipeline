@@ -1,0 +1,383 @@
+﻿Apr 7, 2026
+Ontology interview - Sunny - GLP1 - Transcript
+00:00:00
+ 
+Dr. Naomi Myhill: Okay, awesome. We are good to go. So, we're going to talk about GLP1s today.
+Vivek Chander: Sure.
+Dr. Naomi Myhill: Sunonny, can you explain um what are GLP1s firstly?
+Vivek Chander: So, uh, GLP-1 medications were first developed for the treatment of diabetes. Um and uh very quickly uh you know within 5 to 8 years it was discovered that they have all these other effects and there are new use cases like being added on constantly for uh for GLP1s to treat. Um it initially started with medications that have like gone out of favor. Things like litter glutide. Um after that uh semiglutide became like the the one that was most kind of widely available. Uh brand name WGO and OMIC. Um, and the way that that worked is that it kind of stimulated the um the the glucagon like peptide. That's what it is is a glucagon like peptide. Um, it stimulates the production of insulin uh when the blood glucose is elevated. Um that then turned into a duala action agent which is trappepide uh brand name um mjaro and and zeppbound and that has a second activity um uh where it actually stimulates uh there's some incrretin cells or incrretin system that stimulates also the production of insulin uh once the internal lining of the intestine sees glucose.
+ 
+ 
+00:02:09
+ 
+Vivek Chander: So those are considered dual action. So these medications essentially both will increase the insulin level um as you're eating uh which will promote the glucose going into the cells and uh also uh stabilizing your hunger if that makes sense.
+Dr. Naomi Myhill: Yeah, that that was a nice explanation. Um, what are the main health and performance constructs that like those GLP1s are intended to influence?
+Vivek Chander: Uh so one of the one of the most important benefits is that it totally takes away your food hunger or food noise. uh you know so you know if I'm working in tele medicine and at I don't know 10:30 after we're done with this talk or where whatever like uh you know there's all always these kind of random thoughts that come in like oh let me get up and go get x y and z. So that is one of the primary ways that it works is it just turns off that food noise. Um so if you don't have that hunger uh or that the thoughts you're not going to eat.
+ 
+ 
+00:03:28
+ 
+Vivek Chander: So that's one mechanism on how you lose weight. The other mechanism of how you lose weight is because you're stimulating these enzymes to be produced. You get full much quicker. So you will uh you know go to a restaurant and they'll like Europe is much better than this but in the states you know you'll get like this big you know meal in front of you and instead of actually eating the whole thing you'll eat a half of it and then just let the you won't have that urge or need or desire to finish the meal.
+Dr. Naomi Myhill: Yeah, I definitely noticed the difference again when I was recently I was in Atlanta um the other week and so I saw again reminded of the differences in portion sizes um in America compared to the UK. So yes, that's definitely a thing.
+Vivek Chander: Yeah, in Georgia specifically,
+Dr. Naomi Myhill: Um,
+Vivek Chander: I think Georgia is one of the more like uh obese states in in the United States
+Dr. Naomi Myhill: yeah,
+Vivek Chander: actually.
+Dr. Naomi Myhill: I was I I ordered a salad and cuz I was like I I was I'd already been there for a week at that point and I I just felt so full and like bloated all of the time while I was there with the food I was eating.
+ 
+ 
+00:04:51
+ 
+Dr. Naomi Myhill: So, I ordered a salad at a restaurant and they were like, "And so what sides do you want with that?" And they offered me like five different sides. And I was like, "No, I don't want any sides. I'm good. I just want the salad like with the chicken." Um, and the salad came and it was just covered in sauce, like dressing like I was like, "What is what why is it needed to be like drenched in it?" So,
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: yeah, I can see that for sure.
+Vivek Chander: You something healthy into something unhealthy so quickly.
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: there there's this other thing where like I don't know if this is more cognitive behavior therapy kind of but people eat to fullness when you should only be eating to 80% full right you should like there's that I forget that um Japanese concept and please check this but I think it's ishiu where you so you know it right right where you're supposed to just
+Dr. Naomi Myhill: It could go.
+ 
+ 
+00:05:52
+ 
+Vivek Chander: like like you you take you take your time and and you get to a point where you're like, "Yeah, I could eat more, but I'm done." You
+Dr. Naomi Myhill: Yeah,
+Vivek Chander: know?
+Dr. Naomi Myhill: that's that's definitely something I think I've tried to do for me here in like the last year. I've noticed like yeah, I feel I start to feel like too full too quickly. So, I'm like, right, I'm actually just going to stop eating before I feel full and then I feel much better afterwards. So,
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: yeah, it's it's interesting.
+Vivek Chander: Well, with the glucose regulation, the thing that I find fascinating and the thing that um that's really exciting in terms of these medications is like all the other treatments and like from an athletic perspective, one of the things that uh it's been shown to do is reduce uh inflammation around the joints. It's anti-inflammatory throughout the body, but it actually does in fact like um lessen joint discomfort if you're using this. The other exciting um thing is dementia risk.
+ 
+ 
+00:07:07
+ 
+Vivek Chander: So like the science is not quite there, but there's definitely trends to the fact that people who are on GLP1s have better glucose regulation. And because they have better glucose regulation, they don't have the spikes that cause dementia over time. So it it uh it um you know extends out the period where you would get something like Alzheimer's. Um and the other thing I think we may have talked about this a little bit about um uh myself is that you know because of my sleep patterns I ended up developing some liver uh like fat deposition. So it's actually useful for moving the fat out of the liver for metabolic induced you know hpatic disease. Uh and uh again with like sleep, if you have obstructive sleep apnea, this is going to be a primary kind of treatment for that. And very very recently it's been shown to not only does it lessen the um desire for food, but it lessens the desire for alcohol. So they are now tele medicine companies spinning up where they're going to use GLP-1 to treat alcohol use disorder.
+ 
+ 
+00:08:31
+ 
+Vivek Chander: So there's like a lot of like interesting things happening and as the literature builds Sarah I think you're going to find more you know more um more indications for
+Dr. Naomi Myhill: Yeah, it definitely seems like the last year is probably the last year where it's really
+Vivek Chander: it.
+Dr. Naomi Myhill: ramped up from my perspective over here in terms of actually hearing about these drugs being widely available. And I know in the UK there's over two million I think two and a half million people in the UK are using GLP1s um because they are available on the on the NHS for free. Um, so yeah, we're we're starting to hear a lot more about them over here as well. Um, which what are they primarily targeting? So they primarily targeting kind of appetite regulation, body mass, insulin sensitivity, all of those. Is there like a primary kind of target there? Are they all kind of grouped within?
+Vivek Chander: So I I think that appetite regulation is a big one, right? Um what was the second one you said?
+ 
+ 
+00:09:41
+ 
+Vivek Chander: Insulin sensitivity.
+Dr. Naomi Myhill: Yeah. Insulin sensitivity, body mass, they all kind of just things I've heard you just say. So I'm wondering which one's like the primary target.
+Vivek Chander: So body mass is a result of like the medic. It's not targeting body mass, right? But that's like the welcome outcome of it. the it is a welcome and unwelcome outcome because one of the things that it's doing and you know from a an athletic perspective right is that it preferentially you're losing your lean muscle mass. So 25 to 40% of the mass you're losing is muscle which is a big problem and uh as uh like in the emergency room as like the the um we saw more and more people on the medication one of the questions I would ask is oh like how much are you exercising? Oh no one told me that I needed to exercise. So there's a lot of inappropriate like counseling going on with the prescription of these medications. Uh because like if you're losing 25 to 40% of your muscle mass, you are completely like you know from our lifestyle pillars, you're you're shooting yourself in the foot, right?
+ 
+ 
+00:11:04
+ 
+Vivek Chander: So, um, that is one of the things from an an athletic perspective where I don't know like all these folks are exercising like really uh, heavily, which is great, but I don't know where that point would be where the benefits outweigh the the risks for an athlete, right? You do get the anti-inflammatory effects, you do get the weight loss effects. I mean, obviously you've seen Serena in all of the row ads, right? And she looks phenomenal. She always looks phenomenal. She looks more phenomenal right now, right? She's going to return to tennis probably. Uh but like where is that where's that um you know where like the push pull? I don't know where that balance is going to end up being for an athlete.
+Dr. Naomi Myhill: Yeah, I think that's a really interesting conversation and research area at the minute because they are available and some athletes, you know, you've got I think it was the Super Bowl advert, wasn't it, where Serena was on and um I know that was spoken about massively um over whether an athlete should be advertising this type of medication and the the morality of that, but also Yeah.
+ 
+ 
+00:12:23
+ 
+Dr. Naomi Myhill: like as you said a decent percentage of that but that weight loss or that mass loss is in lean muscle mass. So for athletes going forwards like how how do they ensure there's muscle preservation? Like what is their strategy? And if if people are going to recommend or prescribe this medication for an athletic population and for athletes, does that need to be in a different framework than kind of your general population because of the additional needs of an athlete and the amount that they're training for example? So I'm quite interested in that discussion as well in terms of what what should be the strategy for muscle preservation if you are taking a GLP-1 medication.
+Vivek Chander: So from what what I would do in that sorted scenario and again it's not the literature is still building here but um the idea would be to take a micro dose um so like a standard start dose of um tzepatitis 2.5 milligram Uh there's some body of literature out there suggesting that if you take one milligram um and if you take a lesser dose of the semiglutide as well that you will not get the weight loss piece of things but you're going to get all the other effects.
+ 
+ 
+00:13:59
+ 
+Vivek Chander: So you will in fact get the anti-inflammatory effects. You will get the liver the fat moving out of the liver. It will help your obstructive sleep apnnea. it will reduce your you know risk of major cardiovascular events as like time proceeds. So that would probably be the most um that's not what Serena is doing but that would be the most uh appropriate way to proceed in an athlete because then you are going to get all these kind of effects you know you it becomes a peptide almost it is it is a peptide it's only 30 amino acid chains and you know in semiglutide so it is a peptide so we had the conversation about using the peptide for all these other different effects. In fact, this peptide has the most body of literature um and probably even for the micro doing has more literature than all the other peptides we discussed.
+Dr. Naomi Myhill: Wow. Yeah, that's that's pretty interesting. So So almost you have a smaller dose of that GLP medication to ensure you get the benefits of that anti-inflammatory effect for athletes without the negatives of maybe that loss of muscle mass over time.
+ 
+ 
+00:15:25
+ 
+Vivek Chander: over time and I think if you're an athlete you will still get some um you will get some weight loss effect but it's going to be minimal right and that's going to more than uh that will be like I think if you exercise as these folks do I think you're going to be fine Right. Uh but the if you are actually it it would be interesting to see Serena and how she does because the one thing that would most likely be reduced is power uh because of the loss of muscle, right? So like it would be interesting to see her and how she uh how she comes back if she does come back, right?
+Dr. Naomi Myhill: Yeah. Well, she's she's registered, hasn't she, for anti-doping testing, so she might she might make an appearance and come back.
+Vivek Chander: That's another interesting thing is the Wada stuff is that it is not
+Dr. Naomi Myhill: Um,
+Vivek Chander: banned but it is monitored like so you do have to disclose for
+Dr. Naomi Myhill: yeah.
+Vivek Chander: sure
+Dr. Naomi Myhill: Which says to me that maybe they are collecting evidence to make a decision on whether they will ban it in the future or not.
+ 
+ 
+00:16:42
+ 
+Vivek Chander: you would be like there would be no they would have no ground to stand on to be honest with you. Like I I would be because it's going to make you weaker in general. It's actually causing you to work out more to overcome the weight loss, right? Um I don't really view it I don't know. I think it's like a general health thing. I don't view it as a performance-enhancing. I think it's I view it as a health enhancing, you know, it's a it's a medic. Like I really do think it's a medication.
+Dr. Naomi Myhill: Mhm.
+Vivek Chander: Like whoever developed this should have like the Nobel Prize. I was at a party the other night and somebody was asking me like are you fulfilled like in the tele medicine world? Do you miss the emergency room? I'm like I don't miss the emergency room. I was in the emergency room for 25 years. I'm really excited. I'm learning all these things. Yeah. but like do you like don't you miss saving lives?
+ 
+ 
+00:17:41
+ 
+Vivek Chander: And I was like honestly just by me prescribing the GLP1 medications to as many people as I have in the past three years I've added more lives to people's more years to people's lives than I ever did in the emergency room. Right?
+Dr. Naomi Myhill: Well,
+Vivek Chander: This is like a life extending like the ER is just like rearranging deck chairs on the Titanic, right? Because people are a mess. Like this is preventing from people to become a mess, right?
+Dr. Naomi Myhill: Yeah. And I guess this is this is more preventative medicine stopping
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: stopping them getting to the point where they're actually in the the ER or the emergency room.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: Um so
+Vivek Chander: from a from a longevity framework 100%.
+Dr. Naomi Myhill: yeah. Yeah.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: Are there are there mechanism differences like across obesity, type 2 diabetes or is it kind of the same mechanism with different outcomes?
+Vivek Chander: Um, so I mean in terms of in terms of how one gets to a place where they have a BMI over 30, right?
+ 
+ 
+00:19:04
+ 
+Vivek Chander: So it is uh it is um environmental like use utilizing your Atlanta example, right? So, um, if you go to the movies here and you get a big gulp, which there of soda or a, you know, this is your popcorn that you get or the salad with, you know, the healthy option with the, you know, if you actually look at the calorie count, it's 1,200, right? Um, so one aspect is environmental. Another aspect would be genetic, right? So some some people unfortunately do have a higher uh rate of of obesity. Um and then um some of it is kind of lifestyle where you know people don't exercise enough um time whatever it's not a priority. So the there many different ways of how one gets to a place where they're have a BMI over 30 or have a BMI over 27 um and they uh uh have like another condition that would qualify them for this treatment.
+Dr. Naomi Myhill: Yeah, that kind of follows on into I guess the assessment section. So, how how would you determine the suitability for someone to recommend GLP1?
+ 
+ 
+00:20:34
+ 
+Dr. Naomi Myhill: So, what are the kind of the screening needs? What what's the minimum assessment set that you would collect before starting GL GLP1 medications?
+Vivek Chander: Yeah, let me get So, let me just look at this outline for that. All right. So, um, in terms of like the hard nose for, um, GLP1s, the the first thing, you'll see this on a lot of the ads, if you have a family history of medillary thyroid cancer, there is some risk of actually promoting cancer and turning on these genes. So, that's like a hard no. Um the other kind of absolute no would be multiple endocrine neoplasia type two. Um obviously if you have like an allergic reaction to semiglutide or tzepide that's like a hard no. And then the other hard no that is the most um the most common would be pregnancy. In fact uh it hasn't been studied in pregnancy. So at this point it's like a hard no. Although there are some studies ongoing right now for for potentially being able to use like a micro dose in pregnancy.
+ 
+ 
+00:22:00
+ 
+Vivek Chander: Um the idea is that you you do have to be uh proactive about this. So if you're doing some family planning and you're going to start trying in two months, you stop. Like you have to stop two months in advance um before you start. And then if you don't do that the minute you find out you're pregnant, you stop. So so to speak. Um the relative contra indications for this is uh history of pancreatitis. Um so it does have a uh increase in pancreatitis specifically in people who have high triglycerides. Uh triglycer like hyper triglyceridemia is a uh known like uh um uh risk for pancreatitis. Um, so everybody's coming in a little bit kind of a little bit larger, so to speak. Um, and one of the things that happens is your triglycerides go up. And if your triglycerides are up, this is like a mechanism where it might actually uh pull you over into getting an episode of pancreatitis. Um, severe gastroparesis people are chronically constipated and have low transit times.
+ 
+ 
+00:23:13
+ 
+Vivek Chander: So uh you know the average is somebody goes to the bathroom once um once a day but like if you look at the standard deviations it goes from three times a day to once every three days. So if you fall like in that once every three-day category it means that your transit time is a little bit uh slower. So in those folks that would be something where you would definitely want to council on because that once and three can very easily become once and seven. Um uh let's see the other thing uh speaking to your question is severe chronic kidney disease. So part of the evaluation is going to be all the labs that we order anyway like at from a cascade framework. We're going to want to look at like the liver function tests. We're going to want to look at the creatinine. We're going to want to look at um you know your glucose levels, your insulin sensitivity. All of those things will need to be looked at uh before you proceed. Um this is an interesting one as a contraindication because I think it's going to end up going away.
+ 
+ 
+00:24:23
+ 
+Vivek Chander: But there had been some early um literature saying that it actually increases uh depression and suicidal ideiation. So if you have a history of depression or suicidal ideiation, you should not be utilizing the medication. like when you go through these intakes, everybody's like, "I'm happier. I've lost weight. I don't have any food." So, like I don't know uh yet where that literature is going to kind of land up, but I think it's going to end up being like anecdotally like I would be surprised if we don't get rid of that soon. Um let's see. The other things that are interesting is that like often people will uh complain of visual side effects and most often it's because of the rapid shifts in glucose that happen. Uh but in fact if you have some retinopathy uh and retinal disease um specifically on somebody who's diabetic where diabetes it touches the eyes the kidneys right um that they would uh essentially potentially worsen that. So that has to be monitored but with like yearly opthalmological checks. Um obviously um if somebody's diabetic um so with with diabetes if you think about it the way the the medication works is that you get this increase in glucose and then uh your natural GLP1 gets stimulated to bring your glucose down.
+ 
+ 
+00:26:00
+ 
+Vivek Chander: Right? So when you take an extra exogenous GLP-1 it also kind of brings the glucose down. The problem with somebody taking insulin is the insulin is also dropping your glucose. So when you take both together, you can actually get uh episodes of hypoglycemia. So that's why typically speaking from like a tele medicine uh side, you don't ever prescribe this when somebody's on insulin. Uh it has to be just a little bit more monitored. Um and then the other kind of interesting thing is uh gallbladder disease. it uh it actually increases stone formation. So people who have a history of uh gallbl gallstones without having their gallbladder removed that's also kind of like something that needs to be monitored. So those are like all the contraindications um but having like a set of labs uh additionally to evaluate uh liver function, kidney function um are super important.
+Dr. Naomi Myhill: I might follow up on those. Um, Sunny, the specific labs and if there are specific values for those that that would indicate they couldn't have this.
+ 
+ 
+00:27:16
+ 
+Dr. Naomi Myhill: Um, it might be good for us to map that in as we're starting to map in the blood work through junction with the API at the minute and starting to push those results out onto a report. It might be something if we've if it's indicated that maybe this person's interested in GLP1 in their intake that we might want to highlight these metrics on their blood work report so that it's easier to to see when you're reviewing it as well. So might be one to follow up on if that makes sense.
+Vivek Chander: Yeah. So, just for like the ontology, like I can look at the specific values. I don't know them off the top of my head, but the like when I'm reviewing these labs from a kidney perspective, if somebody is less has a creatinine less than one 1.2, I'm like, "Sure." Yes. Yes. So once a creat So a creatinine uh that jumps from one to two would mean that your kidneys are about 50% uh working at 50% capacity. If it jumps from one to three, you're working at 33% less capacity.
+ 
+ 
+00:28:26
+ 
+Vivek Chander: like in general. So if you are close to 100% you're good to go. But once that creatinine number starts uh you know jumping up and I would say if it goes above 1.2 1.3 then I'm looking at things a little bit more closely.
+Dr. Naomi Myhill: Mhm.
+Vivek Chander: Um and then from a liver standpoint um uh again you know talking about metabolic kind of associated liver disease if your liver enzymes are significantly elevated that would also give me pause but I don't know what those uh specific number parameters are. So instead of misspeaking, I'll I'll look it up and
+Dr. Naomi Myhill: Yeah. Yeah, that would be great. I'll I'll follow up on that one as well. So,
+Vivek Chander: yeah.
+Dr. Naomi Myhill: those are I guess the kind of the contraindications. What would a kind of health seeker what would their intake look like for you to recommend GLP1 as a as an intervention?
+Vivek Chander: Yeah. So I mean I think that the the first thing is getting adequate information in terms of what their where their weight is, right?
+ 
+ 
+00:29:37
+ 
+Vivek Chander: So um whether that be a connected scale or a picture um or HIE data like getting an accurate picture of what it is. Um the other thing it's kind of interesting is um is in from an ethnicity standpoint South Asians actually have me have lower lower caliber vessels apparently. So they're actually BMI levels are lower. Um so I think it's uh you know we talk about 30 and 27 but I think for South Asians it's like 27 and 23. Um so like asking that ethnicity question would be a good one um as well. U and then you know we just went through all the contraindications. So those would be a part of the intake is do you have family history of of metallary thyroid cancer? Do you have uh a history of gastroparesis? You know so gallbladder disease, pancreatitis, depression, suicidality, all that. Um and uh I don't think you need much as long as you do go through the exclusionary criteria. Um uh I think that part of the intake should be goals. Why are you taking this right?
+ 
+ 
+00:30:59
+ 
+Vivek Chander: Are you taking this for weight loss? Are you taking it for one of the other indications? Um that's how I would kind of think about it.
+Dr. Naomi Myhill: Yeah. And I guess from a a cascade point of view, we have all that intake information. We have the diagnostic results and then we go to deliver like the 360 report and we have the plans for what the integrated plan could be. What would that look like? So if we talk about the pyramid again that you mentioned before. So where would the GLP-1 kind of medications sit on that pyramid? Would that be something that you would recommend kind of initially or would you recommend the nutrition adaptations and exercise adaptations first and then if they don't have success follow up with the GLP1 medication while also continuing some of those changes that were recommended.
+Vivek Chander: Yeah. No, I think the base layer is always the base layer for everything that like I think that should just be like standard, right?
+ 
+ 
+00:32:13
+ 
+Vivek Chander: That it's that's what we do. I think that GLP1s interestingly fall somewhere between the second layer and the third layer, right? Um I have told people that like you know a bunch of my friends are on JLP1 medications, right? And I've told when people ask well why are you on this? You don't look you know uh you know you're not fat or you're not like obese. you look it like you're you're um you don't need it. I think that there's a disconnect in the population still in terms of education where this is just weight loss is not the only reason to take this. In fact, weight loss is only one of the reasons to take this. But pretty much there's a use case almost for everybody out there, right? If you want to reduce dementia risk, if you want to sleep better, if you want to um you know improve your body composition in terms of like getting rid of your visceral fat, um if you want to, you know, it's even better for eye health like you know we talked about the retinopathy, but there's actually some um uh cataract formation.
+ 
+ 
+00:33:27
+ 
+Vivek Chander: It's better for cat like it lessens cataract formation. So there's almost a use case out there for everybody.
+Dr. Naomi Myhill: Yeah, that's pretty interesting. The the perception definitely is that it's a weight loss drug and I think that's mostly how it's
+Vivek Chander: Wait.
+Dr. Naomi Myhill: advertised as well, which which probably doesn't help. So, no,
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: that's that's really interesting. Um, which so I guess following on from that, which outcomes are kind of the the core outcomes that you would look for of someone taking a GLP1 medication?
+Vivek Chander: So right now it's all kind of weight loss based, right? So you know if we do let's put let's leave the micro doing aside, right? Because that's like a special case, right? But if you're actually going through weight loss treatment or diabetes treatment, you're going to follow this algorithm where you're going to increase the doses of the medications over time. Right? So for tzepatide, you're going to start off at 2.5 for a month, go to five, go to seven and a half, go to 10, go to 12 and a half, and go to 15. There's six steps up, right?
+ 
+ 
+00:34:37
+ 
+Vivek Chander: And at some point as as you're as you know, when you find the right dose, you are going to start seeing like your weight come down. You're going to start off with 30 27. You're going to keep on going down. Um, typically speaking, like as an outcome measure, somewhere between 19 and 22, you're going to be like, "All right, we need to either we need to totally wean off or we need to like get down to a level where you're at a at a sustainable kind of ongoing treatment, right?" Um so the one of the the main levers that you use and the things that you have to follow is is the weight loss pattern. Also if you lose like a significant amount and I'd have to look at the amount but I think it's 15% of your weight every month there is a dangerous level where you don't want to um exceed that. So it's not just it's also the rate of the weight loss that has to be carefully monitored as you progress. Um the you don't have typically you don't have to follow labs after the initial set of labs to be honest with you.
+ 
+ 
+00:35:52
+ 
+Vivek Chander: I think it's a good idea probably anyway to get like the creatinine levels checked. I don't know what that interval should be, but in terms of initiation, that's like you want to review labs, but post initiation, um the one of the reasons why you're taking the medication is to improve your labs and they're typically improving. Not typically, they are improving like so um it's more for trend analysis as opposed to like a safety thing.
+Dr. Naomi Myhill: Yeah. So I guess in terms of assessments that should be repeated during the follow-up, it's monitoring body mass and if there's more than a 15% decrease and then then we need to check in. Um and then labs well in in the cascade process after that that 90-day period they would like to get repeat labs um and maybe sooner. So are those the kind of two main and then is there any self-report kind of assessment that you would get during that
+Vivek Chander: So the other piece because we we talked about the 25 to 40% lean muscle mass is actually
+ 
+ 
+00:36:58
+ 
+Dr. Naomi Myhill: time?
+Vivek Chander: the dexas as well because that would actually uh help you monitor how you're doing with the treatment. Right? So, I think that that data would be super important to um to see where you are, where you're where where you're heading and where you should be heading, right? Um so, that would be something that I would probably put in a Q3 month uh as you're initiating, as you're kind of establishing uh the rhythm. Um until you can prove that you are maintaining your muscle mass. I I would put like a DEXA every 3 months. Um the self-report uh stuff uh I tend to trust people but at the same time and this is not going to be the cascade patient population. There there is a segment of the population out there who you know have a history of anorexia and who are actually trying to trick the system um and try to get the medications for themselves u to keep their weight down, right? And uh unfortunately if they want to do that, they're going to do that because there's not enough safeguards across the system for them not to do that.
+ 
+ 
+00:38:24
+ 
+Vivek Chander: Um you know, you can take a very you you can take a picture of yourself standing on a scale. In fact, if you look at this right now, if you go online and say picture of you standing on a scale, these are the images that are being uploaded. You know, it's hard to know,
+Dr. Naomi Myhill: Wow.
+Vivek Chander: right?
+Dr. Naomi Myhill: AI now you can
+Vivek Chander: Yeah. Yeah. 100%. That's right. So,
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: make sure that the BMI says or my weight says 233 pounds, you know, and they're actually 160, right? Um, so, so the self-report stuff, I love like the weddings connected scale like Cascade should send that one of those out to everybody, right? Because then uh it's just there, right? And you can even uh you can just naturally import that data whenever they kind of stand on the
+Dr. Naomi Myhill: Yeah,
+Vivek Chander: scale.
+Dr. Naomi Myhill: I think we I think I reviewed that in the tech framework. I'll have to look um where we got with that, but yeah, I think that was something that was mentioned a few months ago.
+ 
+ 
+00:39:29
+ 
+Dr. Naomi Myhill: Um so depending what the what the outcome was, it would probably be something that we could utilize as in a stack or something like that on our marketplace. Um so I know that they are there's conversations around the techno gym checkup which also has some similar attributes that the wthing scale has I think is going to be across some of those simmed light locations. Um but we need a bit more information about what it actually measures because there's a few different things on there that that it says it does. So yeah or any of those types of things. Um, but the within CA of they could have it in their in that in their home. That's something that's a lot more accessible um than going to a clinic or somewhere like that. So
+Vivek Chander: Yeah, for ongoing the way I think about it,
+Dr. Naomi Myhill: yeah.
+Vivek Chander: because if you look at the wedding scale and if you look at like a Dex and you do a side to side comparison, they're completely different, right?
+ 
+ 
+00:40:31
+ 
+Vivek Chander: But for the quick little thing, like I think that it makes a lot of sense. And then you do like a you know every three months when you start GLP1s, every six months, every year after that uh as like a kind of a validation tool as opposed to like a need for an ongoing thing, you
+Dr. Naomi Myhill: Yeah. What's the what's the time frame on GLP1 use like when you
+Vivek Chander: know.
+Dr. Naomi Myhill: are recommended it? Is there a certain should you take it for 12 months and then and then that's it? Like what's the and does that what does the time frame depend on the the health seeker and what we're trying to solve with it? And then also is behavior change also important if they're going to come off GLP1 to maintain that the weight let's say or if it's just weight loss they're looking for maintain the weight loss or if it is reducing that inflammation does that consistently work over a period of
+Vivek Chander: So that's again,
+ 
+ 
+00:41:31
+ 
+Dr. Naomi Myhill: Time.
+Vivek Chander: so let's again take the micro doing thing aside. If you're micro doing, you're micro doing hopefully forever, right? That's actually almost true for weight loss as well because the one thing that studies have found is that if you stop the the medication even after implementing all the lifestyle factors you will start to gain back the weight. Right? So the idea is to not think of this as a uh like you have a cold, you have a sinus infection, you take an antibiotic, you're done with the medication. The way we should be thinking about this is like more like hypertension. Like you're on this medication, you're on a tennal and you're just on it, right? This is just one of your medications. So you increase the dose until you get the desired effect. Your weight loss comes down. You decrease the dose and then you find that steady state, right? And once you find the steady state, whatever that that might be at 15 of it, it might be at 2.5 ofide.
+ 
+ 
+00:42:41
+ 
+Vivek Chander: Once you find that steady state, that's kind of the way to go. Now, we haven't talked about this, but very quickly, in fact, in January, they released the WGOi pill. At this point, the pills are not as good as the injectables. But like the pill is in fact um driving a lot of consumer demand because people don't want to inject themselves, right? Um there Lily just had and I don't even remember the name of the the medication yet but Lily oh found found yeah u it just got released like two weeks ago right or it got FDA approved two weeks ago and it's not the initial studies show it's not as good as the WGO pill but that's Lily's pill to compete um so I think very quickly we are going to be at a point where we have the right pill form of one of these medications s um and it'll just end up going into the pill box, you know, and if you want a micro dose, instead of taking a full pill, you'll take a quarter pill.
+Dr. Naomi Myhill: Yeah.
+ 
+ 
+00:43:49
+ 
+Dr. Naomi Myhill: It almost becomes uh less invasive because you're swallowing a tablet rather than an injection.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: Yeah. Where does where does GLP1 or how should GLP1 be classified if we're thinking about ontology? Is it a like a a pharmacological intervention, a metabolic intervention, um obesity treatment? Is it all? or does it sit across all of those? Is there a specific? Yeah,
+Vivek Chander: completely.
+Dr. Naomi Myhill: cool. We'll make sure that we we categorize it in those.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: Um, are there certain people that respond better to GLP1 medicines than than others? Is it are there some non-responders or are there some that you know they they'll have the same amount same dose and they might lose more weight over time for example or is there not enough evidence to show that at the minute?
+Vivek Chander: So, I'm going to speak very anecdotally on this one where I think that most people respond. A lot of people are uh when they initiate treatment, they'll come back to you and they'll be like, I didn't lose any weight.
+ 
+ 
+00:45:06
+ 
+Vivek Chander: I didn't. So, but there's a voltage. So, everybody has like a set like where where you see the effect. It might be at 2.5 for one person, it might be at 15 in another person, right? Um where tepatide is a dual action and semiglutide's a single action. There are people who get to 2.4 4 milligrams of semiglutide they don't see any effects they transition that equivalency dose 2.4 for semiglutai goes to five of zeppbound and then you go from 5 to 7 and a half to 10 to 12 and a half to 15 right so I would honestly surmise again without knowing the exact number that 99% of people will have beneficial effect by the time you get to 15 as right are there people who are going to continue to eat it's not going to like turn off their hunger drive yes there are people who are doing Uh there are often people who come in and say, "I I gained 8 pounds this last week." Well, have you been exercising? Have you done any dietary modification?
+ 
+ 
+00:46:11
+ 
+Vivek Chander: No. No. No. No. No. Right. So, um yeah. So, I I think that most I would say honestly 99% of people see an effect. I think that they're probably 1% non-responders, but the non-responders are uh people who are not doing like the other lifestyle modifications they should be
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: doing.
+Dr. Naomi Myhill: So those lifestyle modifications are also like really important to be doing at the same time as taking this GLP1 medication. So that also needs to be recommended and educated on when they are prescribed this. So if we're thinking from like a cascade point of view, like we mentioned earlier, we'd want to be providing them with the education around it and why these nutrition diet changes and maybe exercise changes are also important in terms of that behavior
+Vivek Chander: Well,
+Dr. Naomi Myhill: change.
+Vivek Chander: I think again just going back to the beginning, the exercise changes is the number one thing you have to do. Like it it's like it's a must.
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: Like you need to like do three to four times a week of resistance training, you know, 30 to 45 minutes.
+ 
+ 
+00:47:19
+ 
+Vivek Chander: You have to like it's a mustd do. Don't go on the medication unless you're willing to do this because if you don't do this, it's going to adversely impact your health. Like if we if you lose muscle, you lose bone. If you lose bone, you when you fall, you break a bone. You break that bone, you die within a year. Right?
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: It's very clear, right? So from a longevity perspective like that's a
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: musto um the I don't know
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: if you know this this is a cra I think like I find this this fascinating but ever since we introduced GLP1s into the market in the United States an average of 700 calories per person in the United States is not being eaten.
+Dr. Naomi Myhill: Wow.
+Vivek Chander: That's how much this has affected the game. So what does that mean? It means that grocery stores are totally reimagining how they like deliver food, right? So there are now healthier food sections in the in the grocery stores, right?
+ 
+ 
+00:48:33
+ 
+Vivek Chander: Which is great, right? There's there's now, you know, we're talking about protein. Like we haven't talked about protein intake yet, but we know that like it should be two per kilo, right, in general, if not more in some of these athletes. So having uh like uh like there all these now protein infused kind of things like hitting the marketplace, right? It's all because of this. It's all because of the GLP1s. So you that's like the magic word now. You'll see, you know, come in for your protein smoothie. Come in for your Here are your edetami snacks that have 12 grams of protein in it. Here are your, you know, your uh bear bells which have 25 grams of protein in it. You know, there's all this content out there for creating protein shakes, right? So, um, so yes, that that is like the lifestyle stuff is a must anyway for everything, but it's really really important if you're a GLP1, specifically with the
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: exercise.
+Dr. Naomi Myhill: And and we s we see the same over here in terms of like the the protein mouses and protein infused pancakes and and all of that.
+ 
+ 
+00:49:47
+ 
+Dr. Naomi Myhill: Um what uh what baseline factors are there any baseline factors that might modify the response to GLP1s like menopause status like life status? Maybe some blood work markers. I don't know. Like HB, A1C, like age. Are those sex?
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: Are those any of those?
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: Do they modify the
+Vivek Chander: So, I'm glad you mentioned that because this is my bad,
+Dr. Naomi Myhill: response?
+Vivek Chander: but one of the other cor comorbid conditions that needs to be uh definitely in there is uh peacocks, right? The other piece of the information is that as you go through the pmenopausal menopausible state, you're going to gain weight gain. You are going to gain weight and so and it's harder for women to lose that weight. Um and that's a common thing you will you'll hear hear from like all of our mothers, right? Um so in fact that could very well be a intervention in terms of when you're going through that period um whether that this might be like a really good intervention because you will sleep better.
+ 
+ 
+00:51:05
+ 
+Vivek Chander: If you gain weight, you're going to get more apnea. It'll reduce the apnea. you know, you're not going to process sugar as much, you know, so may you'll develop some more visceral fat. So, it's a really good time to make this intervention in a in a uh woman's life for
+Dr. Naomi Myhill: Yeah,
+Vivek Chander: sure.
+Dr. Naomi Myhill: that that makes a lot of sense actually and I think that would be useful and useful for us at Cascade as well. Obviously, we have the female health focus particularly around parmenopause and menopause and so yeah that's an important ontological link to have to this type of intervention. Um, are there any is there anything else that we haven't spoken about regarding GLP1s that you wanted
+Vivek Chander: Yeah, we should go through side effects,
+Dr. Naomi Myhill: to
+Vivek Chander: I think. Um, let me quickly go to side effects. Yeah. So, side effects, uh, obviously the the most common side effects are going to end up being gastrointestinal. Um, so nausea is present in 20 to 40% of people.
+ 
+ 
+00:52:21
+ 
+Vivek Chander: Um, so the way you would deal with that is eating smaller, more frequent meals, potentially giving a dancetatron to help with that. Um, diarrhea and constipation. constipation specifically because we talked about delaying gastric uh time but some people end up with diarrhea as well. Um you know getting back to the microbiome, you can get a disordered microbiome through treatment just because things are sticking around longer. Um so you know having a probiotic in this scenario is a good idea as well. um the acute pancreatitis. Um I think that if you do have so I would give if anybody has triglycerides over 500 I would pause it would give me pause in terms of prescribing this medication um because I think the chance of developing pancreatitis would be increased in at that stage. Um let's see you know we talked about the side effect like the lean muscle loss that's a big risk. Oh hypoglycemia so they are medications like so often people will come in and they'll already be on these like lower class agents for weight loss.
+ 
+ 
+00:53:39
+ 
+Vivek Chander: So they'll be on fentamine or topamate. We already talked about insulin but even metformin. So if you are on a glucose lowering agent to be on a second glucose lowering agent is uh like essentially a no because your chance of hypoglycemia goes up quite substantially. So they are it's it's a no. It's a conditional no, which is like, yes, we'll start you on the GLP-1 medication, but as you're starting the GLP-1 medication, you're going to need to step down the fentamine, right? And and wean off of it completely. And I think that's fine, but to be on both medications at a high level, not a not a good idea. Uh, we talked about metal thyroid cancer. Um there is a increase in heart rate typically 1 to four beats per minute average increase. Um so that's something we could probably like identify in their wearables. Uh we talked about like yearly for people who have diabetic retinopathy they should have yearly uh atheelmic examinations. gallstones, like if somebody has gallstones and does not have a gallbladder or or does have a gallbladder, um your chance of actually developing um like a choleaccyitis is two times higher than a baseline risk.
+ 
+ 
+00:55:13
+ 
+Vivek Chander: So that could also be conditional. I think that uh to be honest with you, I would it would give me pause. I probably wouldn't do it. I think the I would want them to like get their gallbladder removed before treatment. Uh oh, we didn't talk about this, but like if you're going through a procedure, uh because things are slow, things back up. So if let's say that I have a surgery tomorrow and I'm on this medication, my risk of aspiration goes way up because things are backed up, right? So often if you're going through anesthesia, you're going to want to uh stop treatment two weeks in advance. Um and then people a lot of times people say that you can start immediately after a procedure, but I would give it a week after a procedure. There there is a the there's a problem here, and I'll tell you what the the exact problem is, is that uh you know, you're going up on these medicines. you're going up on the medicines. But guess what?
+ 
+ 
+00:56:20
+ 
+Vivek Chander: If you miss a do if you miss a week, it's fine. You can keep on going up. If you miss two weeks, it's fine. You can keep going up, but maybe you should stay at the same level because your risk of side effects go up. If you miss three weeks, maybe you need to go down. So now we're saying that, you know, you know, miss two weeks before a colonoscopy and maybe it's best practice to wait a week afterwards. You're at that 3 week level. No one wants to go down on their medication. They all want to stay the same or go up. So there's like a psychological barrier here that that hits people and and a financial because a lot a lot of people are paying for this cash pay. So they don't want to go down, right? because they're paying for it and and they don't want they feel like they're getting less than they're getting less than what they're paid for. Um and then oh two last big ones uh uh or one last big one that we didn't talk about yet is that uh because of the fact it again slows down transit time, it does affect oral contraceptives.
+ 
+ 
+00:57:32
+ 
+Vivek Chander: So uh the idea is that either you use oral contraceptive plus barrier or you do like an ring or you do a patch. So you you do an external uh device as opposed to like internal oral contraceptives. And then injection reactions are another thing that um that happens at a low frequency. And the way you manage that is you just rotate injection sites.
+Dr. Naomi Myhill: Okay, I think we've uh I' I've learned a lot today. I didn't realize that the GLP-1 medications wasn't just for weight loss. So, that's my key takeaway from today, which is pretty cool.
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: Um I think that covers everything that I had um on our ontology list to kind of gather. Um if you think of anything Sunny that we haven't discussed relating to GLP1s
+Vivek Chander: Yeah.
+Dr. Naomi Myhill: um after the call then just feel free to ping me and we can jump on again. But I think we've covered everything and we can start to kind of build that in to ontology with those links the different population members as well.
+ 
+ 
+00:58:49
+ 
+Vivek Chander: The the only other comment that I would make is that uh again like I based on what I know and the the evidence out there, I completely feel comfortable supporting micro doing. At the same time, it is not an FDA approved indication right now. So if we did do this from a cascade framework, there would have to be like good informed consents, right? The other piece of that is that uh what we didn't talk about is that there's this branded medicine and you know because there was such a big shortage for a long period of time compoundingies ended up making this. There's no shortage now, but all these tele medicine companies are still offering compounded medications, right? And there's a lot of FDA regulation happening to those compoundedies. Um, there are people getting lawsuits. They're people like they're like the Eli and Novo are trying to shut these things down because it's affecting their bottom line, right? And it's not FDA approved. So micro doing is not FDA approved right now. So that would have to be built out um you know with medical legal compliance in mind. Um but I think there's a pathway forward. It would just have to be done
+Dr. Naomi Myhill: Yeah.
+Vivek Chander: correctly.
+Dr. Naomi Myhill: Yeah. We definitely take your lead on that, Sunny. I think if we were to build that out. Um, but the the for the weight loss that is F FDA approved. That's that's available. Okay. And then the other thing, yeah, the other thing is obviously the the WA list at the minute. It's being monitored. It's not on the band substances list and it probably won't be kind of based off of you seen but yeah.
+Vivek Chander: I hope. Yeah.
+Dr. Naomi Myhill: Okay, awesome. Um, I'll stop the
+ 
+ 
+Transcription ended after 01:00:51
+
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
