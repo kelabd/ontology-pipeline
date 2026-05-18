@@ -20306,13 +20306,978 @@
           ]
         }
       }
+    },
+    {
+      "file_name": "Stem Cell Ontology Discussion \u2013 2026_05_12 11_57 BST \u2013 Notes by Gemini.txt",
+      "transcript_length": 48872,
+      "constructs_identified": 8,
+      "domains_constructs": {
+        "practitioner_domains": [
+          {
+            "domain_name": "Performance",
+            "domain_description": "Focus on performance-driven parameters and optimization for athletes and high performers, including injury prevention and performance enhancement",
+            "specialization_notes": "Primary focus area for stem cell applications, distinct from chronic disease management"
+          },
+          {
+            "domain_name": "Recovery",
+            "domain_description": "Tissue repair and regeneration processes, particularly for performance-based injuries with poor natural repair mechanisms",
+            "specialization_notes": "Emphasis on anti-inflammatory response, tissue regeneration, and immune modulation for optimal healing"
+          },
+          {
+            "domain_name": "Physical Health",
+            "domain_description": "Orthopedic and musculoskeletal health assessment and intervention, including joint preservation and structural integrity",
+            "specialization_notes": "Covers major joint systems, soft tissue health, and structural pathology identification"
+          },
+          {
+            "domain_name": "Stress & Adaptation",
+            "domain_description": "Immune system modulation and inflammatory response management for optimal tissue repair and performance",
+            "specialization_notes": "Focus on shifting from pro-inflammatory to anti-inflammatory states and metabolic inflammation control"
+          }
+        ],
+        "constructs_mentioned": [
+          {
+            "construct_name": "Joint Health",
+            "construct_description": "Assessment of major joint structures including shoulders, knees, hips, and spine for pathology and preservation needs",
+            "domain_association": "Physical Health",
+            "assessment_context": "MRI imaging for early detection of degeneration, particularly important for post-surgical athletes with 4x higher OA risk"
+          },
+          {
+            "construct_name": "Pain Management",
+            "construct_description": "Pain modulation and inflammatory control, particularly for performance-limiting symptoms",
+            "domain_association": "Recovery",
+            "assessment_context": "Downstream effect of immune modulation, measured through functional reporting and activity tolerance"
+          },
+          {
+            "construct_name": "Tissue Regeneration",
+            "construct_description": "Stimulation of tissue repair processes through cellular signaling and paracrine effects",
+            "domain_association": "Recovery",
+            "assessment_context": "Primary target of stem cell therapy, measured through structural imaging at 6-12 months post-treatment"
+          },
+          {
+            "construct_name": "Immune Function",
+            "construct_description": "Balance of immune cell populations and inflammatory response, including macrophage polarization from M1 to M2 states",
+            "domain_association": "Stress & Adaptation",
+            "assessment_context": "Primary mechanism of stem cell action, may require immune assays for long COVID or compromised immune status"
+          },
+          {
+            "construct_name": "Functional Mobility",
+            "construct_description": "Ability to perform sport-specific activities and daily functions without pain or limitation",
+            "domain_association": "Performance",
+            "assessment_context": "Goal-based assessment focusing on return to specific activities like running distance, throwing ability, or sleep comfort"
+          },
+          {
+            "construct_name": "Body Composition",
+            "construct_description": "Metabolic health status including obesity and insulin resistance as factors affecting treatment outcomes",
+            "domain_association": "Physical Health",
+            "assessment_context": "Pre-treatment optimization factor, particularly important for managing metabolic inflammation"
+          },
+          {
+            "construct_name": "Sleep Quality",
+            "construct_description": "Sleep optimization as both a preparation factor and outcome measure for cellular therapies",
+            "domain_association": "Recovery",
+            "assessment_context": "Pre-treatment optimization requirement and potential improvement outcome, especially for autologous cell harvest"
+          },
+          {
+            "construct_name": "Muscular Power",
+            "construct_description": "Muscle function and sarcopenia prevention, emerging area for cellular and gene therapies",
+            "domain_association": "Performance",
+            "assessment_context": "Future application area for stem cells and gene therapies, particularly for aging athletes"
+          }
+        ],
+        "sport_specificity": [
+          {
+            "sport": "Tennis",
+            "assessment_modifications": "Focus on shoulder and elbow pathology, rotator cuff assessment",
+            "intervention_modifications": "Specific rehab protocols for overhead athletes, consideration of throwing mechanics"
+          },
+          {
+            "sport": "Golf",
+            "assessment_modifications": "Back and shoulder assessment for rotational sports, focus on disc degeneration",
+            "intervention_modifications": "Weekend warrior protocols, emphasis on joint preservation for recreational athletes"
+          },
+          {
+            "sport": "Pickleball/Paddle Sports",
+            "assessment_modifications": "Similar to tennis but adapted for older recreational athletes",
+            "intervention_modifications": "Focus on injury prevention and joint preservation rather than elite performance"
+          },
+          {
+            "sport": "Running",
+            "assessment_modifications": "Knee and hip assessment, focus on impact-related pathology and previous ACL injuries",
+            "intervention_modifications": "Distance-specific return protocols, emphasis on cartilage preservation"
+          },
+          {
+            "sport": "Olympic/Professional Sports",
+            "assessment_modifications": "Comprehensive screening including doping considerations and team coordination",
+            "intervention_modifications": "Timing restrictions around competition, coordination with existing medical teams, anti-doping compliance"
+          }
+        ]
+      },
+      "assessments": {
+        "assessments": [
+          {
+            "assessment_name": "MRI Imaging",
+            "assessment_description": "Magnetic resonance imaging to evaluate joint structures, cartilage, soft tissue, ligaments, and underlying bone to identify early pathology like disc degeneration, cartilage defects, and tissue damage",
+            "constructs_measured": [
+              "Joint Health",
+              "Tissue Regeneration"
+            ],
+            "modality": "Imaging"
+          },
+          {
+            "assessment_name": "Diagnostic Ultrasound",
+            "assessment_description": "Ultrasound imaging performed by skilled clinicians to identify soft tissue pathology that may be missed on MRI, particularly for tendons and ligaments",
+            "constructs_measured": [
+              "Joint Health",
+              "Tissue Regeneration"
+            ],
+            "modality": "Imaging"
+          },
+          {
+            "assessment_name": "Longevity Metabolic Panel",
+            "assessment_description": "Comprehensive blood work including inflammatory markers, metabolic health indicators, and biomarkers to assess systemic inflammation and metabolic dysfunction that could impact joint health and tissue repair",
+            "constructs_measured": [
+              "Immune Function"
+            ],
+            "modality": "Laboratory"
+          },
+          {
+            "assessment_name": "Immune Function Assessment",
+            "assessment_description": "Specialized immune system evaluation for patients with suspected immune dysfunction, long COVID, or those with history of frequent illness that may impact cellular repair mechanisms",
+            "constructs_measured": [
+              "Immune Function"
+            ],
+            "modality": "Laboratory"
+          },
+          {
+            "assessment_name": "Hemoglobin A1C and Fasting Glucose",
+            "assessment_description": "Blood glucose control markers to assess metabolic inflammation and diabetes risk, which can significantly impact joint health and tissue regeneration capacity",
+            "constructs_measured": [
+              "Immune Function"
+            ],
+            "modality": "Laboratory"
+          },
+          {
+            "assessment_name": "Prenuvo Scan",
+            "assessment_description": "Full-body MRI screening to identify early pathology in joints and tissues that may be mildly symptomatic but have underlying structural changes requiring intervention",
+            "constructs_measured": [
+              "Joint Health",
+              "Tissue Regeneration"
+            ],
+            "modality": "Imaging"
+          }
+        ]
+      },
+      "interventions": {
+        "interventions": [
+          {
+            "intervention_name": "Mesenchymal Stem Cell (MSC) Therapy - Local Joint Injections",
+            "intervention_description": "Ultrasound or X-ray guided injection of mesenchymal stem cells directly into affected joints, tendons, or other target tissues. The cells work through immunomodulation, anti-inflammatory signaling, and paracrine effects to stimulate tissue regeneration and reduce inflammation. Effects typically manifest over 8-12 weeks with continued improvement over 3-12 months.",
+            "constructs_targeted": [
+              "Joint Health",
+              "Pain Management",
+              "Tissue Regeneration",
+              "Immune Function"
+            ],
+            "intervention_types": [
+              "Medical Treatment",
+              "Regenerative Medicine"
+            ]
+          },
+          {
+            "intervention_name": "Intravenous (IV) MSC Therapy",
+            "intervention_description": "Systemic infusion of mesenchymal stem cells to create body-wide immunomodulation and anti-inflammatory effects. Cells circulate and target areas of inflammation throughout the body, potentially affecting multiple systems including cardiovascular, metabolic, and musculoskeletal health.",
+            "constructs_targeted": [
+              "Immune Function",
+              "Pain Management",
+              "Tissue Regeneration",
+              "Body Composition"
+            ],
+            "intervention_types": [
+              "Medical Treatment",
+              "Regenerative Medicine"
+            ]
+          },
+          {
+            "intervention_name": "Pre-Procedure Optimization Protocol",
+            "intervention_description": "Comprehensive preparation regimen including proper sleep, no alcohol, no anti-inflammatories, low processed foods, intermittent fasting, and light aerobic training 24 hours before cell harvest or treatment. Includes supplements like omega-3, NAC, NMN, and resveratrol to improve cellular energy and optimize treatment outcomes.",
+            "constructs_targeted": [
+              "Sleep Quality",
+              "Body Composition",
+              "Tissue Regeneration"
+            ],
+            "intervention_types": [
+              "Lifestyle Modification",
+              "Nutritional Supplementation"
+            ]
+          },
+          {
+            "intervention_name": "Post-Treatment Modality Therapy",
+            "intervention_description": "Combination of shockwave therapy, electromagnetic therapy, and laser therapy applied 2-3 times per week following stem cell treatment. These modalities stimulate additional biologic responses and tissue regeneration to enhance the effects of cell therapy.",
+            "constructs_targeted": [
+              "Tissue Regeneration",
+              "Pain Management",
+              "Joint Health"
+            ],
+            "intervention_types": [
+              "Physical Therapy",
+              "Medical Device Treatment"
+            ]
+          },
+          {
+            "intervention_name": "Structured Follow-up and Coaching Program",
+            "intervention_description": "Systematic follow-up at 1, 3, 6, and 12 months post-treatment with coaching support to guide patients through the gradual healing process. Includes education about expected timeline, activity modification guidance, and outcome monitoring to optimize long-term results.",
+            "constructs_targeted": [
+              "Functional Mobility",
+              "Pain Management",
+              "Joint Health"
+            ],
+            "intervention_types": [
+              "Behavioral Intervention",
+              "Patient Education"
+            ]
+          },
+          {
+            "intervention_name": "Early Intervention MRI-Guided Treatment",
+            "intervention_description": "Proactive stem cell treatment of asymptomatic or mildly symptomatic joint pathology identified through advanced imaging (MRI or diagnostic ultrasound). Targets early disc degeneration, focal cartilage defects, or other structural issues before they progress to symptomatic disease.",
+            "constructs_targeted": [
+              "Joint Health",
+              "Tissue Regeneration",
+              "Functional Mobility"
+            ],
+            "intervention_types": [
+              "Preventive Medicine",
+              "Regenerative Medicine"
+            ]
+          },
+          {
+            "intervention_name": "Metabolic Inflammation Optimization",
+            "intervention_description": "Comprehensive approach to address systemic metabolic inflammation through lifestyle interventions, potentially including GLP-1 agonists, anti-inflammatory protocols, and metabolic health optimization before and alongside stem cell therapy to create optimal healing environment.",
+            "constructs_targeted": [
+              "Immune Function",
+              "Body Composition",
+              "Pain Management"
+            ],
+            "intervention_types": [
+              "Medical Treatment",
+              "Lifestyle Modification"
+            ]
+          }
+        ]
+      },
+      "relationships": {
+        "construct_relationships": [
+          {
+            "source_construct": "Immune Function",
+            "target_construct": "Pain Management",
+            "relationship_type": "causal",
+            "relationship_description": "Immune modulation leads to anti-inflammatory effects which then result in pain reduction",
+            "evidence_mentioned": "The understanding now is a lot of this is first immunomodulated then there's an anti-inflammatory effect and then the downstream effect is response to pain",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Immune Function",
+            "target_construct": "Tissue Regeneration",
+            "relationship_type": "causal",
+            "relationship_description": "Balanced immune system creates anti-inflammatory environment necessary for tissue regeneration",
+            "evidence_mentioned": "If you're constantly in a pro-inflammatory state, your body is not able to switch into that ability to regenerate tissue",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Joint Health",
+            "target_construct": "Functional Mobility",
+            "relationship_type": "causal",
+            "relationship_description": "Joint preservation and health directly impacts ability to perform activities and maintain mobility",
+            "evidence_mentioned": "Early intervention for joint preservation allows continued high-level performance and prevents activity limitations",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Body Composition",
+            "target_construct": "Joint Health",
+            "relationship_type": "causal",
+            "relationship_description": "Metabolic inflammation from poor body composition affects joint pain and performance",
+            "evidence_mentioned": "Joint pain or loss of orthopedic performance is not fully determined on wear and tear or injury. Inflammation and metabolic inflammation can definitely impact joints and joint pain",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Sleep Quality",
+            "target_construct": "Tissue Regeneration",
+            "relationship_type": "dependency",
+            "relationship_description": "Proper sleep is necessary for optimal cellular recruitment and healing response",
+            "evidence_mentioned": "Proper sleep, no alcohol, no anti-inflammatories will stimulate better cell recruitment when you go to actually recruit cells",
+            "directionality": "unidirectional"
+          },
+          {
+            "source_construct": "Muscular Power",
+            "target_construct": "Joint Health",
+            "relationship_type": "association",
+            "relationship_description": "Muscle loss (sarcopenia) is connected to overall performance and joint function",
+            "evidence_mentioned": "Discussion of sarcopenia as a big area for performance optimization and its relationship to overall physical function",
+            "directionality": "bidirectional"
+          }
+        ],
+        "assessment_construct_links": [
+          {
+            "assessment_name": "MRI Imaging",
+            "constructs_measured": [
+              "Joint Health",
+              "Tissue Regeneration"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "Early detection allows for preventive intervention",
+              "Structural changes may take 6-12 months to show",
+              "Pain may resolve without structural changes on MRI"
+            ]
+          },
+          {
+            "assessment_name": "Diagnostic Ultrasound",
+            "constructs_measured": [
+              "Joint Health",
+              "Tissue Regeneration"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "Can find things MRIs miss in the hands of the right clinician",
+              "Useful for soft tissue assessment"
+            ]
+          },
+          {
+            "assessment_name": "Longevity Metabolic Panel",
+            "constructs_measured": [
+              "Body Composition",
+              "Immune Function"
+            ],
+            "measurement_relationship": "indirect",
+            "interpretation_factors": [
+              "Metabolic inflammation affects joint health",
+              "Need to optimize metabolic health before cell therapy"
+            ]
+          },
+          {
+            "assessment_name": "Immune Function Assessment",
+            "constructs_measured": [
+              "Immune Function"
+            ],
+            "measurement_relationship": "direct",
+            "interpretation_factors": [
+              "Important for those with long COVID or frequent illness",
+              "Affects treatment outcomes"
+            ]
+          },
+          {
+            "assessment_name": "Hemoglobin A1C and Fasting Glucose",
+            "constructs_measured": [
+              "Body Composition",
+              "Immune Function"
+            ],
+            "measurement_relationship": "indirect",
+            "interpretation_factors": [
+              "Metabolic markers that can improve with systemic stem cell therapy",
+              "Important for pre-treatment optimization"
+            ]
+          },
+          {
+            "assessment_name": "Prenuvo Scan",
+            "constructs_measured": [
+              "Joint Health"
+            ],
+            "measurement_relationship": "predictive",
+            "interpretation_factors": [
+              "Can identify early pathology in asymptomatic individuals",
+              "Allows for early intervention before symptoms develop"
+            ]
+          }
+        ],
+        "intervention_construct_links": [
+          {
+            "intervention_name": "Mesenchymal Stem Cell (MSC) Therapy - Local Joint Injections",
+            "constructs_targeted": [
+              "Joint Health",
+              "Pain Management",
+              "Tissue Regeneration"
+            ],
+            "mechanism_of_action": "Local immune modulation, anti-inflammatory signaling, and tissue repair stimulation through paracrine signaling",
+            "expected_outcomes": [
+              "Pain reduction",
+              "Tissue preservation",
+              "Improved joint function"
+            ],
+            "timeline_expectations": "8-12 weeks for initial effects, 3-6 months for significant improvement, up to 12 months for structural changes"
+          },
+          {
+            "intervention_name": "Intravenous (IV) MSC Therapy",
+            "constructs_targeted": [
+              "Immune Function",
+              "Body Composition",
+              "Sleep Quality"
+            ],
+            "mechanism_of_action": "Systemic immune rebalancing, anti-inflammatory response, metabolic optimization",
+            "expected_outcomes": [
+              "Improved metabolic markers",
+              "Better sleep",
+              "Reduced systemic inflammation",
+              "Improved hemoglobin A1C and fasting glucose"
+            ],
+            "timeline_expectations": "30-60 days for metabolic changes, 3 months for sustained effects"
+          },
+          {
+            "intervention_name": "Pre-Procedure Optimization Protocol",
+            "constructs_targeted": [
+              "Sleep Quality",
+              "Body Composition",
+              "Immune Function"
+            ],
+            "mechanism_of_action": "Optimizes cellular environment for better treatment response through lifestyle and supplement interventions",
+            "expected_outcomes": [
+              "Better cell recruitment",
+              "Improved treatment outcomes",
+              "Enhanced healing response"
+            ],
+            "timeline_expectations": "3 months preparation period before cell therapy"
+          },
+          {
+            "intervention_name": "Post-Treatment Modality Therapy",
+            "constructs_targeted": [
+              "Tissue Regeneration",
+              "Pain Management"
+            ],
+            "mechanism_of_action": "Shockwave, electromagnetic therapy, laser stimulate biologic response similar to cells",
+            "expected_outcomes": [
+              "Enhanced tissue healing",
+              "Improved treatment outcomes"
+            ],
+            "timeline_expectations": "2-3 times per week post-treatment"
+          },
+          {
+            "intervention_name": "Structured Follow-up and Coaching Program",
+            "constructs_targeted": [
+              "Functional Mobility",
+              "Pain Management"
+            ],
+            "mechanism_of_action": "Guidance and monitoring to optimize recovery and manage expectations during healing process",
+            "expected_outcomes": [
+              "Better treatment adherence",
+              "Improved outcomes",
+              "Patient education"
+            ],
+            "timeline_expectations": "Follow-up at 1, 3, 6, and 12 months"
+          },
+          {
+            "intervention_name": "Early Intervention MRI-Guided Treatment",
+            "constructs_targeted": [
+              "Joint Health",
+              "Tissue Regeneration"
+            ],
+            "mechanism_of_action": "Treating pathology before symptoms develop to prevent progression",
+            "expected_outcomes": [
+              "Joint preservation",
+              "Prevention of further degradation"
+            ],
+            "timeline_expectations": "Long-term prevention strategy"
+          },
+          {
+            "intervention_name": "Metabolic Inflammation Optimization",
+            "constructs_targeted": [
+              "Body Composition",
+              "Immune Function"
+            ],
+            "mechanism_of_action": "Addressing underlying metabolic dysfunction that contributes to joint problems",
+            "expected_outcomes": [
+              "Reduced systemic inflammation",
+              "Better treatment response",
+              "Improved metabolic health"
+            ],
+            "timeline_expectations": "Ongoing optimization before and during treatment"
+          }
+        ],
+        "assessment_intervention_connections": [
+          {
+            "assessment_name": "MRI Imaging",
+            "intervention_name": "Early Intervention MRI-Guided Treatment",
+            "connection_type": "triggers",
+            "connection_description": "MRI findings of early pathology trigger preventive stem cell interventions"
+          },
+          {
+            "assessment_name": "MRI Imaging",
+            "intervention_name": "Mesenchymal Stem Cell (MSC) Therapy - Local Joint Injections",
+            "connection_type": "informs",
+            "connection_description": "MRI guides targeting of specific structures and monitors structural changes over 6-12 months"
+          },
+          {
+            "assessment_name": "Longevity Metabolic Panel",
+            "intervention_name": "Pre-Procedure Optimization Protocol",
+            "connection_type": "informs",
+            "connection_description": "Metabolic markers determine need for optimization before cell therapy"
+          },
+          {
+            "assessment_name": "Longevity Metabolic Panel",
+            "intervention_name": "Metabolic Inflammation Optimization",
+            "connection_type": "monitors",
+            "connection_description": "Tracks improvement in metabolic markers during optimization"
+          },
+          {
+            "assessment_name": "Hemoglobin A1C and Fasting Glucose",
+            "intervention_name": "Intravenous (IV) MSC Therapy",
+            "connection_type": "monitors",
+            "connection_description": "These markers can improve as downstream effects of IV stem cell therapy"
+          },
+          {
+            "assessment_name": "Immune Function Assessment",
+            "intervention_name": "Pre-Procedure Optimization Protocol",
+            "connection_type": "informs",
+            "connection_description": "Immune dysfunction (like long COVID) needs to be addressed before cell therapy"
+          },
+          {
+            "assessment_name": "Prenuvo Scan",
+            "intervention_name": "Early Intervention MRI-Guided Treatment",
+            "connection_type": "triggers",
+            "connection_description": "Prenuvo findings of early pathology can trigger preventive stem cell interventions"
+          },
+          {
+            "assessment_name": "Diagnostic Ultrasound",
+            "intervention_name": "Mesenchymal Stem Cell (MSC) Therapy - Local Joint Injections",
+            "connection_type": "informs",
+            "connection_description": "Ultrasound guidance for precise delivery of stem cells to target tissues"
+          }
+        ]
+      },
+      "ontology_guided_data": {
+        "technologies_metrics": {
+          "technologies": [
+            {
+              "technology_name": "MRI",
+              "vendor_manufacturer": "Not specified",
+              "technology_type": "hardware",
+              "specific_model": "Not specified",
+              "used_for_assessments": [
+                "MRI Imaging"
+              ],
+              "what_it_measures": [
+                "Joint pathology",
+                "Disc degeneration",
+                "Cartilage defects",
+                "Meniscus tears",
+                "Structural changes"
+              ],
+              "data_output_format": "Medical imaging"
+            },
+            {
+              "technology_name": "Diagnostic Ultrasound",
+              "vendor_manufacturer": "Not specified",
+              "technology_type": "hardware",
+              "specific_model": "Not specified",
+              "used_for_assessments": [
+                "Diagnostic Ultrasound"
+              ],
+              "what_it_measures": [
+                "Soft tissue pathology",
+                "Tendon issues",
+                "Joint structures"
+              ],
+              "data_output_format": "Medical imaging"
+            },
+            {
+              "technology_name": "X-ray",
+              "vendor_manufacturer": "Not specified",
+              "technology_type": "hardware",
+              "specific_model": "Not specified",
+              "used_for_assessments": [
+                "Joint imaging"
+              ],
+              "what_it_measures": [
+                "Joint replacement assessment",
+                "Bone structure"
+              ],
+              "data_output_format": "Medical imaging"
+            },
+            {
+              "technology_name": "Prenuvo Scan",
+              "vendor_manufacturer": "Prenuvo",
+              "technology_type": "service",
+              "specific_model": "Not specified",
+              "used_for_assessments": [
+                "Prenuvo Scan"
+              ],
+              "what_it_measures": [
+                "Early pathology detection",
+                "Joint health screening"
+              ],
+              "data_output_format": "Medical imaging report"
+            }
+          ],
+          "metrics": [
+            {
+              "metric_name": "Hemoglobin A1C",
+              "measurement_unit": "%",
+              "assessment_source": "Hemoglobin A1C and Fasting Glucose",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "Diabetes management marker, can improve with stem cell therapy"
+            },
+            {
+              "metric_name": "Fasting Glucose",
+              "measurement_unit": "mg/dL",
+              "assessment_source": "Hemoglobin A1C and Fasting Glucose",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "Blood sugar control marker, can improve with stem cell therapy"
+            },
+            {
+              "metric_name": "Inflammatory Markers",
+              "measurement_unit": "Various",
+              "assessment_source": "Longevity Metabolic Panel",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "General inflammation assessment for metabolic health"
+            },
+            {
+              "metric_name": "Immune Function Markers",
+              "measurement_unit": "Various",
+              "assessment_source": "Immune Function Assessment",
+              "normal_ranges": "Not specified",
+              "interpretation_notes": "Assessment of T-cells, B cells, NK cells, macrophages, dendritic cells, monocytes, neutrophils"
+            }
+          ]
+        },
+        "goals_constraints": {
+          "client_goals": [
+            {
+              "goal_description": "Performance enhancement and injury prevention for high-performance athletes",
+              "goal_type": "performance",
+              "target_constructs": [
+                "Joint Health",
+                "Pain Management",
+                "Tissue Regeneration",
+                "Functional Mobility"
+              ],
+              "success_metrics": [
+                "Return to sport performance",
+                "Pain reduction",
+                "Structural improvement on imaging",
+                "Functional capacity restoration"
+              ],
+              "timeline": "8-12 weeks for initial effects, 3-6 months for significant improvement, 6-12 months for structural changes",
+              "priority_level": "high"
+            },
+            {
+              "goal_description": "Joint preservation and early intervention for asymptomatic pathology",
+              "goal_type": "health",
+              "target_constructs": [
+                "Joint Health",
+                "Tissue Regeneration"
+              ],
+              "success_metrics": [
+                "Prevention of cartilage degradation",
+                "Maintenance of joint function",
+                "Delayed progression of osteoarthritis"
+              ],
+              "timeline": "12+ months for measurable preservation effects",
+              "priority_level": "medium"
+            },
+            {
+              "goal_description": "Pain reduction and functional improvement for weekend warriors",
+              "goal_type": "functional",
+              "target_constructs": [
+                "Pain Management",
+                "Joint Health",
+                "Functional Mobility"
+              ],
+              "success_metrics": [
+                "Elimination of night pain",
+                "Return to recreational activities",
+                "Reduced inflammatory episodes"
+              ],
+              "timeline": "8-12 weeks for pain improvement, 3-6 months for functional gains",
+              "priority_level": "high"
+            },
+            {
+              "goal_description": "Systemic anti-inflammatory effects and metabolic health optimization",
+              "goal_type": "health",
+              "target_constructs": [
+                "Immune Function",
+                "Sleep Quality",
+                "Body Composition"
+              ],
+              "success_metrics": [
+                "Improved HbA1c and fasting glucose",
+                "Better sleep quality",
+                "Reduced systemic inflammation markers"
+              ],
+              "timeline": "30-60 days for metabolic changes, 3+ months for sustained effects",
+              "priority_level": "medium"
+            }
+          ],
+          "constraints_preferences": [
+            {
+              "constraint_type": "regulatory",
+              "description": "FDA and state regulation intersection creates complex legal landscape for stem cell treatments",
+              "impact_on_assessment": "Must carefully screen candidates based on regulatory compliance in their location",
+              "impact_on_intervention": "May require referral to specific states or offshore locations for certain treatments",
+              "workaround_strategies": [
+                "Medical tourism to compliant jurisdictions",
+                "State-specific treatment pathways",
+                "Autologous vs allogeneic product selection based on regulations"
+              ]
+            },
+            {
+              "constraint_type": "access",
+              "description": "High cost and limited availability of quality stem cell treatments",
+              "impact_on_assessment": "Need to establish realistic expectations about treatment costs and accessibility",
+              "impact_on_intervention": "Requires network of trusted providers across multiple locations",
+              "workaround_strategies": [
+                "Established provider network in key cities",
+                "Offshore treatment options",
+                "Tiered treatment approaches based on budget"
+              ]
+            },
+            {
+              "constraint_type": "time",
+              "description": "Stem cell treatments require extended timeline for results (not quick fixes)",
+              "impact_on_assessment": "Must assess patient readiness for long-term treatment commitment",
+              "impact_on_intervention": "Requires structured follow-up protocol over 12+ months",
+              "workaround_strategies": [
+                "Comprehensive patient education on timelines",
+                "Regular coaching and follow-up",
+                "Interim milestone tracking"
+              ]
+            },
+            {
+              "constraint_type": "medical",
+              "description": "Doping regulations for professional and Olympic athletes",
+              "impact_on_assessment": "Must screen for competitive status and anti-doping requirements",
+              "impact_on_intervention": "Treatment timing must avoid competition periods and comply with anti-doping rules",
+              "workaround_strategies": [
+                "Off-season treatment scheduling",
+                "Coordination with athlete support teams",
+                "Documentation for anti-doping compliance"
+              ]
+            }
+          ],
+          "moderating_factors": [
+            {
+              "factor_name": "Metabolic inflammation",
+              "description": "Underlying metabolic dysfunction can impact joint pain and treatment effectiveness",
+              "what_it_affects": "Both local joint treatments and systemic responses to stem cell therapy",
+              "management_approach": "Address metabolic health optimization before or concurrent with stem cell treatment"
+            },
+            {
+              "factor_name": "Prior surgical history",
+              "description": "Previous orthopedic surgeries increase OA risk by 4x and affect treatment planning",
+              "what_it_affects": "Treatment urgency, expected outcomes, and long-term joint preservation strategies",
+              "management_approach": "Early intervention protocols for post-surgical patients with regular monitoring"
+            },
+            {
+              "factor_name": "Immune system status",
+              "description": "Long COVID, vaccination history, and immune dysfunction affect treatment response",
+              "what_it_affects": "Stem cell treatment effectiveness and immune modulation outcomes",
+              "management_approach": "Immune system assessment and optimization prior to treatment"
+            },
+            {
+              "factor_name": "Psychological factors",
+              "description": "Trauma, depression, anxiety, and stress affect pain pathways and treatment outcomes",
+              "what_it_affects": "Pain perception, treatment response, and overall success metrics",
+              "management_approach": "Screen for mental health factors and address before or during treatment"
+            }
+          ],
+          "individual_differences": [
+            {
+              "difference_factor": "Age and cellular health",
+              "assessment_implications": "Younger patients have better autologous cell quality; older patients may benefit more from allogeneic products",
+              "intervention_implications": "Treatment source selection and pre-treatment optimization protocols vary by age"
+            },
+            {
+              "difference_factor": "Athletic status and performance level",
+              "assessment_implications": "High-performance athletes require sport-specific injury risk assessment and performance metrics",
+              "intervention_implications": "More aggressive treatment protocols, specialized rehab, and performance-focused outcomes tracking"
+            },
+            {
+              "difference_factor": "Pathology severity and imaging grade",
+              "assessment_implications": "Early pathology responds better to regenerative treatments; severe degeneration may only achieve symptom control",
+              "intervention_implications": "Treatment goals and modalities adjusted based on structural damage severity"
+            },
+            {
+              "difference_factor": "Health seeker vs injured patient",
+              "assessment_implications": "Asymptomatic health seekers require different screening and may not perceive immediate benefits",
+              "intervention_implications": "Different success metrics, follow-up protocols, and patient education approaches needed"
+            }
+          ]
+        },
+        "detailed_protocols": {
+          "error": "JSON parsing failed",
+          "raw_response": "```json\n{\n    \"assessment_protocols\": [\n        {\n            \"assessment_name\": \"MRI Imaging\",\n            \"detailed_steps\": [\n                \"Conduct baseline MRI imaging for major joint structures (shoulders, knees, hips, back)\",\n                \"Focus on identifying early disc degeneration in late 30s/early 40s\",\n                \"Screen for early focal cartilage defects and osteoarthritis\",\n                \"Assess soft tissue structures including ligaments and tendons\",\n                \"Document underlying bone pathology\",\n                \"Repeat MRI at 6-12 months post-treatment to assess structural changes\"\n            ],\n            \"preparation_requirements\": [\n                \"Patient should avoid anti-inflammatory medications before imaging\",\n                \"Complete medical history including prior orthopedic injuries and surgeries\",\n                \"Document current pain levels and functional limitations\"\n            ],\n            \"equipment_setup\": \"Standard MRI equipment with appropriate coils for target joint structures\",\n            \"data_collection_process\": \"Systematic evaluation of joint structures with focus on cartilage thickness, meniscal integrity, ligament status, and bone marrow edema patterns\",\n            \"quality_assurance\": [\n                \"Use standardized imaging protocols\",\n                \"Ensure consistent positioning between baseline and follow-up scans\",\n                \"Have experienced radiologist review for subtle pathology\"\n            ],\n            \"troubleshooting\": [\n                \"If severe pathology detected, may not be candidate for regenerative treatment\",\n                \"Consider diagnostic ultrasound as adjunct for structures MRI may miss\"\n            ]\n        },\n        {\n            \"assessment_name\": \"Diagnostic Ultrasound\",\n            \"detailed_steps\": [\n                \"Perform dynamic ultrasound assessment of target structures\",\n                \"Evaluate tendon integrity and thickness\",\n                \"Assess for fluid collections or inflammatory changes\",\n                \"Document vascular flow patterns in target tissues\"\n            ],\n            \"preparation_requirements\": [\n                \"Patient positioning for optimal visualization\",\n                \"Skin preparation for ultrasound contact\"\n            ],\n            \"equipment_setup\": \"High-frequency ultrasound transducer appropriate for musculoskeletal imaging\",\n            \"data_collection_process\": \"Real-time imaging with documentation of pathological findings and measurements\",\n            \"quality_assurance\": [\n                \"Operator must be experienced in musculoskeletal ultrasound\",\n                \"Use standardized imaging protocols\",\n                \"Document findings with measurements and images\"\n            ],\n            \"troubleshooting\": [\n                \"May identify pathology missed on MRI\",\n                \"Operator-dependent technique requires skilled clinician\"\n            ]\n        },\n        {\n            \"assessment_name\": \"Longevity Metabolic Panel\",\n            \"detailed_steps\": [\n                \"Assess metabolic inflammation markers\",\n                \"Evaluate insulin resistance parameters\",\n                \"Check inflammatory biomarkers (CRP, ESR)\",\n                \"Assess nutritional status and micronutrient levels\",\n                \"Monitor metabolic health indicators\"\n            ],\n            \"preparation_requirements\": [\n                \"12-hour fasting for glucose and lipid parameters\",\n                \"Avoid anti-inflammatory medications 48-72 hours prior\",\n                \"Document current medications and supplements\"\n            ],\n            \"equipment_setup\": \"Standard laboratory equipment for comprehensive metabolic analysis\",\n            \"data_collection_process\": \"Systematic collection of blood samples with appropriate handling and processing\",\n            \"quality_assurance\": [\n                \"Use certified laboratory facilities\",\n                \"Ensure proper sample handling and timing\",\n                \"Verify fasting status before collection\"\n            ],\n            \"troubleshooting\": [\n                \"Elevated inflammatory markers may require optimization before treatment\",\n                \"Metabolic dysfunction may impact treatment outcomes\"\n            ]\n        },\n        {\n            \"assessment_name\": \"Immune Function Assessment\",\n            \"detailed_steps\": [\n                \"Evaluate T-cell, B-cell, and NK cell populations\",\n                \"Assess macrophage polarization status (M1 vs M2)\",\n                \"Screen for long COVID or post-vaccination immune dysfunction\",\n                \"Monitor cytokine profiles and inflammatory mediators\"\n            ],\n            \"preparation_requirements\": [\n                \"Complete immune history including recent infections\",\n                \"Document vaccination history and COVID exposure\",\n                \"Assess for autoimmune conditions\"\n            ],\n            \"equipment_setup\": \"Flow cytometry and specialized immune function testing equipment\",\n            \"data_collection_process\": \"Comprehensive immune panel with focus on inflammatory vs anti-inflammatory balance\",\n            \"quality_assurance\": [\n                \"Use specialized immunology laboratory\",\n                \"Ensure proper sample timing and handling\",\n                \"Correlate with clinical symptoms\"\n            ],\n            \"troubleshooting\": [\n                \"Immune dysfunction may require pre-treatment optimization\",\n                \"Consider screening questions for immune-related symptoms\"\n            ]\n        },\n        {\n            \"assessment_name\": \"Hemoglobin A1C and Fasting Glucose\",\n            \"detailed_steps\": [\n                \"Obtain fasting glucose levels after 12-hour fast\",\n                \"Measure HbA1c for 3-month glucose average\",\n                \"Assess insulin levels and calculate HOMA-IR\",\n                \"Monitor glucose tolerance if indicated\"\n            ],\n            \"preparation_requirements\": [\n                \"12-hour fasting period\",\n                \"Avoid medications that affect glucose metabolism\",\n                \"Document diabetes medications if applicable\"\n            ],\n            \"equipment_setup\": \"Standard laboratory glucose and HbA1c analyzers\",\n            \"data_collection_process\": \"Standardized blood collection with appropriate timing and handling\",\n            \"quality_assurance\": [\n                \"Verify fasting status\",\n                \"Use certified laboratory methods\",\n                \"Correlate with clinical symptoms\"\n            ],\n            \"troubleshooting\": [\n                \"Elevated levels may indicate need for metabolic optimization\",\n                \"Monitor for improvement post-treatment as secondary outcome\"\n            ]\n        },\n        {\n            \"assessment_name\": \"Prenuvo Scan\",\n            \"detailed_steps\": [\n                \"Perform whole-body MRI screening\",\n                \"Identify early pathology in asymptomatic joints\",\n                \"Screen for early osteoarthritis and joint degeneration\",\n                \"Document findings for early intervention planning\"\n            ],\n            \"preparation_requirements\": [\n                \"Standard MRI preparation protocols\",\n                \"Remove all metal objects\",\n                \"Complete screening questionnaire\"\n            ],\n            \"equipment_setup\": \"Whole-body MRI scanner with appropriate protocols\",\n            \"data_collection_process\": \"Comprehensive whole-body imaging with systematic review\",\n            \"quality_assurance\": [\n                \"Use standardized imaging protocols\",\n                \"Experienced radiologist interpretation\",\n                \"Correlate findings with symptoms\"\n            ],\n            \"troubleshooting\": [\n                \"May identify asymptomatic pathology requiring discussion\",\n                \"Consider early intervention for identified issues\"\n            ]\n        }\n    ],\n    \"intervention_protocols\": [\n        {\n            \"intervention_name\": \"Mesenchymal Stem Cell (MSC) Therapy - Local Joint Injections\",\n            \"implementation_steps\": [\n                \"Perform ultrasound or X-ray guided injection into target tissue\",\n                \"Inject 4-5 structures simultaneously if indicated\",\n                \"Target specific pathology identified on imaging\",\n                \"Use sterile technique throughout procedure\",\n                \"Document injection sites and volumes\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Dose depends on source (autologous vs allogeneic) and target tissue size\",\n                \"progression_rules\": \"Single treatment with potential repeat at 6-12 months based on response\",\n                \"modification_criteria\": \"Adjust based on severity of pathology and patient response\"\n            },\n            \"monitoring_protocols\": [\n                \"Follow-up at 1, 3, 6, and 12 months\",\n                \"Monitor pain levels and functional improvement\",\n                \"Repeat imaging at 6-12 months for structural assessment\",\n                \"Track return to activity milestones\"\n            ],\n            \"safety_considerations\": [\n                \"Use well-manufactured, quality-controlled cell products\",\n                \"Ensure proper sterile technique\",\n                \"Monitor for infection or adverse reactions\",\n                \"Avoid in presence of active infection or malignancy\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Intravenous (IV) MSC Therapy\",\n            \"implementation_steps\": [\n                \"Establish IV access with appropriate catheter\",\n                \"Infuse MSCs over specified time period\",\n                \"Monitor vital signs during infusion\",\n                \"Observe for immediate adverse reactions\",\n                \"Document infusion parameters and patient response\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Standardized cell count per infusion (typically millions of cells)\",\n                \"progression_rules\": \"Single infusion with potential repeat based on systemic response\",\n                \"modification_criteria\": \"Adjust based on patient weight and clinical indication\"\n            },\n            \"monitoring_protocols\": [\n                \"Continuous monitoring during infusion\",\n                \"Follow-up at 1, 3, 6, and 12 months\",\n                \"Monitor systemic inflammatory markers\",\n                \"Track unexpected improvements in other conditions\"\n            ],\n            \"safety_considerations\": [\n                \"Use immunoprivileged, well-manufactured cells\",\n                \"Monitor for infusion reactions\",\n                \"Ensure proper cell handling and timing\",\n                \"Screen for contraindications to IV therapy\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Pre-Procedure Optimization Protocol\",\n            \"implementation_steps\": [\n                \"Implement 3-month optimization period before cell therapy\",\n                \"Address metabolic inflammation and insulin resistance\",\n                \"Optimize sleep, nutrition, and exercise patterns\",\n                \"Discontinue anti-inflammatory medications\",\n                \"Begin targeted supplementation protocol\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Omega-3, NAC, NMN, resveratrol supplementation\",\n                \"progression_rules\": \"3-month preparation period with weekly monitoring\",\n                \"modification_criteria\": \"Adjust based on baseline metabolic status and response\"\n            },\n            \"monitoring_protocols\": [\n                \"Weekly check-ins during optimization period\",\n                \"Monitor metabolic markers and inflammatory status\",\n                \"Track sleep quality and exercise tolerance\",\n                \"Assess readiness for cell therapy\"\n            ],\n            \"safety_considerations\": [\n                \"Avoid over-supplementation\",\n                \"Monitor for drug interactions\",\n                \"Ensure medical clearance for exercise program\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Post-Treatment Modality Therapy\",\n            \"implementation_steps\": [\n                \"Begin laser therapy 2-3 times per week post-injection\",\n                \"Implement shockwave therapy protocol\",\n                \"Apply electromagnetic therapy as indicated\",\n                \"Coordinate with rehabilitation program\",\n                \"Monitor response and adjust frequency\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Laser: 2-3x/week, Shockwave: per protocol, EMT: as indicated\",\n                \"progression_rules\": \"Begin 1-2 weeks post-injection, continue 6-12 weeks\",\n                \"modification_criteria\": \"Adjust based on tissue response and healing progression\"\n            },\n            \"monitoring_protocols\": [\n                \"Weekly assessment of treatment response\",\n                \"Monitor for adverse reactions to modalities\",\n                \"Track functional improvement milestones\",\n                \"Coordinate with rehabilitation team\"\n            ],\n            \"safety_considerations\": [\n                \"Ensure proper equipment calibration\",\n                \"Monitor for skin reactions or discomfort\",\n                \"Avoid over-treatment of healing tissues\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Structured Follow-up and Coaching Program\",\n            \"implementation_steps\": [\n                \"Schedule follow-up at 1, 3, 6, and 12 months\",\n                \"Provide patient education on expected timeline\",\n                \"Offer coaching support during healing phases\",\n                \"Monitor for subtle improvements patient may miss\",\n                \"Adjust activity levels based on healing progression\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Structured calls/visits at predetermined intervals\",\n                \"progression_rules\": \"Intensive early follow-up with gradual spacing\",\n                \"modification_criteria\": \"Increase frequency if complications or concerns arise\"\n            },\n            \"monitoring_protocols\": [\n                \"Systematic assessment of pain, function, and quality of life\",\n                \"Document subtle improvements and setbacks\",\n                \"Track return to activity milestones\",\n                \"Monitor for need for additional interventions\"\n            ],\n            \"safety_considerations\": [\n                \"Ensure realistic expectations are maintained\",\n                \"Monitor for signs of depression or discouragement\",\n                \"Provide appropriate medical guidance for activity progression\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Early Intervention MRI-Guided Treatment\",\n            \"implementation_steps\": [\n                \"Identify asymptomatic or minimally symptomatic pathology\",\n                \"Discuss risks and benefits of early intervention\",\n                \"Plan targeted treatment for identified issues\",\n                \"Implement prevention-focused treatment protocol\",\n                \"Monitor for progression prevention\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Lower doses for prevention vs treatment of symptomatic disease\",\n                \"progression_rules\": \"Single intervention with long-term monitoring\",\n                \"modification_criteria\": \"Adjust based on pathology severity and patient goals\"\n            },\n            \"monitoring_protocols\": [\n                \"Long-term follow-up to assess prevention of progression\",\n                \"Annual imaging to monitor structural preservation\",\n                \"Track development of symptoms over time\",\n                \"Compare to expected natural history\"\n            ],\n            \"safety_considerations\": [\n                \"Ensure informed consent for preventive treatment\",\n                \"Balance intervention risks with prevention benefits\",\n                \"Monitor for over-treatment of minor findings\"\n            ]\n        },\n        {\n            \"intervention_name\": \"Metabolic Inflammation Optimization\",\n            \"implementation_steps\": [\n                \"Address insulin resistance and metabolic dysfunction\",\n                \"Implement anti-inflammatory nutrition protocol\",\n                \"Optimize sleep and stress management\",\n                \"Consider GLP-1 agonists for joint preservation\",\n                \"Monitor inflammatory biomarkers\"\n            ],\n            \"dosage_specifications\": {\n                \"specific_parameters\": \"Individualized based on metabolic assessment\",\n                \"progression_rules\": \"3-6 month optimization period with ongoing maintenance\",\n                \"modification_criteria\": \"Adjust based on biomarker response and clinical improvement\"\n            },\n            \"monitoring_protocols\": [\n                \"Monthly metabolic marker assessment\",\n                \"Track inflammatory biomarker trends\",\n                \"Monitor joint symptoms and function\",\n                \"Assess overall health improvements\"\n            ],\n            \"safety_considerations\": [\n                \"Monitor for medication interactions\",\n                \"Ensure appropriate medical supervision\",\n                \"Balance aggressive optimization with patient tolerance\"\n            ]\n        }\n    ],\n    \"practical_considerations\": [\n        {\n            \"consideration_type\": \"Regulatory Navigation\",\n            \"description\": \"Complex intersection between FDA federal regulations and state laws for cell therapies\",\n            \"practical_solutions\": [\n                \"Work with physicians knowledgeable in current regulations\",\n                \"Consider medical tourism options for certain treatments\",\n                \"Stay updated on changing state laws and FDA guidance\",\n                \"Ensure proper patient education on regulatory status\"\n            ]\n        },\n        {\n            \"consideration_type\": \"Product Selection and Quality\",\n            \"description\": \"Wide variation in cell therapy products and manufacturing quality\",\n            \"practical_solutions\": [\n                \"Work only with well-manufactured, quality-controlled products\",\n                \"Understand difference between autologous and allogeneic sources\",\n                \"Verify manufacturing standards and safety data\",\n                \"Stay updated on emerging products and clinical trial data\"\n            ]\n        },\n        {\n            \"consideration_type\": \"Timeline Management\",\n            \"description\": \"Cell therapies require 8-12 weeks for initial effects and 6-12 months for full structural changes\",\n            \"practical_solutions\": [\n                \"Set realistic patient expectations from the beginning\",\n                \"Provide structured follow-up and coaching\",\n                \"Educate patients on the gradual nature of improvement\",\n                \"Monitor for subtle improvements patients may miss\"\n            ]\n        },\n        {\n            \"consideration_type\": \"Cost and Access\",\n            \"description\": \"High-cost treatments not covered by insurance with limited access points\",\n            \"practical_solutions\": [\n                \"Develop network of trusted providers in major metropolitan areas\",\n                \"Provide clear cost transparency upfront\",\n                \"Consider medical tourism options for cost-effective access\",\n                \"Focus on high-value patients who can afford comprehensive care\"\n            ]\n        },\n        {\n            \"consideration_type\": \"Integration with Other Therapies\","
+        },
+        "validation": {
+          "ontology_coverage_check": {
+            "constructs_identified": 8,
+            "assessments_identified": 6,
+            "interventions_identified": 7,
+            "technologies_identified": 4,
+            "metrics_identified": 4
+          },
+          "potential_missed_entities": [
+            {
+              "entity_type": "construct",
+              "potential_entity": "Sarcopenia",
+              "evidence_in_transcript": "I think a big area that's going to be super exciting is sarcopenia and working to um slow down sarcopenia... there's going to be gene therapies that are going to come into play that um it's still early but will actually you know support muscle uh um strengthening and and reducing the risk of sarcopenia",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "construct",
+              "potential_entity": "Long COVID",
+              "evidence_in_transcript": "Is there a long COVID component to this? because we are seeing people who are athletes or younger, you know, consistently getting sick, but they're performing at a high level, but they've been either exposed to CO multiple times or been vaccinated multiple times",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "construct",
+              "potential_entity": "Brain Fog",
+              "evidence_in_transcript": "unless something was underlying that they didn't notice like brain fog or poor sleep. People will report some of that",
+              "confidence": "medium"
+            },
+            {
+              "entity_type": "assessment",
+              "potential_entity": "Immune Assay",
+              "evidence_in_transcript": "So then if the right screening questions suggest that, then you might want to do an immune essay",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "assessment",
+              "potential_entity": "Diagnostic Ultrasound",
+              "evidence_in_transcript": "diagnostic ultrasound can often find things that MRIs miss in the hands of the right clinician",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "assessment",
+              "potential_entity": "ProNovo Scans",
+              "evidence_in_transcript": "I mean, I'm sure you've seen it with the Pernovo scans, right? There's scanning that's happening... I've seen so many pornova scans sent over",
+              "confidence": "medium"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Gene Therapy",
+              "evidence_in_transcript": "there's going to be gene therapies that are going to come into play... I'm gonna go get gene therapy in this country",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "GLP-1 Agonists",
+              "evidence_in_transcript": "even GLP1s have shown to have you know the impact joint and have anti-inflammatory effects on joint and joint preservation",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Electromagnetic Therapy",
+              "evidence_in_transcript": "things like shockwave, electromagnetic therapy, laser, they actually also stimulate a biologic response",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Cell-Free Technologies",
+              "evidence_in_transcript": "there's you know um cellfree technologies",
+              "confidence": "medium"
+            },
+            {
+              "entity_type": "intervention",
+              "potential_entity": "Autologous Cell Culture Expansion",
+              "evidence_in_transcript": "you could culture expand your own cells if you wanted to",
+              "confidence": "medium"
+            },
+            {
+              "entity_type": "technology",
+              "potential_entity": "Ultrasound-Guided Injection",
+              "evidence_in_transcript": "They are procedures that are ultrasound guided or X-rayg guided for delivery into target tissue",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "technology",
+              "potential_entity": "X-Ray Guided Injection",
+              "evidence_in_transcript": "They are procedures that are ultrasound guided or X-rayg guided for delivery into target tissue",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "metric",
+              "potential_entity": "Hemoglobin A1C",
+              "evidence_in_transcript": "my hemoglobin A1C and my fasting glucosis have never been lower",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "metric",
+              "potential_entity": "Fasting Glucose",
+              "evidence_in_transcript": "my hemoglobin A1C and my fasting glucosis have never been lower",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "metric",
+              "potential_entity": "Sleep Quality",
+              "evidence_in_transcript": "unless something was underlying that they didn't notice like brain fog or poor sleep... I don't have pain at night anymore",
+              "confidence": "medium"
+            },
+            {
+              "entity_type": "construct",
+              "potential_entity": "Metabolic Inflammation",
+              "evidence_in_transcript": "we need to be able to treat metabolic inflammation... inflammation and metabolic inflammation can definitely impact joints and joint pain",
+              "confidence": "high"
+            },
+            {
+              "entity_type": "construct",
+              "potential_entity": "Joint Preservation",
+              "evidence_in_transcript": "Certain things resol revolve around joint preservation... have anti-inflammatory effects on joint and joint preservation",
+              "confidence": "high"
+            }
+          ],
+          "quality_assessment": {
+            "extraction_completeness": "medium",
+            "terminology_consistency": "medium",
+            "relationship_coverage": "low",
+            "overall_confidence": "medium"
+          },
+          "recommendations": [
+            {
+              "recommendation_type": "entity_expansion",
+              "description": "Add missing high-confidence constructs like Sarcopenia, Long COVID, Metabolic Inflammation, and Joint Preservation to the ontology",
+              "priority": "high"
+            },
+            {
+              "recommendation_type": "assessment_enhancement",
+              "description": "Include additional diagnostic assessments mentioned: Immune Assay, Diagnostic Ultrasound, and ProNovo Scans",
+              "priority": "high"
+            },
+            {
+              "recommendation_type": "intervention_completeness",
+              "description": "Add emerging interventions discussed: Gene Therapy, GLP-1 Agonists, Electromagnetic Therapy, and Cell-Free Technologies",
+              "priority": "high"
+            },
+            {
+              "recommendation_type": "technology_precision",
+              "description": "Include specific delivery technologies: Ultrasound-Guided and X-Ray Guided injection procedures",
+              "priority": "medium"
+            },
+            {
+              "recommendation_type": "metrics_expansion",
+              "description": "Add metabolic and functional metrics: Hemoglobin A1C, Fasting Glucose, and Sleep Quality measures",
+              "priority": "medium"
+            },
+            {
+              "recommendation_type": "relationship_mapping",
+              "description": "Better capture the complex relationships between constructs, particularly the immune modulation \u2192 anti-inflammatory \u2192 tissue regeneration pathway",
+              "priority": "high"
+            },
+            {
+              "recommendation_type": "temporal_considerations",
+              "description": "Include time-based elements in the ontology (8-12 weeks for initial effects, 6-12 months for structural changes)",
+              "priority": "medium"
+            },
+            {
+              "recommendation_type": "patient_stratification",
+              "description": "Develop clearer categorization for different patient types: health seekers, weekend warriors, high-performance athletes, injured athletes",
+              "priority": "medium"
+            }
+          ]
+        }
+      }
     }
   ],
   "summary": {
-    "total_files": 18,
-    "successful": 18,
+    "total_files": 19,
+    "successful": 19,
     "failed": 0,
     "extraction_type": "Ontology-Guided (8-pass)",
-    "total_api_calls": 144
+    "total_api_calls": 152
   }
 }

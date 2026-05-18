@@ -1,0 +1,272 @@
+﻿May 12, 2026
+Stem Cell Ontology Discussion - Transcript
+00:00:00
+ 
+Rikin Patel: Naomi the the question I have for you as you go through the questions is because you mentioned performance I mean stem cells is so broad right so the applications can be in chronic disease um and all different types of medical illnesses are we focused more on performance driven sort of parameters here uh because you know it's it's a It's a wide rabbit hole to go into on the chronic disease side.
+Dr. Naomi Myhill: The answer is probably more performance orientated at at this point and then um in
+Rikin Patel: Yeah.
+Dr. Naomi Myhill: terms of chronic disease like cascade we would be referring out for
+Rikin Patel: Okay. Got it. Perfect.
+Dr. Naomi Myhill: people.
+Rikin Patel: So that that kind of fits really well into the the area that that uh I work on. So that's great.
+Dr. Naomi Myhill: Brilliant. All right, Reken. So, let's get started. If you could just explain um what are stem cell therapies and in particular your area of expertise around those performance elements.
+Rikin Patel: Yeah. So we have to look at when we look at cell therapies, we have to think about the um body's inherent ability to heal itself, right?
+ 
+ 
+00:01:19
+ 
+Rikin Patel: So um we do have that self-repair ability. Um, but when we look at sort of performance or performance-based injuries, we often don't have a good repair mechanism. And that repair mechanism fails often because of blood supply. Um, and if you look at something like cutting your own skin, you heal pretty well because you have good blood supply. But when you get into a tissue injury like a tendon or orthopedic, you know, cartilage damage or OA, there isn't a great cellular repair process that can consistently stay active. So really, when you look at what cells are doing, there's three inherent properties to to cells and and stem cells is a very broad um topic, right? So we have to think about um the source of the cells that we're getting. But when we have when we look at the body and we look at the the process of what a stem cell regardless of source can do, we have to think about that it has three main properties. Okay. It's um uh anti-inflammatory. Okay.
+ 
+ 
+00:02:29
+ 
+Rikin Patel: Then it's has a regenerative potential which means it has the ability to stimulate tissue regeneration. And then finally it's imunom modulatory. So it modulates the immune system. And actually the way that stem cells science has evolved is at least in orthopedics even now is we've kind of shifted for 15 20 years. We're like okay we need to improve be anti-inflammatory and stimulate some tissue healing. But actually it turns out that there's probably a more imunom modulatory component to this than we ever fully understood and are now starting to understand. So really understanding the patient's own immune system and the way it is going to be able to respond to inflammation or injury is what creates the proper environment to be anti-inflammatory. And when you have an anti-inflammatory environment or cell signaling that can stimulate tissue regeneration, you can actually, you know, either control in inflammation for a long period of time or stimulate tissue regeneration. If you're constantly in a pro-inflammatory state, okay, your body is not able to switch into that ability to regenerate tissue. So you got that the there's so many mechanisms of stem cells, right?
+ 
+ 
+00:03:43
+ 
+Rikin Patel: So I'll go over a few. One is immunom modulation. So they basically interact with the other immune cells in your body. T- cells, B cells, NK cells, macrofagages, dendric cells, monopytes, neutrfils. All of those cells have to be sort of in a balanced homeostasis for the body's repair mechanisms to actually work. If you shift one way too strong, you end up in a pro-inflammatory state. If you're if if you can balance it correctly with the right uh cells, you become more anti-inflammatory. You uh enhance the body's ability to self-repair. Cells in typical the the the the thought is oh they go in and they engraft and then they change something. It's not really true. Cells stem cells work by paracrine signaling which is basically they they as they go into the body they release a massive signal to the body which things like cytoines growth factors and and vesicles start to signal different parts of the body. I uh the analogy I give is like you you your your body has raw materials and then you put signals in which create more recruitment of raw materials.
+ 
+ 
+00:04:55
+ 
+Rikin Patel: But the cells are like general contractors. They're kind of guiding the process. And if you think about it with aging, we we the repair process weakens over time, right? When you're younger, you heal faster, right? As you get older, your repair mechanisms slow down. And so the cells actually heighten your own abil your body's ability to create a repair signal. The key thing when we talk about anti-inflammatory is we have a shift of some cells called macroofagages. Okay? And there's like a polarization. So we go from a shift from an M1 a pro-inflammatory state to a more repairerative M2 anti-inflammatory state. And that's the real premise around using MSC's uh stem cells IV. So shifting the body from that pro-inflammatory state to a more anti-inflammatory and repairative state. And after you kind of resolve the inflammation, you you dampen that signal, you get um this trophic response. So you get this response of sort of creating and stimulating tissue repair. you reduce scarring and fibrosis pathways and you create a micro environment where there's angioenesis so increased blood flow.
+ 
+ 
+00:06:13
+ 
+Rikin Patel: So as you create tissues like tendons and those you improve blood flow then you get this more persistent repairative process because cells are continuing to flow into the area going back to that sort of skin analogy. And then the other piece that's extremely important I think in orthopedics is pain and inflammatory modulation. So as you look at um more and more studies, a lot of people have tendon tears, you know, early OA uh on MRIs, but they don't have any pain. So essentially, do you need to treat those if they don't have pain? You probably don't. Unless maybe if you're a high performance athlete, right, and you want in the offseason to understand, hey, wait, I have early OA in my knee. It's not bothering me. Okay. But maybe you do want to do some stimulate some tissue remodeling or repair or preservation because there have been studies around not necessarily regenerating cartilage using MSSE injections. But if you follow those people for 12 months, okay, and you repeat their MRIs, the people who got MSC's did not degrade as much cartilage as someone who did, right?
+ 
+ 
+00:07:30
+ 
+Rikin Patel: So now when you think about performance athletes or even people who want to perform at a high level now the idea of early intervention completely makes sense because the reason that we're seeing such a shift of like people getting more joint replacements and more um surgeries earlier in life than they normally did is because we're probably not preserving the joint. So, I hope that kind of describes like what is going on in terms of using cells. Um, I can dive deeper if there are more questions, but or or I didn't explain something there.
+Dr. Naomi Myhill: Yeah, thank you for that, Ricken. Um, and also Sunny, feel free to jump in and ask questions. By the way, I forgot to mention that earlier. Um, so you mentioned around kind of the the anti-inflammatory and kind of pain modulation. Are those constructs direct targets of the cell therapy or downstream consequences? Like which want to map out which constructs would be directly targeted and maybe which ones are then um cascaded affected by those changes in those constructs.
+ 
+ 
+00:08:43
+ 
+Rikin Patel: So the change in the construct is first shifting from a you know rebalancing immune system right and then because that can be a local response right you can locally um u modulate the uh the immune response in a joint by injecting it locally okay in fact there's been studies that show if you inject locally you will then get a downstream response systemically so there will be some spillover and that all also depends on and we can get into this cells and where they come from and sources and doses is and it it's pretty complicated but I would say that the understanding now is a lot of this is first imunom modulated then there's an anti-inflammatory effect and then the the downstream effect is response to pain and tissue prepare, right? So, the the idea is and this is the other thing about cell therapies is for the most part they take time. They're not like a cortisone shot, right? And I think the biggest differentiator for the performance athlete is are you going to change trade a quick fix, okay? a quick reduction in inflammation so that you can go back out uh and perform for potentially downstream more tissue degradation or problems.
+ 
+ 
+00:10:01
+ 
+Rikin Patel: So corticosteroids it is known that or or even torol injections they often get anti-inflammatory injections to dampen things really quickly when in fact that inflammatory process even with a cell injection is important. So there's like this natural healing response that comes with a little bit of inflammation at beginning and then you get into sort of the proliferative and restorative phase. So the downstream effect is really sometimes 8 to 12 weeks down the line and then even 3 to 6 months or 12 months. So the the process and even if you look at okay well someone got treated you wouldn't repeat an MRI in a month you wouldn't see a change. You may need to wait 6 to 12 months to actually see structural effects. But then the other piece is is you we've done MRIs where you repeat a year later the patient said I have no pain. I'm absolutely running again. I'm doing things. My knee feels great. You repeat the MRI they still have a partial meniscus tear. Right. But you've controlled the in inflammatory response from that target tissue that was causing a problem.
+ 
+ 
+00:11:08
+ 
+Rikin Patel: And it's sort of I look at it as like almost a bio it's changing the state of the local joint so that it's able even when it gets stressed again to manage an inflammatory response that might want to come up in that area and treat it. So yes, the initial piece is like you create this massive cascade of events and that signaling doesn't last in the body maybe even beyond 72 hours or or 5 to 7 days with that initial response but then the downstream signaling continues and persists for times. It's it's almost like rebooting the body um you know and giving it almost a software upgrade, right? Your hardware is what it is, but you've upgraded the software and the programming to continue to work on the back end.
+Dr. Naomi Myhill: Thanks. Yeah, that makes sense. Um what so we we're thinking about at Cascade, we obviously have um high performance athletes and then we might have health seekers that are interested in performance longevity. What defines a good candidate for this kind of type of cell-based intervention?
+ 
+ 
+00:12:26
+ 
+Rikin Patel: So I I I think the it's an interesting time. I I believe that at the end of the day we need to look at things from a perspective of a couple things at least in the United States. One, number one is safety, right? So, if I'm going to introduce a self- therapy into my body, I have a choice, right? I should I be able to do this? I would say if you now understand that the that the source of cell in the manufacturing process, if proper, the risk of using MSC's in the body is extremely low. Okay? there's not this sort of um you know they talk about um they're well-manufactured cells are imuno privileged they don't create an immune response anyone who argues that doesn't really understand the science if you look there's an approved product in the United States that's used in children versus for graph versus host disease okay and if you think about they're infusing IV bone marrow derived stem cells for children who've had tissue transplant rejection and they're using to treat it okay it completely medately says, "Well, these well-manufactured cells must be safe because we're infusing kids. They're undergoing a rejection and we're actually using cells to calm that uh rejection tissue rejection down.
+ 
+ 
+00:13:48
+ 
+Rikin Patel: But that all comes down to manufacturing and then the cells are safe, right? The second piece in the United States we have to be careful of is regulation. Like, can I be doing this?" And that's going to need someone or a group of people who are really on top of regulation because now there is this intersection between FDA and states. So states are changing the state laws but the FDA still has its federal laws and that ultimately creates a problem because now you create patient access but what does the physician do because the physician is controlled by both right? So they can fall under an FDA issue or they can fall under state regulation medical board issue. So they have to very carefully navigate you know the patient who comes and says I want this for X Y and Z. So they may need to be directed to the proper state. There are good medical tourism locations that they could be directed to but that navigation is extremely important first. Second is I do believe the health seeker has value in using MSC's.
+ 
+ 
+00:15:03
+ 
+Rikin Patel: The challenge is making a claim that it is actually going to do something cuz we don't truly know. But we do have studies with at least in IV therapies and we can probably extrapolate that to um joint injections as well by looking at some of the studies I mentioned before. But if you look at IV therapies, it does make sense. And there was a study actually they're looking at MSC's for heart failure and they injected the heart muscle with an MSSE and what they found was they actually failed that primary endpoint of tissue regeneration but when they followed those patients they noticed they had much less risk of stroke and heart attack down the line. Okay. And so it was like almost 50 60% less. So again it goes back to these cells created a systemic right immune response and anti-inflammatory response and as we've come back to I think you you you guys will probably appreciate everything now is around okay inflammation in the body right inflammation and how do we reduce inflammation how do we you know sleep better eat better exercise to reduce the the stresses of our body MSC's have that potential right it's creating a natural response, but making treatment claims gets a little tricky on on it can actually do something.
+ 
+ 
+00:16:35
+ 
+Rikin Patel: Um, we've done a trial, we run a trial in the Bahamas currently where we've infused probably more than 250 people with IBMSC's for cardiovascular disease prevention. Um, but how do you measure that? How do you how do you truly measure that right now? So I think what companies like you guys can offer patients is to understand okay well what are we doing are we a health seeker okay then we will we will check these markers for you because we might see shifts using these types of treatments right um or it might make sense that you're an offseason athlete and you've been you want to treat your knees and or sometimes people come in to treat their knees and shoulders because they're I know what's kind of bothering me. I know what I want to preserve. I think there's there's definite value in there and there's very little chance of doing any harm if you go back to picking the right product and a well-manufactured product. Then there's the injured athlete or the weekend warrior. Okay? And that's what we see the most.
+ 
+ 
+00:17:39
+ 
+Rikin Patel: So our highest population are probably high netw worth individuals who really enjoy physical fitness, golf, pickle ball, paddle, all these things that they don't want to stop doing. And I think the proper intersection is sometimes occurring too late. So we're already seeing people that have extremely degenerated joints or worn down shoulders or rotator cuff tears. And yes, we're we're we're injecting them to augment and potentially heal the tissue, but what if we would have started 10 years earlier, right? And I think there's a big movement. I mean, I'm sure you've seen it with the Pernovo scans, right? There's scanning that's happening. Well, that essentially could be picking up an area that is mildly symptomatic but has underlying pathology and should be treated or could be treated in order to prevent progression. And that to me is really the next frontier. we we're still not fully injecting asymptomatic joints all the time or or pathology. But in my opinion, that probably is the next step of saying, "Hey, like if if you got scanned and they're like, hey, like everything looks good." And I've seen so many pornova scans sent over like,
+ 
+ 
+00:19:00
+ 
+Rikin Patel: "But you have early kneea, mild early neoa." You ask the patient, you're like, "Do your knees bother you?" They're like, "You know, not that much." But sometimes after a long hike or or a lot of tennis, they hurt for a day or two, but it responds to some Advil and I'm fine. Well, that that a normal person would, you know, a normal medicine would just say, "Okay, that's fine. Just live with it. You know, whatever. It's fine." But I believe that we could probably start earlier in the right age group and say, "Well, we do have these treatments. This is what we could do. These are your options." Okay. Now there's an intersection and this is where we've done a lot of work in the Bahamas is that like we also have to be careful in these populations of we need to be able to treat metabolic inflammation. So the the challenge really is what we've learned is joint pain or loss of orthopedic performance in any sort of muscle tendon joint is not fully determined on wear and tear or injury.
+ 
+ 
+00:20:00
+ 
+Rikin Patel: Okay. inflammation uh inflammation and metabolic inflammation can definitely impact joints and joint pain and then it becomes okay well is this the lifestyle interventions or the other interventions that exist in medicine or al you know potentially at the same time what we've done in patients in the Bahamas is we inject and we do an IV systemic infusion right because if we are able to resupport and rebalance the immune system because a lot of times metabolic inflammation is a result of inability to control the the problems. And the thing about IBMSC's is they're all the same. They're not yet programmed for a specific problem. Right now, I mean, it's not like, oh, you have diabetes. These cells that we're infusing are going to target your pancreas and reduce inflammation and improve diabetes. The solution is exactly the same. right now down the line we might have some programming but you infuse cells go in they create that immune anti-inflammatory response and then they go find the problem I've had patients we've done injections in the neck and back but IV and the message you're getting at you know 30 60 days is my hemoglobin A1C and my fasting glucosis have never been lower can't explain it three months later they're off their meds right challenge is is that going to persist have I solved the problem or is it transient signaling change that I don't know
+ 
+ 
+00:21:31
+ 
+Rikin Patel: right people come in with shoulder problems and migraines you infuse them IV and local injection the migraines go away the shoulder pain gets better all of a sudden they're like I used to have bunion pain and you never injected that but that's gone so it's it's this idea around you you're right you need to kind of stratify them to help seekers and then what's your problem then you need to have a realistic conversation on what the goals and what the expectations are of the treatment cuz most asymptomatic people won't feel anything. They will not feel something unless something was underlying that they didn't notice like brain fog or poor sleep. People will report some of that but they're like, "Yeah, I did the IV. I don't I don't really know that that did anything." But underneath there is a change going on in the p the patient's system, the client system. So that's a hard part to measure and follow up because most clinics you you send them and then they come back, but they need someone to actually maybe do the pre and post follow-up blood work or something that kind of helps them measure and see the shift for the health seekers.
+ 
+ 
+00:22:52
+ 
+Rikin Patel: the people who are like injured or performance based, they'll they'll be able to self-report typically.
+Dr. Naomi Myhill: Thanks Rick. That was Yeah, that was pretty interesting. So to to summarize um which baseline features matter most? So you mentioned kind of metabolic health, activity level if you're an athlete or a weekend warrior. Would imaging grade be like a key feature you'd look at if someone had an MRI
+Rikin Patel: Yeah, I I I'm a big proponent of MRI.
+Dr. Naomi Myhill: scar?
+Rikin Patel: I I think we are I don't think you need to do it every year, but I probably there's decades in life where you should start imaging certain structures like the back. Okay. I I do believe you should know if you have early disc degeneration, you know, in your late 30s, early 40s because now there are disc interventions that are coming where you might actually be able to restore or prevent further degradation of the disc using stem cells. Right? There's some phase three trials in the United States.
+ 
+ 
+00:24:00
+ 
+Rikin Patel: And and what's interesting so we're connecting the dots matters with clinicians right clinicians is while so while while companies are conducting phase three trials in the United States they are also offering the treatments uh offshore at wellreputable countries that like the even the Bahamas they have guidelines around MSC's but they want to create patient access because they've passed phase one phase two so they've passed the safety standards and so now they feel comfortable offering ing also direct to consumer. So those are the type of companies you want to work with because they are doing the proper pathway for an indication but they are also offering something that can go direct to consumer where people don't want to wait 3 to 5 years but those early MRIs allow you to identify something that may be worth treating because if you wait and that disc further degrades then you might not actually be able to restore the disc right and it's the same thing with I don't think severe osteoarthritis or moderate to severe will ever it will ever regenerate cartilage okay to the level that we need to but if you find early focal cartilage defects okay you will actually probably with the right dose of cells be able to impact tissue regeneration and stimulation and then there's this whole idea and this is where it gets a little deeper for your performance performance athletes is we're actually also moving towards modality medicine.
+ 
+ 
+00:25:38
+ 
+Rikin Patel: So things like shockwave, electromagnetic therapy, laser, they actually also stimulate a biologic response. They're not just pain control. It's not just oh controls pain and reducing inflammation. They actually stimulate a biologic response similar to cells. But these performance athletes, they really need to understand like what is the right treatment for them at that point. Right? Because a lot of times I think they're getting misguided. And I think the biggest issue right now is that I'm a non-operative, but I have no problems with surgery. Like it doesn't some people just need to be fixed if it's mechanical. But people aren't getting the impression of what's the really good alternatives. And I would also say that let's say someone comes to you young athlete high performers like hey I had an ACL surgery when I was 20 and now they're 30 35 the risk of that person having osteoarthritis after any surgery is four times okay it could be even higher than that so they are the ones that actually probably should be early scanning and early intervening because their pathway to OA is already accelerated and there's data to support that, right?
+ 
+ 
+00:26:53
+ 
+Rikin Patel: But they don't understand like, oh, I get it. Like, I'm 35. Yeah, maybe. Oh, oh, oh, I want to preserve my knee. I did have ACL surgery. I had meniscus surgery. I've had two arthoroscopies. Okay. And the other part about imaging is a lot of joints are getting replaced and things are being done based on X-ray. And it's not always just about the joint. It's about the soft tissue. It's about the ligaments. It's about underlying bone. So I I agree like I think imaging is a very important one for the high performers. Okay. And that can be a combination of MRI or ultrasound because diagnostic ultrasound can often find things that MRIs miss in the hands of the right clinician. And then the other piece on the lab side, I do think if I had to look at the main things, I think it's kind of the standard longevity metabolic panels that you kind of see. Um I think you have to start really thinking about people who aren't well.
+ 
+ 
+00:27:54
+ 
+Rikin Patel: Is there a long COVID component to this? because we are seeing people who are athletes or younger, you know, consistently getting sick, but they're performing at a high level, but they've been either exposed to CO multiple times or been vaccinated multiple times. Um, and that can affect it. So then if the right screening questions suggest that, then you might want to do an immune essay. So I think those things need to be considered because if we don't optimize that and and we and we start using cells in a not well optimized environment we may be impacting our outcomes. Um, and so there's I think a lot of times people jump to cells versus saying, "Okay, well, yeah, we'll do cells in 3 months, but in the next 3 months we need to do X, Y, and Z to prepare your body for the cell treatment." There's too many people that are just pulling people in and saying, "Oh, yeah, come to us. We'll we'll solve it all." With nobody's really checking what needs to be optimized before. like we have pre-procedure protocols using sometimes um we'll use supplements you know there's interest in now using some peptides even GLP1s have shown to have you know the impact joint and have anti-inflammatory effects on joint and joint preservation so you kind of have to it has to be coordinated there has to be a true journey for the for the client as they prepare because otherwise you're people are going to go places where they're not going to get the outcome that they desire
+ 
+ 
+00:29:28
+ 
+Rikin Patel: Honestly,
+Vivek Chander: Can I can I ask a quick question in terms of so right now when a health seeker comes into um Cascade they're going through a take form What uh what questions would be things that you would want to ask on the front end uh to see if a health seeker would like be put in a pathway or navigated to like having a conver somebody
+Rikin Patel: Yeah.
+Vivek Chander: like
+Rikin Patel: I think if we're talking purely from a performance standpoint, right, I think some of this is around the basic things. You know, I would look at the six major joints is where I would start, right? is do you have any shoulder pain, knee pain, hip pain or back pain? Those are the most common. Have you had any prior orthopedic injuries or things that are lingering? Right? So, um or are there certain activities that you're unable to do? Where does it bother you? Right? Because you've got to identify what they're struggling with. Well, I have trouble running.
+ 
+ 
+00:30:40
+ 
+Rikin Patel: I get pain at mile six, you know, or I cannot throw a ball. Um I have trouble with that. I'm actually getting pain at night when I sleep. Like there's there's certain key factors that will trigger you to like, oh, there's probably pathology in there in that area. And then that they don't think about it, but they're like, "Oh, I didn't think of it that way." Right? I think you really have to understand surgical history for sure. I mean the medical history questions I'm sure you've asked but if people that prior injuries or surgeries I think those are good pathways to identify and say well you know we understand X Y and Z do you want to go down this pathway of understanding you know where your what your joint age or joint health is right and how does that look um obviously have to look at their metabolic phenotype like obesity insulin resistance inflammatory markers sleep smoking muscle loss I think a big area that's going to be super exciting is sarcopenia and working to um slow down sarcopenia.
+ 
+ 
+00:31:48
+ 
+Rikin Patel: I don't think MSC's will stall that just yet. We we do do some autotogus work for muscle dysfunction or tears, but I think there's going to be gene therapies that are going to come into play that um it's still early but will actually you know support muscle uh um strengthening and and reducing the risk of sarcopenia or actually improving muscle mass. Um, but again, you know, I think these health seekers, they jump out and they're like, "Well, I'm gonna go get gene therapy in this country, you know, and and you really got to understand, you're playing with the biologics of your body." And so, if you're going to start doing that, you know, it's like taking peptides when you're 20. That doesn't make any sense unless you have a need, right? So I think that guidance is the important part. But you want to know that you want to obviously know medications that you're on. There's often a lot of medications that have caused problems, antibiotics, you know, fluorocones, things like cypro and things that cause tendon dysfunction and issues.
+ 
+ 
+00:33:00
+ 
+Rikin Patel: Um frequent steroid injections or repetitive steroid dosing. Um, and then I think the the biggest thing I I also note that's important in the form and I talk a lot about this with patients is what's the goal? What is your actual goal? Right? Is it pain reduction? No, I want to, you know, structure re modification or function, quality of life or performance because I think that then really guides the pathway. If it's high performing at get back to a high performance level some of these therapies are need to be structured because the post procedure either modalities like I talked about shockwave laser um and the rehab or retraining is extremely important. A lot of people believe that these treatments and performance it's like oh well I'm injected and in two weeks I can go back and play tennis right. Well, the reality is is what's the goal? Like, do you want to just get back and get through the season, right? Or are you really looking to 9 to 12 months down the road be painfree, structurally improved where you don't have this problem reoccur.
+ 
+ 
+00:34:13
+ 
+Rikin Patel: So goal setting I think is important because what I learned is if you tell a patient look like we are going to have to take a few steps back we're going to take a few weeks downtime we're going to recover you the right way because 6 to9 months down the road we want you to be painfree and this this problem not reoccur in then that's the that's the right way to do this because otherwise you're setting this this kind of up for failure from the get-go if the goals aren't there.
+Dr. Naomi Myhill: I'm interested just to hear a bit more around how you would prepare someone for this type of therapy before and after.
+Rikin Patel: just
+Dr. Naomi Myhill: So which of those contextual or surrounding factors like strongly determines success? So is it a resistance training program? Is it their body composition, sleep, nutrition? all these factors important to get right before they have the therapy.
+Rikin Patel: folks.
+Dr. Naomi Myhill: What's your kind of process there?
+Rikin Patel: Yeah. So, that's a great question. Um, a lot of what we've done has been impacted by um, in the US currently.
+ 
+ 
+00:35:29
+ 
+Rikin Patel: So, I think this is the challenge here is a little bit is what are we using as a cell therapy? So, are we using an autotogus therapy or are we going to use an allergenic therapy? So autotogus comes from your own body like we talked about in the beginning or an allergenic is manufactured because if you use autotogus therapy then the harvest yield is extremely important right because you're trying to recruit the most active and healthy cells at the point of care which is the same day and in that area there is suggestion that things like proper sleep, no alcohol, no anti-inflammatories, low processed foods, okay? Um intermittent fasting, and maybe even a light aerobic or some type of training 24 hours before will stimulate, okay, the better cell recruitment when you go to actually recruit cells. So those factors start to matter. So then if you look at improving cellular energy, you might want to have them on an omega-3, a knack, an NMN, a rveratrol, right? Getting them prepared. Then it could you might have supplements that go through the phases of uh structural support and tissue remodeling.
+ 
+ 
+00:36:47
+ 
+Rikin Patel: Then after you might want some anti-inflammatory uh cells or proteins to actually support like essential aminos to actually support tissue remodeling. So I I I would look at this as a little bit depends on source. If I'm doing something that's um going to be allergenic, which is where I think probably most people in your understanding your business model are going to be most excited about because seems like those people always want to be on the front end. And autous is completely reasonable and and and works, but it seems like most people in that world are already done. They're like, "No, no, no. I want I want the stuff that's you know the most cutting edge. I think in that area there definitely is similar preparation like I talked about but it might not matter as much as the post infusion or injection of cells process because you're not harvesting. Okay. I would still make those basic recommendations around, you know, no alcohol before and, you know, less processed food just kind of reducing the general inflammatory load in the body.
+ 
+ 
+00:38:06
+ 
+Rikin Patel: But after, I think the key really centers around, and this is where it becomes a little tricky. What did we do? Did I just inject a joint? Did I inject major tendons in your shoulder? Because then the rehab protocols kind of shift, right? Um, and then even if if you really want to maximize like your high-end high net worth people, you know, it's really like look like you're going to hit this with, you know, um, laser therapy two to three times a week after we then recommend shockwave therapy. I've had some of my clients, they'll buy the machines for their own home based on the recommendation and then their trainers or someone will apply it, but it'll be under some guidance of like, hey, we've given you the basic protocol. um or then we they check back in at four weeks. So I think the the key to this whole process, Naomi, is you cannot treat the the client and then send them back. Like I recognize the biggest impact we've had from what we've done in the Bahamas is follow up at 1 36 and 12 months.
+ 
+ 
+00:39:13
+ 
+Rikin Patel: So, I've followed up with each person and a lot of it has been coaching like you know they're at a month and they're like how come I don't feel anything and I'm kind of discouraged and and even though you tell them before they need to hear it again like hey at one month you're back to baseline this is important well can I golf right can I start golfing now and I'm like okay well let's talk through this like how you feeling what like they need that then at 3 months they're like you Actually, I tell you, like just the last two weeks, I'm starting to feel so much better. What can I do? They need that little bit of like coaching guidance along the way because we're so accustomed to quick fix that they need the reminders, right? Or someone be like, I don't think it's working. I'm like, well, how are how about this? Like, oh, actually, I don't have pain at night anymore. Funny you mentioned that. I used to have pain all the time at night.
+ 
+ 
+00:40:08
+ 
+Rikin Patel: Then you have to remind them, well, that's you're starting to see some benefits because cells don't work like this. It's not like, oh, they don't work and all of a sudden it drops and you wake up the next morning, you're you're better. Cells kind of work like, okay, uh, I don't feel it, it's worse. Okay, it's better. Oh my gosh, it's worse. Oh, it's better. It's worse. And then it kind of tapers off where you just kind of like, wait, I don't have episodes anymore. Or nine months down the road, you're like, I don't I don't have any pain. It hasn't come back. But it's so subtle that if you don't follow people and help them with some guidance, they lose hope because a lot of places are are injecting people and then they're just sending them back with no followup. So they have no frame of how this is supposed to go. And I think that journey is the most important because I don't think it's cookie cutter.
+ 
+ 
+00:40:58
+ 
+Rikin Patel: Everyone might not need all these supplements or all these different things. It's precision. what does this person need for what they're complaining about? Cuz I will tell you the toolbox is massive. It's it's really big on our end right now. Like between supplements, where peptides fit in, using cells and modalities, it's like but it's really an art. It It's like what we do in orthopedics now is like it's a little bit of art. And um you have to follow them because it's not just it's not one solution and magically like everything's going to get better.
+Dr. Naomi Myhill: I know you've got to jump in a couple of minutes. Um, Sunny, did you have any last questions you wanted to ask? We give you the opportunity. If not, I do have one more question, but you're on mute. You're muted, Sunny.
+Vivek Chander: Uh the only thing that might be uh fun to listen to is is the whole care
+Rikin Patel: I'm
+Vivek Chander: navigation piece.
+ 
+ 
+00:42:04
+ 
+Rikin Patel: close.
+Vivek Chander: How like uh where you get these treatments, how do you refer patients, are they on island, are they off island, how do you make those determinations?
+Rikin Patel: Yeah. So, uh, a couple things is like we like myself and a and a couple colleagues have been doing this for a very long time. So, I think the piece is and you mentioned this is the care navigation piece that's actually sort of in what we do now is I don't need to do everybody's treatment at the end of the day, right? What you want to be, what your clients want to be connected to is people who are at the front edge of the field, right? People that are doing early trials, early adoption, educating, and also are well-versed in procedures because these are procedures. They are procedures that are ultrasound guided or X-rayg guided for delivery into target tissue. You don't just, it's not just a joint injection. Sometimes you're injecting four or five structures at a time. So there you need to have people who technically understand what needs to be targeted and what's the best way to do it.
+ 
+ 
+00:43:14
+ 
+Rikin Patel: But there's a general community of where people do do this at the highest level in the same way. But how do you access those people? So what I believe is like when someone comes in it's like well this is what I have. This is where I am but I can't travel to the Bahamas. Like I would love to get this done in San Francisco, right? But it's going to depend on well what do you want to get done? Your options are autotogus, allergenic. Well, I want allergenic. Well, then you need to either go here or here. So, you have to match. You have to start matching people. But then they're likely the most successful pathway is not forcing everyone to go to one place. If someone chooses to work with me, great. I have an option. If you don't choose to work with me, that's fine. I can put you in touch with someone where you can go and have a very reputable experience and very similar.
+ 
+ 
+00:44:05
+ 
+Rikin Patel: So the protocol or the program around it is built very much the same. And the way we work with some of our current partners like we we support uh we've supported Fountain Life in the past and Atria in the past you know um is they still have their sort of um protocol what their basic following or um follow-up measures or outcomes that they're going to check but we will put them in touch with people who can deliver a consistent experience and product based on pathology or what the goal is because I think what's what has to happen is in order to really move the needle, we need to measure with some sort of protocol, right? And if you create a network of trusted physicians, you don't need a lot of them. If you cover most of the area, you're going to cover 90% of your likely, you know, um, seekers. It's between New York, Miami, San Francisco, LA, and there's some other cities scattered in between, but we know where most of their clients come from. And if you create access points, you can make it convenient.
+ 
+ 
+00:45:16
+ 
+Rikin Patel: And then what I've learned is a lot of the time the client selecting to move forward is really based on the interaction with the clinician. Once we establish the trust that we, you know, are going to guide them in the right way. And I think the biggest guidance that concerns me is really about what I talked about in the beginning is really understanding product because if you don't understand product and match the right product in the cell space because you have bone marrow you have atapost drive cells you have you know you could culture expand your own cells if you wanted to there's umbilical cells there's you know um cellfree technologies But what actually has data around it that we can make claims that it actually might work right now. So there's that space is so evolving that 6 months from now you may say well what's what do we do now and be like well now we use this because this is new this is actually the data is really strong. So someone has to stay on top of updating those sort of clinical care pathways and guidelines you know as well.
+ 
+ 
+00:46:27
+ 
+Rikin Patel: We we didn't even think about peptides till like two three years ago and now we're like okay well how do we integrate peptides into performance athletes and the outcomes they desire. So then there's another piece if you have Olympic athletes or if you have proathletes are you violating any of the laws right because it could be considered doping. Okay. So, you have to be careful that it's, you know, at least IV, I would say, is not in season or in Olympic time frame. You have like there's a lot of pieces that go into the highest, you know, performing athletes that they need to understand. So, you need to have doctors that can communicate well with their teams and their corresponding people because it it really can be. And then they always have surgeons involved, right? So, there's like this care piece that kind of needs to be navigated well. And um I also understand convenience and time. Like I'm not always traveling to the Bahamas, but I know if a client came to me and it was another doctor, they would do it as good or as similar to what I would consider.
+ 
+ 
+00:47:35
+ 
+Rikin Patel: Or we would communicate. It says, "Hey, I saw this person. This is what I think they need. Sending you the MRI. Add any touch points. Let's connect or let's both get on a call with the client so that they feel comfortable that yeah, while Dr. Patel have screened me. We this other doctor talked about my case and I feel confident in getting it done based because of convenience. I need to go in two weeks. I need to get it done. And so those pieces you always want the client to feel like they're interconnected with the care provider. I feel I think that's the biggest piece that is often missing in a lot of these platforms. It's like well go there get the treatment and you're kind of done. I don't think that's what clients want. I have clients that come back after a year. They're like, "We're back. Treat another area." You know, I people ask me questions about long CO and I'm not a longco expert, right?
+ 
+ 
+00:48:26
+ 
+Rikin Patel: But I have a physician in my network who will I can ultimately say, "We're going to move forward with your treatment, but you should talk to this person about that and then he'll get back to me." So, I think there's those touch points. Performance is is a is an interesting space, but there's a systemic and a local component. And I think often we're not integrating those together well and often the non-operative sports the physiatrists they are actually thinking a little bit more holistically. So we don't need to control it all but we can actually create more of a I would say a full 360 view on what we might want to do and the most important is sequence of events to get outcomes. It's not always treatment first, right? There's there's there's it's a whole another call, but there's probably a mental aspect of this that exists in the world of pain that and sorry I didn't mention that, but but it's like you should ask about trauma, depression, you know, anxiety, you know, stressors, like those things ultimately affect pain pathways.
+ 
+ 
+00:49:40
+ 
+Rikin Patel: So, if you're not flagging those things, you may be way out of sequence with what you're doing.
+Vivek Chander: Thank you, Ricken. That was awesome. Um, uh, Naomi, do you think we need more time or do you think you're
+Dr. Naomi Myhill: Um,
+Vivek Chander: good?
+Dr. Naomi Myhill: I think I think we're good. Unless Ricken there's anything that you haven't covered around stem cells that you think we could do on another
+Rikin Patel: No, I mean I think it a lot of that gets kind of deep into like how do you understand products and you know
+Dr. Naomi Myhill: Oh,
+Rikin Patel: patient coorbidities and what you might want to measure. There's all types of different things, but I think in general I to give an overview of where we are. I I I by far will say orthopedics it's not stem cells aren't being considered in orthopedics and performance and injury treatment.
+Dr. Naomi Myhill: heat.
+Rikin Patel: Orthopedic stem cells have arrived. It's just navigating that space. Well, we've been pulling autotogus for 15 years.
+ 
+ 
+00:50:42
+ 
+Rikin Patel: We're going to switch to allergenic. I think and we get into disease states, it's very early. We have to be very cautious, but you can tell at the state level that in orthopedics, wound care, and pain, it's becoming accepted. Um, and so there's a tremendous opportunity. But I think look, there's no cheap cells, Naomi. like people who say, "I got stem cells done for $1,500 and I went to a doctor's office." It doesn't exist. If it did, the best companies would would reduce the dose and and treat more people. This is an expensive, high cost environment, but it's real and done right. Like results can be tremendous. We've we've had pro athletes come to the Bahamas and get treated. You know, we've connected them with people who they want it locally and they want something simple. We we've done that as well. So, but it I I I love what you you're creating there because I think that's the piece of performance that people aren't recognizing. Like there's only so much PT supplements and things that you can do.
+ 
+ 
+00:51:47
+ 
+Rikin Patel: Certain things resol revolve around joint preservation. And that is going to be the next point. What the exact inflection points of age, you know, I wish at 40 it probably should have checked a couple things that I didn't. Now I'm approaching 50, right? But that I think is the coolest part of like keeping someone on the continuum of like while you're at this age, this is what you should probably be checking into. This is why these are your options. Um, and some of it sports specific. You need to understand like what does this sport's most common injuries are? What are could be career threatening for this type of athlete versus the other? And what should we be focused on? So, there's a lot there, but yeah, I do have to run. So, um, but this was great.
+Dr. Naomi Myhill: Yeah, I really appreciate your time, Ricken. This has been this has been a lot of fun. Um, I feel like I've learned a lot in the last hour. So, yeah, thank you so much for your time. Um,
+Rikin Patel: Okay, great.
+Dr. Naomi Myhill: we'll follow up.
+Rikin Patel: Okay, thanks so much. Bye.
+Dr. Naomi Myhill: All right. Bye.
+Vivek Chander: Hey, he was good, right?
+Dr. Naomi Myhill: He was good. Yeah, I'll just uh I'll stop the recording there.
+ 
+ 
+Transcription ended after 00:52:52
+
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
